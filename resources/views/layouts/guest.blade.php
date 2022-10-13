@@ -4,7 +4,7 @@
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="" name="description">
+        <meta content="{{ __('miscellaneous.actiondamien_description') }}" name="description">
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicon/apple-icon-57x57.png') }}">
@@ -33,6 +33,7 @@
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" rel="stylesheet">
 
         <!-- Libraries Stylesheet -->
         <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
@@ -41,10 +42,12 @@
         <!-- Customized Bootstrap Stylesheet -->
         <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
 
-        <!-- Website Stylesheet -->
+        <!-- Custom Stylesheet -->
         <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
-        <title>Action Damien / Accueil</title>
+        <title>
+            Action Damien / {{ __('miscellaneous.main_menu.home') }}
+        </title>
     </head>
 
     <body>
@@ -57,17 +60,27 @@
         <!-- Navbar Start -->
         <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
             <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-                <div class="col-lg-6 px-5 text-start">
-                    <small><i class="fa fa-map-marker-alt me-2"></i>Avenue Pierre Mulele, 162 Kinshasa-Gombe</small>
+                <div class="col-lg-7 px-5 text-start">
+                    <small><i class="fa fa-map-marker-alt me-2"></i>{{ __('miscellaneous.actiondamien_address') }}</small>
                     <small class="ms-4"><i class="fa fa-envelope me-2"></i>secretaire@actiondamien-rdc.net</small>
                 </div>
 
-                <div class="col-lg-6 px-5 text-end">
-                    <small>Follow us:</small>
-                    <a class="text-white-50 ms-3" href=""><i class="fab fa-facebook-f"></i></a>
-                    <a class="text-white-50 ms-3" href=""><i class="fab fa-twitter"></i></a>
-                    <a class="text-white-50 ms-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                    <a class="text-white-50 ms-3" href=""><i class="fab fa-instagram"></i></a>
+                <div class="col-lg-5 px-5 text-end">
+                    <!-- Social networks -->
+                    <small>{{ __('miscellaneous.follow_us') }}</small>
+                    <a class="text-white-50 ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="text-white-50 ms-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-white-50 ms-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="text-white-50 ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Language toggle -->
+@foreach ($available_locales as $locale_name => $available_locale)
+    @if ($available_locale != $current_locale)
+                    <a class="text-white-50 ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" title="{{ $locale_name }}" data-bs-toggle="tooltip">
+                        <span class="fi fi-{{ $available_locale == 'en' ? 'us' : $available_locale }}"></span>
+                    </a>
+    @endif
+@endforeach
                 </div>
             </div>
 
@@ -82,33 +95,33 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0">
-                        <a href="" class="nav-item nav-link active">Accueil</a>
+                        <a href="" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Qui sommes-nous ?</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
                             <div class="dropdown-menu m-0">
-                                <a href="" class="dropdown-item">Notre vision</a>
-                                <a href="" class="dropdown-item">A propos</a>
-                                <a href="" class="dropdown-item">Nous soutenir</a>
-                                <a href="" class="dropdown-item">Contact</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.our_vision') }}</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.about') }}</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.support_us') }}</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.contact') }}</a>
                             </div>
                         </div>
-                        <a href="" class="nav-item nav-link">Actualités</a>
+                        <a href="" class="nav-item nav-link">{{ __('miscellaneous.main_menu.news') }}</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Témoignages</a>
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.testimonials.title') }}</a>
                             <div class="dropdown-menu m-0">
-                                <a href="" class="dropdown-item">Témoignage en vidéo</a>
-                                <a href="" class="dropdown-item">Sensibilisation</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}</a>
+                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensitization') }}</a>
                             </div>
                         </div>
-                        <a href="" class="nav-item nav-link">Evénements</a>
+                        <a href="" class="nav-item nav-link">{{ __('miscellaneous.main_menu.projects') }}</a>
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
-                        <a class="btn btn-outline-danger py-2 px-3" href="">
-                            Faire un don
-                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
+                        <a class="btn btn-outline-primary py-2 ps-2 pe-3" href="">
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle me-2">
+                                <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
                             </div>
+                            {{ __('miscellaneous.main_menu.donate') }}
                         </a>
                     </div>
                 </div>
@@ -127,35 +140,35 @@
                             <img src="{{ asset('assets/img/logo-02.png') }}" alt="Action Damien" class="" width="200">
                             <div class="mask"></div>
                         </div>
-                        <p class="small">Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d'autres maladies typiquement liées à la pauvreté, comme la leishmaniose.</p>
+                        <p class="small">{{ __('miscellaneous.actiondamien_description') }}</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square me-3" href=""><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-square me-0" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square me-3" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square me-3" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square me-3" href="#"><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-square me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Nous contacter</h5>
-                        <p class="small"><i class="fa fa-map-marker-alt me-3"></i>Avenue Pierre Mulele, 162 Kinshasa-Gombe</p>
+                        <h5 class="text-light mb-4">{{ __('miscellaneous.footer.contact_us') }}</h5>
+                        <p class="small"><i class="fa fa-map-marker-alt me-3"></i>{{ __('miscellaneous.actiondamien_address') }}</p>
                         <p class="small"><i class="fa fa-phone-alt me-3"></i>+243 816 520 396</p>
                         <p class="small"><i class="fa fa-envelope me-3"></i>secretaire@actiondamien-rdc.net</p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Liens rapide</h5>
-                        <a class="btn btn-link" href="">A propos</a>
-                        <a class="btn btn-link" href="">Notre vision</a>
-                        <a class="btn btn-link" href="">Nous soutenir</a>
-                        <a class="btn btn-link" href="">Témoignages</a>
-                        <a class="btn btn-link" href="">Evénements</a>
-                        <a class="btn btn-link" href="">Contact</a>
+                        <h5 class="text-light mb-4">{{ __('miscellaneous.footer.quick_links.title') }}</h5>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.about') }}</a>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.our_vision') }}</a>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.support_us') }}</a>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.testimonials') }}</a>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.projects') }}</a>
+                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.contact') }}</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h5 class="text-light mb-4">Newsletter</h5>
-                        <p>Vous pouvez souscrire à notre newsletter pour recevoir les actualités concernant Avtion Damien</p>
+                        <h5 class="text-light mb-4">{{ __('miscellaneous.footer.newsletter.title') }}</h5>
+                        <p>{{ __('miscellaneous.footer.newsletter.description') }}</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre E-mail">
-                            <button type="button"class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2">Enregistrer</button>
+                            <button type="button"class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2" title="{{ __('miscellaneous.register') }}"><i class="fa fa-paper-plane"></i></button>
                         </div>
                     </div>
                 </div>
@@ -167,7 +180,7 @@
                             &copy; <a href="#">Action Damien</a>, Tout droit réservé.
                         </div>
                         <div class="col-md-6 text-center text-md-end">
-                            Designed By <a href="">Silasmas</a>
+                            Designed By <a href="https://silasmas.com">Silasmas</a>
                         </div>
                     </div>
                 </div>
@@ -176,7 +189,7 @@
         <!-- Footer End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
@@ -187,7 +200,8 @@
         <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/lib/parallax/parallax.min.js') }}"></script>
 
-        <!-- Template Javascript -->
+        <!-- Custom Javascript -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
+        <script src="{{ asset('assets/js/custom.js') }}"></script>
     </body>
 </html>

@@ -17,5 +17,4 @@ return [
     'last' => 'Last',
     'previous' => '« Previous',
     'next' => 'Next »',
-
 ];

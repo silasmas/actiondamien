@@ -11,12 +11,10 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-7 pt-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">Agir, c'est contagieux !</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                                            Action Damien est une ONG médicale de développement qui participe à la lutte mondiale contre la lèpre, la tuberculose et d'autres maladies infectieuses, comme la leishmaniose.
-                                        </p>
-                                        <a class="btn btn-danger py-2 px-3 animated slideInDown" href="">
-                                            En savoir plus
+                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_1') }}</h1>
+                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
+                                        <a class="btn btn-danger py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                                            {{ __('miscellaneous.slides.link_1') }}
                                             <div
                                                 class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
@@ -33,14 +31,32 @@
                             <div class="container">
                                 <div class="row justify-content-center">
                                     <div class="col-lg-7 pt-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">Actualités</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">
-                                            Restez informé sur toutes nos actions entreprises et nos différentes<br> descentes  sur terrain.
-                                        </p>
-                                        <a class="btn btn-light py-2 px-3 animated slideInDown" href="">
-                                            Découvrez
+                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_2') }}</h1>
+                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
+                                        <a class="btn btn-light py-2 px-3 animated slideInDown" href="{{ route('news') }}">
+                                            {{ __('miscellaneous.slides.link_2') }}
                                             <div
-                                                class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
+                                                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="w-100" src="{{ asset('assets/img/photo/1.jpg') }}" alt="Image">
+                        <div class="carousel-caption">
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-7 pt-5">
+                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_3') }}</h1>
+                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
+                                        <a class="btn btn-success py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
+                                            {{ __('miscellaneous.slides.link_3') }}
+                                            <div
+                                                class="d-inline-flex btn-sm-square bg-white text-success rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
@@ -52,52 +68,107 @@
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="visually-hidden">{{ __('pagination.previous') }}</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#header-carousel" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
+                    <span class="visually-hidden">{{ __('pagination.next') }}</span>
                 </button>
             </div>
         </div>
         <!-- Carousel End -->
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
+        <!-- Videos -->
+        <div class="container-xxl py-3">
             <div class="container">
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{ asset('assets/img/photo/5.webp') }}" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{ asset('assets/img/photo/13.webp') }}" alt="" style="width: 200px; height: 150px;">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.home_videos.main_title') }}</div>
+                    <h1 class="display-6 mb-5">{{ __('miscellaneous.home_videos.main_description') }}</h1>
+                </div>
+
+                <div class="row g-4 mb-5 justify-content-center">
+                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="causes-item d-flex flex-column bg-white border-top border-5 border-info rounded-top overflow-hidden h-100">
+                            <div class="text-center p-4 pt-0">
+                                <div class="d-inline-block bg-info text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                    <small>{{ __('miscellaneous.home_videos.badge_1') }}</small>
+                                </div>
+                                <h5 class="mb-3">{{ __('miscellaneous.home_videos.title_1') }}</h5>
+                                <p>{{ __('miscellaneous.home_videos.description_1') }}</p>
+                                <a class="btn btn-outline-info" href="{{ route('about') }}">
+                                    {{ __('miscellaneous.home_videos.link_1') }}
+                                    <div class="d-inline-flex btn-sm-square bg-info text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="position-relative mt-auto">
+                                <video class="w-100 rounded" autoplay loop controls>
+                                    <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.mp4') }}" type=video/mp4>
+                                    <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.ogg') }}" type=video/ogg>
+                                </video>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">A propos</div>
-                            <h1 class="display-6 mb-5">Agir, c'est contagieux !</h1>
-                            <div class="bg-light border-bottom border-5 border-danger rounded p-4 mb-4">
-                                <p class="text-dark mb-2">Ici, seront écrits quelques mots du (de la) fondateur(trice) de l'organisation pour dire, en bref, ce qu'est Action Damien</p>
-                                <span class="text-danger">Nom Prénom, Fondateur(trice)</span>
+
+                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                            <div class="text-center p-4 pt-0">
+                                <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                                    <small>{{ __('miscellaneous.home_videos.badge_2') }}</small>
+                                </div>
+                                <h5 class="mb-3">{{ __('miscellaneous.home_videos.title_2') }}</h5>
+                                <p>{{ __('miscellaneous.home_videos.description_2') }}</p>
+                                <a class="btn btn-outline-primary" href="{{ route('support_us') }}">
+                                    {{ __('miscellaneous.home_videos.link_2') }}
+                                    <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
+                                </a>
                             </div>
-                            <p class="mb-5">Action Damien est une ONG belge fondée en 1964. Une organisation forte du soutien de milliers de collaborateurs bénévoles, donateurs et sympathisants à travers le monde.</p>
-                            <a class="btn btn-danger py-2 px-3 me-3" href="">
-                                En savoir plus
-                                <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                            <a class="btn btn-outline-danger py-2 px-3" href="">
-                                Nous contacter
-                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
+                            <div class="position-relative mt-auto">
+                                <video class="w-100 rounded" controls>
+                                    <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.mp4') }}" type=video/mp4>
+                                    <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.ogg') }}" type=video/ogg>
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
+                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
+                    <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
+                </div>
+
+                <div id="counter" class="row">
+                    <div class="four col-sm-4" data-wow-delay="1.3s">
+                        <div class="counter-box border border-defaultpx-4">
+                            <i class="fa fa-users text-danger"></i>
+                            <span class="counter">6</span>
+                            <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_1') }}</p>
+                            <small>{{ __('miscellaneous.statistics.content_1') }}</small>
+                        </div>
+                    </div>
+                    <div class="four col-sm-4" data-wow-delay="1.7s">
+                        <div class="counter-box border border-defaultpx-4">
+                            <i class="fa fa-microscope text-info"></i>
+                            <span class="counter">10</span>
+                            <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_2') }}</p>
+                            <small>{{ __('miscellaneous.statistics.content_2') }}</small>
+                        </div>
+                    </div>
+                    <div class="four col-sm-4" data-wow-delay="2.1s">
+                        <div class="counter-box border border-defaultpx-4">
+                            <i class="fa fa-stethoscope text-primary"></i>
+                            <span class="counter">2</span>
+                            <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_3') }}</p>
+                            <small>{{ __('miscellaneous.statistics.content_3') }}</small>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Videos End -->
 
 @endsection
