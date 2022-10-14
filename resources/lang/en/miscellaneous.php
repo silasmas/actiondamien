@@ -171,7 +171,6 @@ return [
     ],
 
     // ===== FOOTER CONTENT
-    // Footer
     'footer' => [
         'contact_us' => 'Contact us',
         'quick_links' => [
