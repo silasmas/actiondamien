@@ -219,7 +219,7 @@ return [
         'main_description' => 'Some numbers',
         'title_1' => 'Million',
         'content_1' => 'Many people suffer mental or physical damage from leprosy.',
-        'title_2' => 'million',
+        'title_2' => 'Million',
         'content_2' => 'Many people develop tuberculosis each year.',
         'title_3' => 'Diagnostics',
         'content_3' => 'Every minute two diagnoses of leishmaniasis are made in the world.'
