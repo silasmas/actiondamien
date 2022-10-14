@@ -118,7 +118,7 @@
 
                     <div class="d-none d-lg-flex ms-2">
                         <a class="btn btn-outline-primary py-2 ps-2 pe-3" href="">
-                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle me-2">
+                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle me-2 align-middle">
                                 <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
                             </div>
                             {{ __('miscellaneous.main_menu.donate') }}
