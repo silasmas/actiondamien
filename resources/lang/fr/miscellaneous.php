@@ -223,4 +223,36 @@ return [
         'title_3' => 'Diagnostics',
         'content_3' => 'Chaque minute deux diagnostics de la leishmaniose se font dans le monde.'
     ],
+    'national_cover' => [
+        'title' => 'Couverture mondiale',
+        'description' => 'Provinces couvertes par Action Damien',
+        'link' => 'En savoir plus',
+        'disease_1' => 'Lèpre',
+        'countries_count_1' => '8 pays',
+        'disease_2' => 'Tuberculose',
+        'countries_count_2' => '15 pays',
+        'disease_3' => 'Leishmaniose',
+        'countries_count_3' => '3 pays'
+    ],
+    'hospitals' => [
+        'title' => 'Nos hopitaux',
+        'ceda_name' => 'CEDA',
+        'ceda_description' => 'Le CEDA est le premier hôpital de la RD Congo, spécialisé dans la prise en charge hospitalière de la TB-PR. Inauguré en novembre 2014, ce dernier est constitué de 19 agents dont 1 médecin chef de projet appuyé par un médecin consultant, spécialiste en pneumologie des cliniques universitaires de Kinshasa. Cette équipe œuvre au quotidien pour la prise en charge des patients TB-PR avec des formes compliquées de la maladie. Les malades y sont accueillis chaleureusement et l’établissement dispose de 26 lits. En 2021, 123 patients ont été pris en charge au CEDA, dont 98 TB-MDR et TB-XDR.',
+        'link' => 'Liste des hopitaux'
+    ],
+    'support' => [
+        'title' => 'Action Damien',
+        'subtitle' => 'Nous soutenir',
+        'comment' => 'Vous avez envie de vous engager en faveur d’une bonne cause, mais ne savez pas comment ?',
+        'description' => 'Faites-nous don de votre temps !',
+        'content' => 'Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu’importe… Votre temps nous est précieux !',
+        'link_1' => 'Faire un don',
+        'link_2' => 'En savoir plus',
+        'call' => 'Apprelez maintenant'
+    ],
+    'report' => [
+        'title' => 'Rapport Annuel',
+        'subtitle' => 'Action Damien RD Congo',
+        'download' => 'Télécharger'
+    ],
 ];

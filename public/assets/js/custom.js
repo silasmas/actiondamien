@@ -33,11 +33,6 @@ $(function () {
         }
     }
 
-    // After click on any link starting by #, nothing will be returned
-    $('[href^="#"]').on('click', function () {
-        return false;
-    });
-
     $('.counter').each(function () {
         $(this).prop('Counter',0).animate({
             Counter: $(this).text()

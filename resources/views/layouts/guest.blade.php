@@ -99,26 +99,26 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
                             <div class="dropdown-menu m-0">
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.our_vision') }}</a>
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.about') }}</a>
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.support_us') }}</a>
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.contact') }}</a>
+                                <a href="{{ route('vision') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.our_vision') }}</a>
+                                <a href="{{ route('about') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.about') }}</a>
+                                <a href="{{ route('support_us') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.support_us') }}</a>
+                                <a href="{{ route('contact') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.contact') }}</a>
                             </div>
                         </div>
-                        <a href="" class="nav-item nav-link">{{ __('miscellaneous.main_menu.news') }}</a>
+                        <a href="{{ route('news') }}" class="nav-item nav-link">{{ __('miscellaneous.main_menu.news') }}</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.testimonials.title') }}</a>
                             <div class="dropdown-menu m-0">
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}</a>
-                                <a href="" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensitization') }}</a>
+                                <a href="{{ route('testimonials') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}</a>
+                                <a href="{{ route('sensibilization') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensitization') }}</a>
                             </div>
                         </div>
-                        <a href="" class="nav-item nav-link">{{ __('miscellaneous.main_menu.projects') }}</a>
+                        <a href="{{ route('projects') }}" class="nav-item nav-link">{{ __('miscellaneous.main_menu.projects') }}</a>
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
-                        <a class="btn btn-outline-primary py-2 ps-2 pe-3" href="">
-                            <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle me-2 align-middle">
+                        <a class="btn btn-outline-danger py-2 ps-2 pe-3" href="">
+                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2 align-middle">
                                 <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
                             </div>
                             {{ __('miscellaneous.main_menu.donate') }}
@@ -189,7 +189,7 @@
         <!-- Footer End -->
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <a href="#" class="btn btn-lg btn-danger btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
         <!-- JavaScript Libraries -->
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

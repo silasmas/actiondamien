@@ -223,4 +223,36 @@ return [
         'title_3' => 'Diagnostics',
         'content_3' => 'Every minute two diagnoses of leishmaniasis are made in the world.'
     ],
+    'national_cover' => [
+        'title' => 'Global coverage',
+        'description' => 'Provinces covered by Action Damien',
+        'link' => 'Learn more',
+        'disease_1' => 'Leprosy',
+        'countries_count_1' => '8 countries',
+        'disease_2' => 'Tuberculosis',
+        'countries_count_2' => '15 countries',
+        'disease_3' => 'Leishmaniasis',
+        'countries_count_3' => '3 countries'
+    ],
+    'hospitals' => [
+        'title' => 'Our hospitals',
+        'ceda_name' => 'CEDA',
+        'ceda_description' => 'The CEDA is the first hospital in the DR Congo, specializing in the hospital care of TB-PR. Inaugurated in November 2014, the latter is made up of 19 agents including 1 project manager doctor supported by a consultant doctor, specialist in pneumology from the university clinics of Kinshasa. This team works on a daily basis to care for DR-TB patients with complicated forms of the disease. Patients are warmly welcomed there and the establishment has 26 beds. In 2021, 123 patients were treated at CEDA, including 98 MDR-TB and XDR-TB.',
+        'link' => 'List of hospitals'
+    ],
+    'support' => [
+        'title' => 'Action Damien',
+        'subtitle' => 'Support us',
+        'comment' => 'Do you want to get involved in a good cause, but don\'t know how?',
+        'description' => 'Give us your time!',
+        'content' => 'Become a volunteer at Action Damien! You can help us for a few hours by selling markers during our campaign weekend, by organizing an event yourself or by mobilizing regularly and over the long term for Action Damien. No matter… Your time is precious to us!',
+        'link_1' => 'Make a donation',
+        'link_2' => 'Learn more',
+        'call' => 'Call now'
+    ],
+    'report' => [
+        'title' => 'Annual Report',
+        'subtitle' => 'Action Damien DR Congo',
+        'download' => 'Download'
+    ],
 ];

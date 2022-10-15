@@ -38,7 +38,7 @@ class HomeController extends Controller
      */
     public function vision()
     {
-        return view('vision');
+        return view('about');
     }
 
     /**
