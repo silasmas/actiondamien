@@ -50,7 +50,7 @@
         </title>
     </head>
 
-    <body>
+    <body class="pt-5">
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-danger" role="status"></div>
@@ -59,24 +59,24 @@
 
         <!-- Navbar Start -->
         <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
-            <div class="top-bar text-white-50 row gx-0 align-items-center d-none d-lg-flex">
-                <div class="col-lg-7 px-5 text-start">
+            <div class="top-bar row gx-0 align-items-center d-none d-lg-flex overflow-hidden">
+                <div class="col-lg-6 ps-5 pe-3 text-start bg-danger text-white" style="padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <small><i class="fa fa-map-marker-alt me-2"></i>{{ __('miscellaneous.actiondamien_address') }}</small>
                     <small class="ms-4"><i class="fa fa-envelope me-2"></i>secretaire@actiondamien-rdc.net</small>
                 </div>
 
-                <div class="col-lg-5 px-5 text-end">
+                <div class="col-lg-6 px-5 text-end text-dark" style="background-color: rgba(255, 238, 170, 0.9); padding-top: 0.7rem; padding-bottom: 0.7rem;">
                     <!-- Social networks -->
                     <small>{{ __('miscellaneous.follow_us') }}</small>
-                    <a class="text-white-50 ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="text-white-50 ms-3" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="text-white-50 ms-3" href="#"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="text-white-50 ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="text-dark ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="text-dark ms-3" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="text-dark ms-3" href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a class="text-dark ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>
 
                     <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
-                    <a class="text-white-50 ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" title="{{ $locale_name }}" data-bs-toggle="tooltip">
+                    <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" title="{{ $locale_name }}" data-bs-toggle="tooltip">
                         <span class="fi fi-{{ $available_locale == 'en' ? 'us' : $available_locale }}"></span>
                     </a>
     @endif
@@ -84,9 +84,9 @@
                 </div>
             </div>
 
-            <nav class="navbar navbar-expand-lg navbar-dark py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
                 <a href="" class="navbar-brand ms-4 ms-lg-0">
-                    <img src="{{ asset('assets/img/logo-02.png') }}" alt="Action Damien" class="" width="150">
+                    <img src="{{ asset('assets/img/logo-01.png') }}" alt="Action Damien" class="" width="150">
                 </a>
 
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -94,7 +94,7 @@
                 </button>
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
                         <a href="" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
@@ -117,7 +117,7 @@
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
-                        <a class="btn btn-outline-danger py-2 ps-2 pe-3" href="">
+                        <a class="btn btn-danger py-2 ps-2 pe-3" href="">
                             <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2 align-middle">
                                 <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
                             </div>

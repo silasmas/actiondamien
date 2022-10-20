@@ -3,21 +3,21 @@
 @section('guest-content')
 
         <!-- Carousel Start -->
-        <div class="container-fluid p-0 mb-5">
+        <div class="container-fluid p-0 mt-lg-5 mt-4 mb-5">
             <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="w-100" src="{{ asset('assets/img/photo/3.jpg') }}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 pt-5">
+                                <div class="row justify-content-sm-start justify-content-center text-sm-start">
+                                    <div class="col-lg-7 pt-4 ps-5">
                                         <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_1') }}</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
-                                        <a class="btn btn-danger py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
+                                        <a class="btn btn-info py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
                                             {{ __('miscellaneous.slides.link_1') }}
-                                            <div
-                                                class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+
+                                            <div class="d-inline-flex btn-sm-square bg-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
@@ -30,14 +30,14 @@
                         <img class="w-100" src="{{ asset('assets/img/photo/2.jpg') }}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 pt-5">
+                                <div class="row justify-content-sm-end justify-content-center text-sm-end">
+                                    <div class="col-lg-7 pt-4 pe-5">
                                         <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_2') }}</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
+                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
                                         <a class="btn btn-light py-2 px-3 animated slideInDown" href="{{ route('news') }}">
                                             {{ __('miscellaneous.slides.link_2') }}
-                                            <div
-                                                class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+
+                                            <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
@@ -50,10 +50,10 @@
                         <img class="w-100" src="{{ asset('assets/img/photo/1.jpg') }}" alt="Image">
                         <div class="carousel-caption">
                             <div class="container">
-                                <div class="row justify-content-center">
-                                    <div class="col-lg-7 pt-5">
+                                <div class="row justify-content-sm-start justify-content-center text-sm-start">
+                                    <div class="col-lg-7 pt-4 ps-5">
                                         <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_3') }}</h1>
-                                        <p class="fs-5 text-white-50 mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
+                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
                                         <a class="btn btn-success py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
                                             {{ __('miscellaneous.slides.link_3') }}
                                             <div

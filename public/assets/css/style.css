@@ -133,6 +133,10 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, .07);
 }
 
+.navbar {
+    background-color: #FFFFFF;
+}
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -145,14 +149,14 @@ body {
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 25px 0;
-    color: #FFFFFF;
-    font-weight: 500;
+    color: var(--danger);
+    font-weight: 700;
     outline: none;
 }
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--danger);
+    color: var(--info);
 }
 
 @media (max-width: 991.98px) {
@@ -196,8 +200,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    background: rgba(3, 32, 38, .7);
+    background: rgba(10, 10, 10, .3);
     z-index: 1;
 }
 
