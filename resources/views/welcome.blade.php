@@ -103,33 +103,33 @@
                             </a>
                         </div>
                         <div class="position-relative mt-auto">
-                            <video class="w-100 rounded" autoplay loop controls>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.mp4') }}" type=video/mp4>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.ogg') }}" type=video/ogg>
+                            <video class="w-100 rounded" autoplay loop controls preload="metadata">
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.mp4') }}#t=22" type=video/mp4>
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.ogg') }}#t=22" type=video/ogg>
                             </video>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-primary rounded-top overflow-hidden h-100">
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-danger rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-primary text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                            <div class="d-inline-block bg-danger text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                                 <small>{{ __('miscellaneous.home_videos.badge_2') }}</small>
                             </div>
                             <h5 class="mb-3">{{ __('miscellaneous.home_videos.title_2') }}</h5>
                             <p>{{ __('miscellaneous.home_videos.description_2') }}</p>
-                            <a class="btn btn-outline-primary" href="{{ route('support_us') }}">
+                            <a class="btn btn-outline-danger" href="{{ route('support_us') }}">
                                 {{ __('miscellaneous.home_videos.link_2') }}
-                                <div class="d-inline-flex btn-sm-square bg-primary text-white rounded-circle ms-2">
+                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
                             </a>
                         </div>
                         <div class="position-relative mt-auto">
-                            <video class="w-100 rounded" controls>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.mp4') }}" type=video/mp4>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.ogg') }}" type=video/ogg>
+                            <video class="w-100 rounded" controls preload="metadata">
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.mp4') }}#t=22" type=video/mp4>
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.ogg') }}#t=22" type=video/ogg>
                             </video>
                         </div>
                     </div>
