@@ -307,6 +307,7 @@
                             <div class="mask"></div>
                         </div>
                     </div>
+<<<<<<< Updated upstream
                     <div class="col-sm-7 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="p-4 bg-light h-100">
                             <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
@@ -316,6 +317,23 @@
                                 <i class="fa fa-file-pdf me-2 fs-3 align-bottom"></i>{{ __('miscellaneous.report.download') }}
                             </a>
                         </div>
+=======
+                </div>
+                <div class="col-sm-7">
+                    <div class="p-4 bg-light h-100">
+                        <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
+                        <hr class="hr mb-4 border boder-default">
+                        <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
+                        <a class="btn btn-outline-dark py-2 mb-2 px-3" targe="blank"
+                        {{-- href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') } --}}
+                        href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021.html"
+                        >
+                            {{ __('miscellaneous.report.download') }}
+                            <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+>>>>>>> Stashed changes
                     </div>
                 </div>
             </div>
