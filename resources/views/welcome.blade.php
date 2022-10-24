@@ -315,7 +315,7 @@
                             <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
                                 {{ __('miscellaneous.report.read') }}
                                 <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2 align-middle">
-                                    <i class="fa fa-file-pdf fs-3 align-bottom"></i>
+                                    <i class="fa fa-arrow-right align-bottom"></i>
                                 </div>
                             </a>
 
