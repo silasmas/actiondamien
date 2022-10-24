@@ -60,24 +60,31 @@
         <!-- Navbar Start -->
         <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
             <div class="top-bar row gx-0 align-items-center d-none d-lg-flex overflow-hidden">
-                <div class="col-lg-6 ps-5 pe-3 text-start bg-danger text-white" style="padding-top: 0.7rem; padding-bottom: 0.8rem;">
+                <div class="col-lg-4 ps-5 text-start bg-danger text-white" style="padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <small><i class="fa fa-map-marker-alt me-2"></i>{{ __('miscellaneous.actiondamien_address') }}</small>
-                    <small class="ms-4"><i class="fa fa-envelope me-2"></i>secretaire@actiondamien-rdc.net</small>
                 </div>
 
-                <div class="col-lg-6 px-5 text-end text-dark" style="background-color: rgba(255, 238, 170, 0.9); padding-top: 0.7rem; padding-bottom: 0.7rem;">
+                <div class="col-lg-8 px-5 text-end text-dark" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <!-- Social networks -->
-                    <small>{{ __('miscellaneous.follow_us') }}</small>
+                    <small><a class="text-dark me-3" href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
                     <a class="text-dark ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="text-dark ms-3" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="text-dark ms-3" href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a class="text-dark ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>
 
                     <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
-                    <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" title="{{ $locale_name }}" data-bs-toggle="tooltip">
-                        <span class="fi fi-{{ $available_locale == 'en' ? 'us' : $available_locale }}"></span>
+                    <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
+        @switch($available_locale)
+            @case('en')
+                        <span class="fi fi-us"></span>
+                @break
+            @case('ln')
+                        <span class="fi fi-cd"></span>
+                @break
+            @default
+                        <span class="fi fi-{{ $available_locale }}"></span>
+        @endswitch    
                     </a>
     @endif
 @endforeach
@@ -110,7 +117,7 @@
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.testimonials.title') }}</a>
                             <div class="dropdown-menu m-0">
                                 <a href="{{ route('testimonials') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}</a>
-                                <a href="{{ route('sensibilization') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensitization') }}</a>
+                                <a href="{{ route('sensibilization') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensibilization') }}</a>
                             </div>
                         </div>
                         <a href="{{ route('projects') }}" class="nav-item nav-link">{{ __('miscellaneous.main_menu.projects') }}</a>

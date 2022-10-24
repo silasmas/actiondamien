@@ -191,7 +191,9 @@ return [
     // ===== BODY CONTENT
     // Home
     'slides' => [
-        'title_1' => 'Let\'s act now, it\'s contagious!',
+        'title_1a' => 'Let\'s act now, it\'s',
+        'title_1b' => ' contagious',
+        'title_1c' => '!',
         'description_1' => 'Action Damien is a medical development NGO that participates in the global fight against leprosy, tuberculosis and other infectious diseases, such as leishmaniasis.',
         'link_1' => 'Learn more',
         'title_2' => 'News',

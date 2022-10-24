@@ -95,7 +95,7 @@ return [
     |
     */
 
-    'fallback_locale' => 'en',
+    'fallback_locale' => 'ln',
 
     /*
     |--------------------------------------------------------------------------
@@ -119,6 +119,7 @@ return [
     |
     */
     'available_locales' => [
+        'Lingala' => 'ln',
         'Français' => 'fr',
         'English' => 'en',
         'Español' => 'es',

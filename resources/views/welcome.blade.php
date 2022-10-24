@@ -12,8 +12,10 @@
                             <div class="container">
                                 <div class="row justify-content-sm-start justify-content-center text-sm-start">
                                     <div class="col-lg-7 pt-4 ps-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_1') }}</h1>
-                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
+                                        <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">
+                                            {{ __('miscellaneous.slides.title_1a') }}<br>{{ __('miscellaneous.slides.title_1b') }}<span style="font-style: italic; color: #58b8a7;">{{ __('miscellaneous.slides.title_1c') }}</span>
+                                        </h1>
+                                        <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
                                         <a class="btn btn-info py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
                                             {{ __('miscellaneous.slides.link_1') }}
 
@@ -32,8 +34,8 @@
                             <div class="container">
                                 <div class="row justify-content-sm-end justify-content-center text-sm-end">
                                     <div class="col-lg-7 pt-4 pe-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_2') }}</h1>
-                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
+                                        <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_2') }}</h1>
+                                        <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
                                         <a class="btn btn-light py-2 px-3 animated slideInDown" href="{{ route('news') }}">
                                             {{ __('miscellaneous.slides.link_2') }}
 
@@ -52,8 +54,8 @@
                             <div class="container">
                                 <div class="row justify-content-sm-start justify-content-center text-sm-start">
                                     <div class="col-lg-7 pt-4 ps-5">
-                                        <h1 class="display-4 text-white mb-3 animated slideInDown">{{ __('miscellaneous.slides.title_3') }}</h1>
-                                        <p class="fs-5 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
+                                        <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_3') }}</h1>
+                                        <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
                                         <a class="btn btn-success py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
                                             {{ __('miscellaneous.slides.link_3') }}
                                             <div
@@ -103,9 +105,9 @@
                             </a>
                         </div>
                         <div class="position-relative mt-auto">
-                            <video class="w-100 rounded" autoplay loop controls preload="metadata">
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.mp4') }}#t=22" type=video/mp4>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.ogg') }}#t=22" type=video/ogg>
+                            <video class="w-100 rounded" controls poster="{{ asset('assets/img/photo/ANNEXE_1_VIDEO_LEPRE.png') }}">
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.mp4') }}" type=video/mp4>
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_LEPRE.ogg') }}" type=video/ogg>
                             </video>
                         </div>
                     </div>
@@ -127,9 +129,9 @@
                             </a>
                         </div>
                         <div class="position-relative mt-auto">
-                            <video class="w-100 rounded" controls preload="metadata">
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.mp4') }}#t=22" type=video/mp4>
-                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.ogg') }}#t=22" type=video/ogg>
+                            <video class="w-100 rounded" controls poster="{{ asset('assets/img/photo/ANNEXE_1_VIDEO_TUBERCULOSE.png') }}">
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.mp4') }}" type=video/mp4>
+                                <source src="{{ asset('assets/img/video/ANNEXE_1_VIDEO_TUBERCULOSE.ogg') }}" type=video/ogg>
                             </video>
                         </div>
                     </div>
@@ -227,8 +229,8 @@
             <div class="container my-5">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="object-fit: cover;">
+                        <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
+                            <img class="position-absolute h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -238,7 +240,7 @@
                             <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
                             <a class="btn btn-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
                                 <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2">
-                                    <i class="fa fa-file"></i>
+                                    <i class="fa fa-list"></i>
                                 </div>
                                 {{ __('miscellaneous.hospitals.link') }}
                             </a>
@@ -296,25 +298,24 @@
         <!-- Support End -->
 
         <!-- Report Start -->
-        <div class="container-xxl px-0 py-5">
-            <div class="row g-0 overflow-hidden">
-                <div class="col-sm-5">
-                    <div class="bg-image">
-                        <img src="{{ asset('assets/img/photo/a-02_1.jpg') }}" alt="" class="img-fluid">
-                        <div class="mask"></div>
+        <div class="container-xxl py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-5 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="bg-image shadow">
+                            <img src="{{ asset('assets/img/photo/report.png') }}" alt="" class="img-fluid rounded">
+                            <div class="mask"></div>
+                        </div>
                     </div>
-                </div>
-                <div class="col-sm-7">
-                    <div class="p-4 bg-light h-100">
-                        <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
-                        <hr class="hr mb-4 border boder-default">
-                        <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
-                        <a class="btn btn-outline-dark py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
-                            {{ __('miscellaneous.report.download') }}
-                            <div class="d-inline-flex btn-sm-square bg-dark text-white rounded-circle ms-2">
-                                <i class="fa fa-arrow-right"></i>
-                            </div>
-                        </a>
+                    <div class="col-sm-7 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="p-4 bg-light h-100">
+                            <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
+                            <hr class="hr mb-4 border boder-default">
+                            <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
+                            <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
+                                <i class="fa fa-file-pdf me-2 fs-3 align-bottom"></i>{{ __('miscellaneous.report.download') }}
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>

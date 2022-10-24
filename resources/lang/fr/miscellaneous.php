@@ -19,7 +19,7 @@ return [
     'back_form' => 'Retourner au formulaire',
     'loading' => 'Chargement ...',
     'connection' => 'Connexion',
-    'register' => 'Eregistrer',
+    'register' => 'Enregistrer',
     'add' => 'Ajouter',
     'registered' => 'Eregistré',
     'update' => 'Mettre à jour',
@@ -164,7 +164,7 @@ return [
         'testimonials' => [
             'title' => 'Témoignages',
             'video_testimonials' => 'Témoignages en vidéo',
-            'sensitization' => 'Sensitisation'
+            'sensibilization' => 'Sensibilisation'
         ],
         'projects' => 'Projets',
         'donate' => 'Faire un don'
@@ -191,7 +191,9 @@ return [
     // ===== BODY CONTENT
     // Home
     'slides' => [
-        'title_1' => 'Agir, c\'est contagieux !',
+        'title_1a' => 'Agir, c\'est',
+        'title_1b' => ' contagieux',
+        'title_1c' => ' !',
         'description_1' => 'Action Damien est une ONG médicale de développement qui participe à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies infectieuses, comme la leishmaniose.',
         'link_1' => 'En savoir plus',
         'title_2' => 'Actualités',
@@ -248,7 +250,7 @@ return [
         'content' => 'Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu’importe… Votre temps nous est précieux !',
         'link_1' => 'Faire un don',
         'link_2' => 'En savoir plus',
-        'call' => 'Apprelez maintenant'
+        'call' => 'Appelez maintenant'
     ],
     'report' => [
         'title' => 'Rapport Annuel',
