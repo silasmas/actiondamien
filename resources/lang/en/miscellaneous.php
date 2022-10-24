@@ -255,6 +255,6 @@ return [
     'report' => [
         'title' => 'Annual Report',
         'subtitle' => 'Action Damien DR Congo',
-        'download' => 'Download'
+        'read' => 'Read'
     ],
 ];

@@ -313,7 +313,7 @@
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
                             <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
-                                <i class="fa fa-file-pdf me-2 fs-3 align-bottom"></i>{{ __('miscellaneous.report.download') }}
+                                <i class="fa fa-file-pdf me-2 fs-3 align-bottom"></i>{{ __('miscellaneous.report.read') }}
                             </a>
                         </div>
                     </div>
