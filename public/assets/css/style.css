@@ -503,3 +503,8 @@ body {
 .footer .copyright a:hover {
     color: var(--danger);
 }
+
+/********** Custom styles **********/
+.border-yellow {
+    border-color: #ffd791;
+}
