@@ -506,5 +506,5 @@ body {
 
 /********** Custom styles **********/
 .border-yellow {
-    border-color: #ffd791;
+    border-color: #ffd791!important;
 }
