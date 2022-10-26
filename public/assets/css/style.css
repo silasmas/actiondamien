@@ -508,3 +508,12 @@ body {
 .border-yellow {
     border-color: #ffd791!important;
 }
+
+.btn-outline-yellow {
+    color: #333!important;
+    border-color: #ffd791!important;
+}
+
+.bg-yellow {
+    background-color: #ffd791!important;
+}
