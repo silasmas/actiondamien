@@ -164,7 +164,7 @@ return [
         'testimonials' => [
             'title' => 'Testimonials',
             'video_testimonials' => 'Video testimonials',
-            'sensitization' => 'Sensitization'
+            'sensibilization' => 'Sensibilization'
         ],
         'projects' => 'Projects',
         'donate' => 'Donate now'

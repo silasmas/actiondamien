@@ -164,7 +164,7 @@ return [
         'testimonials' => [
             'title' => 'Matatoli',
             'video_testimonials' => 'Matatoli ya vidéo',
-            'sensitization' => 'Kolendisa'
+            'sensibilization' => 'Kolendisa'
         ],
         'projects' => 'Projets',
         'donate' => 'Pesá likabo'
