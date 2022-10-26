@@ -176,7 +176,7 @@
         <section class="bg-light py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">{{ __('miscellaneous.national_cover.title') }}</div>
+                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.national_cover.title') }}</div>
                     <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description') }}</h1>
                 </div>
                 <div class="row g-4 justify-content-center">
