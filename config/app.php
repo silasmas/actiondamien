@@ -122,8 +122,6 @@ return [
         'Lingala' => 'ln',
         'Français' => 'fr',
         'English' => 'en',
-        'Español' => 'es',
-        'Deutsch' => 'de',
     ],
 
     /*
