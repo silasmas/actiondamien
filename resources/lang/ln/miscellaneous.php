@@ -10,7 +10,7 @@ return [
     */
     // ===== OTHER
     'actiondamien_slogan' => 'Misala ezali contagieux !',
-    'actiondamien_description' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola leishmaniose.',
+    'actiondamien_description' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola Ulcère ya Buruli na Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',
     'all_right_reserved' => 'Makoki nyonso ya yo',
     'your_language' => 'Monoko na yo',
@@ -194,7 +194,7 @@ return [
         'title_1a' => 'Misala eza',
         'title_1b' => ' contagieux',
         'title_1c' => '!',
-        'description_1' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola leishmaniose.',
+        'description_1' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola Ulcère ya Buruli na Pian.',
         'link_1' => 'Yekola makambo mosusu',
         'title_2' => 'Bansango',
         'description_2' => 'Bozala informé na ba actions na biso nionso oyo tosali pe ba descentes na biso ndenge na ndenge na terrain.',
@@ -223,7 +223,7 @@ return [
         'title_2' => 'Millions',
         'content_2' => 'Bato mingi bazwaka maladi ya ntolo mbula na mbula.',
         'title_3' => 'Diagnostiki',
-        'content_3' => 'Na minute nionso ba diagnostiki mibale ya leishmaniose esalemaka na mokili.'
+        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli esalemaka na mokili.'
     ],
     'national_cover' => [
         'title' => 'Mokili mobimba',
@@ -233,7 +233,7 @@ return [
         'countries_count_1' => 'Mikili 8',
         'disease_2' => 'Tuberculose',
         'countries_count_2' => 'Mikili 15',
-        'disease_3' => 'Leishmaniose',
+        'disease_3' => 'Ulcère ya Buruli',
         'countries_count_3' => 'Mikili 3'
     ],
     'hospitals' => [

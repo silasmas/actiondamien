@@ -233,7 +233,7 @@ return [
         'countries_count_1' => '8 countries',
         'disease_2' => 'Tuberculosis',
         'countries_count_2' => '15 countries',
-        'disease_3' => 'Leishmaniasis',
+        'disease_3' => 'Buruli ulcer',
         'countries_count_3' => '3 countries'
     ],
     'hospitals' => [

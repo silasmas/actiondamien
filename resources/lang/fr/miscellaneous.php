@@ -233,7 +233,7 @@ return [
         'countries_count_1' => '8 pays',
         'disease_2' => 'Tuberculose',
         'countries_count_2' => '15 pays',
-        'disease_3' => 'Ulcère des Buruli',
+        'disease_3' => 'Ulcère de Buruli',
         'countries_count_3' => '3 pays'
     ],
     'hospitals' => [
