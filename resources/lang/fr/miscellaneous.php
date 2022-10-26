@@ -10,7 +10,7 @@ return [
     */
     // ===== OTHER
     'actiondamien_slogan' => 'Agir, c\'est contagieux !',
-    'actiondamien_description' => 'Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies typiquement liées à la pauvreté, comme l\'ulcère des Buruli et le Pian.',
+    'actiondamien_description' => 'Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies typiquement liées à la pauvreté, comme l\'ulcère de Buruli et le Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',
     'all_right_reserved' => 'Tout droit réservé',
     'your_language' => 'Votre langue',
@@ -194,7 +194,7 @@ return [
         'title_1a' => 'Agir, c\'est',
         'title_1b' => ' contagieux',
         'title_1c' => ' !',
-        'description_1' => 'Action Damien est une ONG médicale de développement qui participe à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies infectieuses, comme l\'ulcère des Buruli et le Pian.',
+        'description_1' => 'Action Damien est une ONG médicale de développement qui participe à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies infectieuses, comme l\'ulcère de Buruli et le Pian.',
         'link_1' => 'En savoir plus',
         'title_2' => 'Actualités',
         'description_2' => 'Restez informé sur toutes nos actions entreprises et nos différentes descentes sur terrain.',
@@ -223,7 +223,7 @@ return [
         'title_2' => 'Millions',
         'content_2' => 'Plusieurs personnes développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère des Buruli se font dans le monde.'
+        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli se font dans le monde.'
     ],
     'national_cover' => [
         'title' => 'Couverture mondiale',
