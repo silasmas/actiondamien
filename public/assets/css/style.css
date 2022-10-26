@@ -506,14 +506,20 @@ body {
 
 /********** Custom styles **********/
 .border-yellow {
-    border-color: #ffd791!important;
+    border-color: #facb79!important;
 }
 
 .btn-outline-yellow {
-    color: #333!important;
-    border-color: #ffd791!important;
+    color: #f5af37!important;
+    border-color: #facb79!important;
+}
+
+.btn-outline-yellow:hover {
+    background-color: #facb79!important;
+    color: #fff!important;
+    border-color: #facb79!important;
 }
 
 .bg-yellow {
-    background-color: #ffd791!important;
+    background-color: #facb79!important;
 }
