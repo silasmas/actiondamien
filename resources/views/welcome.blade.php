@@ -90,16 +90,16 @@
 
             <div class="row g-4 mb-5 justify-content-center">
                 <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-info rounded-top overflow-hidden h-100">
+                    <div class="causes-item d-flex flex-column bg-white border-top border-5 border-yellow rounded-top overflow-hidden h-100">
                         <div class="text-center p-4 pt-0">
-                            <div class="d-inline-block bg-info text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
+                            <div class="d-inline-block bg-yellow text-white rounded-bottom fs-5 pb-1 px-3 mb-4">
                                 <small>{{ __('miscellaneous.home_videos.badge_1') }}</small>
                             </div>
                             <h5 class="mb-3">{{ __('miscellaneous.home_videos.title_1') }}</h5>
                             <p>{{ __('miscellaneous.home_videos.description_1') }}</p>
-                            <a class="btn btn-outline-info" href="{{ route('about') }}">
+                            <a class="btn btn-outline-yellow" href="{{ route('about') }}">
                                 {{ __('miscellaneous.home_videos.link_1') }}
-                                <div class="d-inline-flex btn-sm-square bg-info text-white rounded-circle ms-2">
+                                <div class="d-inline-flex btn-sm-square bg-yellow text-white rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
                             </a>
