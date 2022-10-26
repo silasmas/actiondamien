@@ -236,7 +236,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.hospitals.title') }}</div>
-                            <h1 class="display-6 mb-4">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
+                            <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
                             <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
                             <a class="btn btn-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
                                 <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2">
