@@ -10,7 +10,7 @@ return [
     */
     // ===== OTHER
     'actiondamien_slogan' => 'Let\'s act now, it\'s contagious!',
-    'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as leishmaniasis.',
+    'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as Buruli ulcer and Pian.',
     'actiondamien_address' => 'Pierre Mulele street, 162 Kinshasa-Gombe',
     'all_right_reserved' => 'All right reserved',
     'your_language' => 'Your language',
@@ -194,7 +194,7 @@ return [
         'title_1a' => 'Let\'s act now, it\'s',
         'title_1b' => ' contagious',
         'title_1c' => '!',
-        'description_1' => 'Action Damien is a medical development NGO that participates in the global fight against leprosy, tuberculosis and other infectious diseases, such as leishmaniasis.',
+        'description_1' => 'Action Damien is a medical development NGO that participates in the global fight against leprosy, tuberculosis and other infectious diseases, such as Buruli ulcer and Pian.',
         'link_1' => 'Learn more',
         'title_2' => 'News',
         'description_2' => 'Stay informed on all our actions undertaken and our various descents on the ground.',
@@ -223,7 +223,7 @@ return [
         'title_2' => 'Million',
         'content_2' => 'Many people develop tuberculosis each year.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Every minute two diagnoses of leishmaniasis are made in the world.'
+        'content_3' => 'Every minute two diagnoses of Buruli ulcer are made in the world.'
     ],
     'national_cover' => [
         'title' => 'Global coverage',
