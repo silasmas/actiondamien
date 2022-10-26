@@ -140,7 +140,7 @@ body {
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
-    /* font-family: "Font Awesome 5 Free"; */
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
@@ -506,6 +506,22 @@ body {
 
 /********** Custom styles **********/
 .border-yellow {
+    border-color: #facb79!important;
+}
+
+.text-yellow {
+    color: #f5af37!important;
+}
+
+.btn-yellow {
+    background-color: #fdd68f!important;
+    color: #fff!important;
+    border-color: #fdd68f!important;
+}
+
+.btn-yellow:hover {
+    background-color: #fff!important;
+    color: #333!important;
     border-color: #facb79!important;
 }
 

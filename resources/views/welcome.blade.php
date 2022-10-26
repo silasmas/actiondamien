@@ -257,14 +257,14 @@
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">{{ __('miscellaneous.support.title') }}</div>
+                            <div class="d-inline-block rounded-pill bg-secondary text-yellow py-1 px-3 mb-3">{{ __('miscellaneous.support.title') }}</div>
                             <h1 class="display-6 mb-4">{{ __('miscellaneous.support.subtitle') }}</h1>
                             <h5 class="h5 mb-4 text-muted">{{ __('miscellaneous.support.comment') }}</h3>
                             <p class="lead mb-4 text-dark">{{ __('miscellaneous.support.description') }}</h5>
                             <p class="mb-4">{{ __('miscellaneous.support.content') }}</p>
-                            <a class="btn btn-primary py-2 px-3 mb-2 me-3" href="{{ route('support_us') }}">
+                            <a class="btn btn-yellow py-2 px-3 mb-2 me-3" href="{{ route('support_us') }}">
                                 {{ __('miscellaneous.support.link_1') }}
-                                <div class="d-inline-flex btn-sm-square bg-white text-primary rounded-circle ms-2">
+                                <div class="d-inline-flex btn-sm-square bg-white text-yellow rounded-circle ms-2">
                                     <i class="fa fa-arrow-right"></i>
                                 </div>
                             </a>
@@ -277,12 +277,12 @@
                         </div>
                     </div>
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
-                            <div class="row g-0 position-absolute bg-white" style="width: 90%;bottom: -30px; left: -10px;">
-                                <div class="col-sm-1 bg-dark py-2">
+                        <div class="position-relative h-100 over" style="min-height: 400px;">
+                            <img class="position-absolute w-100 h-100 pe-5 rounded" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
+                            <div class="row g-0 position-absolute" style="width: 90%;bottom: -30px; left: -10px;">
+                                <div class="col-sm-1 bg-dark py-2 rounded-start">
                                 </div>
-                                <div class="col-sm-11 bg-primary p-2 clearfix">
+                                <div class="col-sm-11 bg-yellow p-2 clearfix rounded-end">
                                     <h2 class="h2 float-start mt-2 me-2"><i class="fa fa-phone text-white"></i></h2>
                                     <div>
                                         <p class="m-0 text-white">{{ __('miscellaneous.support.call') }}</p>
