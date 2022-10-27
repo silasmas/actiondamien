@@ -96,28 +96,49 @@
                     <img src="{{ asset('assets/img/logo-01.png') }}" alt="Action Damien" class="" width="150">
                 </a>
 
-                <div class="dropdown">
+                <div id="languageToggle" class="dropdown d-lg-inline-block d-none">
                     <a href="#" class="fs-2 text-dark" data-bs-toggle="dropdown" title="{{ __('miscellaneous.your_language') }}"><i class="fa fa-language"></i></a>
 
-                    <div class="dropdown-menu d-inline-block">
-                        <!-- Language toggle -->
+                    <!-- Language toggle -->
+                    <ul class="dropdown-menu" aria-labelledby="languageToggle">
 @foreach ($available_locales as $locale_name => $available_locale)
-    @if ($available_locale != $current_locale)
-                        <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
+    @if ($available_locale === $current_locale)
+                        <li>
+                            <a class="dropdown-item disabled" href="#">
         @switch($available_locale)
             @case('en')
-                            <span class="fi fi-us"></span>
+                                <span class="fi fi-us me-2 align-middle"></span>
                 @break
             @case('ln')
-                            <span class="fi fi-cd"></span>
+                                <span class="fi fi-cd me-2 align-middle"></span>
                 @break
             @default
-                            <span class="fi fi-{{ $available_locale }}"></span>
+                                <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
         @endswitch    
-                        </a>
+
+                                {{ $locale_name }}
+                            </a>
+                        </li>
+    @else
+                        <li>
+                            <a class="dropdown-item" href="{{ route('change_language', ['locale' => $available_locale]) }}">
+        @switch($available_locale)
+            @case('en')
+                                <span class="fi fi-us me-2 align-middle"></span>
+                @break
+            @case('ln')
+                                <span class="fi fi-cd me-2 align-middle"></span>
+                @break
+            @default
+                                <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
+        @endswitch    
+
+                                {{ $locale_name }}
+                            </a>
+                        </li>
     @endif
 @endforeach
-                    </div>
+                    </ul>
                 </div>
 
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
