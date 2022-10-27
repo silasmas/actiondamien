@@ -82,7 +82,7 @@
         </div>
         <!-- Carousel End -->
 
-        <!-- Videos -->
+        <!-- Videos Start -->
         <div class="container pt-3 pb-5">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.home_videos.main_title') }}</div>
@@ -141,7 +141,7 @@
         </div>
         <!-- Videos End -->
 
-        <!-- Statistics -->
+        <!-- Statistics Start -->
         <div class="container-xxl mb-4 p-0 position-relative">
             <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 px-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
@@ -190,7 +190,7 @@
         </div>
         <!-- Statistics End -->
 
-        <!-- Cover Photo -->
+        <!-- Cover Photo Start -->
         <section class="bg-light py-5">
             <div class="container">
                 <div class="row g-4 justify-content-center">
@@ -342,5 +342,15 @@
             </div>
         </div>
         <!-- Report End -->
+
+        <!-- News Start -->
+        <div class="container-xxl py-5 bg-green">
+            <div class="container">
+                <div class="row">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- News End -->
 
 @endsection
