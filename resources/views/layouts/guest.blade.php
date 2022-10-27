@@ -99,7 +99,7 @@
                 <div class="dropdown">
                     <a href="#" class="fs-2 text-dark" data-bs-toggle="dropdown" title="{{ __('miscellaneous.your_language') }}"><i class="fa fa-language"></i></a>
 
-                    <div class="dropdown-menu">
+                    <div class="dropdown-menu d-inline-block">
                         <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
