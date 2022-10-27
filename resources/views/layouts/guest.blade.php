@@ -28,7 +28,7 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -84,7 +84,7 @@
                 @break
             @default
                         <span class="fi fi-{{ $available_locale }}"></span>
-        @endswitch    
+        @endswitch
                     </a>
     @endif
 @endforeach
@@ -114,7 +114,7 @@
                 @break
             @default
                                 <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
-        @endswitch    
+        @endswitch
 
                                 {{ $locale_name }}
                             </a>
@@ -131,7 +131,7 @@
                 @break
             @default
                                 <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
-        @endswitch    
+        @endswitch
 
                                 {{ $locale_name }}
                             </a>
@@ -147,7 +147,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
-                        <a href="" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
+                        <a href="{{ route('home') }}" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
                             <div class="dropdown-menu m-0">
