@@ -284,12 +284,12 @@
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative h-100 over" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pe-5 rounded" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
-                            <div class="row g-0 position-absolute" style="width: 90%;bottom: -30px; left: -10px;">
-                                <div class="col-sm-1 bg-dark py-2 rounded-sm-start">
+                        <div class="position-relative h-100 rounded overflow-hidden" style="min-height: 400px;">
+                            <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
+                            <div class="row g-0 position-absolute rounded overflow-hidden" style="width: 90%;bottom: -30px; left: -10px;">
+                                <div class="col-sm-1 bg-dark py-2">
                                 </div>
-                                <div class="col-sm-11 bg-yellow p-2 clearfix rounded-sm-end">
+                                <div class="col-sm-11 bg-yellow p-2 clearfix">
                                     <h2 class="h2 float-start mt-2 me-2"><i class="fa fa-phone text-white"></i></h2>
                                     <div>
                                         <p class="m-0 text-white">{{ __('miscellaneous.support.call') }}</p>
