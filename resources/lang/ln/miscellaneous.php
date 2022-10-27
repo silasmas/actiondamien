@@ -42,12 +42,12 @@ return [
     'message_label' => 'Nsango :',
     'address' => [
         'number' => 'Nimero',
-		'street' => 'Avenue',
-		'neighborhood' => 'Kartie',
-		'area' => 'Commune',
-		'reference' => 'Referansi',
-		'city' => 'Engumba',
-	],
+        'street' => 'Avenue',
+        'neighborhood' => 'Kartie',
+        'area' => 'Commune',
+        'reference' => 'Referansi',
+        'city' => 'Engumba',
+    ],
     'day' => [
         'complete' => [
             'sunday' => 'Mwa lomingo',
@@ -234,7 +234,7 @@ return [
         'countries_count_1' => 'Mikili 8',
         'disease_2' => 'Tuberculose',
         'countries_count_2' => 'Mikili 15',
-        'disease_3' => 'Ulcère ya Buruli',
+        'disease_3' => 'Ulcère ya Buruli na Pian',
         'countries_count_3' => 'Mikili 3'
     ],
     'hospitals' => [

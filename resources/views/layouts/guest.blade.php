@@ -64,9 +64,9 @@
                     <small><i class="fa fa-map-marker-alt me-2"></i>{{ __('miscellaneous.actiondamien_address') }}</small>
                 </div>
 
-                <div class="col-lg-8 px-5 text-end text-dark" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
+                <div class="col-lg-8 px-5 text-end" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <!-- Social networks -->
-                    <small><a class="text-dark me-3" href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
+                    <small ><a class="me-3" style="color:#58b8a7 !important"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
                     <a class="text-dark ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="text-dark ms-3" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="text-dark ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>

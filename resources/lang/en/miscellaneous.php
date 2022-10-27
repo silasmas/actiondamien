@@ -42,12 +42,12 @@ return [
     'message_label' => 'Message:',
     'address' => [
         'number' => 'Number',
-		'street' => 'Street',
-		'neighborhood' => 'Neighborhood',
-		'area' => 'Area',
-		'reference' => 'Reference',
-		'city' => 'City',
-	],
+        'street' => 'Street',
+        'neighborhood' => 'Neighborhood',
+        'area' => 'Area',
+        'reference' => 'Reference',
+        'city' => 'City',
+    ],
     'day' => [
         'complete' => [
             'sunday' => 'Sunday',
@@ -234,7 +234,7 @@ return [
         'countries_count_1' => '8 countries',
         'disease_2' => 'Tuberculosis',
         'countries_count_2' => '15 countries',
-        'disease_3' => 'Buruli ulcer',
+        'disease_3' => 'Buruli ulcer & Pian',
         'countries_count_3' => '3 countries'
     ],
     'hospitals' => [
