@@ -99,6 +99,23 @@
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                    <!-- Language toggle -->
+@foreach ($available_locales as $locale_name => $available_locale)
+    @if ($available_locale != $current_locale)
+                    <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
+        @switch($available_locale)
+            @case('en')
+                        <span class="fi fi-us"></span>
+                @break
+            @case('ln')
+                        <span class="fi fi-cd"></span>
+                @break
+            @default
+                        <span class="fi fi-{{ $available_locale }}"></span>
+        @endswitch    
+                    </a>
+    @endif
+@endforeach
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
