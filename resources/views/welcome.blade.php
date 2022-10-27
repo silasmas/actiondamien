@@ -347,7 +347,7 @@
         <div class="container-xxl py-5 bg-green">
             <div class="container">
                 <div class="row">
-                    
+                    <div class="col-12 p-5"></div>
                 </div>
             </div>
         </div>
