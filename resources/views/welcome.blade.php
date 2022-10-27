@@ -258,7 +258,7 @@
         <!-- Hospitals End -->
 
         <!-- Support Start -->
-        <div class="container-xxl py-5" data-parallax="scroll" style="background: rgba(300, 300, 300, 0.96) url(/assets/img/photo/_back.jpg)">
+        <div class="container-xxl py-5" data-parallax="scroll" style="background: rgba(300, 300, 300, 0.96) url(/assets/img/photo/_back.png)">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -285,7 +285,7 @@
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative h-100" style="min-height: 400px;">
-                            <div class="position-relative rounded overflow-hidden">
+                            <div class="position-relative h-100 rounded overflow-hidden">
                                 <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
                             </div>
                             <div class="row g-0 position-absolute rounded overflow-hidden" style="width: 90%;bottom: -30px; left: -10px;">
