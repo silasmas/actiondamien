@@ -183,11 +183,8 @@
             <div class="container-fluid copyright">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a href="#">Action Damien</a>, Tout droit réservé.
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            Designed By <a href="https://silasmas.com">Silasmas</a>
+                        <div class="col-md-6 text-center mb-3 mb-md-0 mx-auto">
+                            &copy; <a href="#">Action Damien {{ __('miscellaneous.drc') }}</a>, {{ __('miscellaneous.all_right_reserved') }}
                         </div>
                     </div>
                 </div>
