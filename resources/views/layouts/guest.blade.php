@@ -184,7 +184,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 text-center mb-3 mb-md-0 mx-auto">
-                            &copy; <a href="#">Action Damien {{ __('miscellaneous.drc') }}</a>, {{ __('miscellaneous.all_right_reserved') }}
+                            &copy; {{ date('Y') }} <a href="#">Action Damien {{ __('miscellaneous.drc') }}</a>
                         </div>
                     </div>
                 </div>
