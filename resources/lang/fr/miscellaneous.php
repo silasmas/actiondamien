@@ -12,6 +12,7 @@ return [
     'actiondamien_slogan' => 'Agir, c\'est contagieux !',
     'actiondamien_description' => 'Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies typiquement liées à la pauvreté, comme l\'ulcère de Buruli et le Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',
+    'drc' => 'RDC',
     'all_right_reserved' => 'Tout droit réservé',
     'your_language' => 'Votre langue',
     'back_home' => 'Retourner à la page d\'accueil',
