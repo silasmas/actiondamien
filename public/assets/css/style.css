@@ -9,45 +9,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-/********** Widgets **********/
-.counter-box {
-	display: block;
-	background: #f6f6f6;
-	padding: 40px 20px 37px;
-	text-align: center
-}
-
-.counter-box p {
-	margin: 5px 0 0;
-	padding: 0;
-	color: #909090;
-	font-size: 18px;
-	font-weight: 500
-}
-
-.counter-box i {
-	font-size: 60px;
-	margin: 0 0 15px;
-	color: #d2d2d2
-}
-
-.counter { 
-	display: block;
-	font-size: 32px;
-	font-weight: 700;
-	color: #666;
-	line-height: 28px
-}
-
-.counter-box.colored {
-      background: #3acf87;
-}
-
-.counter-box.colored p,
-.counter-box.colored i,
-.counter-box.colored .counter {
-	color: #fff
-}
 /********** Template CSS **********/
 :root {
     --danger: #dc3545;
@@ -516,6 +477,72 @@ body {
 }
 
 /********** Custom styles **********/
+
+/* Counter */
+.counter-box {
+	display: block;
+	background: #f6f6f6;
+	padding: 40px 20px 37px;
+	text-align: center
+}
+
+.counter-box p {
+	margin: 5px 0 0;
+	padding: 0;
+	color: #909090;
+	font-size: 18px;
+	font-weight: 500
+}
+
+.counter-box i {
+	font-size: 60px;
+	margin: 0 0 15px;
+	color: #d2d2d2
+}
+
+.counter { 
+	display: block;
+	font-size: 32px;
+	font-weight: 700;
+	color: #666;
+	line-height: 28px
+}
+
+.counter-box.colored {
+      background: #3acf87;
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+	color: #fff
+}
+
+/* Some colors */
+.bg-green {
+    background-color: #45a899!important;
+}
+
+.border-green {
+    border-color: #4fb9a9!important;
+}
+
+.text-green {
+    color: #45a899!important;
+}
+
+.btn-green {
+    background-color: #4fb9a9!important;
+    color: #fff!important;
+    border-color: #45a899!important;
+}
+
+.btn-green:hover {
+    background-color: #4cb4a5!important;
+    color: #fff!important;
+    border-color: #45a899!important;
+}
+
 .border-yellow {
     border-color: #facb79!important;
 }
