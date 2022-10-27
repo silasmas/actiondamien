@@ -155,6 +155,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+    color: #368375!important;
     background-color: rgba(163, 215, 230, .3)!important;
 }
 
