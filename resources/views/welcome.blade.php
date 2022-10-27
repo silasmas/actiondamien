@@ -301,13 +301,14 @@
         <div class="container-xxl py-5 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-7 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-6 col-sm-7 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="bg-image shadow">
                             <img src="{{ asset('assets/img/photo/report.png') }}" alt="" class="img-fluid rounded">
                             <div class="mask"></div>
                         </div>
                     </div>
-                    <div class="col-lg-7 col-sm-5 wow fadeInUp" data-wow-delay="0.1s">
+
+                    <div class="col-lg-6 col-sm-5 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="p-4 bg-light h-100">
                             <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
                             <hr class="hr mb-4 border boder-default">
@@ -318,7 +319,6 @@
                                     <i class="fa fa-arrow-right align-bottom"></i>
                                 </div>
                             </a>
-
                         </div>
                     </div>
                 </div>
