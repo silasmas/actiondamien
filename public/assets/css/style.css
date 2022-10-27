@@ -197,6 +197,11 @@ body {
         transition: .5s;
         opacity: 1;
     }
+
+    #statistics {
+        position: relative;
+        margin-top: -3rem;
+    }
 }
 
 
