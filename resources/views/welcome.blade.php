@@ -177,6 +177,17 @@
 
         <!-- Cover Photo -->
         <section class="bg-light py-5">
+            <div class="container-xxl">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="bg-image">
+                            <img src="{{ asset('assets/img/photo/maps8_2.jpg') }}" alt="cover">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.national_cover.title') }}</div>
