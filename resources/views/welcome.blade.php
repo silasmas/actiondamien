@@ -181,7 +181,7 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="bg-image">
-                            <img src="{{ asset('assets/img/photo/maps8_2.jpg') }}" alt="cover">
+                            <img src="{{ asset('assets/img/photo/maps8_2.jpg') }}" alt="cover" class="img-fluid">
                             <div class="mask"></div>
                         </div>
                     </div>
