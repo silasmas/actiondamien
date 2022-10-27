@@ -96,9 +96,7 @@
                     <img src="{{ asset('assets/img/logo-01.png') }}" alt="Action Damien" class="" width="150">
                 </a>
 
-                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="language-toggle">
                     <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
@@ -116,6 +114,11 @@
                     </a>
     @endif
 @endforeach
+                </div>
+
+                <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
