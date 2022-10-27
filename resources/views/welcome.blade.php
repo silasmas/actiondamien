@@ -267,7 +267,7 @@
                             <h1 class="display-6 mb-4">{{ __('miscellaneous.support.subtitle') }}</h1>
                             <h5 class="h5 mb-4 text-muted">{{ __('miscellaneous.support.comment') }}</h3>
                             <p class="lead mb-4 text-dark">{{ __('miscellaneous.support.description') }}</h5>
-                            <p class="mb-4">{{ __('miscellaneous.support.content') }}</p>
+                            <p class="mb-4 text-dark">{{ __('miscellaneous.support.content') }}</p>
                             <a class="btn btn-yellow py-2 px-3 mb-2 me-3" href="{{ route('support_us') }}">
                                 {{ __('miscellaneous.support.link_1') }}
                                 <div class="d-inline-flex btn-sm-square bg-white text-yellow rounded-circle ms-2">
@@ -286,7 +286,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative h-100" style="min-height: 400px;">
                             <div class="position-relative h-100 rounded overflow-hidden">
-                                <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
+                                <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
                             </div>
                             <div class="row g-0 position-absolute rounded overflow-hidden" style="width: 90%;bottom: -30px; left: -10px;">
                                 <div class="col-sm-1 bg-dark py-2">
