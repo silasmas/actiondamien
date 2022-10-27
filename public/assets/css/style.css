@@ -155,8 +155,8 @@ body {
 }
 
 .navbar .navbar-nav .nav-link .dropdown-menu .dropdown-item:hover {
-    color: #58b8a7;
-    background-color: rgba(163, 215, 230, .5);
+    color: #58b8a7!important;
+    background-color: rgba(163, 215, 230, .5)!important;
 }
 
 .navbar .navbar-nav .nav-link.active,
