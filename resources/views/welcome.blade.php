@@ -145,9 +145,7 @@
         <div class="container-xxl p-0 position-relative">
             <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 px-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
-                <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
-
-
+                <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description') }}</h1>
             </div>
 
             <div class="row">
@@ -163,7 +161,7 @@
         <div class="container position-relative" style="margin-top: -3rem;">
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="counter-box px-4 shadow-1">
+                    <div class="counter-box px-4 shadow-2">
                         <i class="fa fa-users"></i>
                         <span class="counter">6</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_1') }}</p>
@@ -172,7 +170,7 @@
                 </div>
 
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
-                    <div class="counter-box px-4 shadow-1">
+                    <div class="counter-box px-4 shadow-2">
                         <i class="fa fa-microscope"></i>
                         <span class="counter">10</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_2') }}</p>
@@ -181,7 +179,7 @@
                 </div>
 
                 <div class="four col-sm-4 wow fadeInUp" data-wow-delay="2.1s">
-                    <div class="counter-box px-4 shadow-1">
+                    <div class="counter-box px-4 shadow-2">
                         <i class="fa fa-stethoscope"></i>
                         <span class="counter">2</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_3') }}</p>
@@ -195,10 +193,6 @@
         <!-- Cover Photo -->
         <section class="bg-light py-5">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.national_cover.title') }}</div>
-                    <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description') }}</h1>
-                </div>
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
