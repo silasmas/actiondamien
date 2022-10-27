@@ -12,6 +12,7 @@ return [
     'actiondamien_slogan' => 'Misala ezali contagieux !',
     'actiondamien_description' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola Ulcère ya Buruli na Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',
+    'drc' => 'RDC',
     'all_right_reserved' => 'Makoki nyonso ya yo',
     'your_language' => 'Monoko na yo',
     'back_home' => 'Zongela na lokasa ya ebandeli',
