@@ -359,9 +359,9 @@
                             <div class="mask"></div>
                         </div>
 
-                        <div class="testimonial-text rounded p-3">
-                            <h4 class="h4 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
-                            <p class="small">Colita tempor justo dolor ipsum amet kasd amet duo trakosme ...</p>
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
+                            <p class="small text-truncate">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             <p class="mt-4 mb-0">
                                 <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
                             </p>
@@ -374,9 +374,9 @@
                             <div class="mask"></div>
                         </div>
 
-                        <div class="testimonial-text rounded p-3">
-                            <h4 class="h4 fw-bold">Duis ac tellus et risus vulputate vehicula</h4>
-                            <p class="small">Lorem ipsum dolor sit amet carmio nellus baefillas dartecos nidea ...</p>
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">Donec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</h4>
+                            <p class="small text-truncate">Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit.</p>
                             <p class="mt-4 mb-0">
                                 <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
                             </p>
