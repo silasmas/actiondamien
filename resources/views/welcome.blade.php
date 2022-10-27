@@ -258,7 +258,7 @@
         <!-- Hospitals End -->
 
         <!-- Support Start -->
-        <div class="container-xxl py-5" data-parallax="scroll" data-image-src="{{ asset('assets/img/photo/back.jpg') }}" style="background-color: rgba(300, 300, 300, 0.96)">
+        <div class="container-xxl py-5" data-parallax="scroll" style="background: rgba(300, 300, 300, 0.96) url(/assets/img/photo/back.jpg)">
             <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
