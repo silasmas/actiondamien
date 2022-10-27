@@ -354,22 +354,32 @@
 
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{ asset('assets/img/photo/ANNEXE 11 IMAGE POUR LA PARTIE NOUS SOUTENIR.jpeg') }}" style="width: 250px; height: 250px;">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/ANNEXE 11 IMAGE POUR LA PARTIE NOUS SOUTENIR.jpeg') }}">
+                            <div class="mask"></div>
+                        </div>
 
-                        <div class="testimonial-text rounded text-center p-4">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo .</p>
-                            <h5 class="mb-1">Doner Name</h5>
-                            <span class="fst-italic">Profession</span>
+                        <div class="testimonial-text rounded p-3">
+                            <h4 class="h4 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
+                            <p class="small">Colita tempor justo dolor ipsum amet kasd amet duo trakosme ...</p>
+                            <p class="mt-4 mb-0">
+                                <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
                         </div>
                     </div>
 
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="{{ asset('assets/img/photo/W1A3398-copie-1.jpg') }}" style="width: 250px; height: 250px;">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/W1A3398-copie-1.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
 
-                        <div class="testimonial-text rounded text-center p-4">
-                            <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.</p>
-                            <h5 class="mb-1">Doner Name</h5>
-                            <span class="fst-italic">Profession</span>
+                        <div class="testimonial-text rounded p-3">
+                            <h4 class="h4 fw-bold">Duis ac tellus et risus vulputate vehicula</h4>
+                            <p class="small">Lorem ipsum dolor sit amet carmio nellus baefillas dartecos nidea ...</p>
+                            <p class="mt-4 mb-0">
+                                <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
                         </div>
                     </div>
                 </div>
