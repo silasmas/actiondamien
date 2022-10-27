@@ -97,7 +97,7 @@
                 </a>
 
                 <div class="dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" title="{{ __('miscellaneous.your_language') }}"><i class="fa fa-language"></i></a>
+                    <a href="#" class="fs-2 text-dark" data-bs-toggle="dropdown" title="{{ __('miscellaneous.your_language') }}"><i class="fa fa-language"></i></a>
 
                     <div class="dropdown-menu">
                         <!-- Language toggle -->
