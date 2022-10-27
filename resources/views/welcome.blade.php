@@ -142,7 +142,12 @@
         <!-- Videos End -->
 
         <!-- Statistics -->
-        <div class="container-xxl">
+        <div class="container-xxl position-relative">
+            <div class="position-absolute w-100 text-lg-center text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
+                <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
+                <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
+            </div>
+
             <div class="row">
                 <div class="col-12">
                     <div class="bg-image">
@@ -154,11 +159,6 @@
         </div>
 
         <div class="container">
-            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
-                <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
-            </div>
-
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
                     <div class="counter-box border border-defaultpx-4">
