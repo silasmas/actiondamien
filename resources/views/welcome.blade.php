@@ -160,10 +160,10 @@
             </div>
         </div>
 
-        <div class="container position-relative" style="top: -5rem;">
+        <div class="container" style="margin-top: -3rem;">
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="counter-box border border-defaultpx-4">
+                    <div class="counter-box px-4 shadow">
                         <i class="fa fa-users"></i>
                         <span class="counter">6</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_1') }}</p>
@@ -172,7 +172,7 @@
                 </div>
 
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
-                    <div class="counter-box border border-defaultpx-4">
+                    <div class="counter-box px-4 shadow">
                         <i class="fa fa-microscope"></i>
                         <span class="counter">10</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_2') }}</p>
@@ -180,8 +180,8 @@
                     </div>
                 </div>
 
-                <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="2.1s">
-                    <div class="counter-box border border-defaultpx-4">
+                <div class="four col-sm-4 wow fadeInUp" data-wow-delay="2.1s">
+                    <div class="counter-box px-4 shadow">
                         <i class="fa fa-stethoscope"></i>
                         <span class="counter">2</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_3') }}</p>
