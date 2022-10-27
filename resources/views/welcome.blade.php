@@ -354,7 +354,7 @@
 
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-1.jpg" style="width: 100px; height: 100px;">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-4" width="50" src="{{ asset('assets/img/photo/ANNEXE 11 IMAGE POUR LA PARTIE NOUS SOUTENIR.jpeg') }}">
 
                         <div class="testimonial-text rounded text-center p-4">
                             <p>Clita clita tempor justo dolor ipsum amet kasd amet duo .</p>
@@ -364,7 +364,7 @@
                     </div>
 
                     <div class="testimonial-item text-center">
-                        <img class="img-fluid bg-light rounded-circle p-2 mx-auto mb-4" src="img/testimonial-2.jpg" style="width: 100px; height: 100px;">
+                        <img class="img-fluid bg-light p-2 mx-auto mb-4" width="50" src="{{ asset('assets/img/photo/ANNEXE 11 IMAGE POUR LA PARTIE NOUS SOUTENIR.jpeg') }}">
 
                         <div class="testimonial-text rounded text-center p-4">
                             <p>Clita clita tempor justo dolor ipsum amet kasd amet duo justo duo duo labore sed sed.</p>
