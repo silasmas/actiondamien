@@ -284,8 +284,10 @@
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative h-100 rounded overflow-hidden" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
+                        <div class="position-relative h-100" style="min-height: 400px;">
+                            <div class="position-relative rounded overflow-hidden">
+                                <img class="position-absolute w-100 h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
+                            </div>
                             <div class="row g-0 position-absolute rounded overflow-hidden" style="width: 90%;bottom: -30px; left: -10px;">
                                 <div class="col-sm-1 bg-dark py-2">
                                 </div>
@@ -321,10 +323,7 @@
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
                             <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
-                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle me-2 align-middle">
-                                    <i class="fa fa-file-pdf align-bottom fs-3"></i>
-                                </div>
-                                {{ __('miscellaneous.report.read') }}
+                                <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
                             </a>
                         </div>
                     </div>
