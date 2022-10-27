@@ -158,7 +158,7 @@
             </div>
         </div>
 
-        <div class="container position-relative" style="margin-top: -3rem;">
+        <div id="statistics" class="container">
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
                     <div class="counter-box px-4 shadow-2">
