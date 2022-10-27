@@ -142,8 +142,8 @@
         <!-- Videos End -->
 
         <!-- Statistics -->
-        <div class="container-xxl position-relative">
-            <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
+        <div class="container-xxl p-0 position-relative">
+            <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 px-4 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
                 <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
             </div>
