@@ -69,6 +69,7 @@
                         </div>
                     </div>
                 </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">{{ __('pagination.previous') }}</span>
@@ -152,6 +153,7 @@
                         <small>{{ __('miscellaneous.statistics.content_1') }}</small>
                     </div>
                 </div>
+
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
                     <div class="counter-box border border-defaultpx-4">
                         <i class="fa fa-microscope"></i>
@@ -160,6 +162,7 @@
                         <small>{{ __('miscellaneous.statistics.content_2') }}</small>
                     </div>
                 </div>
+
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="2.1s">
                     <div class="counter-box border border-defaultpx-4">
                         <i class="fa fa-stethoscope"></i>
@@ -193,6 +196,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}" alt="">
@@ -206,6 +210,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
                             <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}" alt="">
@@ -233,6 +238,7 @@
                             <img class="position-absolute h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
                         </div>
                     </div>
+
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
                             <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.hospitals.title') }}</div>
@@ -276,6 +282,7 @@
                             </a>
                         </div>
                     </div>
+
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative h-100 over" style="min-height: 400px;">
                             <img class="position-absolute w-100 h-100 pe-5 rounded" src="{{ asset('assets/img/photo/2.webp') }}" alt="" style="object-fit: cover;">
@@ -307,16 +314,17 @@
                             <div class="mask"></div>
                         </div>
                     </div>
+
                     <div class="col-lg-7 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="p-4 bg-light h-100">
                             <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
                             <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
-                                {{ __('miscellaneous.report.read') }}
-                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2 align-middle">
-                                    <i class="fa fa-arrow-right align-bottom"></i>
+                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle me-2 align-middle">
+                                    <i class="fa fa-file-pdf align-bottom fs-3"></i>
                                 </div>
+                                {{ __('miscellaneous.report.read') }}
                             </a>
                         </div>
                     </div>
