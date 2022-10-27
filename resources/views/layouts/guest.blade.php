@@ -94,27 +94,27 @@
             <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
                 <a href="" class="navbar-brand ms-4 ms-lg-0">
                     <img src="{{ asset('assets/img/logo-01.png') }}" alt="Action Damien" class="" width="150">
-                </a>
 
-                <span class="d-lg-none d-inline-block">
-                    <!-- Language toggle -->
+                    <span class="d-lg-none d-inline-block">
+                        <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
-                    <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
+                        <a class="text-dark ms-2" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
         @switch($available_locale)
             @case('en')
-                        <span class="fi fi-us"></span>
+                            <span class="fi fi-us"></span>
                 @break
             @case('ln')
-                        <span class="fi fi-cd"></span>
+                            <span class="fi fi-cd"></span>
                 @break
             @default
-                        <span class="fi fi-{{ $available_locale }}"></span>
+                            <span class="fi fi-{{ $available_locale }}"></span>
         @endswitch    
-                    </a>
+                        </a>
     @endif
 @endforeach
-                </span>
+                    </span>
+                </a>
 
                 <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
