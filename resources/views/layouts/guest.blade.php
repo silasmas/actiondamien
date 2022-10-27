@@ -96,7 +96,7 @@
                     <img src="{{ asset('assets/img/logo-01.png') }}" alt="Action Damien" class="" width="150">
                 </a>
 
-                <div id="languageToggle" class="dropdown d-lg-inline-block d-none">
+                <div id="languageToggle" class="dropdown d-lg-none d-inline-block">
                     <a href="#" class="fs-2 text-dark" data-bs-toggle="dropdown" title="{{ __('miscellaneous.your_language') }}"><i class="fa fa-language"></i></a>
 
                     <!-- Language toggle -->
