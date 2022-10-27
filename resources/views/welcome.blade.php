@@ -143,13 +143,13 @@
 
         <!-- Statistics -->
         <div class="container-xxl position-relative">
-            <div class="position-absolute w-100 text-lg-center text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
+            <div class="position-absolute w-100 text-sm-center text-center mx-auto my-sm-5 mt-4 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
                 <h1 class="display-6 mb-5">{{ __('miscellaneous.statistics.main_description') }}</h1>
             </div>
 
             <div class="row">
-                <div class="col-12">
+                <div class="col-12 mb-4">
                     <div class="bg-image">
                         <img src="{{ asset('assets/img/photo/maps8_2.jpg') }}" alt="cover" class="img-fluid">
                         <div class="mask"></div>
