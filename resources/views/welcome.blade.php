@@ -11,7 +11,7 @@
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-sm-start justify-content-center text-sm-start">
-                                    <div class="col-lg-7 pt-4 ps-5">
+                                    <div class="col-lg-7 pt-4 ps-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">
                                             {{ __('miscellaneous.slides.title_1a') }}<br>{{ __('miscellaneous.slides.title_1b') }}<span style="font-style: italic; color: #58b8a7;">{{ __('miscellaneous.slides.title_1c') }}</span>
                                         </h1>
@@ -33,7 +33,7 @@
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-sm-end justify-content-center text-sm-end">
-                                    <div class="col-lg-7 pt-4 pe-5">
+                                    <div class="col-lg-7 pt-4 pe-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_2') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
                                         <a class="btn btn-light py-2 px-3 animated slideInDown" href="{{ route('news') }}">
@@ -53,7 +53,7 @@
                         <div class="carousel-caption">
                             <div class="container">
                                 <div class="row justify-content-sm-start justify-content-center text-sm-start">
-                                    <div class="col-lg-7 pt-4 ps-5">
+                                    <div class="col-lg-7 pt-4 ps-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_3') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
                                         <a class="btn btn-success py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
