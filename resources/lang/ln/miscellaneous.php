@@ -230,6 +230,7 @@ return [
         'title' => 'Mokili mobimba',
         'description1' => 'Bituka oyo ezwami na ',
         'description2' => 'Action Damien',
+        'year' => 'Mbula 2022',
         'link' => 'Yekola makambo mosusu',
         'disease_1' => 'Maba',
         'countries_count_1' => 'Mikili 8',

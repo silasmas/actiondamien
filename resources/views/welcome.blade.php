@@ -142,17 +142,31 @@
         <!-- Videos End -->
 
         <!-- Statistics Start -->
-        <div class="container-xxl mb-4 p-0 position-relative">
-            <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 px-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
-                <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
-                <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description1') }} <span class="text-danger">{{ __('miscellaneous.national_cover.description2') }}</span></h1>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <div class="bg-image">
-                        <img src="{{ asset('assets/img/photo/maps8_2.jpg') }}" alt="cover" class="img-fluid">
-                        <div class="mask"></div>
+        <div class="container-xxl mb-4 p-0 bg-green">
+            <div class="container-lg container-fluid px-sm-4 py-5">
+                <div class="row g-0 text-sm-start text-center ">
+                    <div class="col-sm-6 col-12">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="wow fadeInUp" data-wow-delay="0.5s" style="max-width: 600px;">
+                                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
+                                    <h1 class="display-6 mb-sm-5 mb-4">{{ __('miscellaneous.national_cover.description1') }} <span class="text-danger">{{ __('miscellaneous.national_cover.description2') }}</span></h1>
+                                </div>
+                            </div>
+                            <div class="col-12 pe-sm-5 me-sm-5">
+                                <h1 class="h1 text-white text-uppercase wow fadeInUp" data-wow-delay="0.9s">{{ __('miscellaneous.national_cover.year') }}</h1>
+                                <div class="bg-image pe-sm-5 me-sm-5">
+                                    <img src="{{ asset('assets/img/photo/map-legend-2022.png') }}" alt="legend" class="img-fluid">
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-12 pt-sm-0 pt-4">
+                        <div class="bg-image">
+                            <img src="{{ asset('assets/img/photo/map-markers2-2022.png') }}" alt="markers" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -161,7 +175,7 @@
         <div id="statistics" class="container">
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="counter-box px-4 shadow-2">
+                    <div class="counter-box px-4 border border-default">
                         <i class="fa fa-users"></i>
                         <span class="counter">6</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_1') }}</p>
@@ -170,7 +184,7 @@
                 </div>
 
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
-                    <div class="counter-box px-4 shadow-2">
+                    <div class="counter-box px-4 border border-default">
                         <i class="fa fa-microscope"></i>
                         <span class="counter">10</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_2') }}</p>
@@ -179,7 +193,7 @@
                 </div>
 
                 <div class="four col-sm-4 wow fadeInUp" data-wow-delay="2.1s">
-                    <div class="counter-box px-4 shadow-2">
+                    <div class="counter-box px-4 border border-default">
                         <i class="fa fa-stethoscope"></i>
                         <span class="counter">2</span>
                         <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_3') }}</p>
@@ -191,8 +205,8 @@
         <!-- Statistics End -->
 
         <!-- Cover Photo Start -->
-        <section class="bg-light py-5">
-            <div class="container">
+        <section class="py-5">
+            <div class="container bg-blue p-4">
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="service-item bg-white text-center h-100 p-4 py-xl-5 px-xl-4">
@@ -242,7 +256,7 @@
 
         <!-- Hospitals Start -->
         <div class="container-xxl py-5">
-            <div class="container my-5">
+            <div class="container">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
@@ -269,8 +283,8 @@
         <!-- Hospitals End -->
 
         <!-- Support Start -->
-        <div class="container-xxl py-5" data-parallax="scroll" style="background: rgba(300, 300, 300, 0.96) url(/assets/img/photo/_back.png)">
-            <div class="container">
+        <div class="container-xxl py-5" data-parallax="scroll">
+            <div class="container pb-5">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="h-100">
@@ -318,8 +332,8 @@
         <!-- Support End -->
 
         <!-- Report Start -->
-        <div class="container-xxl py-5 bg-light" style="background:#58b8a7 !important">
-            <div class="container">
+        <div class="container-xxl py-5">
+            <div class="container p-4 bg-green rounded">
                 <div class="row">
                     <div class="col-lg-5 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="bg-image shadow">
@@ -328,8 +342,8 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="background:#58b8a7 !important">
-                        <div class="p-4 bg-light h-100">
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="p-4 h-100">
                             <h2 class="h2 text-uppercase mt-sm-5" style="color:#FFF !important">{{ __('miscellaneous.report.title') }}</h2>
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4 text-width" style="color:#FFF !important">{{ __('miscellaneous.report.subtitle') }}</p>

@@ -230,6 +230,7 @@ return [
         'title' => 'Global coverage',
         'description1' => 'Provinces covered by ',
         'description2' => 'Action Damien',
+        'year' => 'Year 2022',
         'link' => 'Learn more',
         'disease_1' => 'Leprosy',
         'countries_count_1' => '8 countries',

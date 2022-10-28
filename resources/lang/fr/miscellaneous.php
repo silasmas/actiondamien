@@ -230,6 +230,7 @@ return [
         'title' => 'Couverture mondiale',
         'description1' => 'Provinces couvertes par ',
         'description2' => 'Action Damien',
+        'year' => 'Année 2022',
         'link' => 'En savoir plus',
         'disease_1' => 'Lèpre',
         'countries_count_1' => '8 pays',
