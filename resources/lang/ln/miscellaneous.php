@@ -256,6 +256,6 @@ return [
     'report' => [
         'title' => 'Lapolo ya mobu',
         'subtitle' => 'Action Damien RD Congo',
-        'download' => 'Tanga'
+        'read' => 'Tanga'
     ],
 ];
