@@ -195,7 +195,7 @@
             <div class="container">
                 <div class="row g-4 justify-content-center">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-100 p-4 py-xl-5 px-xl-4">
                             <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/lepre.png') }}" alt="">
                             <h4 class="mb-3">{{ __('miscellaneous.national_cover.disease_1') }}</h4>
                             <p class="mb-4">{{ __('miscellaneous.national_cover.countries_count_1') }}</p>
@@ -209,7 +209,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-100 p-4 py-xl-5 px-xl-4">
                             <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}" alt="">
                             <h4 class="mb-3">{{ __('miscellaneous.national_cover.disease_2') }}</h4>
                             <p class="mb-4">{{ __('miscellaneous.national_cover.countries_count_2') }}</p>
@@ -223,7 +223,7 @@
                     </div>
 
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item bg-white text-center h-100 p-4 p-xl-5">
+                        <div class="service-item bg-white text-center h-100 p-4 py-xl-5 px-xl-4">
                             <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}" alt="">
                             <h4 class="mb-3">{{ __('miscellaneous.national_cover.disease_3') }}</h4>
                             <p class="mb-4">{{ __('miscellaneous.national_cover.countries_count_3') }}</p>
