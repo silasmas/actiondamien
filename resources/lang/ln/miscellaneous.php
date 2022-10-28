@@ -228,7 +228,8 @@ return [
     ],
     'national_cover' => [
         'title' => 'Mokili mobimba',
-        'description' => 'Bituka oyo ezwami na Action Damien',
+        'description1' => 'Bituka oyo ezwami na ',
+        'description2' => 'Action Damien',
         'link' => 'Yekola makambo mosusu',
         'disease_1' => 'Maba',
         'countries_count_1' => 'Mikili 8',

@@ -228,7 +228,8 @@ return [
     ],
     'national_cover' => [
         'title' => 'Couverture mondiale',
-        'description' => 'Provinces couvertes par Action Damien',
+        'description1' => 'Provinces couvertes par ',
+        'description2' => 'Action Damien',
         'link' => 'En savoir plus',
         'disease_1' => 'Lèpre',
         'countries_count_1' => '8 pays',

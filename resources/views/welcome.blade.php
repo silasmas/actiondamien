@@ -145,7 +145,7 @@
         <div class="container-xxl mb-4 p-0 position-relative">
             <div class="position-absolute w-100 text-sm-start text-center mx-auto py-lg-5 pt-4 px-5 wow fadeInUp" data-wow-delay="0.9s" style="max-width: 600px;">
                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.statistics.main_title') }}</div>
-                <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description') }}</h1>
+                <h1 class="display-6 mb-5">{{ __('miscellaneous.national_cover.description1') }} <span class="text-danger">{{ __('miscellaneous.national_cover.description2') }}</span></h1>
             </div>
 
             <div class="row">

@@ -228,7 +228,8 @@ return [
     ],
     'national_cover' => [
         'title' => 'Global coverage',
-        'description' => 'Provinces covered by Action Damien',
+        'description1' => 'Provinces covered by ',
+        'description2' => 'Action Damien',
         'link' => 'Learn more',
         'disease_1' => 'Leprosy',
         'countries_count_1' => '8 countries',
