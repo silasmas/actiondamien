@@ -543,6 +543,30 @@ body {
     border-color: #45a899!important;
 }
 
+.bg-blue {
+    background-color: #7ab2c2!important;
+}
+
+.border-blue {
+    border-color: #6ba0af!important;
+}
+
+.text-blue {
+    color: #83b6c4!important;
+}
+
+.btn-blue {
+    background-color: #7ab2c2!important;
+    color: #fff!important;
+    border-color: #6ba0af!important;
+}
+
+.btn-blue:hover {
+    background-color: #7ab2c2!important;
+    color: #fff!important;
+    border-color: #6ba0af!important;
+}
+
 .border-yellow {
     border-color: #facb79!important;
 }
