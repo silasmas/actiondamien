@@ -234,7 +234,7 @@ return [
         'countries_count_1' => '8 countries',
         'disease_2' => 'Tuberculosis',
         'countries_count_2' => '15 countries',
-        'disease_3' => 'Buruli ulcer & Pian',
+        'disease_3' => 'Buruli ulcer et Pian',
         'countries_count_3' => '3 countries'
     ],
     'hospitals' => [

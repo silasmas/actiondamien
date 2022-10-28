@@ -16,10 +16,10 @@
                                             {{ __('miscellaneous.slides.title_1a') }}<br>{{ __('miscellaneous.slides.title_1b') }}<span style="font-style: italic; color: #58b8a7;">{{ __('miscellaneous.slides.title_1c') }}</span>
                                         </h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
-                                        <a class="btn btn-info py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                                        <a class="btn btn-green text-white py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
                                             {{ __('miscellaneous.slides.link_1') }}
 
-                                            <div class="d-inline-flex btn-sm-square bg-white rounded-circle ms-2">
+                                            <div class="d-inline-flex btn-sm-square text-green bg-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
