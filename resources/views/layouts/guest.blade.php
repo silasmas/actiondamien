@@ -28,7 +28,7 @@
         <!-- Google Web Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
 
         <!-- Icon Font Stylesheet -->
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -64,9 +64,9 @@
                     <small><i class="fa fa-map-marker-alt me-2"></i>{{ __('miscellaneous.actiondamien_address') }}</small>
                 </div>
 
-                <div class="col-lg-8 px-5 text-end text-dark" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
+                <div class="col-lg-8 px-5 text-end" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <!-- Social networks -->
-                    <small><a class="text-dark me-3" href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
+                    <small ><a class="me-3" style="color:#58b8a7 !important"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
                     <a class="text-dark ms-2" href="#"><i class="fab fa-facebook-f"></i></a>
                     <a class="text-dark ms-3" href="#"><i class="fab fa-twitter"></i></a>
                     <a class="text-dark ms-3 me-5" href="#"><i class="fab fa-instagram"></i></a>
@@ -84,7 +84,7 @@
                 @break
             @default
                         <span class="fi fi-{{ $available_locale }}"></span>
-        @endswitch    
+        @endswitch
                     </a>
     @endif
 @endforeach
@@ -114,7 +114,7 @@
                 @break
             @default
                                 <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
-        @endswitch    
+        @endswitch
 
                                 {{ $locale_name }}
                             </a>
@@ -131,7 +131,7 @@
                 @break
             @default
                                 <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
-        @endswitch    
+        @endswitch
 
                                 {{ $locale_name }}
                             </a>
@@ -147,7 +147,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
-                        <a href="" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
+                        <a href="{{ route('home') }}" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
                             <div class="dropdown-menu m-0">

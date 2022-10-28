@@ -36,7 +36,7 @@
                                     <div class="col-lg-7 pt-4 pe-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_2') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_2') }}</p>
-                                        <a class="btn btn-light py-2 px-3 animated slideInDown" href="{{ route('news') }}">
+                                        <a class="btn btn-light py-2 px-3 animated slideInDown"  href="{{ route('news') }}">
                                             {{ __('miscellaneous.slides.link_2') }}
 
                                             <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
@@ -56,7 +56,7 @@
                                     <div class="col-lg-7 pt-4 ps-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_3') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
-                                        <a class="btn btn-success py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
+                                        <a class="btn btn-success py-2 px-3 animated slideInDown" style="color:#58b8a7 !important" href="{{ route('testimonials') }}">
                                             {{ __('miscellaneous.slides.link_3') }}
                                             <div
                                                 class="d-inline-flex btn-sm-square bg-white text-success rounded-circle ms-2">
@@ -318,7 +318,7 @@
         <!-- Support End -->
 
         <!-- Report Start -->
-        <div class="container-xxl py-5 bg-light">
+        <div class="container-xxl py-5 bg-light" style="background:#58b8a7 !important">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-5 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -328,12 +328,15 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-7 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp" data-wow-delay="0.1s" style="background:#58b8a7 !important">
                         <div class="p-4 bg-light h-100">
-                            <h2 class="h2 text-uppercase mt-sm-5">{{ __('miscellaneous.report.title') }}</h2>
+                            <h2 class="h2 text-uppercase mt-sm-5" style="color:#FFF !important">{{ __('miscellaneous.report.title') }}</h2>
                             <hr class="hr mb-4 border boder-default">
-                            <p class="lead mb-4">{{ __('miscellaneous.report.subtitle') }}</p>
-                            <a class="btn btn-outline-danger py-2 mb-2 px-3" href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}">
+                            <p class="lead mb-4 text-width" style="color:#FFF !important">{{ __('miscellaneous.report.subtitle') }}</p>
+                            <a class="btn btn-outline-danger py-2 mb-2 px-3" target="blank"
+                            href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021.html"
+                            {{-- href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}" --}}
+                            >
                                 <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
                             </a>
                         </div>
@@ -348,7 +351,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                    <div class="d-inline-block rounded-pill bg-secondary text-primary py-1 px-3 mb-3">Actualité</div>
+                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">Actualité</div>
                     <h1 class="display-6 mb-5">Lisez nos derniers articles et conseils.</h1>
                 </div>
 
