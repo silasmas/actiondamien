@@ -362,7 +362,7 @@
 
 
         <!-- Testimonial Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl pb-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">Actualité</div>
