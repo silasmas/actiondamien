@@ -56,7 +56,7 @@
                                     <div class="col-lg-7 pt-4 ps-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_3') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
-                                        <a class="btn btn-blue py-2 px-3 animated slideInDown" style="color:#58b8a7 !important" href="{{ route('testimonials') }}">
+                                        <a class="btn btn-blue py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
                                             {{ __('miscellaneous.slides.link_3') }}
                                             <div
                                                 class="d-inline-flex btn-sm-square bg-white text-blue rounded-circle ms-2">
