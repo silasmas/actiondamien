@@ -255,7 +255,7 @@
         <!-- Cover Photo End -->
 
         <!-- Hospitals Start -->
-        <div class="container ps-0 py-5">
+        <div class="container ms-0 py-5">
             {{-- <div class="container mx-lg-5"> --}}
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
