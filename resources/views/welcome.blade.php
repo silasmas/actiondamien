@@ -257,10 +257,10 @@
         <!-- Hospitals Start -->
         <section class="py-5">
             <div class="container ps-0" style="background: #a3d7e6">
-                <div class="row g-5 ps-0">
+                <div class="row g-5 bg-light">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden w-100 h-100 rounded" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
+                        <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
+                            <img class="position-absolute h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
                         </div>
                     </div>
 
