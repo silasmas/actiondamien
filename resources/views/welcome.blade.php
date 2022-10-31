@@ -256,7 +256,7 @@
 
         <!-- Hospitals Start -->
         <div class="container-xxl py-5">
-            <div class="container ps-0">
+            <div class="container ms-0">
                 <div class="row g-5">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
