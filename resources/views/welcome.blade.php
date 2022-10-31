@@ -16,10 +16,10 @@
                                             {{ __('miscellaneous.slides.title_1a') }}<br>{{ __('miscellaneous.slides.title_1b') }}<span style="font-style: italic; color: #58b8a7;">{{ __('miscellaneous.slides.title_1c') }}</span>
                                         </h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_1') }}</p>
-                                        <a class="btn btn-green text-white py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                                        <a class="btn btn-danger text-white py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
                                             {{ __('miscellaneous.slides.link_1') }}
 
-                                            <div class="d-inline-flex btn-sm-square text-green bg-white rounded-circle ms-2">
+                                            <div class="d-inline-flex btn-sm-square text-danger bg-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
@@ -56,10 +56,10 @@
                                     <div class="col-lg-7 pt-4 ps-sm-5">
                                         <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown" style="font-weight: 1100;">{{ __('miscellaneous.slides.title_3') }}</h1>
                                         <p class="fs-6 text-white mb-5 animated slideInDown">{{ __('miscellaneous.slides.description_3') }}</p>
-                                        <a class="btn btn-blue py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
+                                        <a class="btn btn-green py-2 px-3 animated slideInDown" href="{{ route('testimonials') }}">
                                             {{ __('miscellaneous.slides.link_3') }}
                                             <div
-                                                class="d-inline-flex btn-sm-square bg-white text-blue rounded-circle ms-2">
+                                                class="d-inline-flex btn-sm-square bg-white text-green rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
