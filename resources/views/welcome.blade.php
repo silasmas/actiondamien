@@ -39,7 +39,7 @@
                                         <a class="btn btn-light py-2 px-3 animated slideInDown"  href="{{ route('news') }}">
                                             {{ __('miscellaneous.slides.link_2') }}
 
-                                            <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
+                                            <div class="d-inline-flex btn-sm-square bg-blue text-white rounded-circle ms-2">
                                                 <i class="fa fa-arrow-right"></i>
                                             </div>
                                         </a>
