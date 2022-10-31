@@ -255,30 +255,28 @@
         <!-- Cover Photo End -->
 
         <!-- Hospitals Start -->
-        <div class="container ms-0 py-5">
-            {{-- <div class="container mx-lg-5"> --}}
-                <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
-                            <img class="position-absolute h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.hospitals.title') }}</div>
-                            <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
-                            <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
-                            <a class="btn btn-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
-                                <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2">
-                                    <i class="fa fa-list"></i>
-                                </div>
-                                {{ __('miscellaneous.hospitals.link') }}
-                            </a>
-                        </div>
+        <div class="container ms-4 py-5">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden h-100 rounded" style="min-height: 400px;">
+                        <img class="position-absolute h-100 pe-5 rounded" src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="" style="right: -15rem;">
                     </div>
                 </div>
-            {{-- </div> --}}
+
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.hospitals.title') }}</div>
+                        <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
+                        <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
+                        <a class="btn btn-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
+                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2">
+                                <i class="fa fa-list"></i>
+                            </div>
+                            {{ __('miscellaneous.hospitals.link') }}
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- Hospitals End -->
 
