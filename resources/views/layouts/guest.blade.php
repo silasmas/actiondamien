@@ -66,15 +66,15 @@
 
                 <div class="col-lg-8 px-5 text-end" style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                     <!-- Social networks -->
-                    <small ><a class="me-3" style="color: #45a899"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
-                    <a class="ms-2" style="color: #45a899" href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a class="ms-3" style="color: #45a899" href="#"><i class="fab fa-twitter"></i></a>
-                    <a class="ms-3 me-5"  style="color: #45a899" href="#"><i class="fab fa-instagram"></i></a>
+                    <small ><a class="me-3 text-green"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
+                    <a class="ms-2 text-green" href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a class="ms-3 text-green" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="ms-3 me-5 text-green" href="#"><i class="fab fa-instagram"></i></a>
 
                     <!-- Language toggle -->
 @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale != $current_locale)
-                    <a class="ms-2" style="color: #45a899" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
+                    <a class="ms-2 text-green" href="{{ route('change_language', ['locale' => $available_locale]) }}" data-mdb-toggle="tooltip" title="{{ $locale_name }}">
         @switch($available_locale)
             @case('en')
                         <span class="fi fi-us"></span>
