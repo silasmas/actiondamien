@@ -174,6 +174,8 @@ return [
     // ===== FOOTER CONTENT
     'footer' => [
         'contact_us' => 'Nous contacter',
+        'address1' => 'Avenue Pierre Mulele,',
+        'address2' => '162 Kinshasa-Gombe',
         'quick_links' => [
             'title' => 'Liens rapides',
             'about' => 'A propos',

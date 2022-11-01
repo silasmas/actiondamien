@@ -174,6 +174,8 @@ return [
     // ===== FOOTER CONTENT
     'footer' => [
         'contact_us' => 'Kokutana na biso',
+        'address1' => 'Avenue Pierre Mulele,',
+        'address2' => '162 Kinshasa-Gombe',
         'quick_links' => [
             'title' => 'Kokende mbangu',
             'about' => 'Na ntina na',

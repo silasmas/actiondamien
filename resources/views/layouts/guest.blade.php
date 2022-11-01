@@ -202,7 +202,10 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-light mb-4">{{ __('miscellaneous.footer.contact_us') }}</h5>
-                        <p class="small"><i class="fa fa-map-marker-alt me-3"></i>{{ __('miscellaneous.actiondamien_address') }}</p>
+                        <p class="small">
+                            <i class="fa fa-map-marker-alt me-3"></i>{{ __('miscellaneous.footer.address1') }}
+                            <i class="fa fa-map-marker-alt me-3 opacity-0"></i>{{ __('miscellaneous.footer.address2') }}
+                        </p>
                         <p class="small"><i class="fa fa-phone-alt me-3"></i>+243 816 520 396</p>
                         <p class="small"><i class="fa fa-envelope me-3"></i>secretaire@actiondamien-rdc.net</p>
                     </div>
