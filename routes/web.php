@@ -26,3 +26,4 @@ Route::get('/news', [HomeController::class, 'news'])->name('news');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/sensibilization', [HomeController::class, 'sensibilization'])->name('sensibilization');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
+Route::get('/hosp_map', [HomeController::class, 'hospMap'])->name('hosp_map');
