@@ -244,16 +244,16 @@ return [
     'hospitals' => [
         'title' => 'Nos hopitaux',
         'ceda_name' => 'CEDA',
-        'ceda_description' => 'Le CEDA est le premier hôpital de la RD Congo, spécialisé dans la prise en charge hospitalière de la TB-PR. Inauguré en novembre 2014, ce dernier est constitué de 19 agents dont 1 médecin chef de projet appuyé par un médecin consultant, spécialiste en pneumologie des cliniques universitaires de Kinshasa. Cette équipe œuvre au quotidien pour la prise en charge des patients TB-PR avec des formes compliquées de la maladie. Les malades y sont accueillis chaleureusement et l’établissement dispose de 26 lits. En 2021, 123 patients ont été pris en charge au CEDA, dont 98 TB-MDR et TB-XDR.',
+        'ceda_description' => 'Le CEDA est le premier hôpital de la RD Congo, spécialisé dans la prise en charge hospitalière de la TB-PR. Inauguré en novembre 2014, ce dernier est constitué de 19 agents dont 1 médecin chef de projet appuyé par un médecin consultant, spécialiste en pneumologie des cliniques universitaires de Kinshasa. Cette équipe œuvre au quotidien pour la prise en charge des patients TB-PR avec des formes compliquées de la maladie. Les malades y sont accueillis chaleureusement et l\'établissement dispose de 26 lits. En 2021, 123 patients ont été pris en charge au CEDA, dont 98 TB-MDR et TB-XDR.',
         'link1' => 'Liste des hopitaux',
         'link2' => 'Cartographie des CSDT/CPLT'
     ],
     'support' => [
         'title' => 'Action Damien',
         'subtitle' => 'Nous soutenir',
-        'comment' => 'Vous avez envie de vous engager en faveur d’une bonne cause, mais ne savez pas comment ?',
+        'comment' => 'Vous avez envie de vous engager en faveur d\'une bonne cause, mais ne savez pas comment ?',
         'description' => 'Faites-nous don de votre temps !',
-        'content' => 'Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu’importe… Votre temps nous est précieux !',
+        'content' => 'Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu\'importe… Votre temps nous est précieux !',
         'link_1' => 'Faire un don',
         'link_2' => 'En savoir plus',
         'call' => 'Appelez maintenant'
@@ -262,5 +262,45 @@ return [
         'title' => 'Rapport Annuel',
         'subtitle' => 'Action Damien RD Congo',
         'read' => 'Lire'
+    ],
+    // Inner pages
+    'inner_page' => [
+        // Vision
+        'our_vision' => [
+            'about' => 'Action Damien est une ONG belge fondée en 1964. Une organisation forte du soutien de milliers de collaborateurs bénévoles, donateurs et sympathisants à travers le monde.',
+            'diseases' => [
+                'title' => 'Action Damien s\'emploie à éliminer quatre maladies infectieuses :',
+                'subtitle1' => 'La Lèpre',
+                'content1' => 'En RD Congo, la lèpre fait chaque année en moyenne 3.000 victimes. Bien que cette maladie ne soit pas mortelle, elle engendre souvent une invalidité permanente et entraine la marginalisation sociale des personnes atteintes. Toutefois, avec une détection précoce, les patients ont 99,9% de chance de guérison.',
+                'subtitle2' => 'La Tuberculose',
+                'content2' => 'La tuberculose est une maladie infectieuse particulièrement mortelle. Elle touche principalement les poumons mais peut aussi affecter d\'autres organes et parties du corps. Chaque année, en RD Congo, environ 200.000 personnes sont diagnostiquées, et 6.000 d\'entre elles en décèdent.',
+                'subtitle3' => 'L\'Ulcère de Buruli',
+                'content3' => 'L\'ulcère de Buruli est une infection bactérienne rare et exotique de la peau et des tissus mous. Il commence souvent par un gonflement indolore au niveau de la zone touchée, généralement les bras, les jambes ou le visage. (papules, nodules, plaques, œdèmes, ulcère). En 2021, 23 cas d\'ulcères de Buruli dont 10 femmes ont été dépistées dans la province du Haut Uélé.',
+                'subtitle4' => 'Le Pian',
+                'content4' => 'Le pian est une infection bactérienne chronique qui affecte la peau, les os et le cartilage. (Papillome, nodule, etc.) En 2021, 15 cas de Pian ont été dépistés dont 3 femmes au Haute Uélé.',
+            ],
+            'vision_desc' => [
+                'title' => 'Notre Vision',
+                'description' => '« Un futur où la lèpre et la tuberculose auront disparu »',
+                'content' => [
+                    'text' => 'Action Damien fait la différence dans la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies négligées liées à la pauvreté. Et met tout en œuvre pour :',
+                    'list1' => 'Prodiguer des soins de santé à travers la formation, la recherche et des actions médicales ciblées.',
+                    'list2' => 'Faciliter la réintégration des personnes affectées par la lèpre ou la tuberculose.',
+                    'list3' => 'Sensibiliser l\'opinion politique aux aspects médicaux et sociaux liés à la lèpre et à la tuberculose.',
+                    'list4' => 'Se doter des moyens nécessaires pour atteindre ses objectifs.',
+                ],
+            ],
+            'value' => [
+                'title' => 'Nos valeurs',
+                'subtitle1' => 'Pluralisme',
+                'content1' => 'Nous sommes ouverts à tous et rejetons toute forme de discrimination',
+                'subtitle2' => 'Indépendance',
+                'content2' => 'Nous définissons nos propres priorités, de manière indépendante et conformément à la vision de l\'organisation',
+                'subtitle3' => 'Intégrité',
+                'content3' => 'L\'ONG est synonyme de solidarité, d\'ouverture au dialogue, de justice sociale et de respect de la diversité',
+                'subtitle4' => 'Responsabilité',
+                'content4' => 'Nous sommes responsables envers nos patients, donateurs, collaborateurs et partenaires',
+            ],
+        ],
     ],
 ];

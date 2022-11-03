@@ -116,8 +116,8 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
-    color: #368375!important;
-    background-color: rgba(163, 215, 230, .3)!important;
+    color: #368375 !important;
+    background-color: rgba(163, 215, 230, .3) !important;
 }
 
 .navbar .navbar-nav .nav-link.active,
@@ -126,6 +126,7 @@ body {
 }
 
 @media (max-width: 991.98px) {
+
     .navbar .navbar-nav,
     .navbar .navbar-collapse {
         background: white;
@@ -198,7 +199,7 @@ body {
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -355,6 +356,7 @@ body {
 }
 
 @media (min-width: 768px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 200px;
@@ -362,6 +364,7 @@ body {
 }
 
 @media (min-width: 992px) {
+
     .testimonial-carousel::before,
     .testimonial-carousel::after {
         width: 300px;
@@ -431,7 +434,7 @@ body {
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -442,7 +445,7 @@ body {
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
     margin-right: 10px;
 }
 
@@ -453,8 +456,8 @@ body {
 }
 
 .footer .btn.btn-square {
-    color: rgba(255,255,255,0.5);
-    border: 1px solid rgba(255,255,255,0.5);
+    color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .footer .btn.btn-square:hover {
@@ -478,126 +481,147 @@ body {
 
 /********** Custom styles **********/
 
+/* jQuery Ellipsis */
+.ellip {
+    display: block;
+    height: 100%;
+    transition: .3s;
+}
+
+.ellip-line {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+    max-width: 100%;
+}
+
+.ellip,
+.ellip-line {
+    position: relative;
+    overflow: hidden;
+}
+
 /* Counter */
 .counter-box {
-	display: block;
-	background: #f6f6f6;
-	padding: 40px 20px 37px;
-	text-align: center
+    display: block;
+    background: #f6f6f6;
+    padding: 40px 20px 37px;
+    text-align: center
 }
 
 .counter-box p {
-	margin: 5px 0 0;
-	padding: 0;
-	color: #909090;
-	font-size: 18px;
-	font-weight: 500
+    margin: 5px 0 0;
+    padding: 0;
+    color: #909090;
+    font-size: 18px;
+    font-weight: 500
 }
 
 .counter-box i {
-	font-size: 60px;
-	margin: 0 0 15px;
-	color: #d2d2d2
+    font-size: 60px;
+    margin: 0 0 15px;
+    color: #d2d2d2
 }
 
-.counter { 
-	display: block;
-	font-size: 32px;
-	font-weight: 700;
-	color: #666;
-	line-height: 28px
+.counter {
+    display: block;
+    font-size: 32px;
+    font-weight: 700;
+    color: #666;
+    line-height: 28px
 }
 
 .counter-box.colored {
-      background: #3acf87;
+    background: #3acf87;
 }
 
 .counter-box.colored p,
 .counter-box.colored i,
 .counter-box.colored .counter {
-	color: #fff
+    color: #fff
 }
 
 /* Some colors */
 .bg-green {
-    background-color: #45a899!important;
+    background-color: #45a899 !important;
 }
 
 .border-green {
-    border-color: #4fb9a9!important;
+    border-color: #4fb9a9 !important;
 }
 
 .text-green {
-    color: #45a899!important;
+    color: #45a899 !important;
 }
 
 .btn-green {
-    background-color: #4fb9a9!important;
-    color: #fff!important;
-    border-color: #45a899!important;
+    background-color: #4fb9a9 !important;
+    color: #fff !important;
+    border-color: #45a899 !important;
 }
 
 .btn-green:hover {
-    background-color: #4cb4a5!important;
-    color: #fff!important;
-    border-color: #45a899!important;
+    background-color: #4cb4a5 !important;
+    color: #fff !important;
+    border-color: #45a899 !important;
 }
 
 .bg-blue {
-    background-color: #7ab2c2!important;
+    background-color: #7ab2c2 !important;
 }
 
 .border-blue {
-    border-color: #6ba0af!important;
+    border-color: #6ba0af !important;
 }
 
 .text-blue {
-    color: #83b6c4!important;
+    color: #83b6c4 !important;
 }
 
 .btn-blue {
-    background-color: #7ab2c2!important;
-    color: #fff!important;
-    border-color: #6ba0af!important;
+    background-color: #7ab2c2 !important;
+    color: #fff !important;
+    border-color: #6ba0af !important;
 }
 
 .btn-blue:hover {
-    background-color: #7ab2c2!important;
-    color: #fff!important;
-    border-color: #6ba0af!important;
+    background-color: #7ab2c2 !important;
+    color: #fff !important;
+    border-color: #6ba0af !important;
 }
 
 .border-yellow {
-    border-color: #facb79!important;
+    border-color: #facb79 !important;
 }
 
 .text-yellow {
-    color: #f5af37!important;
+    color: #f5af37 !important;
 }
 
 .btn-yellow {
-    background-color: #fdd68f!important;
-    color: #fff!important;
-    border-color: #fdd68f!important;
+    background-color: #fdd68f !important;
+    color: #fff !important;
+    border-color: #fdd68f !important;
 }
 
 .btn-yellow:hover {
-    background-color: #fff!important;
-    color: #333!important;
-    border-color: #facb79!important;
+    background-color: #fff !important;
+    color: #333 !important;
+    border-color: #facb79 !important;
 }
 
 .btn-outline-yellow {
-    color: #f5af37!important;
-    border-color: #facb79!important;
+    color: #f5af37 !important;
+    border-color: #facb79 !important;
 }
 
 .btn-outline-yellow:hover {
-    background-color: #facb79!important;
-    color: #fff!important;
-    border-color: #facb79!important;
+    background-color: #facb79 !important;
+    color: #fff !important;
+    border-color: #facb79 !important;
 }
 
 .bg-yellow {
-    background-color: #facb79!important;
+    background-color: #facb79 !important;
 }

@@ -10,7 +10,7 @@ return [
     */
     // ===== OTHER
     'actiondamien_slogan' => 'Let\'s act now, it\'s contagious!',
-    'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as Buruli ulcer and Pian.',
+    'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as Buruli ulcer and Yaws.',
     'actiondamien_address' => 'Pierre Mulele street, 162 Kinshasa-Gombe',
     'drc' => 'DRC',
     'all_right_reserved' => 'All right reserved',
@@ -197,7 +197,7 @@ return [
         'title_1a' => 'Let\'s act now, it\'s',
         'title_1b' => ' contagious',
         'title_1c' => '!',
-        'description_1' => 'Action Damien is a medical development NGO that participates in the global fight against leprosy, tuberculosis and other infectious diseases, such as Buruli ulcer and Pian.',
+        'description_1' => 'Action Damien is a medical development NGO that participates in the global fight against leprosy, tuberculosis and other infectious diseases, such as Buruli ulcer and Yaws.',
         'link_1' => 'Learn more',
         'title_2' => 'News',
         'description_2' => 'Stay informed on all our actions undertaken and our various descents on the ground.',
@@ -238,7 +238,7 @@ return [
         'countries_count_1' => '8 countries',
         'disease_2' => 'Tuberculosis',
         'countries_count_2' => '15 countries',
-        'disease_3' => 'Buruli ulcer et Pian',
+        'disease_3' => 'Buruli ulcer and Yaws',
         'countries_count_3' => '3 countries'
     ],
     'hospitals' => [
@@ -262,5 +262,45 @@ return [
         'title' => 'Annual Report',
         'subtitle' => 'Action Damien DR Congo',
         'read' => 'Read'
+    ],
+    // Inner pages
+    'inner_page' => [
+        // Vision
+        'our_vision' => [
+            'about' => 'Action Damien is a Belgian NGO founded in 1964. An organization with the support of thousands of volunteer collaborators, donors and sympathizers around the world.',
+            'diseases' => [
+                'title' => 'Action Damien works to eliminate four infectious diseases:',
+                'subtitle1' => 'Leprosy',
+                'content1' => 'In DR Congo, leprosy kills an average of 3,000 people every year. Although this disease is not fatal, it often causes permanent disability and leads to the social marginalization of those affected. However, with early detection, patients have a 99.9% chance of recovery.',
+                'subtitle2' => 'Tuberculosis',
+                'content2' => 'Tuberculosis is a particularly deadly infectious disease. It mainly affects the lungs but can also affect other organs and parts of the body. Each year, in DR Congo, approximately 200,000 people are diagnosed, and 6,000 of them die.',
+                'subtitle3' => 'Buruli\'s ulcer',
+                'content3' => 'Buruli ulcer is a rare and exotic bacterial infection of the skin and soft tissues. It often begins with painless swelling in the affected area, usually the arms, legs, or face. (papules, nodules, plaques, oedemas, ulcers). In 2021, 23 cases of Buruli ulcers including 10 women were detected in the province of Haut Uélé.',
+                'subtitle4' => 'Yaws',
+                'content4' => 'Yaws is a chronic bacterial infection that affects the skin, bones and cartilage. (Papilloma, nodule, etc.) In 2021, 15 cases of Yaws were detected, including 3 women in Haute Uélé.',
+            ],
+            'vision_desc' => [
+                'title' => 'Our vision',
+                'description' => '« A future where leprosy and tuberculosis will be gone »',
+                'content' => [
+                    'text' => 'Action Damien is making a difference in the global fight against leprosy, tuberculosis and other neglected poverty-related diseases. And makes every effort to:',
+                    'list1' => 'Provide health care through training, research and targeted medical actions.',
+                    'list2' => 'Facilitate the reintegration of people affected by leprosy or tuberculosis.',
+                    'list3' => 'Raise political awareness of the medical and social aspects related to leprosy and tuberculosis.',
+                    'list4' => 'Acquire the necessary means to achieve your goals.',
+                ],
+            ],
+            'value' => [
+                'title' => 'Our values',
+                'subtitle1' => 'Pluralism',
+                'content1' => 'We are open to all and reject any form of discrimination',
+                'subtitle2' => 'Independence',
+                'content2' => 'We set our own priorities, independently and in line with the vision of the organization',
+                'subtitle3' => 'Integrity',
+                'content3' => 'The NGO is synonymous with solidarity, openness to dialogue, social justice and respect for diversity.',
+                'subtitle4' => 'Responsibility',
+                'content4' => 'We are responsible to our patients, donors, collaborators and partners',
+            ],
+        ],
     ],
 ];

@@ -46,7 +46,49 @@
         <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
 
         <title>
+@if (Route::current()->getName() == 'home')
             Action Damien / {{ __('miscellaneous.main_menu.home') }}
+@endif
+
+@if (Route::current()->getName() == 'vision')
+            {{ __('miscellaneous.main_menu.who_are_we.our_vision') }}
+@endif
+
+@if (Route::current()->getName() == 'about')
+            {{ __('miscellaneous.main_menu.who_are_we.about') }}
+@endif
+
+@if (Route::current()->getName() == 'support_us')
+            {{ __('miscellaneous.main_menu.who_are_we.support_us') }}
+@endif
+
+@if (Route::current()->getName() == 'contact')
+            {{ __('miscellaneous.main_menu.who_are_we.contact') }}
+@endif
+
+@if (Route::current()->getName() == 'news')
+            {{ __('miscellaneous.main_menu.news') }}
+@endif
+
+@if (Route::current()->getName() == 'testimonials')
+            {{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}
+@endif
+
+@if (Route::current()->getName() == 'sensibilization')
+            {{ __('miscellaneous.main_menu.testimonials.sensibilization') }}
+@endif
+
+@if (Route::current()->getName() == 'projects')
+            {{ __('miscellaneous.main_menu.projects') }}
+@endif
+
+@if (Route::current()->getName() == 'donate')
+            {{ __('miscellaneous.main_menu.donate') }}
+@endif
+
+@if (Route::current()->getName() == 'hosp_map')
+            {{ __('miscellaneous.hospitals.link2') }}
+@endif
         </title>
     </head>
 
@@ -172,7 +214,7 @@
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
-                        <a class="btn btn-danger py-2 ps-2 pe-3" href="">
+                        <a class="btn btn-danger py-2 ps-2 pe-3" href="{{ route('donate') }}">
                             <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2 align-middle">
                                 <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
                             </div>
@@ -254,6 +296,7 @@
         <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
         <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/lib/parallax/parallax.min.js') }}"></script>
+        <script src="{{ asset('assets/lib/ellipsis/jquery.ellipsis.min.js') }}"></script>
 
         <!-- Custom Javascript -->
         <script src="{{ asset('assets/js/main.js') }}"></script>

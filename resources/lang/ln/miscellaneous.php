@@ -263,4 +263,44 @@ return [
         'subtitle' => 'Action Damien RD Congo',
         'read' => 'Tanga'
     ],
+    // Inner pages
+    'inner_page' => [
+        // Vision
+        'our_vision' => [
+            'about' => 'Action Damien ezali ONG ya Belgique oyo esalemaki na 1964. Ebongiseli oyo ezali na lisungi ya bankoto ya ba collaborateurs volontaires, ba donateurs mpe basungi na mokili mobimba.',
+            'diseases' => [
+                'title' => 'Action Damien asalaka mpo na kosilisa ba maladi minei oyo ezwamaka na bato:',
+                'subtitle1' => 'Maba',
+                'content1' => 'Na RD Congo, maladi ya maba ezwamaka na mwayene ya bato 3.000 mbula na mbula. Atako bokono oyo ebomaka te, mbala mingi epesaka bozangi makoki ya libela mpe ememaka na bozangisi ya bato oyo bazwami na yango. Kasi, soki bamoni yango nokinoki, bato ya maladi bazali na likoki ya kobika na 99,9%.',
+                'subtitle2' => 'Bokono ya ntolo',
+                'content2' => 'Bokono ya ntolo ezali maladi oyo ebomaka bato mingi. Ezwamaka mingimingi na mimpululu kasi ekoki mpe kozwa binama mosusu mpe biteni mosusu ya nzoto. Mbula na mbula, na DR Congo, bato pene na 200.000 bazwamaka, mpe 6.000 kati na bango bakufaka.',
+                'subtitle3' => 'Ulcère ya Buruli',
+                'content3' => 'Ulcère ya Buruli ezali infection bactérienne oyo emonanaka mingi te mpe ya exotiques na loposo mpe na ba tissus doux. Mbala mingi ebandaka na kovimba oyo ezali na mpasi te na esika oyo ebɛlami, mbala mingi na maboko, na makolo to na elongi. (ba papules, ba nodules, ba plaques, ba œdèmes, ba ulcères). Na 2021, ba cas 23 ya ba ulcères ya Buruli kati na bango basi zomi bazwamaki na etuka ya Haut Uélé.',
+                'subtitle4' => 'Pian',
+                'content4' => 'Pian ezali infection bactérienne chronique oyo ezo affecter loposo, mikuwa na cartilage. (Papillome, nodule, etc.) Na 2021, ba cas 15 ya Yaws e détecté, kati na bango basi 3 na Haute Uélé.',
+            ],
+            'vision_desc' => [
+                'title' => 'Emoneli na biso',
+                'description' => '« Avenir esika maba na tuberculose ekosila »',
+                'content' => [
+                    'text' => 'Action Damien azali kosala bokeseni na etumba ya mokili mobimba na maba, tuberculose mpe bokono misusu oyo eboyami mpo na bobola. Mpe asalaka milende nyonso mpo na:',
+                    'list1' => 'Kopesa lisalisi ya bokolongono na nzela ya mateya, bolukiluki mpe misala ya monganga oyo etalisami.',
+                    'list2' => 'Kopesa nzela na bozongisi ya bato oyo bazwami na bokono ya maba to ya ntolo.',
+                    'list3' => 'Kotombola sensibilisation politique na ba aspects médicaux mpe socials oyo etali maba mpe tuberculose.',
+                    'list4' => 'Kozwa mayele oyo esengeli mpo na kokokisa mikano na yo.',
+                ],
+            ],
+            'value' => [
+                'title' => 'Mituya na biso',
+                'subtitle1' => 'Bokeseni ya bato',
+                'content1' => 'Tozali polele mpo na bato nyonso mpe tozali koboya lolenge nyonso ya bokeseni',
+                'subtitle2' => 'Lipanda',
+                'content2' => 'Totiaki makambo na biso moko ya motuya, na lipanda mpe na boyokani na vision ya ebongiseli na biso',
+                'subtitle3' => 'Bosembo',
+                'content3' => 'ONG ezali synonyme ya bomoko, bofungwami na masolo, bosembo ya bato mpe botosi ya bokeseni.',
+                'subtitle4' => 'Mokumba',
+                'content4' => 'Tozali na mokumba ya ba maladi na biso, ba donateurs, ba collaborateurs mpe ba partenaires',
+            ],
+        ],
+    ],
 ];

@@ -32,17 +32,17 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Vision page
      *
      * @return \Illuminate\View\View
      */
     public function vision()
     {
-        return view('about');
+        return view('vision');
     }
 
     /**
-     * GET: Home page
+     * GET: About page
      *
      * @return \Illuminate\View\View
      */
@@ -52,7 +52,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Support page
      *
      * @return \Illuminate\View\View
      */
@@ -62,7 +62,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Contact page
      *
      * @return \Illuminate\View\View
      */
@@ -72,7 +72,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: News page
      *
      * @return \Illuminate\View\View
      */
@@ -82,7 +82,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Testimonials page
      *
      * @return \Illuminate\View\View
      */
@@ -92,7 +92,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Sensibilization page
      *
      * @return \Illuminate\View\View
      */
@@ -102,7 +102,7 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Projects page
      *
      * @return \Illuminate\View\View
      */
@@ -112,7 +112,17 @@ class HomeController extends Controller
     }
 
     /**
-     * GET: Home page
+     * GET: Donation page
+     *
+     * @return \Illuminate\View\View
+     */
+    public function donate()
+    {
+        return view('donate');
+    }
+
+    /**
+     * GET: Mapping page
      *
      * @return \Illuminate\View\View
      */
