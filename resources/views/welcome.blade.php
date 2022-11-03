@@ -275,7 +275,7 @@
                                 </div>
                                 {{ __('miscellaneous.hospitals.link1') }}
                             </a>
-                            <a class="btn btn-outline-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
+                            <a class="btn btn-outline-danger py-2 px-3 me-3" href="{{ route('hosp_map') }}">
                                 <div class="d-inline-flex btn-sm-square bg-danger align-middle text-white rounded-circle me-2">
                                     <i class="fa fa-location-arrow"></i>
                                 </div>
