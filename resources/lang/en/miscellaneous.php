@@ -258,6 +258,16 @@ return [
         'link_2' => 'Learn more',
         'call' => 'Call now'
     ],
+    'donate' => [
+        'title' => 'Make a donation',
+        'description' => 'We need you !',
+        'content' => 'Make a donation to support our actions.',
+        'form' => [
+            'name' => 'Your name',
+            'email' => 'Your Email',
+            'run' => 'Make your donation',
+        ],
+    ],
     'report' => [
         'title' => 'Annual Report',
         'subtitle' => 'Action Damien DR Congo',
@@ -305,8 +315,26 @@ return [
                     'paragraph1' => 'Action Damien is an apolitical, pluralist and independent organization that intends to make a difference in the global fight against leprosy, tuberculosis and other neglected diseases linked to poverty.',
                     'paragraph2' => 'We start our projects exclusively at the request of the authorities local authorities, and we withdraw when the local teams have accumulated enough knowledge, experience and financial means to fight against the disease or diseases in question without the need for us.',
                     'paragraph3' => 'But what matters most to us are the patients. We want to support them all and provide them with the best care.',
-                    'paragraph4' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.',
+                    'paragraph4' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.'
                 ],
+            ],
+            'activities' => [
+                'title' => 'What are the main activities of Action Damien?',
+                'content' => 'To fight and eradicate leprosy, tuberculosis, Buruli ulcer and yaws, we are fighting on a multitude of fronts:',
+                'list1' => 'Medical help',
+                'list_desc1' => 'Our teams in the field make a diagnosis and prescribe quality treatment. Throughout this treatment, doctors and nurses monitor the patient to prevent the risk of relapse or pharmacological resistance.',
+                'list2' => 'Active screening',
+                'list_desc2' => 'We are actively looking for infected people so that they can be quickly put on treatment. This approach helps to limit the number of new cases.',
+                'list3' => 'Information and awareness',
+                'list_desc3' => 'Recognition of symptoms by patients or caregivers is one of the first steps towards recovery. For this reason, but also to fight against the stigma associated with these diseases, Action Damien relies heavily on awareness and information.',
+                'list4' => 'Education and training',
+                'list_desc4' => 'We train medical staff in the diagnosis and treatment of illnesses and we also train our volunteers in screening. We are constantly updating their knowledge and skills.',
+                'list5' => 'Research',
+                'list_desc5' => 'Quality screening and treatment require appropriate tools and techniques. Action Damien therefore attaches great importance to operational and applied research.',
+                'list6' => 'Logistics support',
+                'list_desc6' => 'We offer our missions the financial aid and technical support they need, even sometimes in countries where we are not or no longer active.',
+                'list7' => 'Care after Cure',
+                'list_desc7' => 'Our work does not end with curing patients. We then help them find their place in society. We offer them training and even a small amount of money so that they can open a small shop. We also provide them with follow-up care in case of complications.'
             ],
         ],
     ],

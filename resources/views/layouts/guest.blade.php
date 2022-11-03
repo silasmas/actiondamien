@@ -229,7 +229,7 @@
 @yield('guest-content')
 
         <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-white-50 footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid bg-dark text-white-50 footer pt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -237,7 +237,7 @@
                             <img src="{{ asset('assets/img/logo-02.png') }}" alt="Action Damien" class="" width="200">
                             <div class="mask"></div>
                         </div>
-                        <p class="small">{{ __('miscellaneous.actiondamien_description') }}</p>
+                        <p class="small" style="text-align: justify;">{{ __('miscellaneous.actiondamien_description') }}</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-square me-3" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square me-3" href="#"><i class="fab fa-facebook-f"></i></a>
@@ -265,7 +265,7 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-light mb-4">{{ __('miscellaneous.footer.newsletter.title') }}</h5>
-                        <p>{{ __('miscellaneous.footer.newsletter.description') }}</p>
+                        <p>{{ __('miscellaneous.footer.newsletter.description') }}.</p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text" placeholder="Votre E-mail">
                             <button type="button"class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2" title="{{ __('miscellaneous.register') }}"><i class="fa fa-paper-plane"></i></button>
