@@ -192,9 +192,9 @@
 
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto p-4 p-lg-0 text-uppercase">
-                        <a href="{{ route('home') }}" class="nav-item nav-link active">{{ __('miscellaneous.main_menu.home') }}</a>
+                        <a href="{{ route('home') }}" class="nav-item nav-link {{ Route::current()->getName() == 'home' ? 'active' : '' }}">{{ __('miscellaneous.main_menu.home') }}</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
+                            <a href="#" class="nav-link dropdown-toggle {{ Route::current()->getName() == 'vision' || Route::current()->getName() == 'about' || Route::current()->getName() == 'support_us' || Route::current()->getName() == 'contact' ? 'active' : '' }}" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.who_are_we.title') }}</a>
                             <div class="dropdown-menu m-0">
                                 <a href="{{ route('vision') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.our_vision') }}</a>
                                 <a href="{{ route('about') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.about') }}</a>
@@ -202,15 +202,15 @@
                                 <a href="{{ route('contact') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.who_are_we.contact') }}</a>
                             </div>
                         </div>
-                        <a href="{{ route('news') }}" class="nav-item nav-link">{{ __('miscellaneous.main_menu.news') }}</a>
+                        <a href="{{ route('news') }}" class="nav-item nav-link {{ Route::current()->getName() == 'news' ? 'active' : '' }}">{{ __('miscellaneous.main_menu.news') }}</a>
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.testimonials.title') }}</a>
+                            <a href="#" class="nav-link dropdown-toggle {{ Route::current()->getName() == 'testimonials' || Route::current()->getName() == 'sensibilization' ? 'active' : '' }}" data-bs-toggle="dropdown">{{ __('miscellaneous.main_menu.testimonials.title') }}</a>
                             <div class="dropdown-menu m-0">
                                 <a href="{{ route('testimonials') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}</a>
                                 <a href="{{ route('sensibilization') }}" class="dropdown-item">{{ __('miscellaneous.main_menu.testimonials.sensibilization') }}</a>
                             </div>
                         </div>
-                        <a href="{{ route('projects') }}" class="nav-item nav-link">{{ __('miscellaneous.main_menu.projects') }}</a>
+                        <a href="{{ route('projects') }}" class="nav-item nav-link {{ Route::current()->getName() == 'projects' ? 'active' : '' }}">{{ __('miscellaneous.main_menu.projects') }}</a>
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
