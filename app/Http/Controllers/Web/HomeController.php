@@ -110,4 +110,14 @@ class HomeController extends Controller
     {
         return view('projects');
     }
+
+    /**
+     * GET: Home page
+     *
+     * @return \Illuminate\View\View
+     */
+    public function hospMap()
+    {
+        return view('hosp_map');
+    }
 }
