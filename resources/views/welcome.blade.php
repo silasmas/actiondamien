@@ -275,6 +275,12 @@
                                 </div>
                                 {{ __('miscellaneous.hospitals.link') }}
                             </a>
+                            <a class="btn btn-outline-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
+                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle me-2">
+                                    <i class="fa fa-grid-2"></i>
+                                </div>
+                                {{ __('miscellaneous.hospitals.link') }}
+                            </a>
                         </div>
                     </div>
                 </div>
