@@ -186,4 +186,25 @@
         </div>
         <!-- Values End -->
 
+        <!-- About Start -->
+        <div class="container-xxl">
+            <div class="container px-sm-2">
+                <div class="row g-0 bg-green border border-default overflow-hidden rounded-lg rounded-sm-0" style="border-radius: 1.2rem;">
+                    <div class="col-lg-5">
+                        <div class="bg-image">
+                            <img src="{{ asset('assets/img/photo/14.webp') }}" alt="Les patients au cœur de nos actions" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 px-lg-3 pt-lg-4 pb-lg-2 p-4 wow fadeInUp">
+                        <h2 class="h2 mb-4 wow fadeInUp" data-wow-delay="0.1s" style="color: #ffd58c">Les patients au cœur de nos actions</h2>
+                        <p class="wow fadeInUp text-white" data-wow-delay="0.3s" style="font-weight: 500;">Action Damien est une organisation apolitique, pluraliste et indépendante qui entend faire la différence dans la lutte mondiale contre la lèpre, la tuberculose et d’autres maladies négligées liées à la pauvreté.<br>Nous démarrons nos projets exclusivement à la demande des autorités locales, et nous nous retirons lorsque les équipes locales ont accumulé suffisamment de connaissances, d’expérience et de moyens financiers pour lutter contre la ou les maladies en question sans avoir besoin de nous.</p>
+                        <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-weight: 500;">Mais ce qui compte par-dessus tout à nos yeux, ce sont les patients. Nous voulons tous les soutenir et leur prodiguer les meilleurs soins.</p>
+                        <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-weight: 500;">Concrètement, nous leur offrons un diagnostic, un traitement et des soins de qualité, sans jamais négliger la prévention et le suivi, car nous voulons leur éviter les conséquences sociales de la maladie, ou du moins les limiter.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
 @endsection
