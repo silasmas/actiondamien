@@ -302,9 +302,10 @@ return [
                 'content4' => 'Nous sommes responsables envers nos patients, donateurs, collaborateurs et partenaires',
                 'comment4' => [
                     'title' => 'Les patients au cœur de nos actions',
-                    'paragraph1' => 'Action Damien est une organisation apolitique, pluraliste et indépendante qui entend faire la différence dans la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies négligées liées à la pauvreté.<br>Nous démarrons nos projets exclusivement à la demande des autorités locales, et nous nous retirons lorsque les équipes locales ont accumulé suffisamment de connaissances, d\'expérience et de moyens financiers pour lutter contre la ou les maladies en question sans avoir besoin de nous.',
-                    'paragraph2' => 'Mais ce qui compte par-dessus tout à nos yeux, ce sont les patients. Nous voulons tous les soutenir et leur prodiguer les meilleurs soins.',
-                    'paragraph3' => 'Concrètement, nous leur offrons un diagnostic, un traitement et des soins de qualité, sans jamais négliger la prévention et le suivi, car nous voulons leur éviter les conséquences sociales de la maladie, ou du moins les limiter.',
+                    'paragraph1' => 'Action Damien est une organisation apolitique, pluraliste et indépendante qui entend faire la différence dans la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies négligées liées à la pauvreté.',
+                    'paragraph2' => 'Nous démarrons nos projets exclusivement à la demande des autorités locales, et nous nous retirons lorsque les équipes locales ont accumulé suffisamment de connaissances, d\'expérience et de moyens financiers pour lutter contre la ou les maladies en question sans avoir besoin de nous.',
+                    'paragraph3' => 'Mais ce qui compte par-dessus tout à nos yeux, ce sont les patients. Nous voulons tous les soutenir et leur prodiguer les meilleurs soins.',
+                    'paragraph4' => 'Concrètement, nous leur offrons un diagnostic, un traitement et des soins de qualité, sans jamais négliger la prévention et le suivi, car nous voulons leur éviter les conséquences sociales de la maladie, ou du moins les limiter.',
                 ],
             ],
         ],

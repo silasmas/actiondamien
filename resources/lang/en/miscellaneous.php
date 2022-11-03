@@ -302,9 +302,10 @@ return [
                 'content4' => 'We are responsible to our patients, donors, collaborators and partners',
                 'comment4' => [
                     'title' => 'Patients at the heart of our actions',
-                    'paragraph1' => 'Action Damien is an apolitical, pluralist and independent organization that intends to make a difference in the global fight against leprosy, tuberculosis and other neglected diseases linked to poverty.<br>We start our projects exclusively at the request of the authorities local authorities, and we withdraw when the local teams have accumulated enough knowledge, experience and financial means to fight against the disease or diseases in question without the need for us.',
-                    'paragraph2' => 'But what matters most to us are the patients. We want to support them all and provide them with the best care.',
-                    'paragraph3' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.',
+                    'paragraph1' => 'Action Damien is an apolitical, pluralist and independent organization that intends to make a difference in the global fight against leprosy, tuberculosis and other neglected diseases linked to poverty.',
+                    'paragraph2' => 'We start our projects exclusively at the request of the authorities local authorities, and we withdraw when the local teams have accumulated enough knowledge, experience and financial means to fight against the disease or diseases in question without the need for us.',
+                    'paragraph3' => 'But what matters most to us are the patients. We want to support them all and provide them with the best care.',
+                    'paragraph4' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.',
                 ],
             ],
         ],

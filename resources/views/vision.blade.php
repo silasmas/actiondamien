@@ -200,9 +200,9 @@
 
                 <div class="col-lg-7 pb-lg-2 p-4">
                     <p class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.3s" style="color: #ffd58c">{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph1') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph2') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.9s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph3') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph1') }}<br>{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph2') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph3') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.9s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph4') }}</p>
                 </div>
             </div>
         </div>
