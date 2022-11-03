@@ -300,6 +300,12 @@ return [
                 'content3' => 'ONG ezali synonyme ya bomoko, bofungwami na masolo, bosembo ya bato mpe botosi ya bokeseni.',
                 'subtitle4' => 'Mokumba',
                 'content4' => 'Tozali na mokumba ya ba maladi na biso, ba donateurs, ba collaborateurs mpe ba partenaires',
+                'comment4' => [
+                    'title' => 'Ba malades na motema ya misala na biso',
+                    'paragraph1' => 'Action Damien ezali organisation apolitique, pluraliste mpe indépendante oyo ezali na mokano ya kosala bokeseni na bitumba ya mokili mobimba na maba, tuberculose mpe bokono misusu oyo ezangaki likebi oyo etali bobola.<br>Tobandi misala na biso kaka na bosenga ya bakonzi bakonzi ya mboka, mpe tolongwaka ntango ba équipes locales e accumule connaissance, expérience mpe ba moyens financiers ekoki mpo na kobundisa bokono to bokono oyo ezali na likambo sans besoin na biso.',
+                    'paragraph2' => 'Kasi oyo ezali na ntina mingi mpo na biso ezali bato ya maladi. Tolingi kosunga bango nyonso mpe kopesa bango lisalisi ya malamu koleka.',
+                    'paragraph3' => 'Concrètement, tozali kopesa bango diagnostic ya qualité, traitement mpe soins, sans jamais ko négliger prévention mpe suivi, mpo tolingi ko éviter ba conséquences sociales ya maladie mpo na bango, to au moins ko limiter yango.',
+                ],
             ],
         ],
     ],

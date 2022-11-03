@@ -277,7 +277,7 @@ return [
                 'subtitle3' => 'Buruli\'s ulcer',
                 'content3' => 'Buruli ulcer is a rare and exotic bacterial infection of the skin and soft tissues. It often begins with painless swelling in the affected area, usually the arms, legs, or face. (papules, nodules, plaques, oedemas, ulcers). In 2021, 23 cases of Buruli ulcers including 10 women were detected in the province of Haut Uélé.',
                 'subtitle4' => 'Yaws',
-                'content4' => 'Yaws is a chronic bacterial infection that affects the skin, bones and cartilage. (Papilloma, nodule, etc.) In 2021, 15 cases of Yaws were detected, including 3 women in Haute Uélé.',
+                'content4' => 'Yaws is a chronic bacterial infection that affects the skin, bones and cartilage. (Papilloma, nodule, etc.) In 2021, 15 cases of Yaws were detected, including 3 women in Haute Uélé.'
             ],
             'vision_desc' => [
                 'title' => 'Our vision',
@@ -287,7 +287,7 @@ return [
                     'list1' => 'Provide health care through training, research and targeted medical actions.',
                     'list2' => 'Facilitate the reintegration of people affected by leprosy or tuberculosis.',
                     'list3' => 'Raise political awareness of the medical and social aspects related to leprosy and tuberculosis.',
-                    'list4' => 'Acquire the necessary means to achieve your goals.',
+                    'list4' => 'Acquire the necessary means to achieve your goals.'
                 ],
             ],
             'value' => [
@@ -300,6 +300,12 @@ return [
                 'content3' => 'The NGO is synonymous with solidarity, openness to dialogue, social justice and respect for diversity.',
                 'subtitle4' => 'Responsibility',
                 'content4' => 'We are responsible to our patients, donors, collaborators and partners',
+                'comment4' => [
+                    'title' => 'Patients at the heart of our actions',
+                    'paragraph1' => 'Action Damien is an apolitical, pluralist and independent organization that intends to make a difference in the global fight against leprosy, tuberculosis and other neglected diseases linked to poverty.<br>We start our projects exclusively at the request of the authorities local authorities, and we withdraw when the local teams have accumulated enough knowledge, experience and financial means to fight against the disease or diseases in question without the need for us.',
+                    'paragraph2' => 'But what matters most to us are the patients. We want to support them all and provide them with the best care.',
+                    'paragraph3' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.',
+                ],
             ],
         ],
     ],

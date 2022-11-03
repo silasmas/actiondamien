@@ -186,26 +186,26 @@
         </div>
         <!-- Values End -->
 
-        <!-- About Start -->
+        <!-- Fourth Value Start -->
         <div class="container-xxl px-0 mx-0">
             <div class="row g-0 bg-green border border-default overflow-hidden h-lg-25 wow fadeInUp" data-wow-delay="0.3s">
                 <div class="col-lg-5 overflow-hidden">
                     <div class="bg-image">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="Les patients au cœur de nos actions" class="d-lg-none d-md-none d-sm-none d-inline-block w-100">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="Les patients au cœur de nos actions" class="d-lg-none d-md-inline-block d-sm-inline-block d-none w-100">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="Les patients au cœur de nos actions" class="d-lg-inline-block d-md-none d-sm-none d-none" style="max-width: 40rem;">
+                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-none d-md-none d-sm-none d-inline-block w-100">
+                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-none d-md-inline-block d-sm-inline-block d-none w-100">
+                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-inline-block d-md-none d-sm-none d-none" style="max-width: 40rem;">
                         <div class="mask"></div>
                     </div>
                 </div>
 
                 <div class="col-lg-7 pb-lg-2 p-4">
-                    <p class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.3s" style="color: #ffd58c">Les patients au cœur de nos actions</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-size: 1.2rem;">Action Damien est une organisation apolitique, pluraliste et indépendante qui entend faire la différence dans la lutte mondiale contre la lèpre, la tuberculose et d’autres maladies négligées liées à la pauvreté.<br>Nous démarrons nos projets exclusivement à la demande des autorités locales, et nous nous retirons lorsque les équipes locales ont accumulé suffisamment de connaissances, d’expérience et de moyens financiers pour lutter contre la ou les maladies en question sans avoir besoin de nous.</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-size: 1.2rem;">Mais ce qui compte par-dessus tout à nos yeux, ce sont les patients. Nous voulons tous les soutenir et leur prodiguer les meilleurs soins.</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.9s" style="font-size: 1.2rem;">Concrètement, nous leur offrons un diagnostic, un traitement et des soins de qualité, sans jamais négliger la prévention et le suivi, car nous voulons leur éviter les conséquences sociales de la maladie, ou du moins les limiter.</p>
+                    <p class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.3s" style="color: #ffd58c">{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph1') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph2') }}</p>
+                    <p class="wow fadeInUp text-white" data-wow-delay="0.9s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph3') }}</p>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Fourth Value End -->
 
 @endsection
