@@ -216,7 +216,7 @@
                     <div class="d-none d-lg-flex ms-2">
                         <a class="btn btn-danger py-2 ps-2 pe-3" href="{{ route('donate') }}">
                             <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2 align-middle">
-                                <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="">
+                                <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="Action Damien">
                             </div>
                             {{ __('miscellaneous.main_menu.donate') }}
                         </a>
