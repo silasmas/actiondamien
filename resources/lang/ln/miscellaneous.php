@@ -245,7 +245,8 @@ return [
         'title' => 'Ba lopitalo na biso',
         'ceda_name' => 'CEDA',
         'ceda_description' => 'CEDA ezali lopitalo ya liboso na RD Congo, oyo ezali spécialisé na ba soins ya TB-PR. Efungwama na novembre 2014, oyo ya suka ezali na ba agents 19 oyo dokotolo 1 ya directeur ya projet asungami na conseiller, spécialiste ya pneumologie ya ba cliniques universitaires ya Kinshasa. Ekipi oyo esalaka mokolo na mokolo mpo na kobatela bato ya maladi ya TB oyo bazali na mitindo ya mindondo ya maladi yango. Ba malades bayambami na esengo kuna mpe établissement ezali na mbeto 26. Na 2021, ba maladi 123 bazwaki lisalisi na CEDA, kati na bango 98 MDR-TB mpe XDR-TB.',
-        'link' => 'Liste ya ba lopitalo'
+        'link1' => 'Liste ya ba lopitalo',
+        'link2' => 'Cartographie ya ba CSDT/CPLT'
     ],
     'support' => [
         'title' => 'Action Damien',
