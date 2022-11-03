@@ -270,16 +270,16 @@
                             <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
                             <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
                             <a class="btn btn-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
-                                <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2">
+                                <div class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
                                     <i class="fa fa-list"></i>
                                 </div>
-                                {{ __('miscellaneous.hospitals.link') }}
+                                {{ __('miscellaneous.hospitals.link1') }}
                             </a>
                             <a class="btn btn-outline-danger py-2 px-3 me-3" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
-                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle me-2">
-                                    <i class="fa fa-grid-2"></i>
+                                <div class="d-inline-flex btn-sm-square bg-danger align-middle text-white rounded-circle me-2">
+                                    <i class="fa fa-list"></i>
                                 </div>
-                                {{ __('miscellaneous.hospitals.link') }}
+                                {{ __('miscellaneous.hospitals.link2') }}
                             </a>
                         </div>
                     </div>
