@@ -364,5 +364,15 @@ return [
                 'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.',
             ]
         ],
+        // Support us
+        'support_us' => [
+            'title' => 'Support us',
+            'description' => 'Give us your time! Do you want to get involved in a good cause, but don\'t know how? Become a volunteer at Action Damien! You can help us for a few hours by selling markers during our campaign weekend, by organizing an event yourself or by mobilizing regularly and over the long term for Action Damien. Whatever...',
+            'comment' => 'Your time is precious to us!',
+            'link' => 'See our projects',
+            '' => [
+                '' => '',
+            ],
+        ],
     ],
 ];

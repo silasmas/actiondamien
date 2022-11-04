@@ -364,5 +364,15 @@ return [
                 'title2_content2' => 'Toute personne qui participe à la lutte fait partie de l\'histoire. Ensemble, nous produisons une réaction en chaîne dans laquelle chaque maillon est important. La contagion renvoie aussi au travail médical d\'Action Damien et aux maladies infectieuses qui existent à cause de la contagion. Nous choisissons consciemment l\'approche positive, car l\'effet d\'un engagement contagieux permet un meilleur avenir pour nous tous, sans lèpre et sans tuberculose',
             ]
         ],
+        // Support us
+        'support_us' => [
+            'title' => 'Nous soutenir',
+            'description' => 'Faites-nous don de votre temps ! Vous avez envie de vous engager en faveur d\'une bonne cause, mais ne savez pas comment ? Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu\'importe…',
+            'comment' => 'Votre temps nous est précieux !',
+            'link' => 'Voir nos projets',
+            '' => [
+                '' => '',
+            ],
+        ],
     ],
 ];

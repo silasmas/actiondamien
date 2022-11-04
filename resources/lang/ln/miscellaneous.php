@@ -364,5 +364,15 @@ return [
                 'title2_content2' => 'Moto nyonso oyo azali kosangana na etumba azali eteni ya lisolo. Elongo, tobimisaka réaction en chaîne oyo kati na yango lien moko na moko ezali na ntina. Contagion ezali mpe kolobela mosala ya monganga ya Action Damien mpe bokono ya kozwama oyo ezali mpo na contagion. Toponaka na bososoli nyonso lolenge ya malamu, mpo ete effet ya engagement infectieux epesaka nzela na avenir ya malamu mpo na biso banso, sans maba mpe tuberculose.',
             ]
         ],
+        // Support us
+        'support_us' => [
+            'title' => 'Bosunga biso',
+            'description' => 'Pesa biso tango na yo! Olingi komikotisa na likambo moko ya malamu, kasi oyebi te ndenge nini? Kokoma mosali ya bolingi na Action Damien! Okoki kosalisa biso na boumeli ya mwa bangonga na kotekaka ba marqueurs na wikende ya campagne na biso, na kobongisaka molulu yo moko to na ko mobiliser mbala na mbala mpe na mikolo milayi mpo na Action Damien. Nyonso...',
+            'comment' => 'Ntango na yo ezali na motuya mingi mpo na biso!',
+            'link' => 'Tala mabongisi na biso',
+            '' => [
+                '' => '',
+            ],
+        ],
     ],
 ];
