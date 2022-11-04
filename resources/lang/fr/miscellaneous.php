@@ -382,6 +382,33 @@ return [
                 'way3_content1' => 'Vous pouvez également faire un don au :',
                 'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
+            'join_us' => [
+                'title' => 'Nous rejoindre',
+                'description' => 'Devenir bénévole pour Action Damien',
+                'how_to_join' => [
+                    'title1' => 'École',
+                    'content1_a' => 'Vous êtes enseignant(e) ? Étudiant(e) ?',
+                    'content1_b' => 'Aidez-nous à sensibiliser dans des écoles !',
+                    'title2' => 'Campagne',
+                    'content2' => 'Aidez-nous à transmettre notre message et à sensibiliser sur la lèpre et la tuberculose !',
+                    'title3' => 'Ambassadeur',
+                    'content3' => 'Transmettez autour de vous le message de notre ONG via les réseaux sociaux ou la presse'
+                ],
+                'form' => [
+                    'title' => 'Nous sommes impatients de vous rencontrer !',
+                    'firstname' => 'Prénom',
+                    'lastname' => 'Nom de famille',
+                    'email' => 'E-mail',
+                    'phone' => 'Téléphone',
+                    'commitment_title' => 'Je veux :',
+                    'commitment_content1' => 'm\'engager comme bénévole au sein d\'Action Damien',
+                    'commitment_content2' => 'créer une équipe de vendeurs locaux',
+                    'commitment_content3' => 'devenir animateur',
+                    'commitment_content4' => 'aider sur des événements locaux et nationaux',
+                    'question' => 'Question ou commentaire',
+                    'button_send' => 'Envoyer'
+                ]
+            ],
         ],
     ],
 ];

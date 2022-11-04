@@ -382,6 +382,33 @@ return [
                 'way3_content1' => 'Okoki mpe kopesa makabo na:',
                 'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
+            'join_us' => [
+                'title' => 'Sangana na biso',
+                'description' => 'Kokoma mosali ya bolingi mpo na Action Damien',
+                'how_to_join' => [
+                    'title1' => 'Eteyelo',
+                    'content1_a' => 'Ozali molakisi? Mwana-kelasi ?',
+                    'content1_b' => 'Sunga biso to sensibiliser na ba écoles!',
+                    'title2' => 'Kampanye',
+                    'content2' => 'Sunga biso topanza mateya na biso pe to sensibiliser na maba na maladi ya ntolo!',
+                    'title3' => 'Ambassadeur',
+                    'content3' => 'Panza message ya ONG na biso zinga zinga na yo na nzela ya ba réseaux sociaux to na presse'
+                ],
+                'form' => [
+                    'title' => 'Tozali impasian mpo na kokutana na bino !',
+                    'firstname' => 'Prenom',
+                    'lastname' => 'Nkombo ya libota',
+                    'email' => 'E-mail',
+                    'phone' => 'Téléphone',
+                    'commitment_title' => 'Nalingi :',
+                    'commitment_content1' => 'komikotisa lokola mosali ya bolingi na Action Damien',
+                    'commitment_content2' => 'nasala équipe ya bateki nakati ya mboka',
+                    'commitment_content3' => 'nakoma animateur',
+                    'commitment_content4' => 'kosalisa na milulu ya mboka mpe ya ekolo',
+                    'question' => 'Motuna to commentaire',
+                    'button_send' => 'Tinda'
+                ]
+            ],
         ],
     ],
 ];

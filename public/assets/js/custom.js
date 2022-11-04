@@ -1,8 +1,8 @@
 /**
  * Custom javascript for the "Action Damien" website
  * 
- * @author Silasmas
- * @see https://silasmas.com
+ * @author Xanders Samoth
+ * @see https://www.linkedin.com/in/xanders-samoth-b2770737/
  * 
  */
 
@@ -57,4 +57,6 @@ $(function () {
         });
     });
 
+    // Auto-resize textarea
+    autosize($('textarea'));
 });

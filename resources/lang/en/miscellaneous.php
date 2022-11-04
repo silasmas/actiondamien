@@ -382,6 +382,33 @@ return [
                 'way3_content1' => 'You can also donate to:',
                 'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
+            'join_us' => [
+                'title' => 'Join us',
+                'description' => 'Become a volunteer for Action Damien',
+                'how_to_join' => [
+                    'title1' => 'School',
+                    'content1_a' => 'Are you a teacher? A student ?',
+                    'content1_b' => 'Help us raise awareness in schools!',
+                    'title2' => 'Campaign',
+                    'content2' => 'Help us spread our message and raise awareness about leprosy and tuberculosis!',
+                    'title3' => 'Ambassador',
+                    'content3' => 'Spread the message of our NGO around you via social networks or the press'
+                ],
+                'form' => [
+                    'title' => 'We are impatient to meet you!',
+                    'firstname' => 'First name',
+                    'lastname' => 'Last name',
+                    'email' => 'Email',
+                    'phone' => 'Phone',
+                    'commitment_title' => 'I want to :',
+                    'commitment_content1' => 'get involved as a volunteer with Action Damien',
+                    'commitment_content2' => 'create a team of local sellers',
+                    'commitment_content3' => 'become an animator',
+                    'commitment_content4' => 'help on local and national events',
+                    'question' => 'Question or comment',
+                    'button_send' => 'Send'
+                ]
+            ],
         ],
     ],
 ];

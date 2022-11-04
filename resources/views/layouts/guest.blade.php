@@ -296,6 +296,7 @@
         <script src="{{ asset('assets/lib/waypoints/waypoints.min.js') }}"></script>
         <script src="{{ asset('assets/lib/owlcarousel/owl.carousel.min.js') }}"></script>
         <script src="{{ asset('assets/lib/parallax/parallax.min.js') }}"></script>
+        <script src="{{ asset('assets/lib/autosize/autosize.min.js') }}"></script>
         <script src="{{ asset('assets/lib/ellipsis/jquery.ellipsis.min.js') }}"></script>
 
         <!-- Custom Javascript -->
