@@ -410,5 +410,24 @@ return [
                 ]
             ],
         ],
+        // Contact
+        'contact' => [
+            'title' => 'Nous sommes impatients de vous rencontrer !',
+            'reference_title1' => 'Adresse',
+            'reference_content1' => '162 Avenue Pierre Mulele, Kinshasa-Gombe',
+            'reference_title2' => 'Adresse e-mail',
+            'reference_content2' => 'secretaire@actiondamien-rdc.net',
+            'reference_title3' => 'Téléphone',
+            'reference_content3' => '+243 816 520 396 | +243 998 135 091',
+            'form' => [
+                'title' => 'Démarrez une conversation avec nous',
+                'complete_name' => 'Votre nom complet',
+                'email' => 'Votre adresse e-mail',
+                'phone' => 'Votre n° téléphone',
+                'subject' => 'Sujet',
+                'message' => 'Message',
+                'button_send' => 'Soumettre'
+            ]
+        ],
     ],
 ];

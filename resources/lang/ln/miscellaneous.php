@@ -395,7 +395,7 @@ return [
                     'content3' => 'Panza message ya ONG na biso zinga zinga na yo na nzela ya ba réseaux sociaux to na presse'
                 ],
                 'form' => [
-                    'title' => 'Tozali impasian mpo na kokutana na bino !',
+                    'title' => 'Totondisami na posa ya kokutana na bino !',
                     'firstname' => 'Prenom',
                     'lastname' => 'Nkombo ya libota',
                     'email' => 'E-mail',
@@ -409,6 +409,25 @@ return [
                     'button_send' => 'Tinda'
                 ]
             ],
+        ],
+        // Contact
+        'contact' => [
+            'title' => 'Totondisami na posa ya kokutana na bino !',
+            'reference_title1' => 'Adresse',
+            'reference_content1' => '162 Avenue Pierre Mulele, Kinshasa-Gombe',
+            'reference_title2' => 'Adresse e-mail',
+            'reference_content2' => 'secretaire@actiondamien-rdc.net',
+            'reference_title3' => 'Telephone',
+            'reference_content3' => '+243 816 520 396 | +243 998 135 091',
+            'form' => [
+                'title' => 'Bandá lisolo na biso',
+                'complete_name' => 'Nkombo na yo mobimba',
+                'email' => 'Adresse e-mail na yo',
+                'phone' => 'Telephone na yo',
+                'subject' => 'Mama likambo',
+                'message' => 'Nsango',
+                'button_send' => 'Tinda'
+            ]
         ],
     ],
 ];

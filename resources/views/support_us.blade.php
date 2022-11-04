@@ -206,10 +206,10 @@
                                     </div>
                                 </div>
 
-                                <button class="btn btn-light mt-4 px-4" style="height: 60px;">
+                                <button class="btn btn-dark mt-4 px-4" style="height: 60px;">
                                     {{ __('miscellaneous.inner_page.support_us.join_us.form.button_send') }}
 
-                                    <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
+                                    <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
                                     </div>
                                 </button>
