@@ -81,12 +81,7 @@
         <div class="container-xxl pt-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image overflow-hidden" style="max-height: 14rem; border-radius: 1.2rem;">
-                            <img src="{{ asset('assets/img/photo/11.webp') }}" alt="{{ __('miscellaneous.inner_page.about.description.title2') }}" class="img-fluid" style="margin-top: -20rem;">
-                            <div class="mask"></div>
-                        </div>
-                    </div>
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style="height: 14rem; background: transparent url({{ asset('assets/img/photo/11.webp') }}) center center no-repeat; background-size: cover; border-radius: 1.2rem;"></div>
                 </div>
             </div>
         </div>
