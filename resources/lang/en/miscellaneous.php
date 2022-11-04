@@ -361,7 +361,7 @@ return [
                 'title2_subtitle1' => 'Act',
                 'title2_content1' => 'The action we take as an organization, collaborator, patient, volunteer or business. Together we write a story. Together we want to put an end to leprosy, tuberculosis, Buruli ulcer and yaws. Acting also refers to the process of the patient.',
                 'title2_subtitle2' => 'Contagious',
-                'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.',
+                'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.'
             ]
         ],
         // Support us
@@ -370,8 +370,17 @@ return [
             'description' => 'Give us your time! Do you want to get involved in a good cause, but don\'t know how? Become a volunteer at Action Damien! You can help us for a few hours by selling markers during our campaign weekend, by organizing an event yourself or by mobilizing regularly and over the long term for Action Damien. Whatever...',
             'comment' => 'Your time is precious to us!',
             'link' => 'See our projects',
-            '' => [
-                '' => '',
+            'ways_to_support' => [
+                'title' => 'Let\'s change things',
+                'content' => 'Different ways to support us',
+                'way1_title' => 'On the spot',
+                'way1_content' => 'Pierre Mulele Street, 162 Area of Gombe-Kinshasa (DRC)',
+                'way2_title' => 'On line',
+                'way2_content' => 'Make your transfers directly via credit card (Visa and MasterCard), Paypal or other services.',
+                'way2_link' => 'Donate now',
+                'way3_title' => 'Phone',
+                'way3_content1' => 'You can also donate to:',
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
         ],
     ],

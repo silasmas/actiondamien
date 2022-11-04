@@ -43,4 +43,43 @@
         </div>
         <!-- Banner End -->
 
+        <!-- Ways To Support Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block rounded-pill bg-light text-green py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.title') }}</div>
+                    <h1 class="display-6 mb-5">{{ __('miscellaneous.inner_page.support_us.ways_to_support.content') }}</h1>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-md-5 mb-lg-0 py-4 position-relative">
+                        <i class="fa fa-map-marker-alt mb-4 display-3 text-green"></i>
+                        <h4 class="h4 fw-bold mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way1_title') }}</h4>
+                        <p class="fw-normal mb-0">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way1_content') }}</p>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-md-5 mb-lg-0 py-4 position-relative border-start border-end border-default">
+                        <i class="fa fa-globe mb-4 display-3 text-green"></i>
+                        <h4 class="h4 fw-bold mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_title') }}</h4>
+                        <p class="fw-normal mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_content') }}</p>
+                        <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                            {{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_link') }}
+
+                            <div class="d-inline-flex btn-sm-square text-white bg-green rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-md-0 py-4 position-relative">
+                        <i class="fa fa-phone mb-4 display-3 text-green"></i>
+                        <h4 class="h4 fw-bold mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way3_title') }}</h4>
+                        <p class="fw-normal mb-1">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way3_content1') }}</p>
+                        <p class="mb-0" style="color: #000; font-weight: 700;">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way3_content2') }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Ways To Support End -->
+
 @endsection

@@ -370,8 +370,17 @@ return [
             'description' => 'Pesa biso tango na yo! Olingi komikotisa na likambo moko ya malamu, kasi oyebi te ndenge nini? Kokoma mosali ya bolingi na Action Damien! Okoki kosalisa biso na boumeli ya mwa bangonga na kotekaka ba marqueurs na wikende ya campagne na biso, na kobongisaka molulu yo moko to na ko mobiliser mbala na mbala mpe na mikolo milayi mpo na Action Damien. Nyonso...',
             'comment' => 'Ntango na yo ezali na motuya mingi mpo na biso!',
             'link' => 'Tala mabongisi na biso',
-            '' => [
-                '' => '',
+            'ways_to_support' => [
+                'title' => 'Tobongola makambu',
+                'content' => 'Lolenge ndenge na ndenge ya kosunga biso',
+                'way1_title' => 'Na esika tozali',
+                'way1_content' => 'Avenue Pierre Mulele, 162 Commune ya Gombe-Kinshasa (RDC)',
+                'way2_title' => 'Na Internet',
+                'way2_content' => 'Sala ba transferts na yo mbala moko na nzela ya carte de crédit (Visa na MasterCard), Paypal to ba services misusu.',
+                'way2_link' => 'Pesá makabo sikoyo',
+                'way3_title' => 'Téléphone',
+                'way3_content1' => 'Okoki mpe kopesa makabo na:',
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
         ],
     ],

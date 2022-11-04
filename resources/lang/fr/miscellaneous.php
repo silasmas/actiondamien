@@ -370,8 +370,17 @@ return [
             'description' => 'Faites-nous don de votre temps ! Vous avez envie de vous engager en faveur d\'une bonne cause, mais ne savez pas comment ? Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu\'importe…',
             'comment' => 'Votre temps nous est précieux !',
             'link' => 'Voir nos projets',
-            '' => [
-                '' => '',
+            'ways_to_support' => [
+                'title' => 'Changeons les choses',
+                'content' => 'Différentes manières de nous soutenir',
+                'way1_title' => 'Sur place',
+                'way1_content' => 'Avenue Pierre Mulele, 162 Commune de la Gombe-Kinshasa (RDC)',
+                'way2_title' => 'En ligne',
+                'way2_content' => 'Faites vos transferts directement via carte de crédit (Visa et MasterCard), Paypal ou autres services.',
+                'way2_link' => 'Faire un don maintenant',
+                'way3_title' => 'Téléphone',
+                'way3_content1' => 'Vous pouvez également faire un don au :',
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
             ],
         ],
     ],
