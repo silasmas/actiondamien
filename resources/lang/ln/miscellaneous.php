@@ -215,7 +215,7 @@ return [
         'link_1' => 'Yekola makambo mosusu',
         'badge_2' => 'Tuberculose',
         'title_2' => 'Kososola Tuberculose na Segonde',
-        'description_2' => 'Ndenge moko na maladi ya maba, maladi ya ntolo eutaka na mikrobe. Okoki kozwa maladi na kopema yango. Bato ya maladi ya ntolo basukolaka mingi, bazalaka na fièvre makasi mpe babungisaka kilo mingi. Bakoki kokóma na bolɛmbu mingi.',
+        'description_2' => 'Ndenge moko na maladi ya maba, maladi ya ntolo eutaka na mikrobe. Okoki kozwa maladi na kopema yango. Bato ya maladi ya ntolo basukolaka mingi, bazalaka na fièvre makasi mpe babungisaka kilo mingi. Bakoki kokóma na bolembu mingi.',
         'link_2' => 'Pesa lisungi'
     ],
     'statistics' => [
@@ -285,7 +285,7 @@ return [
                 'subtitle2' => 'Bokono ya ntolo',
                 'content2' => 'Bokono ya ntolo ezali maladi oyo ebomaka bato mingi. Ezwamaka mingimingi na mimpululu kasi ekoki mpe kozwa binama mosusu mpe biteni mosusu ya nzoto. Mbula na mbula, na DR Congo, bato pene na 200.000 bazwamaka, mpe 6.000 kati na bango bakufaka.',
                 'subtitle3' => 'Ulcère ya Buruli',
-                'content3' => 'Ulcère ya Buruli ezali infection bactérienne oyo emonanaka mingi te mpe ya exotiques na loposo mpe na ba tissus doux. Mbala mingi ebandaka na kovimba oyo ezali na mpasi te na esika oyo ebɛlami, mbala mingi na maboko, na makolo to na elongi. (ba papules, ba nodules, ba plaques, ba œdèmes, ba ulcères). Na 2021, ba cas 23 ya ba ulcères ya Buruli kati na bango basi zomi bazwamaki na etuka ya Haut Uélé.',
+                'content3' => 'Ulcère ya Buruli ezali infection bactérienne oyo emonanaka mingi te mpe ya exotiques na loposo mpe na ba tissus doux. Mbala mingi ebandaka na kovimba oyo ezali na mpasi te na esika oyo ebelami, mbala mingi na maboko, na makolo to na elongi. (ba papules, ba nodules, ba plaques, ba œdèmes, ba ulcères). Na 2021, ba cas 23 ya ba ulcères ya Buruli kati na bango basi zomi bazwamaki na etuka ya Haut Uélé.',
                 'subtitle4' => 'Pian',
                 'content4' => 'Pian ezali infection bactérienne chronique oyo ezo affecter loposo, mikuwa na cartilage. (Papillome, nodule, etc.) Na 2021, ba cas 15 ya Yaws e détecté, kati na bango basi 3 na Haute Uélé.',
             ],
@@ -336,6 +336,33 @@ return [
                 'list7' => 'Care after Cure',
                 'list_desc7' => 'Mosala na biso esukaka na kobikisa bato ya maladi te. Na nsima, tosalisaka bango bázwa esika na bango na kati ya bato. Topesaka bango formasyo mpe ata mwa mbongo moke mpo báfungola mwa magazini. Topesaka bango mpe lisalisi ya bolandi soki mikakatano esalemi.',
             ],
+        ],
+        // About
+        'about' => [
+            'banner_title' => 'Misala ezali contagieux!',
+            'butterfly' => [
+                'title' => 'Action Damien na Papillon',
+                'title_exclam' => '!',
+                'text' => 'Tozali kobundisa bokono 4 oyo ya kozwama, na mokano ya kosilisa yango na mokili mobimba:',
+                'list1' => 'Maba',
+                'list2' => 'Bokono ya ntolo',
+                'list3' => 'Ulcère ya Buruli',
+                'list4' => 'Pian',
+            ],
+            'description' => [
+                'title1' => 'Papillon oyo ezali lokola motema',
+                'text1' => 'Na logo, okoki koyeba papillon lokola mpe motema. Pona oyo ezali accident te. Motema ezali elembo mpo na moto moko na moko oyo asalisaki na kokoma lisolo ya Action Damien. Mpe papillon ezali komonisa bato mingi oyo bazali na maladi ya maba mpe ya ntolo: bazali kolemba nzoto mpe na ntango yango moko bazali na elikya mpe kitoko.',
+                'title1_subtitle1' => 'Motema',
+                'title1_content1' => 'Ezali collaborateur logistique na Guinée nde azali ko livrer ba kisi contre tuberculose. Ezali monganga ya lipaso ya maba na Inde nde asalaka ete moto akoma lisusu. Ezali mosali ya bolingo malamu na Nicaragua nde azali koyebisa bato makama ya maladi ya leishmaniasis. Ezali volontaire na Belgique nde ateka ba marqueurs chaque week-end ya suka ya janvier. Motema ezali moto nyonso oyo azali kotia mosolo mpo na kopesa avenir ya malamu na baye bazwami na maba, tuberculose mpe bokono misusu oyo ba négliger oyo ezali na boyokani na bobola.',
+                'title1_subtitle2' => 'Papillon',
+                'title1_content2' => 'Bato oyo maladi ya maba mpe ya ntolo bazali lokola ba papillons: balembaka mpe na ntango yango moko bazali na elikya mpe kitoko. Na bankóto ya bavolontaires, ba donateurs mpe basungi, Action Damien etie mbongo mikolo nyonso mpo na kopesa avenir ya langilangi na bato oyo bazali na cancer. Na misala na biso ndenge na ndenge, elongo tosalaka effet papillon ya bonene monene.',
+                'title2' => 'Misala ezali contagieux',
+                'text2' => 'Misala ezali contagieux. Ezali na slogan oyo nde Action Damien a investir na avenir. Avenir oyo biso banso tobundaka elongo na bokono ya kozwama lokola maba, tuberculose, ulcère ya Buruli mpe pian.',
+                'title2_subtitle1' => 'Misala',
+                'title2_content1' => 'Misala oyo tosalaka lokola organisation, collaborateur, patient, volontaire to entreprise. Elongo tokoma lisolo moko. Elongo tolingi kosukisa maba, tuberculose, ulcère ya Buruli na pian. Kosala elimboli mpe ndenge oyo moto ya maladi azali kosala.',
+                'title2_subtitle2' => 'Contagieux',
+                'title2_content2' => 'Moto nyonso oyo azali kosangana na etumba azali eteni ya lisolo. Elongo, tobimisaka réaction en chaîne oyo kati na yango lien moko na moko ezali na ntina. Contagion ezali mpe kolobela mosala ya monganga ya Action Damien mpe bokono ya kozwama oyo ezali mpo na contagion. Toponaka na bososoli nyonso lolenge ya malamu, mpo ete effet ya engagement infectieux epesaka nzela na avenir ya malamu mpo na biso banso, sans maba mpe tuberculose.',
+            ]
         ],
     ],
 ];

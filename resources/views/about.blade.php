@@ -1,57 +1,120 @@
 @extends('layouts.guest')
 
 @section('guest-content')
+
         <!-- Page Header Start -->
-        <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/about.webp') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
-                <h1 class="display-4 text-white animated slideInDown mb-4">404 Error</h1>
+                <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.main_menu.who_are_we.about') }}</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                        <li class="breadcrumb-item text-primary active" aria-current="page">404 Error</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">{{ __('miscellaneous.main_menu.who_are_we.about') }}</li>
                     </ol>
                 </nav>
             </div>
         </div>
         <!-- Page Header End -->
 
-        <!-- About Start -->
-        <div class="container-xxl py-5">
+        <!-- Banner Start -->
+        <div class="container-xxl py-5 bg-green">
             <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <p class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.about.banner_title') }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Banner End -->
+
+        <!-- Butterfly Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-3">
                 <div class="row g-5">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative overflow-hidden h-100" style="min-height: 400px;">
-                            <img class="position-absolute w-100 h-100 pt-5 pe-5" src="{{ asset('assets/img/photo/5.webp') }}" alt="" style="object-fit: cover;">
-                            <img class="position-absolute top-0 end-0 bg-white ps-2 pb-2" src="{{ asset('assets/img/photo/13.webp') }}" alt="" style="width: 200px; height: 150px;">
+                    <div class="col-lg-4 col-sm-5 col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image">
+                            <img class="img-fluid" src="{{ asset('assets/img/photo/butterfly_logo.png') }}" alt="{{ __('miscellaneous.inner_page.about.butterfly.title') }}">
                         </div>
                     </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-8 col-sm-7 col-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="h-100">
-                            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">A propos</div>
-                            <h1 class="display-6 mb-5">{{ __('miscellaneous.actiondamien_slogan') }}</h1>
-                            <div class="bg-light border-bottom border-5 border-danger rounded p-4 mb-4">
-                                <p class="text-dark mb-2">Ici, seront écrits quelques mots du (de la) fondateur(trice) de l'organisation pour dire, en bref, ce qu'est Action Damien</p>
-                                <span class="text-danger">Nom Prénom, Fondateur(trice)</span>
-                            </div>
-                            <p class="mb-5">Action Damien est une ONG belge fondée en 1964. Une organisation forte du soutien de milliers de collaborateurs bénévoles, donateurs et sympathisants à travers le monde.</p>
-                            <a class="btn btn-danger py-2 px-3 me-3" href="">
-                                En savoir plus
-                                <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
-                            <a class="btn btn-outline-danger py-2 px-3" href="">
-                                Nous contacter
-                                <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </a>
+                            <h1 class="display-6 mb-4">{{ __('miscellaneous.inner_page.about.butterfly.title') }}<i class="text-green">{{ __('miscellaneous.inner_page.about.butterfly.title_exclam') }}</i></h1>
+                            <p class="lead mb-4">{{ __('miscellaneous.inner_page.about.butterfly.text') }}</p>
+                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list1') }}</p>
+                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list2') }}</p>
+                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list3') }}</p>
+                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list4') }}</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Butterfly End -->
+
+        <!-- Description Start -->
+        <div class="container-xxl py-5 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="h2 fw-bold mb-4">{{ __('miscellaneous.inner_page.about.description.title1') }}</i></h2>
+                        <p class="mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.about.description.text1') }}</p>
+
+                        <div class="card mb-4 bg-light border-top-0 border-bottom-0 border-end-0 border-3 border-danger rounded-0 shadow-0">
+                            <div class="card-body py-0 pe-0">
+                                <h3 class="h3 text-danger fw-bold">{{ __('miscellaneous.inner_page.about.description.title1_subtitle1') }}</i></h3>
+                                <p class="m-0" style="color: #000;">{{ __('miscellaneous.inner_page.about.description.title1_content1') }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 bg-light border-top-0 border-bottom-0 border-end-0 border-3 border-green rounded-0 shadow-0">
+                            <div class="card-body py-0 pe-0">
+                                <h3 class="h3 text-green fw-bold">{{ __('miscellaneous.inner_page.about.description.title1_subtitle2') }}</i></h3>
+                                <p class="m-0" style="color: #000;">{{ __('miscellaneous.inner_page.about.description.title1_content2') }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl pt-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image overflow-hidden" style="max-height: 14rem; border-radius: 1.2rem;">
+                            <img src="{{ asset('assets/img/photo/11.webp') }}" alt="{{ __('miscellaneous.inner_page.about.description.title2') }}" class="img-fluid" style="margin-top: -20rem;">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <h2 class="h2 fw-bold mb-4">{{ __('miscellaneous.inner_page.about.description.title2') }}<i class="text-green">{{ __('miscellaneous.inner_page.about.butterfly.title_exclam') }}</i></i></h2>
+                        <p class="mb-4">{{ __('miscellaneous.inner_page.about.description.text2') }}</p>
+
+                        <div class="card mb-4 border-top-0 border-bottom-0 border-end-0 border-3 border-danger rounded-0 shadow-0">
+                            <div class="card-body py-0 pe-0">
+                                <h3 class="h3 text-danger fw-bold">{{ __('miscellaneous.inner_page.about.description.title2_subtitle1') }}</i></h3>
+                                <p class="m-0">{{ __('miscellaneous.inner_page.about.description.title2_content1') }}</p>
+                            </div>
+                        </div>
+
+                        <div class="card mb-4 border-top-0 border-bottom-0 border-end-0 border-3 border-green rounded-0 shadow-0">
+                            <div class="card-body py-0 pe-0">
+                                <h3 class="h3 text-green fw-bold">{{ __('miscellaneous.inner_page.about.description.title2_subtitle2') }}</i></h3>
+                                <p class="m-0">{{ __('miscellaneous.inner_page.about.description.title2_content2') }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Description End -->
 
 @endsection

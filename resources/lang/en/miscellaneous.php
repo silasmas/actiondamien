@@ -335,7 +335,34 @@ return [
                 'list_desc6' => 'We offer our missions the financial aid and technical support they need, even sometimes in countries where we are not or no longer active.',
                 'list7' => 'Care after Cure',
                 'list_desc7' => 'Our work does not end with curing patients. We then help them find their place in society. We offer them training and even a small amount of money so that they can open a small shop. We also provide them with follow-up care in case of complications.'
+            ]
+        ],
+        // About
+        'about' => [
+            'banner_title' => 'Let\'s act now, it\'s contagious!',
+            'butterfly' => [
+                'title' => 'Action Damien and Butterfly',
+                'title_exclam' => '!',
+                'text' => 'We fight against these 4 infectious diseases, with the objective of eliminating them on a global scale:',
+                'list1' => 'Leprosy',
+                'list2' => 'Tuberculosis',
+                'list3' => 'Buruli\'s ulcer',
+                'list4' => 'Yaws',
             ],
+            'description' => [
+                'title1' => 'The heart-shaped butterfly',
+                'text1' => 'In the logo, you can recognize a butterfly as well as a heart. This choice is no accident. The heart is a symbol for each person who helped write the story of Action Damien. And the butterfly represents the many people affected by leprosy and tuberculosis: fragile and at the same time hopeful and beautiful.',
+                'title1_subtitle1' => 'The heart',
+                'title1_content1' => 'It is the logistics collaborator in Guinea who delivers the drugs against tuberculosis. It is the leprosy surgeon in India who makes a person write again. It is the volunteer in Nicaragua who raises awareness about the dangers of leishmaniasis. It is the volunteer in Belgium who sells markers every last weekend of January. The heart is everyone who invests in offering a better future to those affected by leprosy, tuberculosis and other neglected diseases linked to poverty.',
+                'title1_subtitle2' => 'The butterfly',
+                'title1_content2' => 'People affected by leprosy and tuberculosis are like butterflies: fragile and at the same time hopeful and beautiful. With thousands of volunteers, donors and supporters, Action Damien invests every day to give a colorful future to people with cancer. With our varied activities, together we create a butterfly effect of great magnitude.',
+                'title2' => 'Let\'s act now, it\'s contagious',
+                'text2' => 'Let\'s act now, it\'s contagious. It is with this slogan that Action Damien invests in the future. A future for which we all fight together against infectious diseases like leprosy, tuberculosis, Buruli ulcer and yaws.',
+                'title2_subtitle1' => 'Act',
+                'title2_content1' => 'The action we take as an organization, collaborator, patient, volunteer or business. Together we write a story. Together we want to put an end to leprosy, tuberculosis, Buruli ulcer and yaws. Acting also refers to the process of the patient.',
+                'title2_subtitle2' => 'Contagious',
+                'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.',
+            ]
         ],
     ],
 ];

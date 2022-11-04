@@ -335,7 +335,34 @@ return [
                 'list_desc6' => 'Nous offrons à nos missions l\'aide financière et le soutien technique dont elles ont besoin, même parfois dans des pays où nous ne sommes pas ou plus actifs.',
                 'list7' => 'Care after Cure',
                 'list_desc7' => 'Notre travail ne s\'arrête pas à la guérison des patients. Nous les aidons ensuite à retrouver leur place dans la société. Nous leur offrons une formation et même une petite somme d\'argent pour qu\'ils puissent ouvrir une petite échoppe. Nous leur dispensons également des soins de suivi en cas de complications.',
+            ]
+        ],
+        // About
+        'about' => [
+            'banner_title' => 'Agir, c\'est contagieux !',
+            'butterfly' => [
+                'title' => 'Action Damien et Papillon',
+                'title_exclam' => ' !',
+                'text' => 'Nous luttons contre ces 4 maladies infectieuses, avec l\'objectif de les éliminer à l\'échelle mondiale :',
+                'list1' => 'La Lèpre',
+                'list2' => 'La Tuberculose',
+                'list3' => 'L\'Ulcère de Buruli',
+                'list4' => 'Le Pian',
             ],
+            'description' => [
+                'title1' => 'Le papillon en forme de cœur',
+                'text1' => 'Dans le logo, on peut reconnaître un papillon tout autant qu\'un cœur. Ce choix n\'est pas un hasard. Le cœur est un symbole pour chaque personne qui a aidé à écrire l\'histoire d\'Action Damien. Et le papillon représente les nombreuses personnes atteintes de la lèpre et de la tuberculose : fragiles et en même temps pleines d\'espoir et belles.',
+                'title1_subtitle1' => 'Le Cœur',
+                'title1_content1' => 'C\'est le collaborateur logistique en Guinée qui livre les médicaments contre la tuberculose. C\'est le chirurgien de la lèpre en Inde qui permet à une personne d\'écrire à nouveau. C\'est le bénévole au Nicaragua qui sensibilise les gens aux dangers de la leishmaniose. C\'est le bénévole en Belgique qui vend des marqueurs chaque dernier week-end de janvier. Le cœur, c\'est toute personne qui s\'investit pour offrir un avenir meilleur à ceux/celles atteint.e.s de lèpre, de tuberculose et d\'autres maladies négligées liées à la pauvreté.',
+                'title1_subtitle2' => 'Le Papillon',
+                'title1_content2' => 'Les personnes affectées par la lèpre et la tuberculose sont comme des papillons : fragiles et en même temps pleines d\'espoir et belles. Avec des milliers de bénévoles, donateurs et sympathisants, Action Damien s\'investit chaque jour pour donner un avenir coloré aux personnes atteintes. Avec nos activités variées, nous créons ensemble un effet papillon de grande ampleur.',
+                'title2' => 'Agir, c\'est contagieux',
+                'text2' => 'Agir, c\'est contagieux. C\'est avec ce slogan qu\'Action Damien s\'investit pour l\'avenir. Un avenir pour lequel nous luttons tous ensemble contre les maladies infectieuses comme la lèpre, la tuberculose, l\'ulcère de Buruli et le pian.',
+                'title2_subtitle1' => 'Agir',
+                'title2_content1' => 'L\'action que nous entreprenons en tant qu\'organisation, collaborateur.rice, patient.e, bénévole ou entreprise. Ensemble, nous écrivons une histoire. Ensemble, nous voulons mettre un point final à la lèpre, à la tuberculose, l\'ulcère de Buruli et le pian. Agir renvoie aussi au processus du patient.',
+                'title2_subtitle2' => 'Contagieux',
+                'title2_content2' => 'Toute personne qui participe à la lutte fait partie de l\'histoire. Ensemble, nous produisons une réaction en chaîne dans laquelle chaque maillon est important. La contagion renvoie aussi au travail médical d\'Action Damien et aux maladies infectieuses qui existent à cause de la contagion. Nous choisissons consciemment l\'approche positive, car l\'effet d\'un engagement contagieux permet un meilleur avenir pour nous tous, sans lèpre et sans tuberculose',
+            ]
         ],
     ],
 ];
