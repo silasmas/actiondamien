@@ -374,7 +374,7 @@
                     </div>
 
                     <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                        <div class="h-100 bg-blue p-5" style="border-radius: 1.2rem;">
+                        <div class="h-100 bg-blue p-lg-5 p-sm-4 p-3" style="border-radius: 1.2rem;">
                             <form>
                                 <div class="row g-3">
                                     <div class="col-12">
