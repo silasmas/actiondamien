@@ -23,6 +23,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/support_us', [HomeController::class, 'supportUs'])->name('support_us');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
 Route::get('/news', [HomeController::class, 'news'])->name('news');
+Route::get('/news/{id}', [HomeController::class, 'newsDetails'])->whereNumber('id')->name('news_details');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/sensibilization', [HomeController::class, 'sensibilization'])->name('sensibilization');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');

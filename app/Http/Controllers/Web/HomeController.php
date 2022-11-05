@@ -82,6 +82,17 @@ class HomeController extends Controller
     }
 
     /**
+     * GET: News details page
+     *
+     * @param  $id
+     * @return \Illuminate\View\View
+     */
+    public function newsDetails($id)
+    {
+        return view('news');
+    }
+
+    /**
      * GET: Testimonials page
      *
      * @return \Illuminate\View\View

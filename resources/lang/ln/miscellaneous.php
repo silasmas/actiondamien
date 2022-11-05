@@ -429,5 +429,20 @@ return [
                 'button_send' => 'Tinda'
             ]
         ],
+        // News
+        'news' => [
+            'title' => 'Tanga masolo mpe batoli na biso ya sika.',
+            'subtitle' => 'Bozala informés na ba actions na biso nionso oyo tosali pe ba descentes na biso ndenge na ndenge na terrain.',
+            'search' => 'Luka sango moko',
+            'choose_year' => 'Pona mbula',
+            'all_year' => 'Nyonso',
+            'type1' => 'Masolo',
+            'type2' => 'Batoli',
+            'link' => 'Tanga lisusu ... »',
+            'details' => [
+                'title' => 'Nyonso etali sango',
+                'other' => 'Ba sango misusu',
+            ],
+        ],
     ],
 ];

@@ -9,13 +9,13 @@
 $(function () {
     /* MULTILINE TEXT TRUNCATION */
     $('.paragraph-ellipsis').each(function () {
-        $(this).find('.card-body .paragraph').ellipsis({
+        $(this).find('.paragraph').ellipsis({
             lines: 3,             // force ellipsis after a certain number of lines. Default is 'auto'
             ellipClass: 'ellip',  // class used for ellipsis wrapper and to namespace ellip line
             responsive: true      // set to true if you want ellipsis to update on window resize. Default is false
         });
 
-        var _this = $(this).find('.card-body .paragraph').get(0);
+        var _this = $(this).find('.paragraph').get(0);
 
         $(this).find('.roll-block a').on('click', function () {
             $(_this).ellipsis({ellipClass: '_ellip'});

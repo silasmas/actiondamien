@@ -15,6 +15,6 @@ return [
 
     'first' => 'Premier',
     'last' => 'Dernier',
-    'previous' => '&laquo; Pécédent',
-    'next' => 'Suivant &raquo;'
+    'previous' => '« Précédent',
+    'next' => 'Suivant »'
 ];

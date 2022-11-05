@@ -429,5 +429,20 @@ return [
                 'button_send' => 'Soumettre'
             ]
         ],
+        // News
+        'news' => [
+            'title' => 'Lisez nos derniers articles et conseils.',
+            'subtitle' => 'Restez informé sur toutes nos actions entreprises et nos différentes descentes sur terrain.',
+            'search' => 'Rechercher une information',
+            'choose_year' => 'Choisir l\'année',
+            'all_year' => 'Toute',
+            'type1' => 'Actualité',
+            'type2' => 'Conseils',
+            'link' => 'Lire la suite ... »',
+            'details' => [
+                'title' => 'Détails sur l\'info',
+                'other' => 'Autres actualités',
+            ],
+        ],
     ],
 ];

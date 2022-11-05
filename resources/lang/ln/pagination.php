@@ -13,8 +13,8 @@ return [
     |
     */
 
-    'first' => 'Premier',
-    'last' => 'Dernier',
-    'previous' => '&laquo; Pécédent',
-    'next' => 'Suivant &raquo;'
+    'first' => 'Ya yambo',
+    'last' => 'Ya suka',
+    'previous' => '« Liboso',
+    'next' => 'Sima »'
 ];
