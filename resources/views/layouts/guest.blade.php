@@ -256,12 +256,12 @@
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-light mb-4">{{ __('miscellaneous.footer.quick_links.title') }}</h5>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.about') }}</a>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.our_vision') }}</a>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.support_us') }}</a>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.testimonials') }}</a>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.projects') }}</a>
-                        <a class="btn btn-link" href="">{{ __('miscellaneous.footer.quick_links.contact') }}</a>
+                        <a class="btn btn-link" href="{{ route('about') }}">{{ __('miscellaneous.footer.quick_links.about') }}</a>
+                        <a class="btn btn-link" href="{{ route('vision') }}">{{ __('miscellaneous.footer.quick_links.our_vision') }}</a>
+                        <a class="btn btn-link" href="{{ route('support_us') }}">{{ __('miscellaneous.footer.quick_links.support_us') }}</a>
+                        <a class="btn btn-link" href="{{ route('testimonials') }}">{{ __('miscellaneous.footer.quick_links.testimonials') }}</a>
+                        <a class="btn btn-link" href="{{ route('projects') }}">{{ __('miscellaneous.footer.quick_links.projects') }}</a>
+                        <a class="btn btn-link" href="{{ route('contact') }}">{{ __('miscellaneous.footer.quick_links.contact') }}</a>
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h5 class="text-light mb-4">{{ __('miscellaneous.footer.newsletter.title') }}</h5>
@@ -277,7 +277,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6 text-center mb-3 mb-md-0 mx-auto">
-                            &copy; {{ date('Y') }} <a href="#">Action Damien {{ __('miscellaneous.drc') }}</a>
+                            &copy; {{ date('Y') }} <a href="{{ route('about') }}">Action Damien {{ __('miscellaneous.drc') }}</a>
                         </div>
                     </div>
                 </div>
