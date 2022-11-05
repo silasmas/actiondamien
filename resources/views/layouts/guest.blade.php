@@ -239,10 +239,9 @@
                         </div>
                         <p class="small" style="text-align: justify;">{{ __('miscellaneous.actiondamien_description') }}</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-square me-3" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square me-3" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square me-3" href="#"><i class="fab fa-youtube"></i></a>
-                            <a class="btn btn-square me-0" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-square me-3" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square me-0" href="#"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
