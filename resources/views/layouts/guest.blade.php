@@ -70,6 +70,10 @@
             {{ __('miscellaneous.main_menu.news') }}
 @endif
 
+@if (Route::current()->getName() == 'news_details')
+            {{ __('miscellaneous.inner_page.news.title') }}
+@endif
+
 @if (Route::current()->getName() == 'testimonials')
             {{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}
 @endif
