@@ -443,6 +443,7 @@ return [
                 'title' => 'Détails sur l\'info',
                 'other' => 'Autres actualités',
             ],
+            'see_more' => 'Voir plus ...',
         ],
     ],
 ];

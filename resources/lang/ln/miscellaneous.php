@@ -443,6 +443,7 @@ return [
                 'title' => 'Nyonso etali sango',
                 'other' => 'Ba sango misusu',
             ],
+            'see_more' => 'Mona lisusu ...',
         ],
     ],
 ];
