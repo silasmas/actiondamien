@@ -71,7 +71,7 @@
 @endif
 
 @if (Route::current()->getName() == 'news_details')
-            {{ __('miscellaneous.inner_page.news.title') }}
+            {{ __('miscellaneous.inner_page.news.details.title') }}
 @endif
 
 @if (Route::current()->getName() == 'testimonials')

@@ -439,11 +439,11 @@ return [
             'type1' => 'Masolo',
             'type2' => 'Batoli',
             'link' => 'Tanga lisusu ... »',
+            'see_more' => 'Mona lisusu ...',
             'details' => [
                 'title' => 'Nyonso etali sango',
                 'other' => 'Ba sango misusu',
             ],
-            'see_more' => 'Mona lisusu ...',
         ],
     ],
 ];

@@ -439,11 +439,11 @@ return [
             'type1' => 'News',
             'type2' => 'Tips',
             'link' => 'Read more ... »',
+            'see_more' => 'See more ...',
             'details' => [
                 'title' => 'Info details',
                 'other' => 'Other news',
             ],
-            'see_more' => 'See more ...',
         ],
     ],
 ];
