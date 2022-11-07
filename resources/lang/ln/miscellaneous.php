@@ -471,6 +471,9 @@ return [
             'search' => 'Luka projet moko',
             'choose_year' => 'Pona mbula',
             'all_year' => 'Nyonso',
+            'type1' => 'Milulu',
+            'type2' => 'Kozwa mosolo',
+            'type3' => 'Kokende kotala',
         ],
     ],
 ];

@@ -471,6 +471,9 @@ return [
             'search' => 'Search a project',
             'choose_year' => 'Choose the year',
             'all_year' => 'All',
+            'type1' => 'Event',
+            'type2' => 'Fund raising',
+            'type3' => 'Visit',
         ],
     ],
 ];

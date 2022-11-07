@@ -471,6 +471,9 @@ return [
             'search' => 'Rechercher un projet',
             'choose_year' => 'Choisir l\'année',
             'all_year' => 'Toute',
+            'type1' => 'Evénement',
+            'type2' => 'Collecte de fonds',
+            'type3' => 'Visite',
         ],
     ],
 ];

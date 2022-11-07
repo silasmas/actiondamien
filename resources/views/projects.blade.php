@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.news.type1') }}</div>
+                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type1') }}</div>
                         <p class="small text-muted">
                             <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">07 Nov. 2022</span>
                             <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">14h00' - 18h00'</span>
@@ -74,8 +74,71 @@
                         <h3 class="h3 text-blue fw-bold text-truncate">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                         </h3>
-                        <p class="mb-0 paragraph">
+                        <p class="mb-0 paragraph2">
                             Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.
+                        </p>
+                        <p class="mb-0 roll-block">
+                            <a href="#" class="card-link text-blue float-end down"><i class="fa fa-arrow-down"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5 border-top border-default">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
+                            <img src="{{ asset('assets/img/photo/index14.jpg') }}" alt="" class="img-fluid" >
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
+                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type2') }}</div>
+                        <p class="small text-muted">
+                            <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">06 Nov. 2022</span>
+                            <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">08h00' - 16h00'</span>
+                        </p>
+                        <h3 class="h3 text-danger fw-bold text-truncate">
+                            Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.
+                        </h3>
+                        <p class="mb-0 paragraph2">
+                            Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+                        </p>
+                        <p class="mb-0 roll-block">
+                            <a href="#" class="card-link text-danger float-end down"><i class="fa fa-arrow-down"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5 border-top border-default">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
+                            <img src="{{ asset('assets/img/photo/11.webp') }}" alt="" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
+                        <div class="d-inline-block rounded-pill bg-light text-green py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type3') }}</div>
+                        <p class="small text-muted">
+                            <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">05 Nov. 2022</span>
+                            <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">10h15' - 12h30'</span>
+                        </p>
+                        <h3 class="h3 text-green fw-bold text-truncate">
+                            Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus.
+                        </h3>
+                        <p class="mb-0 paragraph2">
+                            Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.
+                        </p>
+                        <p class="mb-0 roll-block">
+                            <a href="#" class="card-link text-green float-end down"><i class="fa fa-arrow-down"></i></a>
                         </p>
                     </div>
                 </div>
