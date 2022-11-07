@@ -97,6 +97,69 @@
     </head>
 
     <body class="pt-5">
+
+        <!-- Donate Modal Start -->
+        <div class="modal fade" id="donateModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header pb-0 border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="h-100 p-lg-3 p-sm-2 p-1 rounded">
+                                        <form>
+                                            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.donate.title') }}</div>
+                                            <h3 class="h3 mb-4 fw-bold text-danger">{{ __('miscellaneous.donate.description') }}</h3>
+
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="name" placeholder="{{ __('miscellaneous.donate.form.name') }}">
+                                                        <label for="name">{{ __('miscellaneous.donate.form.name') }}</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="email" placeholder="{{ __('miscellaneous.donate.form.email') }}">
+                                                        <label for="email">{{ __('miscellaneous.donate.form.email') }}</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="btn-group d-flex justify-content-around">
+                                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
+                                                        <label class="btn btn-light py-3" for="btnradio1">$10</label>
+            
+                                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+                                                        <label class="btn btn-light py-3" for="btnradio2">$20</label>
+            
+                                                        <input type="radio" class="btn-check btn-danger" name="btnradio" id="btnradio3" checked>
+                                                        <label class="btn btn-light py-3" for="btnradio3"><i class="fa fa-plus"></i></label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
+                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
+                        <button type="button" class="btn btn-danger shadow-0" data-bs-dismiss="modal">
+                            {{ __('miscellaneous.donate.form.run') }}
+                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate Modal Start -->
+
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
             <div class="spinner-grow text-danger" role="status"></div>
@@ -218,7 +281,7 @@
                     </div>
 
                     <div class="d-none d-lg-flex ms-2">
-                        <a class="btn btn-danger py-2 ps-2 pe-3" href="{{ route('donate') }}">
+                        <a class="btn btn-danger py-2 ps-2 pe-3" href="{{ route('donate') }}" data-bs-toggle="modal" data-bs-target="#donateModal">
                             <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle me-2 align-middle">
                                 <img src="{{ asset('assets/img/favicon/favicon.ico') }}" alt="Action Damien">
                             </div>
