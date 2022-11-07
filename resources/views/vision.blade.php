@@ -17,7 +17,7 @@
         <!-- Page Header End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5" style="background-color: #fe0040;">
+        <div class="container-xxl py-5 bg-danger">
             <div class="container">
                 <div class="row">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">

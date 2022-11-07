@@ -443,7 +443,34 @@ return [
             'details' => [
                 'title' => 'Nyonso etali sango',
                 'other' => 'Ba sango misusu',
-            ],
+            ]
+        ],
+        // Sensibilization
+        'sensibilization' => [
+            'title' => '« Mardochée, moto ya mpiko! »',
+            'paragraph1' => 'Topelisaka bougie mpo na kokumisa Kuniungina Batona Mardochée, moko ya ba maladi na biso ya mpiko mingi, oyo akufaki na sanza ya minei 2022.',
+            'paragraph2' => 'Elenge mobali moko ya mbula 18, oyo azalaki kobɛla maladi ya ntolo oyo ekoki koboya makasi, Mardochée azalaki moko ya bato oyo babundaki na mpiko nyonso mpo na kobundisa maladi yango.',
+            'paragraph3' => 'Ya solo, centre ya Excellence ya CEDA Damien eyambaki ye na établissement na ye le 09 janvier 2020.',
+            'paragraph4' => 'Mardochée azalaki konyokwama na lolenge oyo ezalaki koboya mingi bankisi ya moboko mpo na kobundisa maladi ya ntolo, mpe akómaki na esika yango mpo na kosilisa maladi na ye malamu. Ntango akómaki kuna, maladi na ye ya mpema ezalaki kaka kokita.',
+            'paragraph5' => 'Na nzela ya ba test oyo esalemaki mbala mingi na ba infirmiers ya CEDA mpe baye bawutaki na centre ya lopitalo ya Kabinda na Médecins Sans Frontières, elilingi ya monganga emonisaki ete mobɛli na biso azalaki na mbeba ya mimpululu, lisolo ya VIH oyo azalaki mpenza konyokwama na yango.',
+            'paragraph6' => 'Oyo ndenge batyaki ye na ba antirétroviraux, nkisi oyo esalemi mpo na bato oyo bazali na bokono ya VIH/SIDA.',
+            'paragraph7' => 'Na mokolo ya 22 Yanuali 2021, Mardochée azwaki lisalisi mpo na maladi ya ntolo oyo ekoki kozwama mingi na bankisi, mpe na nsima abɛlaki maladi ya kopema malamu te, oyo ezali mpasi mpo na kopema. Batyaki ye na oxygène tii na nsuka ya lisalisi na ye.',
+            'paragraph8' => 'Kaka optimiste mpe makasi, bazongisaki ye na famille na ye sima ya période molayi ya traitement le 24 décembre 2022, équipé na concentrateur, donnée na action ya Damien. Aparɛyi yango ezalaki kopesa ye nzela ya kopema malamu. Ya solo, balobelaki ye lokola moto oyo atalelaka oxygène. Azuaki pe générateur na Nintendo lokola Survival Kit.',
+            'paragraph9' => 'Bazongisaki ye na CEDA poso mibale sima ya kobimisama na ye le 8 janvier 2022 na état ya détresse, Mordecai azuaki soins ya qualité na bolingo mpe atondaki na espoir mpo na kobika na ye.',
+            'paragraph10' => 'Wana ezali solo ba valeurs ya Action Damien oyo CEDA ezali kotombola mpe oyo etie na misala na Don Jean N’SUELA, infirmier ya ba consultations extérieures ya CEDA.',
+            'paragraph11' => 'Kasi, nsima ya sanza misato ya mpasi, na nse ya oxygène, elenge Mordoche akufaki na mokolo ya 2 Aprili 2022.',
+            'paragraph12' => 'Ba infirmiers ya CEDA mpe bato mosusu ya libota na ye bazalaki kobatelama, kosungama mpe kokende elongo na ye kino na esika na ye ya nsuka ya bopemi.',
+            'paragraph13' => 'Na nsuka, esengeli koyeba ete mbula na mbula, tozalaka na masolo ya elonga mingi koleka liwa.',
+            'paragraph14' => 'Na nzela ya lisolo ya elenge Kuniungina Batona Mordecai, tolingaki ko souligner ba efforts nionso oyo esalemaki pona ko traité ye, ko couvrir ye na affection pe ko accompagner ye na esika na ye ya suka ya bopemi.',
+            'paragraph15' => 'Ezali lisolo moko kati na lisolo mosusu mingi, oyo epesi botali ya mosala oyo tosalaka na ba maladi oyo tozwaka.',
+        ],
+        // Projects
+        'projects' => [
+            'title' => 'Ba projets na biso oyo ekoya',
+            'subtitle' => 'Bozala na sango ya ba projets na biso nionso pe ba participations na biso ndenge na ndenge na ba événements misusu.',
+            'search' => 'Luka projet moko',
+            'choose_year' => 'Pona mbula',
+            'all_year' => 'Nyonso',
         ],
     ],
 ];

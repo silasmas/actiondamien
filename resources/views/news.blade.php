@@ -133,7 +133,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <!-- Page Header End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5" style="background-color: #fe0040;">
+        <div class="container-xxl py-5 bg-danger">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-sm-6 mb-3 wow fadeInUp" data-wow-delay="0.1s">
@@ -173,7 +173,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         </div>
         <!-- Search info End -->
 
-        <!-- News content Start -->
+        <!-- News list Start -->
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
@@ -417,7 +417,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
                 </div>
             </div>
         </div>
-        <!-- News content End -->
+        <!-- News list End -->
     @endif
 
 @endsection
