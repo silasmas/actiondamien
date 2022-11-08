@@ -17,10 +17,10 @@
         <!-- Page Header End -->
 
         <!-- Banner Start -->
-        <div class="container-xxl py-5 bg-green">
+        <div class="container-xxl pb-3 pt-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12">
+                <div class="row px-3">
+                    <div class="col-12 p-5 bg-green wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
                         <p class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.about.banner_title') }}</p>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
 
         <div class="container-xxl pt-5">
             <div class="container">
-                <div class="row">
+                <div class="row px-3">
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s" style="height: 14rem; background: transparent url({{ asset('assets/img/photo/11.webp') }}) center center no-repeat; background-size: cover; border-radius: 1.2rem;"></div>
                 </div>
             </div>
