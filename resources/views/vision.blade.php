@@ -17,10 +17,10 @@
         <!-- Page Header End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5 bg-danger">
+        <div class="container-xxl py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 p-5 bg-danger wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
                         <p class="lead m-0 fw-bold text-white">{{ __('miscellaneous.inner_page.our_vision.about') }}</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
         <!-- About End -->
 
         <!-- Diseases Start -->
-        <div class="container-xxl py-5">
+        <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 mb-4 wow fadeInUp" data-wow-delay="0.1s">
@@ -100,7 +100,7 @@
                 <div class="row">
                     <div class="mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.our_vision.vision_desc.title') }}</div>
-                        <h1 class="display-6">{{ __('miscellaneous.inner_page.our_vision.vision_desc.description') }}</h1>
+                        <h1 class="display-6 text-danger">{{ __('miscellaneous.inner_page.our_vision.vision_desc.description') }}</h1>
                     </div>
                 </div>
 
@@ -187,22 +187,23 @@
         <!-- Values End -->
 
         <!-- Fourth Value Start -->
-        <div class="container-xxl px-0 mx-0 mb-4">
-            <div class="row g-0 bg-green border border-default overflow-hidden h-lg-25 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="col-lg-5 overflow-hidden">
-                    <div class="bg-image">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-none d-md-none d-sm-none d-inline-block w-100">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-none d-md-inline-block d-sm-inline-block d-none w-100">
-                        <img src="{{ asset('assets/img/photo/14.webp') }}" alt="{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}" class="d-lg-inline-block d-md-none d-sm-none d-none" style="max-width: 40rem;">
-                        <div class="mask"></div>
+        <div class="container-xxl py-5 bg-light" data-parallax="scroll">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="position-relative h-100" style="min-height: 400px;">
+                            <div class="position-relative h-100 overflow-hidden" style="border-radius: 1.2rem;">
+                                <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/14.webp') }}" alt="" style="object-fit: cover;">
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div class="col-lg-7 pb-lg-2 p-4">
-                    <p class="display-5 mb-4 wow fadeInUp" data-wow-delay="0.3s" style="color: #ffd58c">{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.5s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph1') }}<br>{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph2') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.7s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph3') }}</p>
-                    <p class="wow fadeInUp text-white" data-wow-delay="0.9s" style="font-size: 1.2rem;">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph4') }}</p>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <h1 class="h1 fw-bold mb-4 wow fadeInUp" data-wow-delay="0.3s" style="color: #000">{{ __('miscellaneous.inner_page.our_vision.value.comment4.title') }}</h1>
+                        <p class="wow fadeInUp" data-wow-delay="0.5s">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph1') }}<br>{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph2') }}</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.7s">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph3') }}</p>
+                        <p class="wow fadeInUp" data-wow-delay="0.9s">{{ __('miscellaneous.inner_page.our_vision.value.comment4.paragraph4') }}</p>
+                    </div>
                 </div>
             </div>
         </div>
