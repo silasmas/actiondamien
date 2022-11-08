@@ -636,3 +636,14 @@ pre {
 .bg-yellow {
     background-color: #facb79 !important;
 }
+
+.project-image {
+    width: 20rem;
+}
+
+@media screen and (max-width: 480px) {
+
+    .project-image {
+        width: 100%;
+    }
+}

@@ -56,105 +56,106 @@
 
         <!-- Projects list Start -->
         <div class="container-xxl py-5 border-top border-default">
-            <div class="container py-3">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
-                            <img src="{{ asset('assets/img/photo/13.webp') }}" alt="" class="img-fluid">
-                            <div class="mask"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type1') }}</div>
-                        <p class="small text-muted">
-                            <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">07 Nov. 2022</span>
-                            <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">14h00' - 18h00'</span>
-                        </p>
-                        <h3 class="h3 text-blue fw-bold text-truncate">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        </h3>
-                        <p class="mb-0 paragraph2">
-                            Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.
-                        </p>
-                        <p class="mb-0 roll-block">
-                            <a href="#" class="card-link text-blue float-end down"><i class="fa fa-arrow-down"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-xxl py-5 border-top border-default">
-            <div class="container py-3">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
-                            <img src="{{ asset('assets/img/photo/index14.jpg') }}" alt="" class="img-fluid" >
-                            <div class="mask"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type2') }}</div>
-                        <p class="small text-muted">
-                            <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">06 Nov. 2022</span>
-                            <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">08h00' - 16h00'</span>
-                        </p>
-                        <h3 class="h3 text-danger fw-bold text-truncate">
-                            Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.
-                        </h3>
-                        <p class="mb-0 paragraph2">
-                            Cras dignissim elit et augue. Nullam non diam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-                        </p>
-                        <p class="mb-0 roll-block">
-                            <a href="#" class="card-link text-danger float-end down"><i class="fa fa-arrow-down"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-xxl py-5 border-top border-default">
-            <div class="container py-3">
-                <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
-                            <img src="{{ asset('assets/img/photo/11.webp') }}" alt="" class="img-fluid">
-                            <div class="mask"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <div class="d-inline-block rounded-pill bg-light text-green py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.projects.type3') }}</div>
-                        <p class="small text-muted">
-                            <i class="fa fa-calendar-alt me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">05 Nov. 2022</span>
-                            <i class="fa fa-clock me-2 fs-5 align-middle"></i><span class="d-inline-block me-2">10h15' - 12h30'</span>
-                        </p>
-                        <h3 class="h3 text-green fw-bold text-truncate">
-                            Fusce convallis, mauris imperdiet gravida bibendum, nisl turpis suscipit mauris, sed placerat ipsum urna sed risus.
-                        </h3>
-                        <p class="mb-0 paragraph2">
-                            Donec fermentum. Pellentesque malesuada nulla a mi. Duis sapien sem, aliquet nec, commodo eget, consequat quis, neque.
-                        </p>
-                        <p class="mb-0 roll-block">
-                            <a href="#" class="card-link text-green float-end down"><i class="fa fa-arrow-down"></i></a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-6 mx-auto wow fadeInUp" data-wow-delay="0.1s">
-                        <a href="#" class="btn btn-blue d-block shadow-0">
-                            {{ __('miscellaneous.inner_page.news.see_more') }}</a>
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">Papoose</div>
+                        <h3 class="h3 mb-4 text-blue fw-bold">
+                            LE PROJET PAPOOSE EN APPUI POUR L’ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
+                        </h3>
+                        <p class="mb-0">
+                            <pre style="text-align: justify;">
+                                <img src="{{ asset('assets/img/photo/Projet_Papoose_1.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
+La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d’un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
+
+Malheureusement, la population majoritaire y vivant en dessous du seuil de la pauvreté, constitue à l'un des facteurs principaux, déterminant les difficultés d’adhérence au traitement de certaines maladies. Ces derniers bénéficient, dès lors, du financement du projet Papoose afin d'améliorer l'adhérence au traitement des malades et contribuer à un bon succès thérapeutique.
+
+                                <img src="{{ asset('assets/img/photo/Projet_Papoose_3.png') }}" alt="" class="project-image ms-sm-4 mb-3 float-sm-end" style="border-radius: 1.2rem;">
+La Coordination Provinciale Lèpre et Tuberculose de Kinshasa (CPLT KINSHASA), avait procédé en 2021 a une sélection des malades conformément à un critère d'éligibilité qui ont été bénéficiaires de l'appui alimentaire à travers la distribution de vivres aux malades atteints de lèpre et de tuberculose. La distribution s'était déroulée pendant une durée de trois mois en raison de quatre jours par mois.
+
+                                <img src="{{ asset('assets/img/photo/Projet_Papoose_2.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
+Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militaire des commandos Mangengenge de Maluku bénéficient de l'appui de ce projet. Durant la période de COVID-19, les bénéficiaires ont été particulièrement pris en charge à cause de la persistance de la pandémie de la COVID-19.
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-xxl py-5 border-top border-default">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">Vente d'eau</div>
+                        <h3 class="h3 mb-4 text-blue fw-bold">
+                            PROJET DE VENTE D’EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L’EQUATEUR
+                        </h3>
+                        <p class="mb-0">
+                            <pre style="text-align: justify;">
+                                <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
+Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l’Equateur.
+
+En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
+                            </pre>
+                        </p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Projects list End -->
 
+        <!-- Donate Start -->
+        <div class="container-fluid py-5" style="background-color: #d5e6eb;">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.donate.title') }}</div>
+                        <h1 class="display-6 mb-4">{{ __('miscellaneous.donate.description') }}</h1>
+                        <p class="lead mb-0">{{ __('miscellaneous.donate.content') }}</p>
+                    </div>
+
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <div class="h-100 bg-blue p-lg-5 p-sm-4 p-3 rounded">
+                            <form>
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control bg-light border-0" id="name" placeholder="{{ __('miscellaneous.donate.form.name') }}">
+                                            <label for="name">{{ __('miscellaneous.donate.form.name') }}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control bg-light border-0" id="email" placeholder="{{ __('miscellaneous.donate.form.email') }}">
+                                            <label for="email">{{ __('miscellaneous.donate.form.email') }}</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="btn-group d-flex justify-content-around">
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
+                                            <label class="btn btn-light py-3" for="btnradio1">$10</label>
+
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+                                            <label class="btn btn-light py-3" for="btnradio2">$20</label>
+
+                                            <input type="radio" class="btn-check btn-danger" name="btnradio" id="btnradio3" checked>
+                                            <label class="btn btn-light py-3" for="btnradio3"><i class="fa fa-plus"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-end">
+                                        <button class="btn btn-danger mt-3 px-4" style="height: 60px;">
+                                            {{ __('miscellaneous.donate.form.run') }}
+                                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
+                                                <i class="fa fa-arrow-right"></i>
+                                            </div>
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate End -->
 @endsection
