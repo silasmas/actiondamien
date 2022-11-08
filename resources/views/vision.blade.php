@@ -19,7 +19,7 @@
         <!-- About Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row">
+                <div class="row px-3">
                     <div class="col-12 p-5 bg-danger wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
                         <p class="lead m-0 fw-bold text-white">{{ __('miscellaneous.inner_page.our_vision.about') }}</p>
                     </div>
