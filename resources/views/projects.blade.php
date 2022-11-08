@@ -17,10 +17,10 @@
         <!-- Page Header End -->
 
         <!-- Subtitle Start -->
-        <div class="container-xxl py-5 bg-blue">
+        <div class="container-xxl py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row mx-0">
+                    <div class="col-12 py-5 bg-blue wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
                         <p class="lead m-0 text-center text-white">{{ __('miscellaneous.inner_page.projects.subtitle') }}</p>
                     </div>
                 </div>
@@ -29,7 +29,7 @@
         <!-- Subtitle End -->
 
         <!-- Search info Start -->
-        <div class="container-xxl py-3 bg-light">
+        {{-- <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
@@ -51,11 +51,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- Search info End -->
 
         <!-- Projects list Start -->
-        <div class="container-xxl py-5 border-top border-default">
+        <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
