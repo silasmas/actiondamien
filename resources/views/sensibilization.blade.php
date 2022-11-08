@@ -17,10 +17,10 @@
         <!-- Page Header End -->
 
         <!-- Title Start -->
-        <div class="container-xxl py-5 bg-green">
+        <div class="container-xxl py-5">
             <div class="container">
-                <div class="row">
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row mx-0">
+                    <div class="col-12 p-5 bg-green wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
                         <h1 class="display-4 m-0 text-center text-white fw-normal">{{ __('miscellaneous.inner_page.sensibilization.title') }}</h1>
                     </div>
                 </div>
