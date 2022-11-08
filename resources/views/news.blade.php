@@ -133,13 +133,13 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <!-- Page Header End -->
 
         <!-- About Start -->
-        <div class="container-xxl py-5 bg-danger">
+        <div class="container-xxl py-5">
             <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-sm-6 mb-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row mx-0 align-items-center bg-danger" style=" border-radius: 1.2rem;">
+                    <div class="col-sm-6 mb-3 px-5 py-4 wow fadeInUp" data-wow-delay="0.1s">
                         <h2 class="display-5 m-0" style="color: #970328;">{{ __('miscellaneous.inner_page.news.title') }}</h2>
                     </div>
-                    <div class="col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-sm-6 px-5 py-4 wow fadeInUp" data-wow-delay="0.3s">
                         <p class="m-0 text-white">{{ __('miscellaneous.inner_page.news.subtitle') }}</p>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <!-- About End -->
 
         <!-- Search info Start -->
-        <div class="container-xxl py-3 bg-light">
+        <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
@@ -177,7 +177,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1651170274.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -209,7 +209,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1646304344.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -241,7 +241,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1646082394.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -280,7 +280,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1646087603.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -312,7 +312,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1646046826.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -344,7 +344,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/16463026882.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
@@ -377,7 +377,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">
-                    <div class="col-lg-5 col-sm-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/1646324165.jpeg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
