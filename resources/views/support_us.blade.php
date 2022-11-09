@@ -21,7 +21,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-sm-4 col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image px-3 pb-4">
+                        <p class="d-sm-inline-block d-none p-lg-3 mb-lg-3 p-sm-3 text-white">...</p>
+                        <div class="bg-image mt-lg-0 mt-sm-5 mt-0 px-3 pb-4">
                             <img src="{{ asset('assets/img/photo/ANNEXE_12_MAIN_AVEC_UN_COEUR_A_L_INTERIEUR.png') }}" alt="{{ __('miscellaneous.inner_page.support_us.title') }}" class="img-fluid">
                             <div class="mask"></div>
                         </div>

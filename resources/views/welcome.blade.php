@@ -175,28 +175,28 @@
         <div id="statistics" class="container">
             <div class="row">
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="counter-box px-4 border border-default">
-                        <i class="fa fa-users"></i>
-                        <span class="counter">6</span>
-                        <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_1') }}</p>
+                    <div class="counter-box px-4 bg-secondary border border-yellow">
+                        <i class="fa fa-users text-yellow"></i>
+                        <span class="counter text-green">6</span>
+                        <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_1') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_1') }}</small>
                     </div>
                 </div>
 
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
-                    <div class="counter-box px-4 border border-default">
-                        <i class="fa fa-microscope"></i>
-                        <span class="counter">10</span>
-                        <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_2') }}</p>
+                    <div class="counter-box px-4 bg-secondary border border-yellow">
+                        <i class="fa fa-microscope text-yellow"></i>
+                        <span class="counter text-green">10</span>
+                        <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_2') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_2') }}</small>
                     </div>
                 </div>
 
                 <div class="four col-sm-4 wow fadeInUp" data-wow-delay="2.1s">
-                    <div class="counter-box px-4 border border-default">
-                        <i class="fa fa-stethoscope"></i>
-                        <span class="counter">2</span>
-                        <p class="fw-bold text-dark">{{ __('miscellaneous.statistics.title_3') }}</p>
+                    <div class="counter-box px-4 bg-secondary border border-yellow">
+                        <i class="fa fa-stethoscope text-yellow"></i>
+                        <span class="counter text-green">2</span>
+                        <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_3') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_3') }}</small>
                     </div>
                 </div>

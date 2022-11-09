@@ -20,8 +20,8 @@
         <div class="container-xxl pb-3 pt-5">
             <div class="container">
                 <div class="row px-3">
-                    <div class="col-12 p-5 bg-green wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
-                        <p class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.about.banner_title') }}</p>
+                    <div class="col-12 p-5 bg-green text-center wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
+                        <p class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.about.banner_title1') }}<i>{{ __('miscellaneous.inner_page.about.banner_title2') }}</i></p>
                     </div>
                 </div>
             </div>
@@ -30,21 +30,28 @@
 
         <!-- Butterfly Start -->
         <div class="container-xxl py-5">
-            <div class="container py-3">
+            <div class="container py-sm-3">
                 <div class="row g-5">
-                    <div class="col-lg-4 col-sm-5 col-12 wow fadeInUp" data-wow-delay="0.1s">
+                    {{-- <div class="col-lg-4 col-sm-5 col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="bg-image">
                             <img class="img-fluid" src="{{ asset('assets/img/photo/butterfly_logo.png') }}" alt="{{ __('miscellaneous.inner_page.about.butterfly.title') }}">
                         </div>
-                    </div>
-                    <div class="col-lg-8 col-sm-7 col-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="h-100">
-                            <h1 class="display-6 mb-4">{{ __('miscellaneous.inner_page.about.butterfly.title') }}<i class="text-green">{{ __('miscellaneous.inner_page.about.butterfly.title_exclam') }}</i></h1>
-                            <p class="lead mb-4">{{ __('miscellaneous.inner_page.about.butterfly.text') }}</p>
-                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list1') }}</p>
-                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list2') }}</p>
-                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list3') }}</p>
-                            <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list4') }}</p>
+                    </div> --}}
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <h1 class="display-6 mb-4">{{ __('miscellaneous.inner_page.about.butterfly.title') }}<i class="text-green">{{ __('miscellaneous.inner_page.about.butterfly.title_exclam') }}</i></h1>
+                        <p class="lead mb-4">{{ __('miscellaneous.inner_page.about.butterfly.text') }}</p>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6">
+                                <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list1') }}</p>
+                                <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list2') }}</p>
+                                <p class="lead mb-1"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list3') }}</p>
+                                <p class="lead mb-4"><i class="fa fa-check me-2 text-danger"></i>{{ __('miscellaneous.inner_page.about.butterfly.list4') }}</p>
+                            </div>
+                            <div class="col-lg-8 col-sm-6">
+                                <div class="bg-image">
+                                    <img class="img-fluid" src="{{ asset('assets/img/photo/butterfly_logo.png') }}" alt="{{ __('miscellaneous.inner_page.about.butterfly.title') }}" width="140">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -56,7 +63,7 @@
         <div class="container-xxl py-5 bg-light">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <h2 class="h2 fw-bold mb-4">{{ __('miscellaneous.inner_page.about.description.title1') }}</i></h2>
                         <p class="mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.about.description.text1') }}</p>
 
@@ -89,7 +96,7 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <h2 class="h2 fw-bold mb-4">{{ __('miscellaneous.inner_page.about.description.title2') }}<i class="text-green">{{ __('miscellaneous.inner_page.about.butterfly.title_exclam') }}</i></i></h2>
                         <p class="mb-4">{{ __('miscellaneous.inner_page.about.description.text2') }}</p>
 

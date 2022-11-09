@@ -340,7 +340,8 @@ return [
         ],
         // About
         'about' => [
-            'banner_title' => 'Let\'s act now, it\'s contagious!',
+            'banner_title1' => 'Let\'s act now, it\'s contagious',
+            'banner_title2' => '!',
             'butterfly' => [
                 'title' => 'Action Damien and Butterfly',
                 'title_exclam' => '!',

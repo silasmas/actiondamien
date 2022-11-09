@@ -340,7 +340,8 @@ return [
         ],
         // About
         'about' => [
-            'banner_title' => 'Misala ezali contagieux!',
+            'banner_title1' => 'Misala ezali contagieux',
+            'banner_title2' => '!',
             'butterfly' => [
                 'title' => 'Action Damien na Papillon',
                 'title_exclam' => '!',

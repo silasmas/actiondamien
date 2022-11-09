@@ -187,7 +187,7 @@
         <!-- Values End -->
 
         <!-- Fourth Value Start -->
-        <div class="container-xxl py-5 bg-light" data-parallax="scroll">
+        <div class="container-xxl py-5 bg-yellow-pale" data-parallax="scroll">
             <div class="container">
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">

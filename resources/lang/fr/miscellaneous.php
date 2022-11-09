@@ -340,7 +340,8 @@ return [
         ],
         // About
         'about' => [
-            'banner_title' => 'Agir, c\'est contagieux !',
+            'banner_title1' => 'Agir, c\'est contagieux ',
+            'banner_title2' => '!',
             'butterfly' => [
                 'title' => 'Action Damien et Papillon',
                 'title_exclam' => ' !',
