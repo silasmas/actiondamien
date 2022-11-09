@@ -73,7 +73,7 @@ Malheureusement, la population majoritaire y vivant en dessous du seuil de la pa
                                 <img src="{{ asset('assets/img/photo/Projet_Papoose_3.png') }}" alt="" class="project-image ms-sm-4 mb-3 float-sm-end" style="border-radius: 1.2rem;">
 La Coordination Provinciale Lèpre et Tuberculose de Kinshasa (CPLT KINSHASA), avait procédé en 2021 a une sélection des malades conformément à un critère d'éligibilité qui ont été bénéficiaires de l'appui alimentaire à travers la distribution de vivres aux malades atteints de lèpre et de tuberculose. La distribution s'était déroulée pendant une durée de trois mois en raison de quatre jours par mois.
 
-                                <img src="{{ asset('assets/img/photo/Projet_Papoose_2.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
+                                <img src="{{ asset('assets/img/photo/Projet_Papoose_2.jpg') }}" alt="" class="project-image me-sm-4 mt-lg-2 mb-3 float-sm-start" style="border-radius: 1.2rem;">
 Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militaire des commandos Mangengenge de Maluku bénéficient de l'appui de ce projet. Durant la période de COVID-19, les bénéficiaires ont été particulièrement pris en charge à cause de la persistance de la pandémie de la COVID-19.
                             </pre>
                         </p>
@@ -92,10 +92,13 @@ Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militair
                         </h3>
                         <p class="mb-0">
                             <pre style="text-align: justify;">
-                                <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
+                                <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_4.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
 Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l’Equateur.
 
 En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
+                                <div class="row d-">
+                                    <div class="col-lg-4 col-sm-6"><img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_1.jpg') }}" alt="" class="img-fluid" style="border-radius: 1.2rem;"></div><div class="col-lg-4 col-sm-6 mt-sm-0 mt-4"><img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_2.jpg') }}" alt="" class="img-fluid" style="border-radius: 1.2rem;"></div><div class="col-lg-4 col-sm-6 ms-sm-auto mt-lg-0 mt-4 "><img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_3.jpg') }}" alt="" class="img-fluid" style="border-radius: 1.2rem;"></div>
+                                </div>
                             </pre>
                         </p>
                     </div>
