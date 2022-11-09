@@ -20,6 +20,7 @@ return [
     'back_form' => 'Return to the form',
     'loading' => 'Loading...',
     'connection' => 'Connection',
+    'payment_method' => 'Payment method',
     'register' => 'Register',
     'add' => 'Add',
     'registered' => 'Registered',

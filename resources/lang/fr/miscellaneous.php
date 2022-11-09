@@ -20,6 +20,7 @@ return [
     'back_form' => 'Retourner au formulaire',
     'loading' => 'Chargement ...',
     'connection' => 'Connexion',
+    'payment_method' => 'Mode de paiement',
     'register' => 'Enregistrer',
     'add' => 'Ajouter',
     'registered' => 'Eregistré',

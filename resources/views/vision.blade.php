@@ -390,7 +390,7 @@
                                             <label for="email">{{ __('miscellaneous.donate.form.email') }}</label>
                                         </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-12 mb-2">
                                         <div class="btn-group d-flex justify-content-around">
                                             <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
                                             <label class="btn btn-light py-3" for="btnradio1">$10</label>
@@ -400,6 +400,70 @@
 
                                             <input type="radio" class="btn-check btn-danger" name="btnradio" id="btnradio3" checked>
                                             <label class="btn btn-light py-3" for="btnradio3"><i class="fa fa-plus"></i></label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 px-0">
+                                        <h5 class="h5 ms-2 mb-4 text-white">{{ __('miscellaneous.payment_method') }}</h5>
+                                        <div class="row g-sm-0">
+                                            <div class="col-lg-6 col-sm-4 mx-auto">
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AfriMoney" value="option1" />
+                                                    <label class="form-check-label text-white" for="AfriMoney">
+                                                        <img src="{{ asset('assets/img/photo/services/AfriMoney.png') }}" alt="Afrimoney" height="30"> Afrimoney
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AirtelMoney" value="option2" />
+                                                    <label class="form-check-label text-white" for="AirtelMoney">
+                                                        <img src="{{ asset('assets/img/photo/services/AirtelMoney.png') }}" alt="Airtel money" height="30"> Airtel money
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Fyatu" value="option2" />
+                                                    <label class="form-check-label text-white" for="Fyatu">
+                                                        <img src="{{ asset('assets/img/photo/services/Fyatu.png') }}" alt="Fyatu" height="30"> Fyatu
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MasterCard" value="option2" />
+                                                    <label class="form-check-label text-white" for="MasterCard">
+                                                        <img src="{{ asset('assets/img/photo/services/MasterCard.png') }}" alt="MasterCard" height="30"> MasterCard
+                                                    </label>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-6 col-sm-4 mx-auto">
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MPesa" value="option2" />
+                                                    <label class="form-check-label text-white" for="MPesa">
+                                                        <img src="{{ asset('assets/img/photo/services/MPesa.png') }}" alt="MPesa" height="30"> M-Pesa
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="OrangeMoney" value="option2" />
+                                                    <label class="form-check-label text-white" for="OrangeMoney">
+                                                        <img src="{{ asset('assets/img/photo/services/OrangeMoney.png') }}" alt="Orange money" height="30"> Orange money
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="PayPal" value="option2" />
+                                                    <label class="form-check-label text-white" for="PayPal">
+                                                        <img src="{{ asset('assets/img/photo/services/PayPal.png') }}" alt="PayPal" height="30"> PayPal
+                                                    </label>
+                                                </div>
+            
+                                                <div class="form-check form-check-inline mx-4 mb-3">
+                                                    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Visa" value="option2" />
+                                                    <label class="form-check-label text-white" for="Visa">
+                                                        <img src="{{ asset('assets/img/photo/services/Visa.png') }}" alt="Visa" height="30"> Visa
+                                                    </label>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="col-12 text-end">

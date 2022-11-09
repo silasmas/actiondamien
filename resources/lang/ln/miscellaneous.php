@@ -20,6 +20,7 @@ return [
     'back_form' => 'Zongela na formulaire',
     'loading' => 'Nkotisa ...',
     'connection' => 'Kota',
+    'payment_method' => 'Lolenge yakofuta',
     'register' => 'Komisa',
     'add' => 'Bakisa',
     'registered' => 'Ekomisami',
