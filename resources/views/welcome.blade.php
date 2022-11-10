@@ -269,14 +269,14 @@
                             <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.hospitals.title') }}</div>
                             <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
                             <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
-                            <a class="btn btn-danger py-2 px-3 me-3 mb-2" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
+                            {{-- <a class="btn btn-danger py-2 px-3 me-3 mb-2" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
                                 <div class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
                                     <i class="fa fa-list"></i>
                                 </div>
                                 {{ __('miscellaneous.hospitals.link1') }}
-                            </a>
-                            <a class="btn btn-outline-danger py-2 px-3 me-3" href="{{ route('hosp_map') }}">
-                                <div class="d-inline-flex btn-sm-square bg-danger align-middle text-white rounded-circle me-2">
+                            </a> --}}
+                            <a class="btn btn-danger py-2 px-3 me-3" href="{{ route('hosp_map') }}">
+                                <div class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
                                     <i class="fa fa-location-arrow"></i>
                                 </div>
                                 {{ __('miscellaneous.hospitals.link2') }}
