@@ -354,7 +354,7 @@
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4 text-width" style="color:#FFF !important">{{ __('miscellaneous.report.subtitle') }}</p>
                             <a class="btn btn-danger py-2 mb-2 px-3" target="blank"
-                            href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021.html"
+                            href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021/full-view.html"
                             {{-- href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}" --}}
                             >
                                 <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
