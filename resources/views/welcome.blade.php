@@ -177,7 +177,7 @@
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
                     <div class="counter-box px-4 bg-secondary border border-yellow">
                         <i class="fa fa-users text-yellow"></i>
-                        <span class="counter text-green">6</span>
+                        <span class="counter text-green">300</span>
                         <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_1') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_1') }}</small>
                     </div>
@@ -186,7 +186,7 @@
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
                     <div class="counter-box px-4 bg-secondary border border-yellow">
                         <i class="fa fa-microscope text-yellow"></i>
-                        <span class="counter text-green">10</span>
+                        <span class="counter text-green">200</span>
                         <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_2') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_2') }}</small>
                     </div>

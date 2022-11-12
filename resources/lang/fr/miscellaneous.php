@@ -222,12 +222,12 @@ return [
     'statistics' => [
         'main_title' => 'Statistiques',
         'main_description' => 'Quelques chiffres',
-        'title_1' => 'Millions',
-        'content_1' => 'De personnes ont des séquelles mentales ou physiques à cause de la lèpre.',
-        'title_2' => 'Millions',
-        'content_2' => 'Plusieurs personnes développent la tuberculose chaque année.',
+        'title_1' => 'Personnes',
+        'content_1' => 'Ont des séquelles mentales ou physiques à cause de la lèpre.',
+        'title_2' => 'Mille',
+        'content_2' => 'Personnes développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli se font dans le monde.'
+        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font dans le monde.'
     ],
     'national_cover' => [
         'title' => 'Couverture mondiale',

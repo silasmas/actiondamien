@@ -222,12 +222,12 @@ return [
     'statistics' => [
         'main_title' => 'Statistiki',
         'main_description' => 'Mitango mosusu',
-        'title_1' => 'Millions',
-        'content_1' => 'Ya bato mingi banyokwamaka na makanisi to na nzoto mpo na maladi ya maba.',
-        'title_2' => 'Millions',
-        'content_2' => 'Bato mingi bazwaka maladi ya ntolo mbula na mbula.',
+        'title_1' => 'Ya bato',
+        'content_1' => 'Mingi banyokwamaka na makanisi to na nzoto mpo na maladi ya maba.',
+        'title_2' => 'Nkóto',
+        'content_2' => 'Ya bato mingi bazwaka maladi ya ntolo mbula na mbula.',
         'title_3' => 'Diagnostiki',
-        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli esalemaka na mokili.'
+        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na mokili.'
     ],
     'national_cover' => [
         'title' => 'Mokili mobimba',
