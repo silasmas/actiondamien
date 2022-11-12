@@ -84,7 +84,7 @@
         <!-- Ways To Support End -->
 
         <!-- Join Us Start -->
-        <div class="container-xxl py-5">
+        {{-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.inner_page.support_us.join_us.title') }}</div>
@@ -219,7 +219,110 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Join Us End -->
+        </div> --}}
 
+        <div class="container-xxl py-5 bg-light" data-parallax="scroll">
+            <div class="container pb-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="position-relative h-100" style="min-height: 400px;">
+                            <div class="position-relative h-100 rounded overflow-hidden">
+                                <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/index.jpg') }}" alt="" style="object-fit: cover; left:-15rem;">
+                            </div>
+                           {{-- <div class="row g-0 position-absolute rounded overflow-hidden" style="width: 90%;bottom: -30px; left: -10px;">
+                                <div class="col-sm-1 bg-dark py-2">
+                                </div>
+                                 <div class="col-sm-11 bg-yellow p-2 clearfix">
+                                    <h2 class="h2 float-start mt-2 me-2"><i class="fa fa-phone text-white"></i></h2>
+                                    <div>
+                                        <p class="m-0 text-white">{{ __('miscellaneous.support.call') }}</p>
+                                        <h5 class="h5 m-0 fw-bold">+243 816 520 396</h5>
+                                    </div>
+                                </div>
+                            </div>--}}
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="h-100">
+                            <div class="h-100 bg-danger p-lg-5 p-sm-4 p-3" style="border-radius: 1.2rem;">
+                                <form>
+                                    <h4 class="h4 mb-4 text-white fw-normal">{{ __('miscellaneous.inner_page.support_us.join_us.form.title') }}</h4>
+
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-4">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control bg-light border-0" id="firstname" placeholder="{{ __('miscellaneous.inner_page.support_us.join_us.form.firstname') }}">
+                                                <label for="name">{{ __('miscellaneous.inner_page.support_us.join_us.form.firstname') }}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control bg-light border-0" id="lastname" placeholder="{{ __('miscellaneous.inner_page.support_us.join_us.form.lastname') }}">
+                                                <label for="email">{{ __('miscellaneous.inner_page.support_us.join_us.form.lastname') }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-6 mb-4">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control bg-light border-0" id="email" placeholder="{{ __('miscellaneous.inner_page.support_us.join_us.form.email') }}">
+                                                <label for="name">{{ __('miscellaneous.inner_page.support_us.join_us.form.email') }}</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 mb-4">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control bg-light border-0" id="phone" placeholder="{{ __('miscellaneous.inner_page.support_us.join_us.form.phone') }}">
+                                                <label for="email">{{ __('miscellaneous.inner_page.support_us.join_us.form.phone') }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="mb-2 text-white fw-bold">{{ __('miscellaneous.inner_page.support_us.join_us.form.commitment_title') }}</p>
+
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="radio" name="commitment" id="commitment1">
+                                                <label class="form-check-label text-white" for="commitment1">{{ __('miscellaneous.inner_page.support_us.join_us.form.commitment_content1') }}</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="radio" name="commitment" id="commitment2">
+                                                <label class="form-check-label text-white" for="commitment2">{{ __('miscellaneous.inner_page.support_us.join_us.form.commitment_content2') }}</label>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="radio" name="commitment" id="commitment3">
+                                                <label class="form-check-label text-white" for="commitment3">{{ __('miscellaneous.inner_page.support_us.join_us.form.commitment_content3') }}</label>
+                                            </div>
+                                            <div class="form-check mb-4">
+                                                <input class="form-check-input" type="radio" name="commitment" id="commitment4">
+                                                <label class="form-check-label text-white" for="commitment4">{{ __('miscellaneous.inner_page.support_us.join_us.form.commitment_content4') }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control bg-light border-0" id="question" rows="3" placeholder="{{ __('miscellaneous.inner_page.support_us.join_us.form.question') }}"></textarea>
+                                                <label for="email">{{ __('miscellaneous.inner_page.support_us.join_us.form.question') }}</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button class="btn btn-dark mt-4 px-4" style="height: 60px;">
+                                        {{ __('miscellaneous.inner_page.support_us.join_us.form.button_send') }}
+
+                                        <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Join Us End -->
 @endsection
