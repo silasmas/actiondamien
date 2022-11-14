@@ -223,7 +223,7 @@ return [
         'main_title' => 'Statistiques',
         'main_description' => 'Quelques chiffres',
         'title_1' => 'Personnes',
-        'content_1' => 'Ont des séquelles mentales ou physiques à cause de la lèpre.',
+        'content_1' => 'développent là lèpre chaque année, dont 10% ont des séquelles mentales ou physiques à cause de la lèpre.',
         'title_2' => 'Mille',
         'content_2' => 'Personnes développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
