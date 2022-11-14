@@ -369,7 +369,7 @@ return [
         // Support us
         'support_us' => [
             'title' => 'Nous soutenir',
-            'description' => 'Faites-nous don de votre temps ! Vous avez envie de vous engager en faveur d\'une bonne cause, mais ne savez pas comment ? Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu\'importe…',
+            'description' => 'Faites-nous don de votre temps ! Vous avez envie de vous engager en faveur d\'une bonne cause, mais ne savez pas comment ? Devenez bénévole chez Action Damien!',
             'comment' => 'Votre temps nous est précieux !',
             'link' => 'Voir nos projets',
             'ways_to_support' => [

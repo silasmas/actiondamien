@@ -21,14 +21,14 @@
             <div class="container">
                 <div class="row g-0">
                     <div class="col-lg-6 p-5 wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="display-6 mb-5">{{ __('miscellaneous.inner_page.contact.title') }}</h1>
-                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-map-marker-alt me-2 text-danger"></i>{{ __('miscellaneous.inner_page.contact.reference_title1') }}</p>
+                        <h1 class="display-6 mb-5 text-green">{{ __('miscellaneous.inner_page.contact.title') }}</h1>
+                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-map-marker-alt me-2 text-green"></i>{{ __('miscellaneous.inner_page.contact.reference_title1') }}</p>
                         <p class="lead text-muted">{{ __('miscellaneous.inner_page.contact.reference_content1') }}</p>
                         <hr class="border border-default mb-4">
-                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-envelope me-2 text-danger"></i>{{ __('miscellaneous.inner_page.contact.reference_title2') }}</p>
+                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-envelope me-2 text-green"></i>{{ __('miscellaneous.inner_page.contact.reference_title2') }}</p>
                         <p class="lead text-muted">{{ __('miscellaneous.inner_page.contact.reference_content2') }}</p>
                         <hr class="border border-default mb-4">
-                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-phone me-2 text-danger"></i>{{ __('miscellaneous.inner_page.contact.reference_title3') }}</p>
+                        <p class="lead mb-1 fw-bold" style="color: #000;"><i class="fa fa-phone me-2 text-green"></i>{{ __('miscellaneous.inner_page.contact.reference_title3') }}</p>
                         <p class="lead text-muted">{{ __('miscellaneous.inner_page.contact.reference_content3') }}</p>
                     </div>
 
@@ -76,11 +76,11 @@
                                     </div>
                                 </div>
 
-                                <button class="btn btn-dark mt-4 px-4" style="height: 60px;">
+                                <button class="btn btn-green mt-4 px-4" style="height: 60px;">
                                     {{ __('miscellaneous.inner_page.contact.form.button_send') }}
 
                                     <div class="d-inline-flex btn-sm-square bg-white text-dark rounded-circle ms-2">
-                                        <i class="fa fa-arrow-right"></i>
+                                        <i class="fa fa-arrow-right text-green"></i>
                                     </div>
                                 </button>
                             </form>
