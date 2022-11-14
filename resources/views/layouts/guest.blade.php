@@ -131,10 +131,10 @@
                                                     <div class="btn-group d-flex justify-content-around">
                                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
                                                         <label class="btn btn-light py-3" for="btnradio1">$10</label>
-            
+
                                                         <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
                                                         <label class="btn btn-light py-3" for="btnradio2">$20</label>
-            
+
                                                         <input type="radio" class="btn-check btn-danger" name="btnradio" id="btnradio3" checked>
                                                         <label class="btn btn-light py-3" for="btnradio3"><i class="fa fa-plus"></i></label>
                                                     </div>
@@ -149,21 +149,21 @@
                                                                     <img src="{{ asset('assets/img/photo/services/AfriMoney.png') }}" alt="Afrimoney" height="30"> Afrimoney
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AirtelMoney" value="option2" />
                                                                 <label class="form-check-label" for="AirtelMoney">
                                                                     <img src="{{ asset('assets/img/photo/services/AirtelMoney.png') }}" alt="Airtel money" height="30"> Airtel money
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Fyatu" value="option2" />
                                                                 <label class="form-check-label" for="Fyatu">
                                                                     <img src="{{ asset('assets/img/photo/services/Fyatu.png') }}" alt="Fyatu" height="30"> Fyatu
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MasterCard" value="option2" />
                                                                 <label class="form-check-label" for="MasterCard">
@@ -171,7 +171,7 @@
                                                                 </label>
                                                             </div>
                                                         </div>
-            
+
                                                         <div class="col-sm-6">
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MPesa" value="option2" />
@@ -179,21 +179,21 @@
                                                                     <img src="{{ asset('assets/img/photo/services/MPesa.png') }}" alt="MPesa" height="30"> M-Pesa
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="OrangeMoney" value="option2" />
                                                                 <label class="form-check-label" for="OrangeMoney">
                                                                     <img src="{{ asset('assets/img/photo/services/OrangeMoney.png') }}" alt="Orange money" height="30"> Orange money
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="PayPal" value="option2" />
                                                                 <label class="form-check-label" for="PayPal">
                                                                     <img src="{{ asset('assets/img/photo/services/PayPal.png') }}" alt="PayPal" height="30"> PayPal
                                                                 </label>
                                                             </div>
-                        
+
                                                             <div class="form-check form-check-inline mx-4 mb-3">
                                                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Visa" value="option2" />
                                                                 <label class="form-check-label" for="Visa">
@@ -223,6 +223,55 @@
             </div>
         </div>
         <!-- Donate Modal Start -->
+        <!-- View rapport Modal Start -->
+        <div class="modal fade" id="ViewrapportModal" tabindex="-1" aria-hidden="true" >
+            <div class="modal-dialog  modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header pb-0 border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-0">
+                        {{-- <div class="container"> --}}
+                            <div class="row">
+                                <div class="col-12">
+                                    {{-- <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=71kquhubdc" width="100%" height="720" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe> --}}
+                                    <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=71kquhubdc" width="100%" height="700" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
+                                </div>
+                            </div>
+                        {{-- </div> --}}
+                    </div>
+                    {{-- <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
+                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
+
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+        <!-- View rapport  Modal Start -->
+        <!-- View QR Modal Start -->
+        <div class="modal fade" id="ViewrQRtModal" tabindex="-1" aria-hidden="true" >
+            <div class="modal-dialog  modal-sm" role="document">
+                <div class="modal-content">
+                    <div class="modal-header pb-0 border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-0">
+                        {{-- <div class="container"> --}}
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="{{ asset('assets/img/qr2.jpeg') }}" alt="" class="img-fluid rounded">
+                                </div>
+                            </div>
+                        {{-- </div> --}}
+                    </div>
+                    {{-- <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
+                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
+
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+        <!-- View QR  Modal Start -->
 
         <!-- Spinner Start -->
         <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">

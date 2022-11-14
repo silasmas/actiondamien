@@ -272,6 +272,7 @@ return [
     'report' => [
         'title' => 'Rapport Annuel',
         'subtitle' => 'Action Damien RD Congo',
+        'readQR' => 'Scanner le code QR',
         'read' => 'Lire'
     ],
     // Inner pages

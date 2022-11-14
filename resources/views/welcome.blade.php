@@ -186,7 +186,7 @@
                 <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
                     <div class="counter-box px-4 bg-secondary border border-yellow">
                         <i class="fa fa-microscope text-yellow"></i>
-                        <span class="counter text-green">20.0000</span>
+                        <span class="counter text-green">200.000</span>
                         <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_2') }}</p>
                         <small>{{ __('miscellaneous.statistics.content_2') }}</small>
                     </div>
@@ -343,6 +343,7 @@
                 <div class="row">
                     <div class="col-lg-5 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="bg-image shadow">
+
                             <img src="{{ asset('assets/img/photo/report.png') }}" alt="" class="img-fluid rounded">
                             <div class="mask"></div>
                         </div>
@@ -353,12 +354,25 @@
                             <h2 class="h2 text-uppercase mt-sm-5" style="color:#FFF !important">{{ __('miscellaneous.report.title') }}</h2>
                             <hr class="hr mb-4 border boder-default">
                             <p class="lead mb-4 text-width" style="color:#FFF !important">{{ __('miscellaneous.report.subtitle') }}</p>
-                            <a class="btn btn-danger py-2 mb-2 px-3" target="blank"
-                            href="https://www.flipsnack.com/585F9FCC5A8/action-damien_rapport-annuel-2021_vf_11-08-2022-1/full-view.html"
-                            {{-- href="{{ asset('assets/doc/ACTION_DAMIEN_Rapport_Annuel_RD_Congo_2020_24_SEP_2021.pdf') }}" --}}
-                            >
-                                <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
-                            </a>
+
+ {{-- <a href="#" class="btn btn-danger py-2 ps-2 pe-3" data-bs-toggle="modal" data-bs-target="#ViewrapportModal">
+                        voir rapport
+                        </a> --}}
+                        <a class="btn btn-danger py-2 mb-2 px-3" data-bs-toggle="modal" data-bs-target="#ViewrapportModal"
+                        {{-- href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021/full-view.html" --}}
+                        >
+                            <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }} 2020
+                        </a>
+                        <a class="btn btn-danger py-2 mb-2 px-3" target="blank"
+                        href="https://www.flipsnack.com/585F9FCC5A8/action-damien_rapport-annuel-2021_vf_11-08-2022-1/full-view.html"
+                        >
+                            <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }} 2021
+                        </a>
+                        <a class="btn btn-danger py-2 mb-2 px-3" target="blank" data-bs-toggle="modal" data-bs-target="#ViewrQRtModal"
+                        >
+                            <i class="fa fa-qrcode me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.readQR') }} 2021
+                        </a>
+
                         </div>
                     </div>
                 </div>
