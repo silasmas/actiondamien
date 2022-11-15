@@ -34,7 +34,7 @@
                         <pre class="fs-5">
 Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
 
-(Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.) 
+(Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
                         </pre>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -137,7 +137,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
             <div class="container">
                 <div class="row mx-0 align-items-center bg-danger" style=" border-radius: 1.2rem;">
                     <div class="col-sm-6 mb-3 px-5 py-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <h2 class="display-5 m-0" style="color: #970328;">{{ __('miscellaneous.inner_page.news.title') }}</h2>
+                        <h2 class="display-5 m-0 " style="color: #FFF; col">{{ __('miscellaneous.inner_page.news.title') }}</h2>
                     </div>
                     <div class="col-sm-6 px-5 py-4 wow fadeInUp" data-wow-delay="0.3s">
                         <p class="m-0 text-white">{{ __('miscellaneous.inner_page.news.subtitle') }}</p>
@@ -262,8 +262,8 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
                             Cette structure locale est venue soumettre au Ministre de tutelle ses désidératas par rapport à la prise en charge des personnes souffrant de cette maladie sur l’ensemble du territoire national.
 
                             Nous avons expliqué au Ministre de la santé nos difficultés en termes d’accès aux soins de santé. Nous avons surtout insisté sur la discrimination dont les lépreux sont victimes en RDC. Et, pourtant notre traitement est très différent et spécifique. Beaucoup parmi les patients, à travers tout le pays se sentent discriminés et souhaitent l’implication du gouvernement à travers le ministère de la Santé, Hygiène et Prévention afin de répondre à nos cris d’alarme, a indiqué Sandra Dongo.
-                            
-                            
+
+
                             Par ailleurs, la coordonnatrice de l’OPALCO s’est dite très satisfaite de cette rencontre avec le patron de la Santé publique. « Le Ministre Jean-Jacques Mbungani s’est donné la peine de nous écouter. Ses paroles nous ont beaucoup rassuré et ont suscité une lueur d’espoir. Nous croyons que les lépreux congolais auront une suite favorable dans les tous prochains jours », a-t-elle déclaré.
                             Créée le 15 février 2017, l’OPALCO est une organisation non gouvernementale basée à Kinshasa qui œuvre pour la lutte contre la lèpre en RDC. La structure travaille avec l’appui des différents partenaires internationaux tels que TLM Congo (The Leprosy Mission), Action Damien et autres.
                         </p>
@@ -395,7 +395,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
                         </h5>
                         <p class="mb-0 paragraph">
                             Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
-                            (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.) 
+                            (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
                         </p>
                         <p class="mb-0">
                             <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('news_details', ['id' => 7]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">

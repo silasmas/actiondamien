@@ -31,7 +31,7 @@
                     <div class="col-lg-9 col-sm-8 col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <h1 class="h1 mb-4 fw-bold">{{ __('miscellaneous.inner_page.support_us.comment') }}</h1>
                         <p class="lead mb-4">{{ __('miscellaneous.inner_page.support_us.description') }}</p>
-                        <a class="btn btn-danger text-white py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                        <a class="btn btn-danger text-white py-2 px-3 animated slideInDown" href="{{ route('projects') }}">
                             {{ __('miscellaneous.inner_page.support_us.link') }}
 
                             <div class="d-inline-flex btn-sm-square text-danger bg-white rounded-circle ms-2">
@@ -63,7 +63,8 @@
                         <i class="fa fa-globe mb-4 display-3 text-green"></i>
                         <h4 class="h4 fw-bold mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_title') }}</h4>
                         <p class="fw-normal mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_content') }}</p>
-                        <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                        <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="#"
+                        data-bs-toggle="modal" data-bs-target="#donateModal">
                             {{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_link') }}
 
                             <div class="d-inline-flex btn-sm-square text-white bg-green rounded-circle ms-2">
