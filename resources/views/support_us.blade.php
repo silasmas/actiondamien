@@ -31,7 +31,7 @@
                     <div class="col-lg-9 col-sm-8 col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <h1 class="h1 mb-4 fw-bold">{{ __('miscellaneous.inner_page.support_us.comment') }}</h1>
                         <p class="lead mb-4">{{ __('miscellaneous.inner_page.support_us.description') }}</p>
-                        <a class="btn btn-danger text-white py-2 px-3 animated slideInDown" href="{{ route('support_us') }}">
+                        <a class="btn btn-danger text-white py-2 px-3 animated slideInDown" href="{{ route('projects') }}">
                             {{ __('miscellaneous.inner_page.support_us.link') }}
 
                             <div class="d-inline-flex btn-sm-square text-danger bg-white rounded-circle ms-2">
