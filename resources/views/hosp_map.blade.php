@@ -41,7 +41,7 @@
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Bandalungwa</h3>
-                                <a href="#" class="stretched-link bg-danger"></a>
+                                
                             </div>
                             <ul class="list-group list-group-flush rounded-0">
                                 <li class="list-group-item px-4 py-3">
@@ -71,7 +71,6 @@
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Barumbu</h3>
-                                <a href="#" class="stretched-link bg-danger"></a>
                             </div>
                             <ul class="list-group list-group-flush rounded-0">
                                 <li class="list-group-item px-4 py-3">
@@ -102,6 +101,65 @@
                                     </p>
                                     <p class="m-0 fw-light">
                                         <i class="fa fa-phone me-2"></i>(+243) 851 109 360 / 818 288 808
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Ngaliema</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">KASA-VUBU (BAHUMBU)</h5>
+                                    <h6 class="h6 mb-3">Kimpe</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Kasa-Vubu N°36, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 999 921 215 / 822 147 303
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">KINKENDA</h5>
+                                    <h6 class="h6 mb-3">Kinkenda</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Ngowa N°44, Q/Camp Luka, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 038 007
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">MWINDA</h5>
+                                    <h6 class="h6 mb-3">Bumba</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Q/Sangamamba, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 177 395
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">NGOLO</h5>
+                                    <h6 class="h6 mb-3">Lubudi</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Q/Bolikango, Camp Luka, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 812 250 461
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">SAINT SACREMENT</h5>
+                                    <h6 class="h6 mb-3">Binza Pigeon</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. de la Maternité N°4, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 575 786
                                     </p>
                                 </li>
                             </ul>
