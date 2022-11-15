@@ -478,5 +478,11 @@ return [
             'type2' => 'Fund raising',
             'type3' => 'Visit',
         ],
+        // News
+        'hospitals' => [
+            'search' => 'Search a health zone',
+            'link' => 'Read more ... »',
+            'see_more' => 'See more ...',
+        ],
     ],
 ];

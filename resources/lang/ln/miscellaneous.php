@@ -478,5 +478,11 @@ return [
             'type2' => 'Kozwa mosolo',
             'type3' => 'Kokende kotala',
         ],
+        // News
+        'hospitals' => [
+            'search' => 'Luka zone ya santé',
+            'link' => 'Tanga lisusu ... »',
+            'see_more' => 'Mona lisusu ...',
+        ],
     ],
 ];

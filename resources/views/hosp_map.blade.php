@@ -16,14 +16,39 @@
         </div>
         <!-- Page Header End -->
 
-        <!-- About Start -->
+        <!-- Search info Start -->
         <div class="container-xxl py-5">
             <div class="container">
-                <div class="row g-5">
-
+                <div class="row align-items-center">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="input-group">
+                            <input type="text" class="form-control" aria-label="{{ __('miscellaneous.inner_page.hospitals.search') }}" placeholder="{{ __('miscellaneous.inner_page.hospitals.search') }}" style="border-start-start-radius: 0.7rem; border-end-start-radius: 0.7rem;">
+                            <span class="input-group-text p-0 border-blue overflow-hidden" style="border-end-end-radius: 0.7rem; border-start-end-radius: 0.7rem;">
+                                <button class="btn btn-blue px-4 rounded-0" style="height: 60px;"><i class="fa fa-search"></i></button>
+                            </span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- About End -->
+        <!-- Search info End -->
+
+        <!-- Hospitals list Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="card border border-default shadow-0">
+                            <div class="card-body text-center">
+                                <i class="fa fa-hospital display-4"></i>
+                                <h1 class="h1 m-0">BANDALUNGWA</h1>
+                                <a href="#" class="stretched-link bg-danger"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hospitals list End -->
 
 @endsection

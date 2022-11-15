@@ -478,5 +478,11 @@ return [
             'type2' => 'Collecte de fonds',
             'type3' => 'Visite',
         ],
+        // News
+        'hospitals' => [
+            'search' => 'Rechercher une zone de santé',
+            'link' => 'Lire la suite ... »',
+            'see_more' => 'Voir plus ...',
+        ],
     ],
 ];
