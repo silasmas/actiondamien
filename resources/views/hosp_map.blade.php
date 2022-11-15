@@ -67,6 +67,7 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-sm-12">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
@@ -106,6 +107,7 @@
                             </ul>
                         </div>
                     </div>
+
                     <div class="col-lg-6 col-sm-12">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
