@@ -1,4 +1,4 @@
-@extends('layouts.guest')
+@extends('layouts.template')
 
 @section('guest-content')
         <!-- Page Header Start -->
