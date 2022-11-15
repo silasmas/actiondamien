@@ -37,7 +37,7 @@
         <div class="container-xxl pb-5">
             <div class="container">
                 <div class="row g-5">
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Bandalungwa</h3>
@@ -68,7 +68,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Barumbu</h3>
@@ -108,7 +108,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Ngaliema</h3>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Binza Ozone</h3>
@@ -248,7 +248,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Biyela</h3>
@@ -298,7 +298,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Bumbu</h3>
@@ -338,7 +338,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Gombe</h3>
@@ -408,7 +408,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12">
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Bumbu</h3>
