@@ -223,6 +223,7 @@
             </div>
         </div>
         <!-- Donate Modal Start -->
+
         <!-- View rapport Modal Start -->
         <div class="modal fade" id="ViewrapportModal" tabindex="-1" aria-hidden="true" >
             <div class="modal-dialog  modal-lg" role="document">
@@ -248,6 +249,7 @@
             </div>
         </div>
         <!-- View rapport  Modal Start -->
+
         <!-- View QR Modal Start -->
         <div class="modal fade" id="ViewrQRtModal" tabindex="-1" aria-hidden="true" >
             <div class="modal-dialog  modal-sm" role="document">
