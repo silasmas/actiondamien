@@ -137,7 +137,11 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
             <div class="container">
                 <div class="row mx-0 align-items-center bg-danger" style=" border-radius: 1.2rem;">
                     <div class="col-sm-6 mb-3 px-5 py-4 wow fadeInUp" data-wow-delay="0.1s">
+
                         <h2 class="display-5 m-0 " style="color: #FFF; col">{{ __('miscellaneous.inner_page.news.title') }}</h2>
+
+                        {{-- <h2 class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.news.title') }}</h2> --}}
+
                     </div>
                     <div class="col-sm-6 px-5 py-4 wow fadeInUp" data-wow-delay="0.3s">
                         <p class="m-0 text-white">{{ __('miscellaneous.inner_page.news.subtitle') }}</p>

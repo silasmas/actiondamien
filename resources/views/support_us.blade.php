@@ -63,8 +63,12 @@
                         <i class="fa fa-globe mb-4 display-3 text-green"></i>
                         <h4 class="h4 fw-bold mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_title') }}</h4>
                         <p class="fw-normal mb-3">{{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_content') }}</p>
-                        <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="#"
-                        data-bs-toggle="modal" data-bs-target="#donateModal">
+
+                        {{-- <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="#"
+                        data-bs-toggle="modal" data-bs-target="#donateModal"> --}}
+
+                        <a class="btn border-green text-green py-2 px-3 animated slideInDown" href="{{ route('donate') }}" data-bs-toggle="modal" data-bs-target="#donateModal">
+
                             {{ __('miscellaneous.inner_page.support_us.ways_to_support.way2_link') }}
 
                             <div class="d-inline-flex btn-sm-square text-white bg-green rounded-circle ms-2">
