@@ -1,26 +1,228 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="{{ __('miscellaneous.actiondamien_description') }}" name="description">
 
-        <title>{{ config('app.name', 'Laravel') }}</title>
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/img/favicon/apple-icon-57x57.png') }}">
+        <link rel="apple-touch-icon" sizes="60x60" href="{{ asset('assets/img/favicon/apple-icon-60x60.png') }}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/img/favicon/apple-icon-72x72.png') }}">
+        <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/img/favicon/apple-icon-76x76.png') }}">
+        <link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/img/favicon/apple-icon-114x114.png') }}">
+        <link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/img/favicon/apple-icon-120x120.png') }}">
+        <link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/img/favicon/apple-icon-144x144.png') }}">
+        <link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/img/favicon/apple-icon-152x152.png') }}">
+        <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/favicon/apple-icon-180x180.png') }}">
+        <link rel="icon" type="image/png" sizes="192x192"  href="{{ asset('assets/img/favicon/android-icon-192x192.png') }}">
+        <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/favicon/favicon-32x32.png') }}">
+        <link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/img/favicon/favicon-96x96.png') }}">
+        <link rel="icon" type="image/png" sizes="16x16" href="{{ asset('assets/img/favicon/favicon-16x16.png') }}">
+        <link rel="manifest" href="{{ asset('assets/img/favicon/manifest.json') }}">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="{{ asset('assets/img/favicon/ms-icon-144x144.png') }}">
+        <meta name="theme-color" content="#ffffff">
 
-        <!-- Fonts -->
-        <link rel="stylesheet" href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet">
 
-        <!-- Scripts -->
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
+
+        <!-- Custom Stylesheet -->
+        <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet">
+
+        <title>
+@if (Route::current()->getName() == 'home')
+            Action Damien / {{ __('miscellaneous.main_menu.home') }}
+@endif
+
+@if (Route::current()->getName() == 'vision')
+            {{ __('miscellaneous.main_menu.who_are_we.our_vision') }}
+@endif
+
+@if (Route::current()->getName() == 'about')
+            {{ __('miscellaneous.main_menu.who_are_we.about') }}
+@endif
+
+@if (Route::current()->getName() == 'support_us')
+            {{ __('miscellaneous.main_menu.who_are_we.support_us') }}
+@endif
+
+@if (Route::current()->getName() == 'contact')
+            {{ __('miscellaneous.main_menu.who_are_we.contact') }}
+@endif
+
+@if (Route::current()->getName() == 'news')
+            {{ __('miscellaneous.main_menu.news') }}
+@endif
+
+@if (Route::current()->getName() == 'news_details')
+            {{ __('miscellaneous.inner_page.news.details.title') }}
+@endif
+
+@if (Route::current()->getName() == 'testimonials')
+            {{ __('miscellaneous.main_menu.testimonials.video_testimonials') }}
+@endif
+
+@if (Route::current()->getName() == 'sensibilization')
+            {{ __('miscellaneous.main_menu.testimonials.sensibilization') }}
+@endif
+
+@if (Route::current()->getName() == 'projects')
+            {{ __('miscellaneous.main_menu.projects') }}
+@endif
+
+@if (Route::current()->getName() == 'donate')
+            {{ __('miscellaneous.main_menu.donate') }}
+@endif
+
+@if (Route::current()->getName() == 'hosp_map')
+            {{ __('miscellaneous.hospitals.link2') }}
+@endif
+        </title>
     </head>
-    <body>
-        <div class="font-sans text-gray-900 antialiased">
-            {{ $slot }}
-        </div>
-<<<<<<< HEAD
-=======
-        <!-- Donate Modal Start -->
 
+    <body class="pt-5">
+
+        <!-- Donate Modal Start -->
+        <div class="modal fade" id="donateModal" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header pb-0 border-0">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body pt-0">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="h-100 p-lg-3 p-sm-2 p-1 rounded">
+                                        <form>
+                                            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">{{ __('miscellaneous.donate.title') }}</div>
+                                            <h3 class="h3 mb-4 fw-bold text-danger">{{ __('miscellaneous.donate.description') }}</h3>
+
+                                            <div class="row g-3">
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="text" class="form-control" id="name" placeholder="{{ __('miscellaneous.donate.form.name') }}">
+                                                        <label for="name">{{ __('miscellaneous.donate.form.name') }}</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="form-floating">
+                                                        <input type="email" class="form-control" id="email" placeholder="{{ __('miscellaneous.donate.form.email') }}">
+                                                        <label for="email">{{ __('miscellaneous.donate.form.email') }}</label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="btn-group d-flex justify-content-around">
+                                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio1">
+                                                        <label class="btn btn-light py-3" for="btnradio1">$10</label>
+
+                                                        <input type="radio" class="btn-check" name="btnradio" id="btnradio2">
+                                                        <label class="btn btn-light py-3" for="btnradio2">$20</label>
+
+                                                        <input type="radio" class="btn-check btn-danger" name="btnradio" id="btnradio3" checked>
+                                                        <label class="btn btn-light py-3" for="btnradio3"><i class="fa fa-plus"></i></label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 px-0">
+                                                    <h5 class="h5 ms-2 mb-4">{{ __('miscellaneous.payment_method') }}</h5>
+                                                    <div class="row g-sm-0">
+                                                        <div class="col-sm-6">
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AfriMoney" value="option1" />
+                                                                <label class="form-check-label" for="AfriMoney">
+                                                                    <img src="{{ asset('assets/img/photo/services/AfriMoney.png') }}" alt="Afrimoney" height="30"> Afrimoney
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AirtelMoney" value="option2" />
+                                                                <label class="form-check-label" for="AirtelMoney">
+                                                                    <img src="{{ asset('assets/img/photo/services/AirtelMoney.png') }}" alt="Airtel money" height="30"> Airtel money
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Fyatu" value="option2" />
+                                                                <label class="form-check-label" for="Fyatu">
+                                                                    <img src="{{ asset('assets/img/photo/services/Fyatu.png') }}" alt="Fyatu" height="30"> Fyatu
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MasterCard" value="option2" />
+                                                                <label class="form-check-label" for="MasterCard">
+                                                                    <img src="{{ asset('assets/img/photo/services/MasterCard.png') }}" alt="MasterCard" height="30"> MasterCard
+                                                                </label>
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="col-sm-6">
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MPesa" value="option2" />
+                                                                <label class="form-check-label" for="MPesa">
+                                                                    <img src="{{ asset('assets/img/photo/services/MPesa.png') }}" alt="MPesa" height="30"> M-Pesa
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="OrangeMoney" value="option2" />
+                                                                <label class="form-check-label" for="OrangeMoney">
+                                                                    <img src="{{ asset('assets/img/photo/services/OrangeMoney.png') }}" alt="Orange money" height="30"> Orange money
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="PayPal" value="option2" />
+                                                                <label class="form-check-label" for="PayPal">
+                                                                    <img src="{{ asset('assets/img/photo/services/PayPal.png') }}" alt="PayPal" height="30"> PayPal
+                                                                </label>
+                                                            </div>
+
+                                                            <div class="form-check form-check-inline mx-4 mb-3">
+                                                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Visa" value="option2" />
+                                                                <label class="form-check-label" for="Visa">
+                                                                    <img src="{{ asset('assets/img/photo/services/Visa.png') }}" alt="Visa" height="30"> Visa
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
+                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
+                        <button type="button" class="btn btn-danger shadow-0" data-bs-dismiss="modal">
+                            {{ __('miscellaneous.donate.form.run') }}
+                            <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
+                                <i class="fa fa-arrow-right"></i>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Donate Modal Start -->
         <!-- View rapport Modal Start -->
         <div class="modal fade" id="ViewrapportModal" tabindex="-1" aria-hidden="true" >
             <div class="modal-dialog  modal-lg" role="document">
@@ -46,7 +248,6 @@
             </div>
         </div>
         <!-- View rapport  Modal Start -->
-
         <!-- View QR Modal Start -->
         <div class="modal fade" id="ViewrQRtModal" tabindex="-1" aria-hidden="true" >
             <div class="modal-dialog  modal-sm" role="document">
@@ -89,7 +290,7 @@
                     <!-- Social networks -->
                     <small ><a class="me-3" style="color:#58b8a7 !important"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
                     <a class="text-dark ms-2" target="_blank" href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important" ><i class="fab fa-facebook-f"></i></a>
-                    {{-- <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a> --}}
+                    <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a>
                     <a class="text-dark ms-3 me-5" target="_blank" href="https://www.instagram.com/actiondamien_rdc/"style="color:#58b8a7 !important" ><i class="fab fa-instagram"></i></a>
 
                     <!-- Language toggle -->
@@ -216,7 +417,7 @@
                         <p class="small" style="text-align: justify;">{{ __('miscellaneous.actiondamien_description') }}</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-square me-3" target="_blank" href="https://web.facebook.com/actiondamienrdcofficiel"><i class="fab fa-facebook-f"></i></a>
-                            {{-- <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a> --}}
+                            <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-square me-0" target="_blank" href="https://www.instagram.com/actiondamien_rdc/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
@@ -277,6 +478,5 @@
         <!-- Custom Javascript -->
         <script src="{{ asset('assets/js/main.js') }}"></script>
         <script src="{{ asset('assets/js/custom.js') }}"></script>
->>>>>>> a089cddc096e8b61d4ed4464181bc10ab48e2b3f
     </body>
 </html>
