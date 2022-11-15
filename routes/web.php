@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\Web\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,21 +21,4 @@ Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
-require __DIR__ . '/auth.php';
-
-
-// Language
-Route::get('/language/{locale}', [HomeController::class, 'changeLanguage'])->name('change_language');
-// Home
-Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('/vision', [HomeController::class, 'vision'])->name('vision');
-Route::get('/about', [HomeController::class, 'about'])->name('about');
-Route::get('/support_us', [HomeController::class, 'supportUs'])->name('support_us');
-Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
-Route::get('/news', [HomeController::class, 'news'])->name('news');
-Route::get('/news/{id}', [HomeController::class, 'newsDetails'])->whereNumber('id')->name('news_details');
-Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
-Route::get('/sensibilization', [HomeController::class, 'sensibilization'])->name('sensibilization');
-Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
-Route::get('/donate', [HomeController::class, 'donate'])->name('donate');
-Route::get('/hosp_map', [HomeController::class, 'hospMap'])->name('hosp_map');
+require __DIR__.'/auth.php';
