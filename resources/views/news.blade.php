@@ -34,7 +34,7 @@
                         <pre class="fs-5">
 Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
 
-(Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.) 
+(Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
                         </pre>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -137,7 +137,11 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
             <div class="container">
                 <div class="row mx-0 align-items-center bg-danger" style=" border-radius: 1.2rem;">
                     <div class="col-sm-6 mb-3 px-5 py-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <h2 class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.news.title') }}</h2>
+
+                        <h2 class="display-5 m-0 " style="color: #FFF; col">{{ __('miscellaneous.inner_page.news.title') }}</h2>
+
+                        {{-- <h2 class="display-5 m-0 text-white">{{ __('miscellaneous.inner_page.news.title') }}</h2> --}}
+
                     </div>
                     <div class="col-sm-6 px-5 py-4 wow fadeInUp" data-wow-delay="0.3s">
                         <p class="m-0 text-white">{{ __('miscellaneous.inner_page.news.subtitle') }}</p>
@@ -395,7 +399,7 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
                         </h5>
                         <p class="mb-0 paragraph">
                             Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
-                            (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.) 
+                            (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
                         </p>
                         <p class="mb-0">
                             <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('news_details', ['id' => 7]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">
