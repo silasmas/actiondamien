@@ -262,8 +262,8 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
                             Cette structure locale est venue soumettre au Ministre de tutelle ses désidératas par rapport à la prise en charge des personnes souffrant de cette maladie sur l’ensemble du territoire national.
 
                             Nous avons expliqué au Ministre de la santé nos difficultés en termes d’accès aux soins de santé. Nous avons surtout insisté sur la discrimination dont les lépreux sont victimes en RDC. Et, pourtant notre traitement est très différent et spécifique. Beaucoup parmi les patients, à travers tout le pays se sentent discriminés et souhaitent l’implication du gouvernement à travers le ministère de la Santé, Hygiène et Prévention afin de répondre à nos cris d’alarme, a indiqué Sandra Dongo.
-                            
-                            
+
+
                             Par ailleurs, la coordonnatrice de l’OPALCO s’est dite très satisfaite de cette rencontre avec le patron de la Santé publique. « Le Ministre Jean-Jacques Mbungani s’est donné la peine de nous écouter. Ses paroles nous ont beaucoup rassuré et ont suscité une lueur d’espoir. Nous croyons que les lépreux congolais auront une suite favorable dans les tous prochains jours », a-t-elle déclaré.
                             Créée le 15 février 2017, l’OPALCO est une organisation non gouvernementale basée à Kinshasa qui œuvre pour la lutte contre la lèpre en RDC. La structure travaille avec l’appui des différents partenaires internationaux tels que TLM Congo (The Leprosy Mission), Action Damien et autres.
                         </p>

@@ -381,7 +381,7 @@
         <!-- Report End -->
 
 
-        <!-- Testimonial Start -->
+        <!-- News Start -->
         <div class="container-xxl pb-5">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -392,36 +392,126 @@
                 <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
                     <div class="testimonial-item text-center">
                         <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
-                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/ANNEXE 11 IMAGE POUR LA PARTIE NOUS SOUTENIR.jpeg') }}">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1651170274_.jpg') }}">
                             <div class="mask"></div>
                         </div>
 
                         <div class="testimonial-text rounded px-4 py-3">
-                            <h4 class="h4 fw-bold text-truncate">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h4>
-                            <p class="small text-truncate">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <h4 class="h4 fw-bold text-truncate">Visite de la nouvelle directrice de la DGD (Belgique) Mme Heidy Rombouts au CEDA - Kinshasa</h4>
+                            <p class="small text-truncate">En effet, lors de son passage en RD Congo, Mme Heidy Rombouts, la directrice de la direction générale de la coopération au développement Belge. Nous a fait l’honneur de venir voir le Centre d’Excellence Damien (CEDA). Cet hôpital qui soigne de manière prodigieuse les malades affectés par la tuberculose ultra résistante. Hôpital entièrement financé par Action Damien et la DGD.</p>
                             <p class="mt-4 mb-0">
-                                <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('news_details', ['id' => 1]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
                             </p>
                         </div>
                     </div>
 
                     <div class="testimonial-item text-center">
                         <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
-                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/W1A3398-copie-1.jpg') }}">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646304344_.jpg') }}">
                             <div class="mask"></div>
                         </div>
 
                         <div class="testimonial-text rounded px-4 py-3">
-                            <h4 class="h4 fw-bold text-truncate">Donec luctus magna felis sollicitudin mauris. Integer in mauris eu nibh euismod gravida.</h4>
-                            <p class="small text-truncate">Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam varius, turpis et commodo pharetra, est eros bibendum elit.</p>
+                            <h4 class="h4 fw-bold text-truncate">Andy BIESE y a représenté Action Damien à la 1ère édition du Africell Congo River Marathon.</h4>
+                            <p class="small text-truncate">La 1ère édition du Africell Congo River Marathon a eu lieu à Kinshasa le week-end le 29 août 2021. Il s'agit d'un marathon complet, un semi-marathon, 10km Fun Run pour permettre au plus grand nombre de participer !</p>
                             <p class="mt-4 mb-0">
-                                <a href="#">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                                <a href="{{ route('news_details', ['id' => 1]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646082394_.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
+
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">L'engagement du Ministre de la Santé - Lèpre.</h4>
+                            <p class="small text-truncate">
+                                Le ministre de la santé publique, hygiène et prévention, le docteur Jean-Jacques Mbungani a reçu en audience ce jeudi 20 Mai 2021, la coordinatrice de l’organisation des personnes affectées par la lèpre au Congo (OPALCO), Sandra Dongo et a promis la prise en charge de ces derniers.
+                                Cette structure locale est venue soumettre au Ministre de tutelle ses désidératas par rapport à la prise en charge des personnes souffrant de cette maladie sur l’ensemble du territoire national.
+    
+                                Nous avons expliqué au Ministre de la santé nos difficultés en termes d’accès aux soins de santé. Nous avons surtout insisté sur la discrimination dont les lépreux sont victimes en RDC. Et, pourtant notre traitement est très différent et spécifique. Beaucoup parmi les patients, à travers tout le pays se sentent discriminés et souhaitent l’implication du gouvernement à travers le ministère de la Santé, Hygiène et Prévention afin de répondre à nos cris d’alarme, a indiqué Sandra Dongo.
+    
+    
+                                Par ailleurs, la coordonnatrice de l’OPALCO s’est dite très satisfaite de cette rencontre avec le patron de la Santé publique. « Le Ministre Jean-Jacques Mbungani s’est donné la peine de nous écouter. Ses paroles nous ont beaucoup rassuré et ont suscité une lueur d’espoir. Nous croyons que les lépreux congolais auront une suite favorable dans les tous prochains jours », a-t-elle déclaré.
+                                Créée le 15 février 2017, l’OPALCO est une organisation non gouvernementale basée à Kinshasa qui œuvre pour la lutte contre la lèpre en RDC. La structure travaille avec l’appui des différents partenaires internationaux tels que TLM Congo (The Leprosy Mission), Action Damien et autres.
+                            </p>
+                            <p class="mt-4 mb-0">
+                                <a href="{{ route('news_details', ['id' => 3]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646087603_.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
+
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">Formation "Gender"</h4>
+                            <p class="small text-truncate">Isadora De Backer qui est venu expressément depuis la Belgique pour nous donner cours à ce sujet pendant pratiquement 10 jours</p>
+                            <p class="mt-4 mb-0">
+                                <a href="{{ route('news_details', ['id' => 4]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646046826_.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
+
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">Projet Papoose</h4>
+                            <p class="small text-truncate">Projet Papoose - Suite de distribution des vivres du mois d'aout, à Kinshasa. Mall de pott détécté chez une enfant de moins de 10 ans.</p>
+                            <p class="mt-4 mb-0">
+                                <a href="{{ route('news_details', ['id' => 5]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646302688_.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
+
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">Visite de l'Ambassadeur de Belgique en RDC, Mr Stefan INDEKEU au CEDA</h4>
+                            <p class="small text-truncate">
+                                Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
+                                (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
+                            </p>
+                            <p class="mt-4 mb-0">
+                                <a href="{{ route('news_details', ['id' => 6]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item text-center">
+                        <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                            <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto" src="{{ asset('assets/img/photo/1646302688_.jpg') }}">
+                            <div class="mask"></div>
+                        </div>
+
+                        <div class="testimonial-text rounded px-4 py-3">
+                            <h4 class="h4 fw-bold text-truncate">La visite du CEDA par Mr. Jo INDEKEU, diffusé à la RTNC</h4>
+                            <p class="small text-truncate">
+                                Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
+                                (Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.) 
+                            </p>
+                            <p class="mt-4 mb-0">
+                                <a href="{{ route('news_details', ['id' => 6]) }}">Lire l'article<i class="fa fa-arrow-right ms-2"></i></a>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Testimonial End -->
+        <!-- News End -->
 
 @endsection
