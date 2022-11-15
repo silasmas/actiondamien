@@ -167,6 +167,266 @@
                             </ul>
                         </div>
                     </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Binza Ozone</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">AKRAM NGALIEMA</h5>
+                                    <h6 class="h6 mb-3">Joli-Parc</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Nguma, Q/Joli-Parc, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 896 012 315
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">BOLINGO</h5>
+                                    <h6 class="h6 mb-3">Museyi</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Mpangala N°26, Q/Museyi, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 895 749 683 / 896 157 208
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">LUKUNGA</h5>
+                                    <h6 class="h6 mb-3">Lukunga</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Maternité N°2, Q/Binza-Ozone, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 895 488 107
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">LUYINDU</h5>
+                                    <h6 class="h6 mb-3">Munganga</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. REGIDESO N°45, Q/Munganga, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 990 983 682 / 898 745 022
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">MFINDA</h5>
+                                    <h6 class="h6 mb-3">Mfinda</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Rue Kivuila N°43 Bis, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 813 402 068
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">NGALIEMA-CENTER</h5>
+                                    <h6 class="h6 mb-3">Joli-Parc</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. de la Montagne N°4197, Q/Joli-Parc, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 898 289 124
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">SAINT CHRISTOPHE</h5>
+                                    <h6 class="h6 mb-3">Anciens Combattants</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Quartier 9 N°21, C/Ngaliema
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 138 754 / 901 791 314
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Biyela</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">MABONDELI</h5>
+                                    <h6 class="h6 mb-3">Luebo 2</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Kwilu N°69/73, Q/Ngiesi, C/Kimbanseke
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">MOKALI</h5>
+                                    <h6 class="h6 mb-3">Mokali</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Quartier Mokali, Réf. : Ngambu ya Pont, C/Kimbanseke
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 376 987
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">SAINT JOSEPH</h5>
+                                    <h6 class="h6 mb-3">Luebo 1</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Misani, Q/Malonda, C/Kimbanseke
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 896 096 863
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">TSHIMUNGU</h5>
+                                    <h6 class="h6 mb-3">Malonda</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Bansima, Q/Malonda, C/Kimbanseke
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 997 382 162
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Bumbu</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CME BUMBU</h5>
+                                    <h6 class="h6 mb-3">Mbaki</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Maternité de Bumbu, C/Bumbu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 255 211
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">LIBONDI</h5>
+                                    <h6 class="h6 mb-3">Matadi</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Tatamene N°117, C/Bumbu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 255 739
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">SILOE</h5>
+                                    <h6 class="h6 mb-3">Kasai 1</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Kimbondo N°222, Q/Kasai, C/Bumbu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 899 900 419
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Gombe</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">AKRAM GOMBE</h5>
+                                    <h6 class="h6 mb-3">Gare</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Boulevard du 30 Juin
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 833 954
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">BCC</h5>
+                                    <h6 class="h6 mb-3">Révolution</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Voir Polyclinique BCC
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CLINIQUE NGALIEMA</h5>
+                                    <h6 class="h6 mb-3">Clinique</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. des Cliniques, B.P. 3089, Kinshasa/Gombe
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 039 607 / 990 314 303
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CM MONGALA</h5>
+                                    <h6 class="h6 mb-3">Révolution</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Mongala, Près de l'Ambassade d'Italie
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 816 372 517
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CMK</h5>
+                                    <h6 class="h6 mb-3">Gare</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Wagenia, C/Gombe
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">HGRK</h5>
+                                    <h6 class="h6 mb-3">Golf</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Pavillon Mama Yemo
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 641 465
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Bumbu</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CME BUMBU</h5>
+                                    <h6 class="h6 mb-3">Mbaki</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Maternité de Bumbu, C/Bumbu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 255 211
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
