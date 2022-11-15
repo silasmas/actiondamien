@@ -290,7 +290,7 @@
                     <!-- Social networks -->
                     <small ><a class="me-3" style="color:#58b8a7 !important"  href="#"><i class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
                     <a class="text-dark ms-2" target="_blank" href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important" ><i class="fab fa-facebook-f"></i></a>
-                    <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a>
+                    {{-- <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a> --}}
                     <a class="text-dark ms-3 me-5" target="_blank" href="https://www.instagram.com/actiondamien_rdc/"style="color:#58b8a7 !important" ><i class="fab fa-instagram"></i></a>
 
                     <!-- Language toggle -->
@@ -417,7 +417,7 @@
                         <p class="small" style="text-align: justify;">{{ __('miscellaneous.actiondamien_description') }}</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-square me-3" target="_blank" href="https://web.facebook.com/actiondamienrdcofficiel"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a>
+                            {{-- <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a> --}}
                             <a class="btn btn-square me-0" target="_blank" href="https://www.instagram.com/actiondamien_rdc/"><i class="fab fa-instagram"></i></a>
                         </div>
                     </div>
