@@ -272,6 +272,7 @@ return [
     'report' => [
         'title' => 'Annual Report',
         'subtitle' => 'Action Damien DR Congo',
+        'readQR' => 'Scan the QR code',
         'read' => 'Read'
     ],
     // Inner pages
@@ -450,7 +451,7 @@ return [
         // Sensibilization
         'sensibilization' => [
             'title' => '« Mordecai, the valiant! »',
-            'paragraph1' => 'We light a candle in honor of Kuniungina Batona Mordecai, one of our very courageous patients, who passed away in April 2022.',
+            'paragraph1' => 'We light a candle in honor of Kuniungina Batona Mordecai, one of our very courageous patients, who left us in April 2022.',
             'paragraph2' => 'A young man aged 18, suffering from ultra-resistant tuberculosis, Mordecai was one of those who fought valiantly against the disease.',
             'paragraph3' => 'Indeed, the CEDA center of Excellence Damien welcomed him to his establishment on January 09, 2020.',
             'paragraph4' => 'Mordecai was suffering from the most resistant form to basic anti-tuberculosis drugs, and he arrived at the center for better management of his disease. When he arrived, his respiratory condition was still stable.',

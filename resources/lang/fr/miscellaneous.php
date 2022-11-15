@@ -451,7 +451,7 @@ return [
         // Sensibilization
         'sensibilization' => [
             'title' => '« Mardochée, le vaillant ! »',
-            'paragraph1' => 'Nous allumons une bougie à l\'honneur de Kuniungina Batona Mardochée, un de nos patients très courageux, qui a rendu l\'âme en avril 2022.',
+            'paragraph1' => 'Nous allumons une bougie à l\'honneur de Kuniungina Batona Mardochée, un de nos patients très courageux, qui nous a quittés en avril 2022.',
             'paragraph2' => 'Jeune homme âgé de 18 ans, souffrant d\'une tuberculose ultra-résistante, Mardochée était de ceux qui ont combattu vaillamment contre la maladie.',
             'paragraph3' => 'En effet, le CEDA centre d\'Excellence Damien l\'accueillit au sein de son établissement, le 09 janvier 2020.',
             'paragraph4' => 'Mardochée était atteint de la forme la plus résistante aux médicaments antituberculeux de base, et il arrivait au centre pour une meilleure prise en charge de sa maladie. A son arrivée, son état respiratoire était encore stable.',
