@@ -30,10 +30,12 @@
 
         <!-- Content Start -->
         <div class="container-xxl py-5">
-            <div class="container">
+            <div class="container" style="text-align: justify;">
                 <div class="row">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="lead mb-sm-5 mb-4 fw-bold" style="color: #000;">{{ __('miscellaneous.inner_page.sensibilization.paragraph1') }}</p>
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="lead mb-sm-5 mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.sensibilization.paragraph2') }}</p>
@@ -102,8 +104,6 @@
                 <div class="row">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
                         <p class="lead mb-sm-5 mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.sensibilization.paragraph15') }}</p>
-                    </div>
-                </div>
                     </div>
                 </div>
             </div>
