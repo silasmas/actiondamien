@@ -272,6 +272,7 @@ return [
     'report' => [
         'title' => 'Lapolo ya mobu',
         'subtitle' => 'Action Damien RD Congo',
+        'readQR' => 'Tanga code QR',
         'read' => 'Tanga'
     ],
     // Inner pages
@@ -450,7 +451,7 @@ return [
         // Sensibilization
         'sensibilization' => [
             'title' => '« Mardochée, moto ya mpiko! »',
-            'paragraph1' => 'Topelisaka bougie mpo na kokumisa Kuniungina Batona Mardochée, moko ya ba maladi na biso ya mpiko mingi, oyo akufaki na sanza ya minei 2022.',
+            'paragraph1' => 'Topelisaka bougie mpo na kokumisa Kuniungina Batona Mordecai, moko ya ba maladi na biso ya mpiko mingi, oyo atikaki biso na sanza ya minei 2022.',
             'paragraph2' => 'Elenge mobali moko ya mbula 18, oyo azalaki kobɛla maladi ya ntolo oyo ekoki koboya makasi, Mardochée azalaki moko ya bato oyo babundaki na mpiko nyonso mpo na kobundisa maladi yango.',
             'paragraph3' => 'Ya solo, centre ya Excellence ya CEDA Damien eyambaki ye na établissement na ye le 09 janvier 2020.',
             'paragraph4' => 'Mardochée azalaki konyokwama na lolenge oyo ezalaki koboya mingi bankisi ya moboko mpo na kobundisa maladi ya ntolo, mpe akómaki na esika yango mpo na kosilisa maladi na ye malamu. Ntango akómaki kuna, maladi na ye ya mpema ezalaki kaka kokita.',
