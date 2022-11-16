@@ -408,7 +408,7 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+                    {{-- <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
                                 <h3 class="h3 m-0 fw-normal">Bumbu</h3>
@@ -426,7 +426,7 @@
                                 </li>
                             </ul>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
