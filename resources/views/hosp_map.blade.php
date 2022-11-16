@@ -408,6 +408,146 @@
                         </div>
                     </div>
 
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Kalamu I</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">BONDEKO</h5>
+                                    <h6 class="h6 mb-3">Kimbangu 2</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Bondo N°31, C/Kalamu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 997 926 490 / 811 365 466
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Kalamu II</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">AKRAM  BONGOLO</h5>
+                                    <h6 class="h6 mb-3">Yolo 3</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Bongolo
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 817 901 63
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CPKA-YOLO-SUD</h5>
+                                    <h6 class="h6 mb-3">Yolo Sud 2</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Bankwandumu N°13/14, Q/Yolo Sud, C/Kalamu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 897 732 154
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Kasa-Vubu</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">ANCIENS COMBATTANTS</h5>
+                                    <h6 class="h6 mb-3"></h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Irebu N°43, Q/Anciens Combattants, C/Kasa-Vubu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 900 973 620
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CASOP</h5>
+                                    <h6 class="h6 mb-3">Lodja</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Enseignement N°200, Q/Anciens Combattants, C/Kasa-Vubu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 818 792 972
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Kikimi</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">BOSEMBO</h5>
+                                    <h6 class="h6 mb-3">Bosembo</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Nganakieti N°1781
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 995 126 121 / 812 978 718
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">KIKIM CH</h5>
+                                    <h6 class="h6 mb-3">Bosembo</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Mwene Ditu N°135
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 185 854
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">KIKIM CS</h5>
+                                    <h6 class="h6 mb-3">Kikimi</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Paroisse Sainte Croix
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 998 968 807
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">NGAPANI</h5>
+                                    <h6 class="h6 mb-3">Ngapani</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 912 876 588
+                                    </p>
+                                </li>
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">MARECHAL</h5>
+                                    <h6 class="h6 mb-3">Marechal</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Mikondo
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 161 223
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                     {{-- <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
@@ -418,7 +558,7 @@
                                     <h5 class="h5 mb-1 fw-bold text-green">CME BUMBU</h5>
                                     <h6 class="h6 mb-3">Mbaki</h6>
                                     <p class="mb-1 fw-light">
-                                        <i class="fa fa-map-marker-alt me-2"></i>Maternité de Bumbu, C/Bumbu
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Irebu N°43, Q/Anciens Combattants, C/Kasa-Vubu
                                     </p>
                                     <p class="m-0 fw-light">
                                         <i class="fa fa-phone me-2"></i>(+243) 815 255 211
