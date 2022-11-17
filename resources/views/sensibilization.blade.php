@@ -101,11 +101,6 @@
                         <p class="lead mb-sm-5 mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.sensibilization.paragraph14') }}</p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="lead mb-sm-5 mb-4" style="color: #000;">{{ __('miscellaneous.inner_page.sensibilization.paragraph15') }}</p>
-                    </div>
-                </div>
             </div>
         </div>
         <!-- Content End -->
