@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('projets', function (Blueprint $table) {
             $table->id();
+            $table->json('text')->nullable();
+            $table->json('photo')->nullable();
             $table->foreignId('rubrique_id')->constrained()->onUpdate('cascade')
             ->onDelete('cascade');
             $table->timestamps();

@@ -227,7 +227,7 @@ return [
         'title_2' => 'Nkóto',
         'content_2' => 'Ya bato mingi bazwaka maladi ya ntolo mbula na mbula.',
         'title_3' => 'Diagnostiki',
-        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na mokili.'
+        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na RDC.'
     ],
     'national_cover' => [
         'title' => 'Mokili mobimba',

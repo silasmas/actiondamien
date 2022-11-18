@@ -227,7 +227,7 @@ return [
         'title_2' => 'Mille',
         'content_2' => 'Personnes développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font dans le monde.'
+        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font en RDC.'
     ],
     'national_cover' => [
         'title' => 'Couverture mondiale',

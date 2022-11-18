@@ -227,7 +227,7 @@ return [
         'title_2' => 'Thousand',
         'content_2' => 'People develop tuberculosis each year.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Every minute two diagnoses of Buruli ulcer or of yaws are made in the world.'
+        'content_3' => 'Every minute two diagnoses of Buruli ulcer or of yaws are made in DRC.'
     ],
     'national_cover' => [
         'title' => 'Global coverage',

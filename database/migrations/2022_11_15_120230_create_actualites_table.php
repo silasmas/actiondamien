@@ -15,6 +15,13 @@ return new class extends Migration
     {
         Schema::create('actualites', function (Blueprint $table) {
             $table->id();
+            $table->json('titre')->nullable();
+            $table->json('resumer')->nullable();
+            $table->json('description')->nullable();
+            $table->string('image')->nullable();
+            $table->string('video')->nullable();
+            $table->foreignId('rubrique_id')->constrained()->onUpdate('cascade')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

@@ -23,7 +23,7 @@ return new class extends Migration
             $table->json('h1')->nullable();
             $table->json('detail1')->nullable();
             $table->json('h2')->nullable();
-            $table->json('detail2')->nullable();
+            $table->json('detail3')->nullable();
             $table->string('banner')->nullable();
             $table->foreignId('rubrique_id')->constrained()->onUpdate('cascade')
                 ->onDelete('cascade');
