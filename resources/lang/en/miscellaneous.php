@@ -455,17 +455,16 @@ return [
             'paragraph2' => 'A young man aged 18, suffering from ultra-resistant tuberculosis, Mordecai was one of those who fought valiantly against the disease.',
             'paragraph3' => 'Indeed, the CEDA center of Excellence Damien welcomed him to his establishment on January 09, 2020.',
             'paragraph4' => 'Mordecai was suffering from the most resistant form to basic anti-tuberculosis drugs, and he arrived at the center for better management of his disease. When he arrived, his respiratory condition was still stable.',
-            'paragraph5' => 'Thanks to the tests carried out several times by nurses from CEDA and those from the Kabinda hospital center at Médecins Sans Frontières, the medical picture showed that our patient had lung damage, a history of HIV from which he was actually suffering.',
-            'paragraph6' => 'This is how he was placed on antiretrovirals, a treatment intended for people living with HIV/AIDS.',
-            'paragraph7' => 'As of January 22, 2021, Mordecai had been put on treatment for extensively drug-resistant tuberculosis, and later suffered from dyspnea, which is difficulty breathing. He was placed on oxygen until the end of his treatment.',
-            'paragraph8' => 'Always optimistic and strong, he was brought back to his family after a long period of treatment on December 24, 2022, equipped with a concentrator, donated by Action Damien. This device allowed him to breathe better. Indeed, he was described as oxygen-dependent. He also received a generator and a Nintendo as a Survival Kit.',
-            'paragraph9' => 'Brought back to the CEDA two weeks after his release on January 8, 2022 in a state of distress, Mordecai received quality care with love and he was full of hope for his recovery.',
-            'paragraph10' => 'These are indeed the values of the Damien action that the CEDA promotes and which are put into practice by Don Jean N\'SUELA, nurse in the outpatient clinics of the CEDA.',
-            'paragraph11' => 'However, after three months of suffering, under oxygen, young Mordoche passed away on April 2, 2022.',
-            'paragraph12' => 'He was cared for, supported and accompanied to his final resting place by CEDA nurses and some members of his family.',
-            'paragraph13' => 'Finally, it should be noted that each year, we have more success stories than deaths.',
-            'paragraph14' => 'Through the story of the young Kuniungina Batona Mordecai, we wanted to highlight all the efforts made to treat him, cover him with affection and accompany him to his final resting place.',
-            'paragraph15' => 'It is one story among many others, which gives an overview of the work we do with the patients we receive.'
+            'paragraph5' => 'Thanks to the tests carried out several times by nurses from CEDA and those from the Kabinda hospital center at Médecins Sans Frontières, the medical picture showed that our patient had lung damage from which he was actually suffering.',
+            'paragraph6' => 'As of January 22, 2021, Mordecai had been put on treatment for extensively drug-resistant tuberculosis, and later suffered from dyspnea, which is difficulty breathing. He was placed on oxygen until the end of his treatment.',
+            'paragraph7' => 'Always optimistic and strong, he was brought back to his family after a long period of treatment on December 24, 2021, equipped with a concentrator, donated by Action Damien. This device allowed him to breathe better. Indeed, he was described as oxygen-dependent. He also received a generator and a Nintendo as a Survival Kit.',
+            'paragraph8' => 'Brought back to the CEDA two weeks after his release on January 8, 2022 in a state of distress, Mordecai received quality care with love and he was full of hope for his recovery.',
+            'paragraph9' => 'These are indeed the values of the Damien action that the CEDA promotes and which are put into practice by Don Jean N\'SUELA, nurse in the outpatient clinics of the CEDA.',
+            'paragraph10' => 'However, after three months of suffering, under oxygen, young Mordoche passed away on April 2, 2022.',
+            'paragraph11' => 'He was cared for, supported and accompanied to his final resting place by CEDA nurses and some members of his family.',
+            'paragraph12' => 'Finally, it should be noted that each year, we have more success stories than deaths.',
+            'paragraph13' => 'Through the story of the young Kuniungina Batona Mordecai, we wanted to highlight all the efforts made to treat him, cover him with affection and accompany him to his final resting place.',
+            'paragraph14' => 'It is one story among many others, which gives an overview of the work we do with the patients we receive.'
         ],
         // Projects
         'projects' => [
