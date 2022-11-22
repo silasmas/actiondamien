@@ -376,20 +376,20 @@
                             href="{{ route('change_language', ['locale' => $available_locale]) }}"
                             data-mdb-toggle="tooltip" title="{{ $locale_name }}">
                             @switch($available_locale)
+                                @case('ln')
+                                    <span class="fi fi-cd"></span>
+                                @break
+
+                                @case('fr')
+                                    <span class="fi fi-be"></span>
+                                @break
+
                                 @case('en')
                                     <span class="fi fi-us"></span>
                                 @break
 
-                                @case('ln')
-                                    <span class="fi fi-cd"></span>
-                                @break
-                                {{-- @case('be')
-                                    <span class="fi fi-be"></span>
-                                @break --}}
-
                                 @default
-                                    <span class="fi fi-be"></span>
-                                    {{-- <span class="fi fi-{{ $available_locale }}"></span> --}}
+                                    <span class="fi fi-{{ $available_locale }}"></span>
                             @endswitch
                         </a>
                     @endif
