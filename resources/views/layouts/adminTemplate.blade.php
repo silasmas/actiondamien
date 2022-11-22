@@ -11,7 +11,7 @@
     <title>{{ config('app.name') }} | {{ isset($titre) ? $titre : '' }}</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('assets/admin/js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
@@ -198,7 +198,48 @@
 
     @livewireScripts
     @yield('autres-script')
+<script>
+     window.addEventListener('swal:modal', event => {
+            swal({
+                title: event.detail.titre,
+                text: event.detail.text,
+                icon: event.detail.type,
+            });
+        });
+        window.addEventListener('swal:confirm', event => {
+            swal({
+                title: event.detail.titre,
+                text: event.detail.text,
+                icon: event.detail.type,
+                dangerMode: true,
+                buttons: {
+                    cancel: 'Non',
+                    delete: 'OUI'
+                }
+            }).then(function(willDelete) {
+                if (willDelete) {
+                    switch (event.detail.from) {
+                        case 'Monpanier':
+                            window.livewire.emit('removeCardeMonPanier', event.detail.id);
+                            break;
+                        case 'panier':
 
+                            window.livewire.emit('removeCarde', event.detail.id);
+                            break;
+                        case 'Detail':
+
+                            window.livewire.emit('ajoutCardsDetail', event.detail.id);
+                            break;
+
+                        default:
+                            break;
+                    }
+                }
+
+            });
+        });
+
+</script>
 </body>
 
 </html>

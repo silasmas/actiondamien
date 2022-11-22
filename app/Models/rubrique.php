@@ -12,42 +12,48 @@ use App\Models\soutenir;
 use App\Models\actualite;
 use App\Models\temoignage;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Translatable\HasTranslations;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 class rubrique extends Model
 {
     use HasFactory;
-    protected $guarded=[];
-    protected $dates=['created_at','updated_at'];
+    protected $guarded = [];
+    protected $dates = ['created_at', 'updated_at'];
 
-    use HasTranslations;
-
-    public function about(){
+    public function about()
+    {
         return $this->hasMany(about::class);
     }
-    public function accueil(){
+    public function accueil()
+    {
         return $this->hasMany(accueil::class);
     }
-    public function actualite(){
+    public function actualite()
+    {
         return $this->hasMany(actualite::class);
     }
-    public function contact(){
+    public function contact()
+    {
         return $this->hasMany(contact::class);
     }
-    public function donation(){
+    public function donation()
+    {
         return $this->hasMany(donation::class);
     }
-    public function projet(){
+    public function projet()
+    {
         return $this->hasMany(projet::class);
     }
-    public function slide(){
+    public function slide()
+    {
         return $this->hasMany(slide::class);
     }
-    public function soutenir(){
+    public function soutenir()
+    {
         return $this->hasMany(soutenir::class);
     }
-    public function temoignage(){
+    public function temoignage()
+    {
         return $this->hasMany(temoignage::class);
     }
 }
