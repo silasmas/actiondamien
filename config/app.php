@@ -121,7 +121,6 @@ return [
     'available_locales' => [
         'Lingala' => 'ln',
         'Français' => 'fr',
-        // 'Belgique' => 'be',
         'English' => 'en',
     ],
 
