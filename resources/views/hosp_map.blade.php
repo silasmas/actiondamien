@@ -1317,7 +1317,27 @@
                             </ul>
                         </div>
                     </div>
-               </div>
+
+                    {{-- <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="card border border-default overflow-hidden shadow-0">
+                            <div class="card-header bg-light">
+                                <h3 class="h3 m-0 fw-normal">Bumbu</h3>
+                            </div>
+                            <ul class="list-group list-group-flush rounded-0">
+                                <li class="list-group-item px-4 py-3">
+                                    <h5 class="h5 mb-1 fw-bold text-green">CME BUMBU</h5>
+                                    <h6 class="h6 mb-3">Mbaki</h6>
+                                    <p class="mb-1 fw-light">
+                                        <i class="fa fa-map-marker-alt me-2"></i>Av. Irebu N°43, Q/Anciens Combattants, C/Kasa-Vubu
+                                    </p>
+                                    <p class="m-0 fw-light">
+                                        <i class="fa fa-phone me-2"></i>(+243) 815 255 211
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> --}}
+                </div>
             </div>
         </div>
         <!-- Hospitals list End -->
