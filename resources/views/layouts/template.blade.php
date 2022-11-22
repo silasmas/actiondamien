@@ -383,9 +383,13 @@
                                 @case('ln')
                                     <span class="fi fi-cd"></span>
                                 @break
+                                {{-- @case('be')
+                                    <span class="fi fi-be"></span>
+                                @break --}}
 
                                 @default
-                                    <span class="fi fi-{{ $available_locale }}"></span>
+                                    <span class="fi fi-be"></span>
+                                    {{-- <span class="fi fi-{{ $available_locale }}"></span> --}}
                             @endswitch
                         </a>
                     @endif
@@ -416,7 +420,8 @@
                                             <span class="fi fi-cd me-2 align-middle"></span>
                                         @break
                                         @default
-                                            <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
+                                        <span class="fi fi-be me-2 align-middle"></span>
+                                            {{-- <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span> --}}
                                     @endswitch
                                     {{ $locale_name }}
                                 </a>
@@ -435,7 +440,8 @@
                                         @break
 
                                         @default
-                                            <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span>
+                                        <span class="fi fi-be me-2 align-middle"></span>
+                                            {{-- <span class="fi fi-{{ $available_locale }} me-2 align-middle"></span> --}}
                                     @endswitch
 
                                     {{ $locale_name }}

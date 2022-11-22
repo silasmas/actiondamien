@@ -71,7 +71,7 @@
                         <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Pages </span>
                             <span class="pull-right label label-primary">Gestion</span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li class="{{ $titre == 'G_Home' ? 'active' : '' }}">
+                            <li class="{{ $titre == 'dashboard' ? 'active' : '' }}">
                                 <a href="{{ route('dashboard') }}">
                                     <span class="nav-label">Accueil</span></a>
                             </li>
