@@ -11,15 +11,18 @@ class accueil extends Model
 {
     use HasFactory;
 
-    protected $guarded=[];
-    protected $dates=['created_at','updated_at'];
-
+    protected $guarded = [];
+    protected $dates = ['created_at', 'updated_at'];
+    protected $with = ['rubrique'];
     use HasTranslations;
 
-    public $translatable = ['titre1','titre2','maladie',
-    'h1maladie','description','txtbtn','txtbtn2','telephone','txtphone','nbrpays'];
+    public $translatable = [
+        'titre1', 'titre2', 'maladie',
+        'h1maladie', 'description', 'txtbtn', 'txtbtn2', 'telephone', 'txtphone', 'nbrpays'
+    ];
 
-    public function rubrique(){
+    public function rubrique()
+    {
         return $this->belongsTo(rubrique::class);
     }
 }

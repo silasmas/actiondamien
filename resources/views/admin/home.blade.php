@@ -35,6 +35,18 @@
             e.preventDefault();
             add('#formRubrique','#tab-rubrique','addRubrique')
         });
+        $("#formStat").on("submit", function (e) {
+            e.preventDefault();
+            add('#formStat','#tab-rubrique','addstat')
+        });
+        $("#formStat2").on("submit", function (e) {
+            e.preventDefault();
+            add('#formStat2','#tab-rubrique','addstat2')
+        });
+        $("#formbon").on("submit", function (e) {
+            e.preventDefault();
+            add('#formbon','#tab-rubrique','addbon')
+        });
         $(".select2_cat").select2({
             placeholder: "Choisissez un avocat",
             allowClear: true

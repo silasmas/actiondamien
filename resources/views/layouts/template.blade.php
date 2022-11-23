@@ -558,12 +558,7 @@
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">{{ __('miscellaneous.footer.newsletter.title') }}</h5>
                     <p>{{ __('miscellaneous.footer.newsletter.description') }}.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control bg-transparent w-100 py-3 ps-4 pe-5" type="text"
-                            placeholder="Votre E-mail">
-                        <button type="button"class="btn btn-danger py-2 position-absolute top-0 end-0 mt-2 me-2"
-                            title="{{ __('miscellaneous.register') }}"><i class="fa fa-paper-plane"></i></button>
-                    </div>
+                    @livewire('newletter')
                 </div>
             </div>
         </div>

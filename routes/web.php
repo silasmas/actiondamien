@@ -32,6 +32,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/add.slide', [AboutController::class, 'addSlide'])->name('add.slide');
     Route::post('/addRubrique', [AboutController::class, 'addRubrique'])->name('addRubrique');
     Route::post('/Updatslide', [AboutController::class, 'Updatslide'])->name('Updatslide');
+    Route::post('/addstat', [AboutController::class, 'addstat'])->name('addstat');
+    Route::post('/addstat2', [AboutController::class, 'addstat2'])->name('addstat2');
+    Route::post('/addbon', [AboutController::class, 'addbon'])->name('addbon');
 });
 
 // Language
