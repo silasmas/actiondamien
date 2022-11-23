@@ -35,6 +35,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/addstat', [AboutController::class, 'addstat'])->name('addstat');
     Route::post('/addstat2', [AboutController::class, 'addstat2'])->name('addstat2');
     Route::post('/addbon', [AboutController::class, 'addbon'])->name('addbon');
+    Route::post('/add.hopital', [AboutController::class, 'addhtopial'])->name('add.hopital');
 });
 
 // Language

@@ -103,16 +103,6 @@ class AboutController extends Controller
     public function addSlide(Request $request)
     {
         $por = Validator::make($request->all(), [
-            // 'image' => 'required|image|max:1024',
-            // 'h1_fr' => 'required',
-            // 'h1_en' => 'required',
-            // 'h1_ln' => 'required',
-            // 'textbtn_fr' => 'required',
-            // 'textbtn_en' => 'required',
-            // 'textbtn_ln' => 'required',
-            // 'page' => 'required',
-            // 'extrait_fr' => 'required',
-            // 'extrait_en' => 'required',
             'extrait_ln' => 'required',
         ]);
 
@@ -130,6 +120,35 @@ class AboutController extends Controller
                     'textbtn' =>  ['fr' => $request->textbtn_fr, 'en' => $request->textbtn_en, 'ln' => $request->textbtn_ln],
                     'extrait' =>  ['fr' => $request->extrait_fr, 'en' => $request->extrait_en, 'ln' => $request->extrait_ln],
                     'page' => $request->page,
+                    'image' => $filenameImg,
+                ]);
+                return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
+            } else {
+                return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "success"]);
+            }
+        } else {
+            return back()->with(['message' => $por->errors()->first(), "type" => "danger"]);
+        }
+    }
+    public function addhtopial(Request $request)
+    {
+        $por = Validator::make($request->all(), [
+            'extrait_ln' => 'required',
+        ]);
+
+        if ($por->passes()) {
+
+            $file = $request->file('cover');
+
+            $file == '' ? '' : ($filenameImg = 'hopital/' . time() . '.' . $file->getClientOriginalName());
+            $file == '' ? '' : $file->move('storage/hopital', $filenameImg);
+
+
+            if ($request->image) {
+                slide::create([
+                    'titre1' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+                    'description' =>  ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
+                    'page' => $request->pageId,
                     'image' => $filenameImg,
                 ]);
                 return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);

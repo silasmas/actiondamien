@@ -16,7 +16,7 @@
             <div class="col-lg-12">
                 <div class="tabs-container">
                     <ul class="nav nav-tabs">
-                        <li class="active"><a data-toggle="tab" href="#tab-rubrique">Ajouter une rubrique</a></li>                        
+                        <li class="active"><a data-toggle="tab" href="#tab-rubrique">Ajouter une rubrique</a></li>
                         <li class=""><a data-toggle="tab" href="#tab-home">Accueil</a></li>
                         <li class=""><a data-toggle="tab" href="#tab-new">Actualité</a></li>
                         <li class=""><a data-toggle="tab" href="#tab-carte">cartographie</a></li>
@@ -27,7 +27,7 @@
                         <div id="tab-rubrique" class="tab-pane active">
                             <div class="panel-body">
                                 <div class="col-lg-offset-1 col-lg-10 col-sm-12">
-                                    <div class="ibox" id="tabCat">  
+                                    <div class="ibox" id="tabCat">
                                         <div class="ibox-title">
                                             <h5>
                                                 {{ isset($categorie) ? 'Ce formulaire vous permet de modifier une ribrique' : 'Ce formulaire vous permet de crée une ribrique' }}
@@ -49,7 +49,7 @@
                                                                 <input type="text" hidden
                                                                     value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                     name="idslide"  />
-                                                                    
+
                                                                 <input type="text" placeholder="La rubrique"
                                                                     class="form-control" name='rubrique'
                                                                     value="" required>
@@ -73,7 +73,7 @@
                                                                     <option value="hosp_map">Cartographie</option>
                                                                 </select>
                                                             </div>
-                                                                                                                       
+
                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -93,10 +93,10 @@
                         <div id="tab-home" class="tab-pane">
                             <div class="panel-body">
                                 <div class="col-lg-offset-1 col-lg-10 col-sm-12">
-                                    <div class="ibox" id="tabCat">  
+                                    <div class="ibox" id="tabCat">
                                         <div class="ibox-title">
                                             <h5>
-                                                Ce formulaire vous permet de d'ajouter ou de modifier les informations dans la page d'accueil, chaque partie représente une rubrique du site 
+                                                Ce formulaire vous permet de d'ajouter ou de modifier les informations dans la page d'accueil, chaque partie représente une rubrique du site
                                             </h5>
                                         </div>
                                         <div class="ibox-content" id="tab-rubrique">
@@ -109,7 +109,7 @@
                                                     <ul class="nav nav-tabs">
                                                         @forelse ($rubriques as $r)
                                                         <li class="{{ $loop->first?"active":"" }}"><a data-toggle="tab" href="#tab{{$loop->index }}">{{ $r->rubrique }}</a></li>
-                                                        @empty                                                            
+                                                        @empty
                                                         @endforelse
                                                     </ul>
                                                     <div class="tab-content">
@@ -117,7 +117,7 @@
                                                             <div class="panel-body">
                                                                 <div class='row'>
                                                                     <div class=" col-lg-12 col-sm-12">
-                                                                        <form method="POST" class="form-group" 
+                                                                        <form method="POST" class="form-group"
                                                                         action="{{isset($exp)?route('Updatslide'):route('add.slide') }}" enctype="multipart/form-data" data-parsley-validate>
                                                                             @csrf
                                                                             <div class="row">
@@ -126,11 +126,11 @@
                                                                                     <input type="text" hidden
                                                                                         value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                                         name="idslide"  />
-                                                                                        
+
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='h1_fr'
                                                                                         value="" required>
-                    
+
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
                                                                                     <label>Grand titre (Anglais)</label>
@@ -157,7 +157,7 @@
                                                                                     <input type="text" placeholder="Text du button"
                                                                                         class="form-control" name='textbtn_ln'   required>
                                                                                 </div>
-                    
+
                                                                                 <div class=" col-sm-6 col-lg-6 form-group">
                                                                                     <label>Page</label>
                                                                                     <select class=" form-control" name='page' required>
@@ -211,7 +211,7 @@
                                                                                     <textarea name="extrait_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
-                                                                                </div>                                                            
+                                                                                </div>
                                                                                 <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                     <div class="col-sm-offset-4 col-sm-5">
                                                                                         <button class="ladda-button btn btn-sm btn-primary"
@@ -237,90 +237,90 @@
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique." ( Page :".$r->page.")" }}</option>
                                                                                     @empty
-                                                                                        
+
                                                                                     @endforelse
                                                                                 </select>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row">                                                            
+                                                                        <div class="row">
                                                                             <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                                 name="idslide"  />
                                                                             <div id="">
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Français)</label>                                                                    
+                                                                                    <label>Grand titre (Français)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Anglais)</label>                                                                    
+                                                                                    <label>Grand titre (Anglais)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Lingala)</label>                                                                    
+                                                                                    <label>Grand titre (Lingala)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Français)</label>                                                                    
+                                                                                    <label>Maladie (Français)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Anglais)</label>                                                                    
+                                                                                    <label>Maladie (Anglais)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Lingala)</label>                                                                    
+                                                                                    <label>Maladie (Lingala)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Français)</label>                                                                    
+                                                                                    <label>Sous titre (Français)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Anglais)</label>                                                                    
+                                                                                    <label>Sous titre (Anglais)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Lingala)</label>                                                                    
+                                                                                    <label>Sous titre (Lingala)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Français)</label>                                                                    
+                                                                                    <label>Description (Français)</label>
                                                                                     <textarea name="description_fr" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Anglais)</label>                                                                    
+                                                                                    <label>Description (Anglais)</label>
                                                                                     <textarea name="description_en" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Lingala)</label>                                                                    
+                                                                                    <label>Description (Lingala)</label>
                                                                                     <textarea name="description_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                             </div>
-                                                                            
-                                                                                                                                       
+
+
                                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -346,58 +346,58 @@
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique}}</option>
                                                                                     @empty
-                                                                                        
+
                                                                                     @endforelse
                                                                                 </select>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row">                                                            
+                                                                        <div class="row">
                                                                             <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                                 name="idslide"  />
                                                                             <div id="">
                                                                                 <div class="col-lg-2 form-group ">
-                                                                                    <label>Nombre</label>                                                                    
+                                                                                    <label>Nombre</label>
                                                                                     <input type="number" placeholder="Sous Titre"
                                                                                         class="form-control" name='nbr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-3 form-group ">
-                                                                                    <label>Sous Titre (Français)</label>                                                                    
+                                                                                    <label>Sous Titre (Français)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='stitre_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-3 form-group ">
-                                                                                    <label>Sous Titre (Anglais)</label>                                                                    
+                                                                                    <label>Sous Titre (Anglais)</label>
                                                                                     <input type="text" placeholder="Sous Titre"
                                                                                         class="form-control" name='stitre_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-3 form-group ">
-                                                                                    <label>Sous Titre (Lingala)</label>                                                                    
+                                                                                    <label>Sous Titre (Lingala)</label>
                                                                                     <input type="text" placeholder="Sous Titre"
                                                                                         class="form-control" name='stitre_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Français)</label>                                                                    
+                                                                                    <label>Description (Français)</label>
                                                                                     <textarea name="description_fr" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Anglais)</label>                                                                    
+                                                                                    <label>Description (Anglais)</label>
                                                                                     <textarea name="description_en" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Lingala)</label>                                                                    
+                                                                                    <label>Description (Lingala)</label>
                                                                                     <textarea name="description_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                            </div>                                                      
+                                                                            </div>
                                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -419,52 +419,52 @@
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique}}</option>
                                                                                     @empty
-                                                                                        
+
                                                                                     @endforelse
                                                                                 </select>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row">                                                            
+                                                                        <div class="row">
                                                                             <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                                 name="idslide"  />
                                                                             <div id="">
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nom de la maladie (Français)</label>                                                                    
+                                                                                    <label>Nom de la maladie (Français)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='maladie_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nom de la maladie (Anglais)</label>                                                                    
+                                                                                    <label>Nom de la maladie (Anglais)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='maladie_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nom de la maladie (Lingala)</label>                                                                    
+                                                                                    <label>Nom de la maladie (Lingala)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='maladie_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nombre des pays attiend (Français)</label>                                                                    
+                                                                                    <label>Nombre des pays attiend (Français)</label>
                                                                                     <input type="text" placeholder="Nombre des pays attiend"
                                                                                         class="form-control" name='nbrpays_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nombre des pays attiend (Anglais)</label>                                                                    
+                                                                                    <label>Nombre des pays attiend (Anglais)</label>
                                                                                     <input type="text" placeholder="Nombre des pays attiend"
                                                                                         class="form-control" name='nbrpays_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Nombre des pays attiend (Lingala)</label>                                                                    
+                                                                                    <label>Nombre des pays attiend (Lingala)</label>
                                                                                     <input type="text" placeholder="Nombre des pays attiend"
                                                                                         class="form-control" name='nbrpays_ln'
                                                                                         value="" required>
                                                                                 </div>
-                                                                            </div>                                                      
+                                                                            </div>
                                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -479,109 +479,91 @@
                                                         </div>
                                                         <div id="tab3" class="tab-pane ">
                                                             <div class="panel-body">
-                                                                <div class=" col-lg-12 col-sm-12">
-                                                                    <form method="POST" class="form-group" data-parsley-validate id="formbon" >
-                                                                        @csrf
-                                                                        <div class="row">
-                                                                            <div class=" col-sm-6 col-lg-12 form-group">
-                                                                                <label>Rubrique</label>
-                                                                                <select class=" form-control" name="page" required>
-                                                                                    @forelse ($rubriques as $r)
-                                                                                        <option value="{{ $r->id }}">{{ $r->rubrique." ( Page :".$r->page.")" }}</option>
-                                                                                    @empty
-                                                                                        
-                                                                                    @endforelse
-                                                                                </select>
+                                                                <div class="row">
+                                                                    <div class=" col-lg-12 col-sm-12">
+                                                                        <form method="POST" class="form-group"
+                                                                        action="{{isset($exp)?route('Updatslide'):route('add.slide') }}" enctype="multipart/form-data" data-parsley-validate>
+                                                                            @csrf
+                                                                            <div class="row">
+                                                                                <div class=" col-sm-6 col-lg-12 form-group">
+                                                                                    <label>Rubrique</label>
+                                                                                    <select class=" form-control" name="pageId" required>
+                                                                                        @forelse ($rubriques as $r)
+                                                                                            <option value="{{ $r->id }}">{{ $r->rubrique }}</option>
+                                                                                        @empty
+
+                                                                                        @endforelse
+                                                                                    </select>
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="row">                                                            
-                                                                            <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
-                                                                                name="idslide"  />
-                                                                            <div id="">
+                                                                            <div class="row">
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Français)</label>                                                                    
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
+                                                                                    <label>Titre (français)</label>
+                                                                                    <input type="text" hidden
+                                                                                        value="{{ isset($categorie) ? $categorie->id : '' }}"
+                                                                                        name="idslide"  />
+                                                                                    <input type="text" placeholder="Titre"
+                                                                                        class="form-control" name='h1_fr'
                                                                                         value="" required>
+
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Anglais)</label>                                                                    
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
-                                                                                        value="" required>
+                                                                                    <label>Titre (Anglais)</label>
+                                                                                    <input type="text" placeholder=" Titre"
+                                                                                        class="form-control" name='h1_en'  required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Lingala)</label>                                                                    
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
-                                                                                        value="" required>
+                                                                                    <label>Titre (Lingala)</label>
+                                                                                    <input type="text" placeholder="Titre"
+                                                                                        class="form-control" name='h1_ln'   required>
                                                                                 </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Français)</label>                                                                    
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_fr'
-                                                                                        value="" required>
+                                                                                <div class="col-sm-12 form-group">
+                                                                                    <label>Image</label>
+                                                                                    <div class=" fileinput fileinput-new input-group"
+                                                                                        data-provides="fileinput">
+                                                                                        <div class="form-control"
+                                                                                            data-trigger="fileinput">
+                                                                                            <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                                                            <span class="fileinput-filename"></span>
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="input-group-addon btn btn-default btn-file"><span
+                                                                                                class="fileinput-new">cover</span>
+                                                                                            <span class="fileinput-exists">Changer</span>
+                                                                                            <input type="file" name="cover"  required></span>
+                                                                                        <a href="#"
+                                                                                            class="input-group-addon btn btn-default fileinput-exists"
+                                                                                            data-dismiss="fileinput">Supprimer</a>
+                                                                                    </div>
                                                                                 </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Anglais)</label>                                                                    
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_en'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Lingala)</label>                                                                    
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_ln'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Français)</label>                                                                    
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_fr'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Anglais)</label>                                                                    
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_en'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Lingala)</label>                                                                    
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_ln'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Français)</label>                                                                    
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Français)</label>
                                                                                     <textarea name="description_fr" class="summernote" rows="10" cols="110"
-                                                                                    required>
+                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Anglais)</label>                                                                    
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Anglais)</label>
                                                                                     <textarea name="description_en" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Lingala)</label>                                                                    
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Lingala)</label>
                                                                                     <textarea name="description_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                            </div>
-                                                                            
-                                                                                                                                       
-                                                                            <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
-                                                                                <div class="col-sm-offset-4 col-sm-5">
-                                                                                    <button class="ladda-button btn btn-sm btn-primary"
-                                                                                        type="submit">
-                                                                                        <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
+                                                                                    <div class="col-sm-offset-4 col-sm-5">
+                                                                                        <button class="ladda-button btn btn-sm btn-primary"
+                                                                                            type="submit">
+                                                                                            <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </form>
+                                                                        </form>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -597,90 +579,90 @@
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique." ( Page :".$r->page.")" }}</option>
                                                                                     @empty
-                                                                                        
+
                                                                                     @endforelse
                                                                                 </select>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="row">                                                            
+                                                                        <div class="row">
                                                                             <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                                 name="idslide"  />
                                                                             <div id="">
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Français)</label>                                                                    
+                                                                                    <label>Grand titre (Français)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Anglais)</label>                                                                    
+                                                                                    <label>Grand titre (Anglais)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Lingala)</label>                                                                    
+                                                                                    <label>Grand titre (Lingala)</label>
                                                                                     <input type="text" placeholder="Grand titre"
                                                                                         class="form-control" name='titre1'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Français)</label>                                                                    
+                                                                                    <label>Maladie (Français)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Anglais)</label>                                                                    
+                                                                                    <label>Maladie (Anglais)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Lingala)</label>                                                                    
+                                                                                    <label>Maladie (Lingala)</label>
                                                                                     <input type="text" placeholder="Nom de la maladie"
                                                                                         class="form-control" name='malade_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Français)</label>                                                                    
+                                                                                    <label>Sous titre (Français)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_fr'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Anglais)</label>                                                                    
+                                                                                    <label>Sous titre (Anglais)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_en'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Lingala)</label>                                                                    
+                                                                                    <label>Sous titre (Lingala)</label>
                                                                                     <input type="text" placeholder="Sous titre"
                                                                                         class="form-control" name='h1maladie_ln'
                                                                                         value="" required>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Français)</label>                                                                    
+                                                                                    <label>Description (Français)</label>
                                                                                     <textarea name="description_fr" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Anglais)</label>                                                                    
+                                                                                    <label>Description (Anglais)</label>
                                                                                     <textarea name="description_en" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                                 <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Lingala)</label>                                                                    
+                                                                                    <label>Description (Lingala)</label>
                                                                                     <textarea name="description_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
                                                                             </div>
-                                                                            
-                                                                                                                                       
+
+
                                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -693,9 +675,9 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        
+
                                                     </div>
-                                                </div>                                                
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -705,7 +687,7 @@
                         <div id="tab-new" class="tab-pane">
                             <div class="panel-body">
                                 <div class="col-lg-offset-1 col-lg-10 col-sm-12">
-                                    <div class="ibox" id="tabCat">  
+                                    <div class="ibox" id="tabCat">
                                         <div class="ibox-title">
                                             <h5>
                                                 {{ isset($categorie) ? 'Ce formulaire vous permet de modifier une ribrique' : 'Ce formulaire vous permet de crée une ribrique' }}
@@ -727,7 +709,7 @@
                                                                 <input type="text" hidden
                                                                     value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                     name="idslide"  />
-                                                                    
+
                                                                 <input type="text" placeholder="La rubrique"
                                                                     class="form-control" name='rubrique'
                                                                     value="" required>
@@ -751,7 +733,7 @@
                                                                     <option value="hosp_map">Cartographie</option>
                                                                 </select>
                                                             </div>
-                                                                                                                       
+
                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                     <button class="ladda-button btn btn-sm btn-primary"
@@ -768,7 +750,7 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <div id="tab-carte" class="tab-pane {{ isset($pub) ? 'active' : '' }}">
                             <div class="panel-body">
                                 <div class=" col-lg-12 col-sm-12">
