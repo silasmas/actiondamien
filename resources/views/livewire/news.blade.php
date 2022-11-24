@@ -113,7 +113,7 @@
       
   @empty
   <p class="mb-0">
-    <span class="text-danger">
+    <span class="text-danger text-center">
         Pas d'ctualité pour le moment
   </span>
 </p>
