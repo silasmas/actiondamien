@@ -112,7 +112,11 @@
   </div>
       
   @empty
-      
+  <p class="mb-0">
+    <span class="text-danger">
+        Pas d'ctualité pour le moment
+  </span>
+</p>
   @endforelse
 
   {{-- <div class="container-xxl py-5 border-top border-default">
