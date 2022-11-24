@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\actualite;
-use App\Http\Requests\StoreactualiteRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 use App\Http\Requests\UpdateactualiteRequest;
 
 class ActualiteController extends Controller
@@ -34,9 +35,25 @@ class ActualiteController extends Controller
      * @param  \App\Http\Requests\StoreactualiteRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreactualiteRequest $request)
+    public function store(Request $request)
     {
-        //
+        $file = $request->file('cover');
+
+        $file == '' ? '' : ($filenameImg = 'news/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/news', $filenameImg);
+        // dd($filenameImg);
+        if ($request->cover) {
+            actualite::create([
+                'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+                'description' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
+                'video' => $request->video,
+                'rubrique_id' => $request->pageId,
+                'image' => $filenameImg,
+            ]);
+            return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "danger"]);
+        }
     }
 
     /**

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\ActualiteController;
+use App\Models\actualite;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AccueilController;
@@ -36,6 +38,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/addstat2', [AboutController::class, 'addstat2'])->name('addstat2');
     Route::post('/addbon', [AboutController::class, 'addbon'])->name('addbon');
     Route::post('/add.hopital', [AboutController::class, 'addhtopial'])->name('add.hopital');
+    Route::post('/add.support', [AboutController::class, 'addsupport'])->name('add.support');
+    
+    Route::post('/add.news', [ActualiteController::class, 'store'])->name('add.news');
 });
 
 // Language

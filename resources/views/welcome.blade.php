@@ -230,31 +230,38 @@
                     <div class="counter-box px-4 bg-secondary border border-yellow">
 
                         @switch($s->titre2)
-                            @case('Personnes' )
+                            @case('Personnes')
                                 <i class="fa fa-users text-yellow"></i>
                             @break
-                            @case( 'People' )
+
+                            @case('People')
                                 <i class="fa fa-users text-yellow"></i>
                             @break
-                            @case( 'Ya bato')
+
+                            @case('Ya bato')
                                 <i class="fa fa-users text-yellow"></i>
                             @break
 
                             @case('Mille')
                                 <i class="fa fa-microscope text-yellow"></i>
                             @break
-                            @case( 'Nkóto' )
+
+                            @case('Nkóto')
                                 <i class="fa fa-microscope text-yellow"></i>
                             @break
-                            @case( 'Thousand')
+
+                            @case('Thousand')
                                 <i class="fa fa-microscope text-yellow"></i>
                             @break
+
                             @case('Diagnostics')
                                 <i class="fa fa-stethoscope text-yellow"></i>
                             @break
-                            @case( 'Diagnostics' )
+
+                            @case('Diagnostics')
                                 <i class="fa fa-stethoscope text-yellow"></i>
                             @break
+
                             @case('Diagnostiki')
                                 <i class="fa fa-stethoscope text-yellow"></i>
                             @break
@@ -301,41 +308,44 @@
                                 @switch($st->maladie)
                                     @case('Lèpre')
                                         <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/lepre.png') }}" alt="">
-                                      
                                     @break
-                                    @case( 'Leprosy')
+
+                                    @case('Leprosy')
                                         <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/lepre.png') }}" alt="">
-                                      
                                     @break
+
                                     @case('Maba')
                                         <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/lepre.png') }}" alt="">
-                                      
                                     @break
 
                                     @case('Tuberculose')
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}" alt="">
-                                     
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}"
+                                            alt="">
                                     @break
-                                    @case('Tuberculosis' )
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}" alt="">
-                                     
+
+                                    @case('Tuberculosis')
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}"
+                                            alt="">
                                     @break
-                                    @case( 'Tuberculose')
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}" alt="">
-                                     
+
+                                    @case('Tuberculose')
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/icone-maladie.png') }}"
+                                            alt="">
                                     @break
 
                                     @case('Ulcère ya Buruli na Pian')
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}" alt="">
-                                       
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}"
+                                            alt="">
                                     @break
-                                    @case( 'Buruli ulcer and Yaws')
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}" alt="">
-                                       
+
+                                    @case('Buruli ulcer and Yaws')
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}"
+                                            alt="">
                                     @break
+
                                     @case('Ulcère de Buruli et Pian')
-                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}" alt="">
-                                       
+                                        <img class="img-fluid mb-4" src="{{ asset('assets/img/photo/leishmaniasis.png') }}"
+                                            alt="">
                                     @break
 
                                     @default
@@ -390,26 +400,39 @@
             <section class="py-5">
                 <div class="container">
                     <div class="row g-5 ps-0">
+                        @forelse ($hopitaux as $h)
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="position-relative overflow-hidden h-100 rounded"
                                 style="left: -0.7rem; min-height: 400px; background: #a3d7e6">
                                 <img class="position-absolute h-100 pe-5 rounded"
-                                    src="{{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}" alt="">
+                                    src="{{ asset("storage/".$h->cover) }}" alt="">
                             </div>
-                        </div>
+                        </div>                       
+                            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div class="h-100">
+                                    <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">
+                                        {{ __('miscellaneous.hospitals.title') }}</div>
+                                    <h1 class="display-6 mb-4 text-danger">{{ $h->titre1}}</h1>
+                                    <p class="mb-5">{!! $h->description!!}</p>
 
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                                    <a class="btn btn-danger py-2 px-3 me-3" href="{{ route('hosp_map') }}">
+                                        <div
+                                            class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
+                                            <i class="fa fa-location-arrow"></i>
+                                        </div>
+                                        {{ __('miscellaneous.hospitals.link2') }}
+                                    </a>
+                                </div>
+                            </div>
+                        @empty
+                        @endforelse
+                        {{-- <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="h-100">
                                 <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">
                                     {{ __('miscellaneous.hospitals.title') }}</div>
                                 <h1 class="display-6 mb-4 text-danger">{{ __('miscellaneous.hospitals.ceda_name') }}</h1>
                                 <p class="mb-5">{{ __('miscellaneous.hospitals.ceda_description') }}</p>
-                                {{-- <a class="btn btn-danger py-2 px-3 me-3 mb-2" href="{{ asset('assets/doc/LISTE_DES_HOPITAUX.pdf') }}">
-                                <div class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
-                                    <i class="fa fa-list"></i>
-                                </div>
-                                {{ __('miscellaneous.hospitals.link1') }}
-                            </a> --}}
+                               
                                 <a class="btn btn-danger py-2 px-3 me-3" href="{{ route('hosp_map') }}">
                                     <div class="d-inline-flex btn-sm-square bg-white align-middle text-danger rounded-circle me-2">
                                         <i class="fa fa-location-arrow"></i>
@@ -417,7 +440,7 @@
                                     {{ __('miscellaneous.hospitals.link2') }}
                                 </a>
                             </div>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             </section>
@@ -427,16 +450,18 @@
             <div class="container-xxl py-5 bg-light" data-parallax="scroll">
                 <div class="container pb-5">
                     <div class="row g-5">
+                        @forelse ($support as $s)
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                             <div class="h-100">
                                 <div class="d-inline-block rounded-pill bg-secondary text-yellow py-1 px-3 mb-3">
-                                    {{ __('miscellaneous.support.title') }}</div>
-                                <h1 class="display-6 mb-4">{{ __('miscellaneous.support.subtitle') }}</h1>
-                                <h5 class="h5 mb-4 text-muted">{{ __('miscellaneous.support.comment') }}</h3>
-                                    <p class="lead mb-4 text-dark">{{ __('miscellaneous.support.description') }}
+                                    {{ $s->titre1}}</div>
+                                <h1 class="display-6 mb-4">{{ $s->titre1}}v</h1>
+                                {{-- <h5 class="h5 mb-4 text-muted">{{ __('miscellaneous.support.comment') }}</h3> --}}
+                                    <p class="lead mb-4 text-dark">{!! $s->description!!}
                                 </h5>
                                 <p class="mb-4 text-dark">{{ __('miscellaneous.support.content') }}</p>
-                                <a class="btn btn-yellow py-2 px-3 mb-2 me-3" href="{{ route('support_us') }}">
+                                <a class="btn btn-yellow py-2 px-3 mb-2 me-3" href="{{ route('donate') }}"
+                                    data-bs-toggle="modal" data-bs-target="#donateModal">
                                     {{ __('miscellaneous.support.link_1') }}
                                     <div class="d-inline-flex btn-sm-square bg-white text-yellow rounded-circle ms-2">
                                         <i class="fa fa-arrow-right"></i>
@@ -448,13 +473,15 @@
                                         <i class="fa fa-arrow-right"></i>
                                     </div>
                                 </a>
-                            </div>
+                            </div> 
+                          
+                            
                         </div>
 
                         <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                             <div class="position-relative h-100" style="min-height: 400px;">
                                 <div class="position-relative h-100 rounded overflow-hidden">
-                                    <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/2.webp') }}"
+                                    <img class="position-absolute h-100 pe-5" src="{{ asset('storage/'.$s->cover) }}"
                                         alt="" style="object-fit: cover;">
                                 </div>
                                 <div class="row g-0 position-absolute rounded overflow-hidden"
@@ -464,13 +491,16 @@
                                     <div class="col-sm-11 bg-yellow p-2 clearfix">
                                         <h2 class="h2 float-start mt-2 me-2"><i class="fa fa-phone text-white"></i></h2>
                                         <div>
-                                            <p class="m-0 text-white">{{ __('miscellaneous.support.call') }}</p>
-                                            <h5 class="h5 m-0 fw-bold">+243 816 520 396</h5>
+                                            <p class="m-0 text-white">{{ $s->txtphone}}</p>
+                                            <h5 class="h5 m-0 fw-bold">{{ $s->telephone}}</h5>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        @empty
+                                
+                        @endforelse
                     </div>
                 </div>
             </div>

@@ -234,6 +234,7 @@
                                                                             <div class=" col-sm-6 col-lg-12 form-group">
                                                                                 <label>Rubrique</label>
                                                                                 <select class=" form-control" name="pageId" required>
+                                                                                    <option value="" disabled selected></option>
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique." ( Page :".$r->page.")" }}</option>
                                                                                     @empty
@@ -343,6 +344,7 @@
                                                                             <div class=" col-sm-6 col-lg-12 form-group">
                                                                                 <label>Rubrique</label>
                                                                                 <select class=" form-control" name="pageIdst" required>
+                                                                                    <option value="" disabled selected></option>
                                                                                     @forelse ($rubriques as $r)
                                                                                         <option value="{{ $r->id }}">{{ $r->rubrique}}</option>
                                                                                     @empty
@@ -482,12 +484,13 @@
                                                                 <div class="row">
                                                                     <div class=" col-lg-12 col-sm-12">
                                                                         <form method="POST" class="form-group"
-                                                                        action="{{isset($exp)?route('Updatslide'):route('add.slide') }}" enctype="multipart/form-data" data-parsley-validate>
+                                                                        action="{{isset($exp)?route('Updatslide'):route('add.hopital') }}" enctype="multipart/form-data" data-parsley-validate>
                                                                             @csrf
                                                                             <div class="row">
                                                                                 <div class=" col-sm-6 col-lg-12 form-group">
                                                                                     <label>Rubrique</label>
                                                                                     <select class=" form-control" name="pageId" required>
+                                                                                        <option value="" disabled selected></option>
                                                                                         @forelse ($rubriques as $r)
                                                                                             <option value="{{ $r->id }}">{{ $r->rubrique }}</option>
                                                                                         @empty
@@ -569,109 +572,114 @@
                                                         </div>
                                                         <div id="tab4" class="tab-pane ">
                                                             <div class="panel-body">
-                                                                <div class=" col-lg-12 col-sm-12">
-                                                                    <form method="POST" class="form-group" data-parsley-validate id="formbon" >
-                                                                        @csrf
-                                                                        <div class="row">
-                                                                            <div class=" col-sm-6 col-lg-12 form-group">
-                                                                                <label>Rubrique</label>
-                                                                                <select class=" form-control" name="page" required>
-                                                                                    @forelse ($rubriques as $r)
-                                                                                        <option value="{{ $r->id }}">{{ $r->rubrique." ( Page :".$r->page.")" }}</option>
-                                                                                    @empty
+                                                                <div class="row">
+                                                                    <div class=" col-lg-12 col-sm-12">
+                                                                        <form method="POST" class="form-group"
+                                                                        action="{{isset($exp)?route('Updatslide'):route('add.support') }}" enctype="multipart/form-data" data-parsley-validate>
+                                                                            @csrf
+                                                                            <div class="row">
+                                                                                <div class=" col-sm-6 col-lg-12 form-group">
+                                                                                    <label>Rubrique</label>
+                                                                                    <select class=" form-control" name="pageId" required>
+                                                                                        <option value="" disabled selected></option>
+                                                                                        @forelse ($rubriques as $r)
+                                                                                            <option value="{{ $r->id }}">{{ $r->rubrique }}</option>
+                                                                                        @empty
 
-                                                                                    @endforelse
-                                                                                </select>
+                                                                                        @endforelse
+                                                                                    </select>
+                                                                                </div>
                                                                             </div>
-                                                                        </div>
-                                                                        <div class="row">
-                                                                            <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
-                                                                                name="idslide"  />
-                                                                            <div id="">
+                                                                            <div class="row">
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Français)</label>
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
+                                                                                    <label>Titre (français)</label>
+                                                                                    <input type="text" hidden
+                                                                                        value="{{ isset($categorie) ? $categorie->id : '' }}"
+                                                                                        name="idslide"  />
+                                                                                    <input type="text" placeholder="Titre"
+                                                                                        class="form-control" name='h1_fr'
                                                                                         value="" required>
+
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Anglais)</label>
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
-                                                                                        value="" required>
+                                                                                    <label>Titre (Anglais)</label>
+                                                                                    <input type="text" placeholder=" Titre"
+                                                                                        class="form-control" name='h1_en'  required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Grand titre (Lingala)</label>
-                                                                                    <input type="text" placeholder="Grand titre"
-                                                                                        class="form-control" name='titre1'
-                                                                                        value="" required>
+                                                                                    <label>Titre (Lingala)</label>
+                                                                                    <input type="text" placeholder="Titre"
+                                                                                        class="form-control" name='h1_ln'   required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Français)</label>
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_fr'
+                                                                                    <label>Texte du numéro (français)</label>                                                                                   
+                                                                                    <input type="text" placeholder="Texte du numéro"
+                                                                                        class="form-control" name='txtNumber_fr'
                                                                                         value="" required>
+
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Anglais)</label>
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_en'
-                                                                                        value="" required>
+                                                                                    <label>Texte du numéro (Anglais)</label>
+                                                                                    <input type="text" placeholder=" Texte du numéro"
+                                                                                        class="form-control" name='txtNumber_en'  required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Maladie (Lingala)</label>
-                                                                                    <input type="text" placeholder="Nom de la maladie"
-                                                                                        class="form-control" name='malade_ln'
-                                                                                        value="" required>
+                                                                                    <label>Texte du numéro (Lingala)</label>
+                                                                                    <input type="text" placeholder="Texte du numéro"
+                                                                                        class="form-control" name='txtNumber_ln'   required>
                                                                                 </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Français)</label>
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_fr'
-                                                                                        value="" required>
+                                                                                <div class="col-lg-6 form-group ">
+                                                                                    <label>Téléphone</label>
+                                                                                    <input type="text" placeholder="Téléphone"
+                                                                                        class="form-control" name='telephone'   required>
                                                                                 </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Anglais)</label>
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_en'
-                                                                                        value="" required>
+                                                                                <div class="col-sm-6 form-group">
+                                                                                    <label>Image</label>
+                                                                                    <div class=" fileinput fileinput-new input-group"
+                                                                                        data-provides="fileinput">
+                                                                                        <div class="form-control"
+                                                                                            data-trigger="fileinput">
+                                                                                            <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                                                            <span class="fileinput-filename"></span>
+                                                                                        </div>
+                                                                                        <span
+                                                                                            class="input-group-addon btn btn-default btn-file"><span
+                                                                                                class="fileinput-new">cover</span>
+                                                                                            <span class="fileinput-exists">Changer</span>
+                                                                                            <input type="file" name="cover"  required></span>
+                                                                                        <a href="#"
+                                                                                            class="input-group-addon btn btn-default fileinput-exists"
+                                                                                            data-dismiss="fileinput">Supprimer</a>
+                                                                                    </div>
                                                                                 </div>
-                                                                                <div class="col-lg-4 form-group ">
-                                                                                    <label>Sous titre (Lingala)</label>
-                                                                                    <input type="text" placeholder="Sous titre"
-                                                                                        class="form-control" name='h1maladie_ln'
-                                                                                        value="" required>
-                                                                                </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Français)</label>
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Français)</label>
                                                                                     <textarea name="description_fr" class="summernote" rows="10" cols="110"
-                                                                                    required>
+                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Anglais)</label>
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Anglais)</label>
                                                                                     <textarea name="description_en" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                                <div class="col-lg-12 form-group ">
-                                                                                    <label>Description (Lingala)</label>
+                                                                                <div class=" col-sm-4 col-lg-12 form-group">
+                                                                                    <label>Publication (Lingala)</label>
                                                                                     <textarea name="description_ln" class="summernote" rows="10" cols="110"
                                                                                     required>
                                                                                 </textarea>
                                                                                 </div>
-                                                                            </div>
-
-
-                                                                            <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
-                                                                                <div class="col-sm-offset-4 col-sm-5">
-                                                                                    <button class="ladda-button btn btn-sm btn-primary"
-                                                                                        type="submit">
-                                                                                        <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
+                                                                                    <div class="col-sm-offset-4 col-sm-5">
+                                                                                        <button class="ladda-button btn btn-sm btn-primary"
+                                                                                            type="submit">
+                                                                                            <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                    </div>
                                                                                 </div>
                                                                             </div>
-                                                                        </div>
-                                                                    </form>
+                                                                        </form>
+                                                                    </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -700,40 +708,85 @@
                                             </div>
                                             <div class='row'>
                                                 <div class=" col-lg-12 col-sm-12">
-                                                    <form method="POST" class="form-group" data-parsley-validate
-                                                    id="formRubrique" >
+                                                    <form method="POST" class="form-group"
+                                                    action="{{isset($exp)?route('Updatslide'):route('add.news') }}" enctype="multipart/form-data" data-parsley-validate>
                                                         @csrf
                                                         <div class="row">
-                                                            <div class="col-lg-4 form-group ">
+                                                            <div class=" col-sm-6 col-lg-12 form-group">
                                                                 <label>Rubrique</label>
+                                                                <select class=" form-control" name="pageId" required>
+                                                                    <option value="" disabled selected></option>
+                                                                    @forelse ($news as $r)
+                                                                        <option value="{{ $r->id }}">{{ $r->rubrique }}</option>
+                                                                    @empty
+
+                                                                    @endforelse
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-lg-4 form-group ">
+                                                                <label>Titre (français)</label>
                                                                 <input type="text" hidden
                                                                     value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                     name="idslide"  />
-
-                                                                <input type="text" placeholder="La rubrique"
-                                                                    class="form-control" name='rubrique'
+                                                                <input type="text" placeholder="Titre"
+                                                                    class="form-control" name='h1_fr'
                                                                     value="" required>
 
                                                             </div>
-                                                            <div class=" col-sm-6 col-lg-6 form-group">
-                                                                <label>Page</label>
-                                                                <select class=" form-control" name="page" required>
-                                                                    <option value="home">Accueil</option>
-                                                                    <option value="vision">Notre vision</option>
-                                                                    <option value="about">A propos</option>
-                                                                    <option value="support_us">Nous soutenir</option>
-                                                                    <option value="contact">Contact</option>
-                                                                    <option value="news">Actualité</option>
-                                                                    <option value="testimonials">Témoignage en vidéo
-                                                                    </option>
-                                                                    <option value="sensibilization">Sensibilité
-                                                                    </option>
-                                                                    <option value="projects">Projets</option>
-                                                                    <option value="donate">Faire un don</option>
-                                                                    <option value="hosp_map">Cartographie</option>
-                                                                </select>
+                                                            <div class="col-lg-4 form-group ">
+                                                                <label>Titre (Anglais)</label>
+                                                                <input type="text" placeholder=" Titre"
+                                                                    class="form-control" name='h1_en'  required>
                                                             </div>
-
+                                                            <div class="col-lg-4 form-group ">
+                                                                <label>Titre (Lingala)</label>
+                                                                <input type="text" placeholder="Titre"
+                                                                    class="form-control" name='h1_ln'   required>
+                                                            </div>
+                                                            <div class="col-lg-6 form-group ">
+                                                                <label>Vidéo</label>
+                                                                <input type="text" placeholder="Vidéo"
+                                                                    class="form-control" name='video'>
+                                                            </div>
+                                                            <div class="col-sm-6 form-group">
+                                                                <label>Image</label>
+                                                                <div class=" fileinput fileinput-new input-group"
+                                                                    data-provides="fileinput">
+                                                                    <div class="form-control"
+                                                                        data-trigger="fileinput">
+                                                                        <i class="glyphicon glyphicon-file fileinput-exists"></i>
+                                                                        <span class="fileinput-filename"></span>
+                                                                    </div>
+                                                                    <span
+                                                                        class="input-group-addon btn btn-default btn-file"><span
+                                                                            class="fileinput-new">cover</span>
+                                                                        <span class="fileinput-exists">Changer</span>
+                                                                        <input type="file" name="cover"  required></span>
+                                                                    <a href="#"
+                                                                        class="input-group-addon btn btn-default fileinput-exists"
+                                                                        data-dismiss="fileinput">Supprimer</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class=" col-sm-4 col-lg-12 form-group">
+                                                                <label>Publication (Français)</label>
+                                                                <textarea name="description_fr" class="summernote" rows="10" cols="110"
+                                                                 required>
+                                                            </textarea>
+                                                            </div>
+                                                            <div class=" col-sm-4 col-lg-12 form-group">
+                                                                <label>Publication (Anglais)</label>
+                                                                <textarea name="description_en" class="summernote" rows="10" cols="110"
+                                                                required>
+                                                            </textarea>
+                                                            </div>
+                                                            <div class=" col-sm-4 col-lg-12 form-group">
+                                                                <label>Publication (Lingala)</label>
+                                                                <textarea name="description_ln" class="summernote" rows="10" cols="110"
+                                                                required>
+                                                            </textarea>
+                                                            </div>
                                                             <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                 <div class="col-sm-offset-4 col-sm-5">
                                                                     <button class="ladda-button btn btn-sm btn-primary"

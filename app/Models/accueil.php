@@ -18,7 +18,7 @@ class accueil extends Model
 
     public $translatable = [
         'titre1', 'titre2', 'maladie',
-        'h1maladie', 'description', 'txtbtn', 'txtbtn2', 'telephone', 'txtphone', 'nbrpays'
+        'h1maladie', 'description', 'txtbtn', 'txtbtn2', 'txtphone', 'nbrpays'
     ];
 
     public function rubrique()
