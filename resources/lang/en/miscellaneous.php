@@ -482,6 +482,7 @@ return [
             'search' => 'Search a health zone',
             'link' => 'Read more ... »',
             'see_more' => 'See more ...',
+            'vide' => 'No news found',
         ],
     ],
 ];

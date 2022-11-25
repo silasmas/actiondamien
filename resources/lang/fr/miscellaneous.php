@@ -482,6 +482,7 @@ return [
             'search' => 'Rechercher une zone de santé',
             'link' => 'Lire la suite ... »',
             'see_more' => 'Voir plus ...',
+            'vide' => 'Aunce actualité trouvée',
         ],
     ],
 ];

@@ -482,6 +482,8 @@ return [
             'search' => 'Luka zone ya santé',
             'link' => 'Tanga lisusu ... »',
             'see_more' => 'Mona lisusu ...',
+            'vide' => 'Sango moko te ezali sikoyo',
         ],
+        
     ],
 ];

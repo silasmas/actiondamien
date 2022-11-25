@@ -3,15 +3,87 @@
 namespace App\Http\Livewire;
 
 use App\Models\actualite;
+use Illuminate\Support\Str;
 use Livewire\Component;
+use Livewire\WithPagination;
 
 class News extends Component
 {
+    use WithPagination;
+    public $actualite = "";
+    public $existe = false;
+     public $tab = [];
+     public $t ="";
+
+    private function s($val)
+    {
+        return $val > 2 ? "s" : "";
+    }
+    protected $queryString = [
+        'actualite' => ['except' => ''],
+    ];
+    public function updating($nom, $value)
+    {
+        if ($nom === "actualite") {
+            $this->resetPage();
+        }
+    }
+    public function actualiser()
+    {
+        dd('ok');
+        $this->resetPage();
+    }
+    // public function paginationView(){
+    //     // return "vendor.pagination.bootstrap-4";
+    // }
+    public function updatedActualite()
+    {
+        $tab = "";
+        if (Str::length($this->actualite) > 0) {
+            $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
+                ->orWhere("description", "LIKE", "%{$this->actualite}%")
+                ->orderBy("created_at", "DESC")->get();
+            //    dd( $newss));
+            if (count($this->tab) > 0) {
+                $this->existe = false;
+                session()->flash('message', count($this->tab) . ' information ' . $this->s(count($this->tab)) . ' trouvée' . $this->s(count($this->tab)));
+                session()->flash('type', 'success');
+            } else {
+                $this->existe = true;
+                session()->flash('message', 'Aucune information trouvé');
+                session()->flash('type', 'danger');
+            }
+            // 
+            return $this->tab;
+        } else {
+
+        }
+    }
+    private function notify($type, $msg, $titre)
+    {
+        session()->flash('message', $msg);
+        session()->flash('type', $type);
+        $this->dispatchBrowserEvent('swal:modal', [
+            'type' => $type,
+            'titre' => $titre,
+            'text' => $msg,
+            'from' => "client",
+        ]);
+    }
+
     public function render()
     {
+        $tabl = "";
+        // $this->t =request()->actualite;
+        // if (request()->actualite!="") {
+            $tabl = actualite::where("titre", "LIKE", "%{$this->actualite}%")
+                ->orWhere("description", "LIKE", "%{$this->actualite}%")
+                ->orderBy("created_at", "DESC")->paginate(20);
+                $tabl->withPath('news?actualite=' . request()->actualite);
+        // } else {
+        //     $tabl = actualite::orderBy("created_at", "DESC")->paginate(20);
 
-        $newss = actualite::all();
-        // dd($news[0]->description);
-        return view('livewire.news',compact("newss"));
+        // }
+        return view('livewire.news',compact('tabl'));
     }
 }
