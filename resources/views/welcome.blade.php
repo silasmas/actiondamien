@@ -455,11 +455,10 @@
                             <div class="h-100">
                                 <div class="d-inline-block rounded-pill bg-secondary text-yellow py-1 px-3 mb-3">
                                     {{ $s->titre1}}</div>
-                                <h1 class="display-6 mb-4">{{ $s->titre1}}v</h1>
-                                {{-- <h5 class="h5 mb-4 text-muted">{{ __('miscellaneous.support.comment') }}</h3> --}}
+                                <h1 class="display-6 mb-4">{{ $s->titre1}}</h1>
                                     <p class="lead mb-4 text-dark">{!! $s->description!!}
                                 </h5>
-                                <p class="mb-4 text-dark">{{ __('miscellaneous.support.content') }}</p>
+                                {{-- <p class="mb-4 text-dark">{{ __('miscellaneous.support.content') }}</p> --}}
                                 <a class="btn btn-yellow py-2 px-3 mb-2 me-3" href="{{ route('donate') }}"
                                     data-bs-toggle="modal" data-bs-target="#donateModal">
                                     {{ __('miscellaneous.support.link_1') }}
