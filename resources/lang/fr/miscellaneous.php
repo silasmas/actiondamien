@@ -483,6 +483,7 @@ return [
             'link' => 'Lire la suite ... »',
             'see_more' => 'Voir plus ...',
             'vide' => 'Aunce actualité trouvée',
+            'readArticle' => 'Lire l\'article',
         ],
     ],
 ];

@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use App\Models\accueil;
+use App\Models\actualite;
 use App\Models\rubrique;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
@@ -28,6 +29,7 @@ class ViewServiceProvider extends ServiceProvider
     {
         View::composer('welcome', function ($view) {
             $home = accueil::get();
+            $newsHome = actualite::get();
             //  dd($home);
             $asavoir = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Bon à savoir";
@@ -51,10 +53,12 @@ class ViewServiceProvider extends ServiceProvider
             $view->with('stat2', $stat2);
             $view->with('hopitaux', $hopitaux);
             $view->with('support', $support);
+            $view->with('newsHome', $newsHome);
 
         });
         View::composer('*', function ($view) {
             $rubriques = rubrique::all();
+            $actus = actualite::all();
             $rubrique = $rubriques->filter(function ($value, $key) {
                 return $value->page == "home";
             });
@@ -64,15 +68,11 @@ class ViewServiceProvider extends ServiceProvider
             $news = $rubriques->filter(function ($value, $key) {
                 return $value->page == "news";
             });
-            // $rubrique = $rubriques->filter(function ($value, $key) {
-            //     return $value->page == "home";
-            // });
-            // $rubrique = $rubriques->filter(function ($value, $key) {
-            //     return $value->page == "home";
-            // });
+            
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);
+            $view->with('actus', $actus);
             // $view->with('rubriques', $rubriques);
         });
     }

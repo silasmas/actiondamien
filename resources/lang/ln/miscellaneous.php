@@ -483,6 +483,7 @@ return [
             'link' => 'Tanga lisusu ... »',
             'see_more' => 'Mona lisusu ...',
             'vide' => 'Sango moko te ezali sikoyo',
+            'readArticle' => 'Tángá lisolo yango',
         ],
         
     ],

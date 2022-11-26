@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
+use App\Models\actualite;
 // use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -89,7 +90,8 @@ class HomeController extends Controller
      */
     public function newsDetails($id)
     {
-        return view('news');
+        $detail=actualite::find($id);
+        return view('detailNews', compact('detail'));
     }
 
     /**
