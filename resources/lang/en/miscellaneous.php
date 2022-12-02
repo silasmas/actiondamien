@@ -220,7 +220,7 @@ return [
         'link_2' => 'Support'
     ],
     'statistics' => [
-        'main_title' => 'Statistics ',
+        'main_title' => 'Statistics',
         'main_description' => 'Some numbers',
         'title_1' => 'People',
         'content_1' => 'develop leprosy each year, of which 10% have mental or physical sequelae because of leprosy.',
