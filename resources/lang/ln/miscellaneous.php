@@ -222,10 +222,13 @@ return [
     'statistics' => [
         'main_title' => 'Statistiki',
         'main_description' => 'Mitango mosusu',
+        'count_1' => '3 000',
         'title_1' => 'Ya bato',
         'content_1' => 'bazwaka maba mbula na mbula, kati na bango 10% bazalaka na ba séquelles mentales to physiques mpo na maba.',
+        'count_2' => '200 000',
         'title_2' => 'Ya bato',
         'content_2' => 'bazwaka maladi ya ntolo mbula na mbula.',
+        'count_3' => '2',
         'title_3' => 'Diagnostiki',
         'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na RDC.'
     ],
