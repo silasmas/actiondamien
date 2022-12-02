@@ -222,10 +222,10 @@ return [
     'statistics' => [
         'main_title' => 'Statistiki',
         'main_description' => 'Mitango mosusu',
-        'count_1' => '3 000',
+        'count_1' => '3000',
         'title_1' => 'Ya bato',
         'content_1' => 'bazwaka maba mbula na mbula, kati na bango 10% bazalaka na ba séquelles mentales to physiques mpo na maba.',
-        'count_2' => '200 000',
+        'count_2' => '200000',
         'title_2' => 'Ya bato',
         'content_2' => 'bazwaka maladi ya ntolo mbula na mbula.',
         'count_3' => '2',

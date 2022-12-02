@@ -222,10 +222,10 @@ return [
     'statistics' => [
         'main_title' => 'Statistics',
         'main_description' => 'Some numbers',
-        'count_1' => '3,000',
+        'count_1' => '3000',
         'title_1' => 'People',
         'content_1' => 'develop leprosy each year, of which 10% have mental or physical sequelae because of leprosy.',
-        'count_2' => '200,000',
+        'count_2' => '200000',
         'title_2' => 'People',
         'content_2' => 'develop tuberculosis each year.',
         'count_3' => '2',

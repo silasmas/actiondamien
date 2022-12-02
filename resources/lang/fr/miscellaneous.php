@@ -222,10 +222,10 @@ return [
     'statistics' => [
         'main_title' => 'Statistiques',
         'main_description' => 'Quelques chiffres',
-        'count_1' => '3 000',
+        'count_1' => '3000',
         'title_1' => 'Personnes',
         'content_1' => 'développent là lèpre chaque année, dont 10% ont des séquelles mentales ou physiques à cause de la lèpre.',
-        'count_2' => '200 000',
+        'count_2' => '200000',
         'title_2' => 'Personnes',
         'content_2' => 'développent la tuberculose chaque année.',
         'count_3' => '2',
