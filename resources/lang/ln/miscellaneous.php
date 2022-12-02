@@ -223,9 +223,9 @@ return [
         'main_title' => 'Statistiki',
         'main_description' => 'Mitango mosusu',
         'title_1' => 'Ya bato',
-        'content_1' => 'Mingi banyokwamaka na makanisi to na nzoto mpo na maladi ya maba.',
-        'title_2' => 'Nkóto',
-        'content_2' => 'Ya bato mingi bazwaka maladi ya ntolo mbula na mbula.',
+        'content_1' => 'bazwaka maba mbula na mbula, kati na bango 10% bazalaka na ba séquelles mentales to physiques mpo na maba.',
+        'title_2' => 'Ya bato',
+        'content_2' => 'bazwaka maladi ya ntolo mbula na mbula.',
         'title_3' => 'Diagnostiki',
         'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na RDC.'
     ],

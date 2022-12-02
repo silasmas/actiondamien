@@ -224,8 +224,8 @@ return [
         'main_description' => 'Quelques chiffres',
         'title_1' => 'Personnes',
         'content_1' => 'développent là lèpre chaque année, dont 10% ont des séquelles mentales ou physiques à cause de la lèpre.',
-        'title_2' => 'Mille',
-        'content_2' => 'Personnes développent la tuberculose chaque année.',
+        'title_2' => 'Personnes',
+        'content_2' => 'développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
         'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font en RDC.'
     ],

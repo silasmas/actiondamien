@@ -223,9 +223,9 @@ return [
         'main_title' => 'Statistics',
         'main_description' => 'Some numbers',
         'title_1' => 'People',
-        'content_1' => 'Suffer mental or physical damage from leprosy.',
-        'title_2' => 'Thousand',
-        'content_2' => 'People develop tuberculosis each year.',
+        'content_1' => 'develop leprosy each year, of which 10% have mental or physical sequelae because of leprosy.',
+        'title_2' => 'People',
+        'content_2' => 'develop tuberculosis each year.',
         'title_3' => 'Diagnostics',
         'content_3' => 'Every minute two diagnoses of Buruli ulcer or of yaws are made in DRC.'
     ],
