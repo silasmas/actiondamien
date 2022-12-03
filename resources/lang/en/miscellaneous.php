@@ -471,7 +471,7 @@ return [
         ],
         // Projects
         'projects' => [
-            'title' => 'Our upcoming projects',
+            'title' => 'Our completed projects',
             'subtitle' => 'Stay informed about all our projects and our various participations in other events.',
             'search' => 'Search a project',
             'choose_year' => 'Choose the year',
