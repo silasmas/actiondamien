@@ -275,7 +275,10 @@
                     {{-- <div class="container"> --}}
                     <div class="row">
                         <div class="col-12">
-                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ==" width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>                    </div>
+                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ==" 
+                            width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0"
+                             allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>          
+                                      </div>
                     {{-- </div> --}}
                 </div>
                 {{-- <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
@@ -295,10 +298,9 @@
                     {{-- <div class="container"> --}}
                     <div class="row">
                         <div class="col-12">
-                            {{-- <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=71kquhubdc" width="100%" height="720" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe> --}}
-                            <iframe src="https://cdn.flipsnack.com/widget/v2/widget.html?hash=71kquhubdc"
-                                width="100%" height="700" seamless="seamless" scrolling="no" frameBorder="0"
-                                allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
+                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrNzFrcXVodWJkYw==" width="100%" 
+                            height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen 
+                            allow="autoplay; clipboard-read; clipboard-write"></iframe>
                         </div>
                     </div>
                     {{-- </div> --}}

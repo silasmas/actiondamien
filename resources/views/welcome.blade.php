@@ -224,17 +224,59 @@
 
     <div id="statistics" class="container">
         <div class="row">
-            <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="counter-box px-4 bg-secondary border border-yellow">
-                    <i class="fa fa-microscope text-yellow"></i>
-                    <span class="counter text-green">{{ __('miscellaneous.statistics.count_1') }}</span>
-                    <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_1') }}</p>
-                    <small>{{ __('miscellaneous.statistics.content_1') }}</small>
+            @forelse ($stat as $s)
+                <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
+                    <div class="counter-box px-4 bg-secondary border border-yellow">
+
+                        @switch($s->titre2)
+                            @case('Personnes')
+                                <i class="fa fa-users text-yellow"></i>
+                            @break
+
+                            @case('People')
+                                <i class="fa fa-users text-yellow"></i>
+                            @break
+
+                            @case('Ya bato')
+                                <i class="fa fa-users text-yellow"></i>
+                            @break
+
+                            @case('Mille')
+                                <i class="fa fa-microscope text-yellow"></i>
+                            @break
+
+                            @case('Nkóto')
+                                <i class="fa fa-microscope text-yellow"></i>
+                            @break
+
+                            @case('Thousand')
+                                <i class="fa fa-microscope text-yellow"></i>
+                            @break
+
+                            @case('Diagnostics')
+                                <i class="fa fa-stethoscope text-yellow"></i>
+                            @break
+
+                            @case('Diagnostics')
+                                <i class="fa fa-stethoscope text-yellow"></i>
+                            @break
+
+                            @case('Diagnostiki')
+                                <i class="fa fa-stethoscope text-yellow"></i>
+                            @break
+
+                            @default
+                        @endswitch
+                        <span class="counter text-green">{{ $s->nbr }}</span>
+                        <p class="fw-bold text-green">{{ $s->titre2 }}</p>
+                        <small>{!! $s->description !!}</small>
+                    </div>
                 </div>
                 @empty
                 @endforelse
+               
 
-            <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
+            {{-- <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="counter-box px-4 bg-secondary border border-yellow">
                     <i class="fa fa-microscope text-yellow"></i>
                     <span class="counter text-green">{{ __('miscellaneous.statistics.count_2') }}</span>
@@ -250,7 +292,7 @@
                     <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_3') }}</p>
                     <small>{{ __('miscellaneous.statistics.content_3') }}</small>
                 </div>
-            </div>
+            </div> --}}
         </div>
         <!-- Statistics End -->
 
@@ -485,12 +527,12 @@
                         voir rapport
                         </a> --}}
                                 <a class="btn btn-danger py-2 mb-2 px-3" data-bs-toggle="modal"
-                                    data-bs-target="#ViewrapportModal" {{-- href="https://www.flipsnack.com/585F9FCC5A8/action_damien_rapport_annuel_rd_congo_2020_24_sep_2021/full-view.html" --}}>
+                                    data-bs-target="#ViewrapportModal" >
                                     <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
                                     2020
                                 </a>
                                 <a class="btn btn-danger py-2 mb-2 px-3" target="blank"
-                                    href="https://www.flipsnack.com/585F9FCC5A8/action-damien_rapport-annuel-2021_vf_11-08-2022-1/full-view.html">
+                                data-bs-toggle="modal" data-bs-target="#ViewrapportModal2" >
                                     <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read') }}
                                     2021
                                 </a>
