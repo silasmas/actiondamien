@@ -265,29 +265,23 @@
     </div>
     <!-- Donate Modal Start -->
     <!-- View rapport Modal Start -->
-    <div class="modal fade" id="ViewrapportModal" tabindex="-1" aria-hidden="true">
+    {{-- <div class="modal fade" id="ViewrapportModal" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog  modal-lg" role="document">
             <div class="modal-content">
                 <div class="modal-header pb-0 border-0">
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pt-0">
-                    {{-- <div class="container"> --}}
                     <div class="row">
                         <div class="col-12">
-                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ==" 
-                            width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0"
+                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ=="
+                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" 
                              allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>          
                                       </div>
-                    {{-- </div> --}}
                 </div>
-                {{-- <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
-                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
-
-                    </div> --}}
             </div>
         </div>
-    </div>
+    </div> --}}
     <div class="modal fade" id="ViewrapportModal2" tabindex="-1" aria-hidden="true">
         <div class="modal-dialog  modal-lg" role="document">
             <div class="modal-content">
@@ -295,20 +289,14 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pt-0">
-                    {{-- <div class="container"> --}}
                     <div class="row">
                         <div class="col-12">
-                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrNzFrcXVodWJkYw==" width="100%" 
-                            height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen 
-                            allow="autoplay; clipboard-read; clipboard-write"></iframe>
+                            <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrNzFrcXVodWJkYw=="
+                             width="100%" height="500" seamless="seamless" scrolling="no" frameBorder="0"
+                              allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
                         </div>
                     </div>
-                    {{-- </div> --}}
                 </div>
-                {{-- <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
-                        <button type="button" class="btn btn-light py-2 border border-default shadow-0" data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
-
-                    </div> --}}
             </div>
         </div>
     </div>
