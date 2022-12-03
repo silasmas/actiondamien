@@ -16,7 +16,7 @@ class projet extends Model
 
     use HasTranslations;
 
-    public $translatable = ['text'];
+    public $translatable = ['text','titre'];
 
     public function rubrique(){
         return $this->belongsTo(rubrique::class);

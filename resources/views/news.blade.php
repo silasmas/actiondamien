@@ -1,11 +1,11 @@
 @extends('layouts.template')
 
 @section('guest-content')
-
     @if (Route::current()->getName() == 'news_details')
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
-            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/1651170274.jpeg') }}) center center no-repeat; background-size: cover;">
+            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), 
+            url({{ asset('assets/img/photo/1651170274.jpeg') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
                 <h1 class="display-4 mb-4 text-white animated slideInDown">
                     {{ __('miscellaneous.inner_page.news.details.title') }}</h1>
@@ -39,9 +39,7 @@
                             <div class="mask"></div>
                         </div>
                         <pre class="fs-5">
-Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre Conseiller Mr. Stefan MEERSCHAERT, à la remise officielle de la nouvelle ambulance au CEDA.
-
-(Présence également du Bourgmestre de Ngaliema, du Représentant d'AD Congo, du Directeur Médical du CEDA, des Directeurs des deux programmes Lèpre & Tuberculose et du Ministre conseiller en charge de la Coopération au Développement.)
+                            
                         </pre>
                     </div>
                     <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -146,7 +144,6 @@ Visite de l'ambassadeur de la Belgique en RD Congo, Mr. Jo INDEKEU & du Ministre
         </div>
         <!-- News Details End -->
     @else
-     @livewire("news")
+        @livewire('news')
     @endif
-
 @endsection

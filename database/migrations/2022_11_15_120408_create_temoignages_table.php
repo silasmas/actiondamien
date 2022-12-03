@@ -16,7 +16,9 @@ return new class extends Migration
         Schema::create('temoignages', function (Blueprint $table) {
             $table->id();
             $table->json('titre')->nullable();
-            $table->json('titre')->nullable();
+            $table->json('description')->nullable();
+            $table->json('titresensibilisqtion')->nullable();
+            $table->json('txtsensibilisation')->nullable();
             $table->foreignId('rubrique_id')->constrained()->onUpdate('cascade')
             ->onDelete('cascade');
             $table->timestamps();

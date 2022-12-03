@@ -7,7 +7,7 @@ return [
     | Miscellaneous Language Lines
     |--------------------------------------------------------------------------
     |
-    */
+     */
     // ===== OTHER
     'actiondamien_slogan' => 'Agir, c\'est contagieux !',
     'actiondamien_description' => 'Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies typiquement liées à la pauvreté, comme l\'ulcère de Buruli et le Pian.',
@@ -66,7 +66,7 @@ return [
             'wednesday' => 'Mer',
             'thursday' => 'Jeu',
             'friday' => 'Ven',
-            'saturday' => 'Sam'
+            'saturday' => 'Sam',
         ],
     ],
     'month' => [
@@ -82,7 +82,7 @@ return [
             'september' => 'Septembre',
             'october' => 'Octobre',
             'november' => 'Novembre',
-            'december' => 'Décembre'
+            'december' => 'Décembre',
         ],
         'abbreviation' => [
             'january' => 'Jan',
@@ -96,7 +96,7 @@ return [
             'september' => 'Sep',
             'october' => 'Oct',
             'november' => 'Nov',
-            'december' => 'Déc'
+            'december' => 'Déc',
         ],
     ],
 
@@ -160,16 +160,16 @@ return [
             'our_vision' => 'Notre vision',
             'about' => 'A propos',
             'support_us' => 'Nous soutenir',
-            'contact' => 'Contact'
+            'contact' => 'Contact',
         ],
         'news' => 'Actualités',
         'testimonials' => [
             'title' => 'Témoignages',
             'video_testimonials' => 'Témoignages en vidéo',
-            'sensibilization' => 'Sensibilisation'
+            'sensibilization' => 'Sensibilisation',
         ],
         'projects' => 'Projets',
-        'donate' => 'Faire un don'
+        'donate' => 'Faire un don',
     ],
 
     // ===== FOOTER CONTENT
@@ -184,11 +184,11 @@ return [
             'support_us' => 'Nous soutenir',
             'testimonials' => 'Témoignages',
             'projects' => 'Projets',
-            'contact' => 'Contact'
+            'contact' => 'Contact',
         ],
         'newsletter' => [
             'title' => 'Newsletter',
-            'description' => 'Souscrire à la newsletter pour recevoir régulièrement les infos concernant Action Damien'
+            'description' => 'Souscrire à la newsletter pour recevoir régulièrement les infos concernant Action Damien',
         ],
     ],
 
@@ -217,7 +217,7 @@ return [
         'badge_2' => 'La Tuberculose',
         'title_2' => 'Comprendre la Tuberculose en quelques secondes',
         'description_2' => 'Comme la lèpre, la tuberculose est causée par une bactérie. On peut tomber malade en la respirant. Les patients qui ont la tuberculose toussent énormément, ont une forte fièvre et maigrissent beaucoup. Ils peuvent devenir très faibles.',
-        'link_2' => 'Soutenir'
+        'link_2' => 'Soutenir',
     ],
     'statistics' => [
         'main_title' => 'Statistiques',
@@ -227,7 +227,7 @@ return [
         'title_2' => 'Mille',
         'content_2' => 'Personnes développent la tuberculose chaque année.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font en RDC.'
+        'content_3' => 'Chaque minute deux diagnostics de l\'ulcère de Buruli ou du pian se font en RDC.',
     ],
     'national_cover' => [
         'title' => 'Couverture mondiale',
@@ -240,14 +240,14 @@ return [
         'disease_2' => 'Tuberculose',
         'countries_count_2' => '15 pays',
         'disease_3' => 'Ulcère de Buruli et Pian',
-        'countries_count_3' => '3 pays'
+        'countries_count_3' => '3 pays',
     ],
     'hospitals' => [
         'title' => 'Nos hopitaux',
         'ceda_name' => 'CEDA',
         'ceda_description' => 'Le CEDA est le premier hôpital de la RD Congo, spécialisé dans la prise en charge hospitalière de la TB-PR. Inauguré en novembre 2014, ce dernier est constitué de 19 agents dont 1 médecin chef de projet appuyé par un médecin consultant, spécialiste en pneumologie des cliniques universitaires de Kinshasa. Cette équipe œuvre au quotidien pour la prise en charge des patients TB-PR avec des formes compliquées de la maladie. Les malades y sont accueillis chaleureusement et l\'établissement dispose de 26 lits. En 2021, 123 patients ont été pris en charge au CEDA, dont 98 TB-MDR et TB-XDR.',
         'link1' => 'Liste des hopitaux',
-        'link2' => 'Cartographie des CSDT/CPLT'
+        'link2' => 'Cartographie des CSDT/CPLT',
     ],
     'support' => [
         'title' => 'Action Damien',
@@ -257,7 +257,7 @@ return [
         'content' => 'Devenez bénévole chez Action Damien ! Vous pouvez nous aider quelques heures en vendant des marqueurs pendant notre week-end de campagne, en organisant vous-même un événement ou encore en vous mobilisant régulièrement et sur le long terme pour Action Damien. Qu\'importe… Votre temps nous est précieux !',
         'link_1' => 'Faire un don',
         'link_2' => 'En savoir plus',
-        'call' => 'Appelez maintenant'
+        'call' => 'Appelez maintenant',
     ],
     'donate' => [
         'title' => 'Faire un don',
@@ -273,7 +273,7 @@ return [
         'title' => 'Rapport Annuel',
         'subtitle' => 'Action Damien RD Congo',
         'readQR' => 'Scanner le code QR',
-        'read' => 'Lire'
+        'read' => 'Lire',
     ],
     // Inner pages
     'inner_page' => [
@@ -337,7 +337,7 @@ return [
                 'list_desc6' => 'Nous offrons à nos missions l\'aide financière et le soutien technique dont elles ont besoin, même parfois dans des pays où nous ne sommes pas ou plus actifs.',
                 'list7' => 'Care after Cure',
                 'list_desc7' => 'Notre travail ne s\'arrête pas à la guérison des patients. Nous les aidons ensuite à retrouver leur place dans la société. Nous leur offrons une formation et même une petite somme d\'argent pour qu\'ils puissent ouvrir une petite échoppe. Nous leur dispensons également des soins de suivi en cas de complications.',
-            ]
+            ],
         ],
         // About
         'about' => [
@@ -365,7 +365,7 @@ return [
                 'title2_content1' => 'L\'action que nous entreprenons en tant qu\'organisation, collaborateur.rice, patient.e, bénévole ou entreprise. Ensemble, nous écrivons une histoire. Ensemble, nous voulons mettre un point final à la lèpre, à la tuberculose, l\'ulcère de Buruli et le pian. Agir renvoie aussi au processus du patient.',
                 'title2_subtitle2' => 'Contagieux',
                 'title2_content2' => 'Toute personne qui participe à la lutte fait partie de l\'histoire. Ensemble, nous produisons une réaction en chaîne dans laquelle chaque maillon est important. La contagion renvoie aussi au travail médical d\'Action Damien et aux maladies infectieuses qui existent à cause de la contagion. Nous choisissons consciemment l\'approche positive, car l\'effet d\'un engagement contagieux permet un meilleur avenir pour nous tous, sans lèpre et sans tuberculose',
-            ]
+            ],
         ],
         // Support us
         'support_us' => [
@@ -383,7 +383,7 @@ return [
                 'way2_link' => 'Faire un don maintenant',
                 'way3_title' => 'Téléphone',
                 'way3_content1' => 'Vous pouvez également faire un don au :',
-                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091',
             ],
             'join_us' => [
                 'title' => 'Nous rejoindre',
@@ -395,7 +395,7 @@ return [
                     'title2' => 'Campagne',
                     'content2' => 'Aidez-nous à transmettre notre message et à sensibiliser sur la lèpre et la tuberculose !',
                     'title3' => 'Ambassadeur',
-                    'content3' => 'Transmettez autour de vous le message de notre ONG via les réseaux sociaux ou la presse'
+                    'content3' => 'Transmettez autour de vous le message de notre ONG via les réseaux sociaux ou la presse',
                 ],
                 'form' => [
                     'title' => 'Nous sommes impatients de vous rencontrer !',
@@ -409,8 +409,8 @@ return [
                     'commitment_content3' => 'devenir animateur',
                     'commitment_content4' => 'aider sur des événements locaux et nationaux',
                     'question' => 'Question ou commentaire',
-                    'button_send' => 'Envoyer'
-                ]
+                    'button_send' => 'Envoyer',
+                ],
             ],
         ],
         // Contact
@@ -429,8 +429,8 @@ return [
                 'phone' => 'Votre n° téléphone',
                 'subject' => 'Sujet',
                 'message' => 'Message',
-                'button_send' => 'Soumettre'
-            ]
+                'button_send' => 'Soumettre',
+            ],
         ],
         // News
         'news' => [
@@ -446,7 +446,7 @@ return [
             'details' => [
                 'title' => 'Détails sur l\'info',
                 'other' => 'Autres actualités',
-            ]
+            ],
         ],
         // Sensibilization
         'sensibilization' => [
@@ -485,5 +485,11 @@ return [
             'vide' => 'Aunce actualité trouvée',
             'readArticle' => 'Lire l\'article',
         ],
+        // actualités
+        'actualite' => [
+            'titre' => 'Lisez nos derniers articles et conseils.',
+            'libelle' => 'Actualité',
+        ],
+
     ],
 ];

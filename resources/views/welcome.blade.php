@@ -274,7 +274,7 @@
                     </div>
                 </div>
                 @empty
-                @endforelse
+                @endforelse 
 
 
                 {{-- <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
@@ -556,8 +556,8 @@
             <div class="container-xxl pb-5">
                 <div class="container">
                     <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">Actualité</div>
-                        <h1 class="display-6 mb-5">Lisez nos derniers articles et conseils.</h1>
+                        <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3"> @lang('miscellaneous.inner_page.actualite.libelle')</div>
+                        <h1 class="display-6 mb-5">@lang('miscellaneous.inner_page.actualite.titre')</h1>
                     </div>
 
                     <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">

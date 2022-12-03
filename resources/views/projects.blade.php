@@ -100,13 +100,6 @@ Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sach
 
                                 <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_3.jpg') }}" alt="" class="project-image ms-sm-4 mb-3 float-sm-end" style="border-radius: 1.2rem;">
 En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
-
-                                <div class="row d-">
-                                    {{-- <div class="col-lg-4 col-sm-6"><img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_1.jpg') }}" alt="" class="img-fluid" style="border-radius: 1.2rem;"></div> --}}
-                                    {{-- <div class="col-lg-4 col-sm-6 mt-sm-0 mt-4">
-                                        <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_2.jpg') }}" alt="" class="img-fluid" style="border-radius: 1.2rem;">
-                                    </div> --}}
-                                </div>
                             </pre>
                     </p>
                 </div>

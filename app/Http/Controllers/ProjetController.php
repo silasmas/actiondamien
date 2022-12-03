@@ -3,8 +3,9 @@
 namespace App\Http\Controllers;
 
 use App\Models\projet;
-use App\Http\Requests\StoreprojetRequest;
+use Illuminate\Http\Request;
 use App\Http\Requests\UpdateprojetRequest;
+
 
 class ProjetController extends Controller
 {
@@ -34,9 +35,27 @@ class ProjetController extends Controller
      * @param  \App\Http\Requests\StoreprojetRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreprojetRequest $request)
+    public function store(Request $request)
     {
-        //
+       
+        $file = $request->file('cover');
+
+        $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/projet', $filenameImg);
+        // dd($filenameImg);
+        if ($request->cover) {
+            projet::create([
+                'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+                'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
+                'text' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
+                'rubrique_id' => $request->pageId,
+                'photo' => $filenameImg,
+            ]);
+            return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "danger"]);
+        }
+    
     }
 
     /**

@@ -68,12 +68,15 @@ class ViewServiceProvider extends ServiceProvider
             $news = $rubriques->filter(function ($value, $key) {
                 return $value->page == "news";
             });
+            $projets = $rubriques->filter(function ($value, $key) {
+                return $value->page == "projects";
+            });
             
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);
             $view->with('actus', $actus);
-            // $view->with('rubriques', $rubriques);
+            $view->with('projets', $projets);
         });
     }
 }

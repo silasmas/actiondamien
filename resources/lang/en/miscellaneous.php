@@ -7,7 +7,7 @@ return [
     | Miscellaneous Language Lines
     |--------------------------------------------------------------------------
     |
-    */
+     */
     // ===== OTHER
     'actiondamien_slogan' => 'Let\'s act now, it\'s contagious!',
     'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as Buruli ulcer and Yaws.',
@@ -66,7 +66,7 @@ return [
             'wednesday' => 'Wed',
             'thursday' => 'Thu',
             'friday' => 'Fri',
-            'saturday' => 'Sat'
+            'saturday' => 'Sat',
         ],
     ],
     'month' => [
@@ -82,7 +82,7 @@ return [
             'september' => 'September',
             'october' => 'October',
             'november' => 'November',
-            'december' => 'December'
+            'december' => 'December',
         ],
         'abbreviation' => [
             'january' => 'Jan',
@@ -96,7 +96,7 @@ return [
             'september' => 'Sep',
             'october' => 'Oct',
             'november' => 'Nov',
-            'december' => 'Dec'
+            'december' => 'Dec',
         ],
     ],
 
@@ -160,16 +160,16 @@ return [
             'our_vision' => 'Our vision',
             'about' => 'About',
             'support_us' => 'Support us',
-            'contact' => 'Contact'
+            'contact' => 'Contact',
         ],
         'news' => 'News',
         'testimonials' => [
             'title' => 'Testimonials',
             'video_testimonials' => 'Video testimonials',
-            'sensibilization' => 'Sensibilization'
+            'sensibilization' => 'Sensibilization',
         ],
         'projects' => 'Projects',
-        'donate' => 'Donate now'
+        'donate' => 'Donate now',
     ],
 
     // ===== FOOTER CONTENT
@@ -184,11 +184,11 @@ return [
             'support_us' => 'Support us',
             'testimonials' => 'Testimonials',
             'projects' => 'Projects',
-            'contact' => 'Contact'
+            'contact' => 'Contact',
         ],
         'newsletter' => [
             'title' => 'Newsletter',
-            'description' => 'Subscribe to the newsletter to receive our regular information'
+            'description' => 'Subscribe to the newsletter to receive our regular information',
         ],
     ],
 
@@ -205,7 +205,7 @@ return [
         'link_2' => 'Discover',
         'title_3' => 'Our testimonials',
         'description_3' => 'When tuberculosis interferes with pregnancy.',
-        'link_3' => 'Watch'
+        'link_3' => 'Watch',
     ],
     'home_videos' => [
         'main_title' => 'Good to know',
@@ -217,7 +217,7 @@ return [
         'badge_2' => 'Tuberculosis',
         'title_2' => 'Understand Tuberculosis in seconds',
         'description_2' => 'Like leprosy, tuberculosis is caused by bacteria. You can get sick from breathing it. Tuberculosis patients cough a lot, have a high fever and lose a lot of weight. They can become very weak.',
-        'link_2' => 'Support'
+        'link_2' => 'Support',
     ],
     'statistics' => [
         'main_title' => 'Statistics',
@@ -227,7 +227,7 @@ return [
         'title_2' => 'Thousand',
         'content_2' => 'People develop tuberculosis each year.',
         'title_3' => 'Diagnostics',
-        'content_3' => 'Every minute two diagnoses of Buruli ulcer or of yaws are made in DRC.'
+        'content_3' => 'Every minute two diagnoses of Buruli ulcer or of yaws are made in DRC.',
     ],
     'national_cover' => [
         'title' => 'Global coverage',
@@ -240,14 +240,14 @@ return [
         'disease_2' => 'Tuberculosis',
         'countries_count_2' => '15 countries',
         'disease_3' => 'Buruli ulcer and Yaws',
-        'countries_count_3' => '3 countries'
+        'countries_count_3' => '3 countries',
     ],
     'hospitals' => [
         'title' => 'Our hospitals',
         'ceda_name' => 'CEDA',
         'ceda_description' => 'The CEDA is the first hospital in the DR Congo, specializing in the hospital care of TB-PR. Inaugurated in November 2014, the latter is made up of 19 agents including 1 project manager doctor supported by a consultant doctor, specialist in pneumology from the university clinics of Kinshasa. This team works on a daily basis to care for DR-TB patients with complicated forms of the disease. Patients are warmly welcomed there and the establishment has 26 beds. In 2021, 123 patients were treated at CEDA, including 98 MDR-TB and XDR-TB.',
         'link1' => 'List of hospitals',
-        'link2' => 'CSDT/CPLT mapping'
+        'link2' => 'CSDT/CPLT mapping',
     ],
     'support' => [
         'title' => 'Action Damien',
@@ -257,7 +257,7 @@ return [
         'content' => 'Become a volunteer at Action Damien! You can help us for a few hours by selling markers during our campaign weekend, by organizing an event yourself or by mobilizing regularly and over the long term for Action Damien. No matter… Your time is precious to us!',
         'link_1' => 'Make a donation',
         'link_2' => 'Learn more',
-        'call' => 'Call now'
+        'call' => 'Call now',
     ],
     'donate' => [
         'title' => 'Make a donation',
@@ -273,7 +273,7 @@ return [
         'title' => 'Annual Report',
         'subtitle' => 'Action Damien DR Congo',
         'readQR' => 'Scan the QR code',
-        'read' => 'Read'
+        'read' => 'Read',
     ],
     // Inner pages
     'inner_page' => [
@@ -289,7 +289,7 @@ return [
                 'subtitle3' => 'Buruli\'s ulcer',
                 'content3' => 'Buruli ulcer is a rare and exotic bacterial infection of the skin and soft tissues. It often begins with painless swelling in the affected area, usually the arms, legs, or face. (papules, nodules, plaques, oedemas, ulcers). In 2021, 23 cases of Buruli ulcers including 10 women were detected in the province of Haut Uélé.',
                 'subtitle4' => 'Yaws',
-                'content4' => 'Yaws is a chronic bacterial infection that affects the skin, bones and cartilage. (Papilloma, nodule, etc.) In 2021, 15 cases of Yaws were detected, including 3 women in Haute Uélé.'
+                'content4' => 'Yaws is a chronic bacterial infection that affects the skin, bones and cartilage. (Papilloma, nodule, etc.) In 2021, 15 cases of Yaws were detected, including 3 women in Haute Uélé.',
             ],
             'vision_desc' => [
                 'title' => 'Our vision',
@@ -299,7 +299,7 @@ return [
                     'list1' => 'Provide health care through training, research and targeted medical actions.',
                     'list2' => 'Facilitate the reintegration of people affected by leprosy or tuberculosis.',
                     'list3' => 'Raise political awareness of the medical and social aspects related to leprosy and tuberculosis.',
-                    'list4' => 'Acquire the necessary means to achieve your goals.'
+                    'list4' => 'Acquire the necessary means to achieve your goals.',
                 ],
             ],
             'value' => [
@@ -317,7 +317,7 @@ return [
                     'paragraph1' => 'Action Damien is an apolitical, pluralist and independent organization that intends to make a difference in the global fight against leprosy, tuberculosis and other neglected diseases linked to poverty.',
                     'paragraph2' => 'We start our projects exclusively at the request of the authorities local authorities, and we withdraw when the local teams have accumulated enough knowledge, experience and financial means to fight against the disease or diseases in question without the need for us.',
                     'paragraph3' => 'But what matters most to us are the patients. We want to support them all and provide them with the best care.',
-                    'paragraph4' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.'
+                    'paragraph4' => 'Concretely, we offer them quality diagnosis, treatment and care, without ever neglecting prevention and follow-up, because we want to avoid the social consequences of the disease for them, or at least limit them.',
                 ],
             ],
             'activities' => [
@@ -336,8 +336,8 @@ return [
                 'list6' => 'Logistics support',
                 'list_desc6' => 'We offer our missions the financial aid and technical support they need, even sometimes in countries where we are not or no longer active.',
                 'list7' => 'Care after Cure',
-                'list_desc7' => 'Our work does not end with curing patients. We then help them find their place in society. We offer them training and even a small amount of money so that they can open a small shop. We also provide them with follow-up care in case of complications.'
-            ]
+                'list_desc7' => 'Our work does not end with curing patients. We then help them find their place in society. We offer them training and even a small amount of money so that they can open a small shop. We also provide them with follow-up care in case of complications.',
+            ],
         ],
         // About
         'about' => [
@@ -364,8 +364,8 @@ return [
                 'title2_subtitle1' => 'Act',
                 'title2_content1' => 'The action we take as an organization, collaborator, patient, volunteer or business. Together we write a story. Together we want to put an end to leprosy, tuberculosis, Buruli ulcer and yaws. Acting also refers to the process of the patient.',
                 'title2_subtitle2' => 'Contagious',
-                'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.'
-            ]
+                'title2_content2' => 'Everyone who participates in the struggle is part of the story. Together we produce a chain reaction in which every link is important. Contagion also refers to the medical work of Action Damien and the infectious diseases that exist because of contagion. We consciously choose the positive approach, because the effect of an infectious commitment enables a better future for all of us, free of leprosy and tuberculosis.',
+            ],
         ],
         // Support us
         'support_us' => [
@@ -383,7 +383,7 @@ return [
                 'way2_link' => 'Donate now',
                 'way3_title' => 'Phone',
                 'way3_content1' => 'You can also donate to:',
-                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091',
             ],
             'join_us' => [
                 'title' => 'Join us',
@@ -395,7 +395,7 @@ return [
                     'title2' => 'Campaign',
                     'content2' => 'Help us spread our message and raise awareness about leprosy and tuberculosis!',
                     'title3' => 'Ambassador',
-                    'content3' => 'Spread the message of our NGO around you via social networks or the press'
+                    'content3' => 'Spread the message of our NGO around you via social networks or the press',
                 ],
                 'form' => [
                     'title' => 'We are impatient to meet you!',
@@ -409,8 +409,8 @@ return [
                     'commitment_content3' => 'become an animator',
                     'commitment_content4' => 'help on local and national events',
                     'question' => 'Question or comment',
-                    'button_send' => 'Send'
-                ]
+                    'button_send' => 'Send',
+                ],
             ],
         ],
         // Contact
@@ -429,8 +429,8 @@ return [
                 'phone' => 'Your phone number',
                 'subject' => 'Subject',
                 'message' => 'Message',
-                'button_send' => 'Submit'
-            ]
+                'button_send' => 'Submit',
+            ],
         ],
         // News
         'news' => [
@@ -446,7 +446,7 @@ return [
             'details' => [
                 'title' => 'Info details',
                 'other' => 'Other news',
-            ]
+            ],
         ],
         // Sensibilization
         'sensibilization' => [
@@ -464,7 +464,7 @@ return [
             'paragraph11' => 'He was cared for, supported and accompanied to his final resting place by CEDA nurses and some members of his family.',
             'paragraph12' => 'Finally, it should be noted that each year, we have more success stories than deaths.',
             'paragraph13' => 'Through the story of the young Kuniungina Batona Mordecai, we wanted to highlight all the efforts made to treat him, cover him with affection and accompany him to his final resting place.',
-            'paragraph14' => 'It is one story among many others, which gives an overview of the work we do with the patients we receive.'
+            'paragraph14' => 'It is one story among many others, which gives an overview of the work we do with the patients we receive.',
         ],
         // Projects
         'projects' => [
@@ -485,5 +485,11 @@ return [
             'vide' => 'No news found',
             'readArticle' => 'Read the article',
         ],
+        // actualités
+        'actualite' => [
+            'titre' => 'Read our latest articles and tips.',
+            'libelle' => 'News',
+        ],
+
     ],
 ];

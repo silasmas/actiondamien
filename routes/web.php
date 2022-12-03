@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ActualiteController;
+use App\Http\Controllers\ProjetController;
 use App\Models\actualite;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
@@ -41,6 +42,7 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/add.support', [AboutController::class, 'addsupport'])->name('add.support');
     
     Route::post('/add.news', [ActualiteController::class, 'store'])->name('add.news');
+    Route::post('/projets', [ProjetController::class, 'store'])->name('projets');
 });
 
 // Language

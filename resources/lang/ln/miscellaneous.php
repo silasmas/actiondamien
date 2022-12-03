@@ -7,7 +7,7 @@ return [
     | Miscellaneous Language Lines
     |--------------------------------------------------------------------------
     |
-    */
+     */
     // ===== OTHER
     'actiondamien_slogan' => 'Misala ezali contagieux !',
     'actiondamien_description' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola Ulcère ya Buruli na Pian.',
@@ -66,7 +66,7 @@ return [
             'wednesday' => 'Mis',
             'thursday' => 'Min',
             'friday' => 'Mit',
-            'saturday' => 'Mpo'
+            'saturday' => 'Mpo',
         ],
     ],
     'month' => [
@@ -82,7 +82,7 @@ return [
             'september' => 'Sanza\' libwa',
             'october' => 'Sanza\' zomi',
             'november' => 'Sanza\' zomi na moko',
-            'december' => 'Sanza\' zomi na mibale'
+            'december' => 'Sanza\' zomi na mibale',
         ],
         'abbreviation' => [
             'january' => 'Yam',
@@ -96,7 +96,7 @@ return [
             'september' => 'Lib',
             'october' => 'Zom',
             'november' => 'Zom1',
-            'december' => 'Zom2'
+            'december' => 'Zom2',
         ],
     ],
 
@@ -160,16 +160,16 @@ return [
             'our_vision' => 'Emoneli na biso',
             'about' => 'Na ntina na',
             'support_us' => 'Kosunga biso',
-            'contact' => 'Kokutana'
+            'contact' => 'Kokutana',
         ],
         'news' => 'Bansango',
         'testimonials' => [
             'title' => 'Matatoli',
             'video_testimonials' => 'Matatoli ya vidéo',
-            'sensibilization' => 'Kolendisa'
+            'sensibilization' => 'Kolendisa',
         ],
         'projects' => 'Projets',
-        'donate' => 'Pesá likabo'
+        'donate' => 'Pesá likabo',
     ],
 
     // ===== FOOTER CONTENT
@@ -184,11 +184,11 @@ return [
             'support_us' => 'Kosunga biso',
             'testimonials' => 'Matatoli',
             'projects' => 'Projets',
-            'contact' => 'Kokutana'
+            'contact' => 'Kokutana',
         ],
         'newsletter' => [
             'title' => 'Komisá na bansango',
-            'description' => 'Komisá na bansango pona kozua ba informations mbala na mbala na oyo etali Action Damien'
+            'description' => 'Komisá na bansango pona kozua ba informations mbala na mbala na oyo etali Action Damien',
         ],
     ],
 
@@ -217,7 +217,7 @@ return [
         'badge_2' => 'Tuberculose',
         'title_2' => 'Kososola Tuberculose na Segonde',
         'description_2' => 'Ndenge moko na maladi ya maba, maladi ya ntolo eutaka na mikrobe. Okoki kozwa maladi na kopema yango. Bato ya maladi ya ntolo basukolaka mingi, bazalaka na fièvre makasi mpe babungisaka kilo mingi. Bakoki kokóma na bolembu mingi.',
-        'link_2' => 'Pesa lisungi'
+        'link_2' => 'Pesa lisungi',
     ],
     'statistics' => [
         'main_title' => 'Statistiki',
@@ -227,7 +227,7 @@ return [
         'title_2' => 'Nkóto',
         'content_2' => 'Ya bato mingi bazwaka maladi ya ntolo mbula na mbula.',
         'title_3' => 'Diagnostiki',
-        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na RDC.'
+        'content_3' => 'Na minute nionso ba diagnostiki mibale ya Ulcère ya Buruli to ya pian esalemaka na RDC.',
     ],
     'national_cover' => [
         'title' => 'Mokili mobimba',
@@ -240,14 +240,14 @@ return [
         'disease_2' => 'Tuberculose',
         'countries_count_2' => 'Mikili 15',
         'disease_3' => 'Ulcère ya Buruli na Pian',
-        'countries_count_3' => 'Mikili 3'
+        'countries_count_3' => 'Mikili 3',
     ],
     'hospitals' => [
         'title' => 'Ba lopitalo na biso',
         'ceda_name' => 'CEDA',
         'ceda_description' => 'CEDA ezali lopitalo ya liboso na RD Congo, oyo ezali spécialisé na ba soins ya TB-PR. Efungwama na novembre 2014, oyo ya suka ezali na ba agents 19 oyo dokotolo 1 ya directeur ya projet asungami na conseiller, spécialiste ya pneumologie ya ba cliniques universitaires ya Kinshasa. Ekipi oyo esalaka mokolo na mokolo mpo na kobatela bato ya maladi ya TB oyo bazali na mitindo ya mindondo ya maladi yango. Ba malades bayambami na esengo kuna mpe établissement ezali na mbeto 26. Na 2021, ba maladi 123 bazwaki lisalisi na CEDA, kati na bango 98 MDR-TB mpe XDR-TB.',
         'link1' => 'Liste ya ba lopitalo',
-        'link2' => 'Cartographie ya ba CSDT/CPLT'
+        'link2' => 'Cartographie ya ba CSDT/CPLT',
     ],
     'support' => [
         'title' => 'Action Damien',
@@ -257,7 +257,7 @@ return [
         'content' => 'Koma mosali ya bolingo malamu na Action Damien! Okoki kosalisa biso mpo na mwa bangonga na kotekaka ba marqueurs na wikende ya campagne na biso, na kobongisaka molulu yo moko to na ko mobiliser mbala na mbala mpe na boumeli ya ntango molai mpo na Action Damien. Ezali na ntina te... Ntango na yo ezali na motuya mingi mpo na biso!',
         'link_1' => 'Pesá likabo',
         'link_2' => 'Yekola makambo mosusu',
-        'call' => 'Benga sikoyo'
+        'call' => 'Benga sikoyo',
     ],
     'donate' => [
         'title' => 'Pesá likabo',
@@ -273,7 +273,7 @@ return [
         'title' => 'Lapolo ya mobu',
         'subtitle' => 'Action Damien RD Congo',
         'readQR' => 'Tanga code QR',
-        'read' => 'Tanga'
+        'read' => 'Tanga',
     ],
     // Inner pages
     'inner_page' => [
@@ -365,7 +365,7 @@ return [
                 'title2_content1' => 'Misala oyo tosalaka lokola organisation, collaborateur, patient, volontaire to entreprise. Elongo tokoma lisolo moko. Elongo tolingi kosukisa maba, tuberculose, ulcère ya Buruli na pian. Kosala elimboli mpe ndenge oyo moto ya maladi azali kosala.',
                 'title2_subtitle2' => 'Contagieux',
                 'title2_content2' => 'Moto nyonso oyo azali kosangana na etumba azali eteni ya lisolo. Elongo, tobimisaka réaction en chaîne oyo kati na yango lien moko na moko ezali na ntina. Contagion ezali mpe kolobela mosala ya monganga ya Action Damien mpe bokono ya kozwama oyo ezali mpo na contagion. Toponaka na bososoli nyonso lolenge ya malamu, mpo ete effet ya engagement infectieux epesaka nzela na avenir ya malamu mpo na biso banso, sans maba mpe tuberculose.',
-            ]
+            ],
         ],
         // Support us
         'support_us' => [
@@ -383,7 +383,7 @@ return [
                 'way2_link' => 'Pesá makabo sikoyo',
                 'way3_title' => 'Téléphone',
                 'way3_content1' => 'Okoki mpe kopesa makabo na:',
-                'way3_content2' => '+243 816 520 396 | +243 998 135 091'
+                'way3_content2' => '+243 816 520 396 | +243 998 135 091',
             ],
             'join_us' => [
                 'title' => 'Sangana na biso',
@@ -395,7 +395,7 @@ return [
                     'title2' => 'Kampanye',
                     'content2' => 'Sunga biso topanza mateya na biso pe to sensibiliser na maba na maladi ya ntolo!',
                     'title3' => 'Ambassadeur',
-                    'content3' => 'Panza message ya ONG na biso zinga zinga na yo na nzela ya ba réseaux sociaux to na presse'
+                    'content3' => 'Panza message ya ONG na biso zinga zinga na yo na nzela ya ba réseaux sociaux to na presse',
                 ],
                 'form' => [
                     'title' => 'Totondisami na posa ya kokutana na bino !',
@@ -409,8 +409,8 @@ return [
                     'commitment_content3' => 'nakoma animateur',
                     'commitment_content4' => 'kosalisa na milulu ya mboka mpe ya ekolo',
                     'question' => 'Motuna to commentaire',
-                    'button_send' => 'Tinda'
-                ]
+                    'button_send' => 'Tinda',
+                ],
             ],
         ],
         // Contact
@@ -429,8 +429,8 @@ return [
                 'phone' => 'Telephone na yo',
                 'subject' => 'Mama likambo',
                 'message' => 'Nsango',
-                'button_send' => 'Tinda'
-            ]
+                'button_send' => 'Tinda',
+            ],
         ],
         // News
         'news' => [
@@ -446,7 +446,7 @@ return [
             'details' => [
                 'title' => 'Nyonso etali sango',
                 'other' => 'Ba sango misusu',
-            ]
+            ],
         ],
         // Sensibilization
         'sensibilization' => [
@@ -485,6 +485,11 @@ return [
             'vide' => 'Sango moko te ezali sikoyo',
             'readArticle' => 'Tángá lisolo yango',
         ],
-        
+        // actualités
+        'actualite' => [
+            'titre' => 'Tanga masolo mpe batoli na biso ya sika.',
+            'libelle' => 'Ba sango',
+        ],
+
     ],
 ];
