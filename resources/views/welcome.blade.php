@@ -223,77 +223,33 @@
     </div>
 
     <div id="statistics" class="container">
-
         <div class="row">
-            @forelse ($stat as $s)
-                <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.3s">
-                    <div class="counter-box px-4 bg-secondary border border-yellow">
-
-                        @switch($s->titre2)
-                            @case('Personnes')
-                                <i class="fa fa-users text-yellow"></i>
-                            @break
-
-                            @case('People')
-                                <i class="fa fa-users text-yellow"></i>
-                            @break
-
-                            @case('Ya bato')
-                                <i class="fa fa-users text-yellow"></i>
-                            @break
-
-                            @case('Mille')
-                                <i class="fa fa-microscope text-yellow"></i>
-                            @break
-
-                            @case('Nkóto')
-                                <i class="fa fa-microscope text-yellow"></i>
-                            @break
-
-                            @case('Thousand')
-                                <i class="fa fa-microscope text-yellow"></i>
-                            @break
-
-                            @case('Diagnostics')
-                                <i class="fa fa-stethoscope text-yellow"></i>
-                            @break
-
-                            @case('Diagnostics')
-                                <i class="fa fa-stethoscope text-yellow"></i>
-                            @break
-
-                            @case('Diagnostiki')
-                                <i class="fa fa-stethoscope text-yellow"></i>
-                            @break
-
-                            @default
-                        @endswitch
-                        <span class="counter text-green">{{ $s->nbr }}</span>
-                        <p class="fw-bold text-green">{{ $s->titre2 }}</p>
-                        <small>{!! $s->description !!}</small>
-                    </div>
+            <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="counter-box px-4 bg-secondary border border-yellow">
+                    <i class="fa fa-microscope text-yellow"></i>
+                    <span class="counter text-green">{{ __('miscellaneous.statistics.count_1') }}</span>
+                    <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_1') }}</p>
+                    <small>{{ __('miscellaneous.statistics.content_1') }}</small>
                 </div>
                 @empty
-                @endforelse 
+                @endforelse
 
-
-                {{-- <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="1.7s">
-                    <div class="counter-box px-4 bg-secondary border border-yellow">
-                        <i class="fa fa-microscope text-yellow"></i>
-                        <span class="counter text-green">200.000</span>
-                        <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_2') }}</p>
-                        <small>{{ __('miscellaneous.statistics.content_2') }}</small>
-                    </div>
+            <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="counter-box px-4 bg-secondary border border-yellow">
+                    <i class="fa fa-microscope text-yellow"></i>
+                    <span class="counter text-green">{{ __('miscellaneous.statistics.count_2') }}</span>
+                    <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_2') }}</p>
+                    <small>{{ __('miscellaneous.statistics.content_2') }}</small>
                 </div>
+            </div>
 
-                <div class="four col-sm-4 wow fadeInUp" data-wow-delay="2.1s">
-                    <div class="counter-box px-4 bg-secondary border border-yellow">
-                        <i class="fa fa-stethoscope text-yellow"></i>
-                        <span class="counter text-green">2</span>
-                        <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_3') }}</p>
-                        <small>{{ __('miscellaneous.statistics.content_3') }}</small>
-                    </div>
-                </div> --}}
+            <div class="four col-sm-4 mb-4 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="counter-box px-4 bg-secondary border border-yellow">
+                    <i class="fa fa-stethoscope text-yellow"></i>
+                    <span class="counter text-green">{{ __('miscellaneous.statistics.count_3') }}</span>
+                    <p class="fw-bold text-green">{{ __('miscellaneous.statistics.title_3') }}</p>
+                    <small>{{ __('miscellaneous.statistics.content_3') }}</small>
+                </div>
             </div>
         </div>
         <!-- Statistics End -->

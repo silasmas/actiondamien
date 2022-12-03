@@ -75,18 +75,30 @@ $(function () {
         }
     }
 
+    /* FORMAT THOUSAND ASPECT */
+    function thousandFormatter(el) {
+        var element = document.querySelector(el);
+
+        if (navigator.language == 'fr') {
+            return element.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+
+        } else {
+            return element.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+        }
+    }
+
     $('.counter').each(function () {
-        $(this).prop('Counter', 0).animate({
-            Counter: $(this).text()
-        }, {
+        $(this).prop('Counter', 0).animate({Counter: $(this).text()}, {
             duration: 4000,
             easing: 'swing',
             step: function (now) {
                 $(this).text(Math.ceil(now));
-            }
-        });
-    });
+            }    
+        });    
+    });    
 
+    // Format aspect of number thounds
+    thousandFormatter('.counter');
     // Auto-resize textarea
     autosize($('textarea'));
 });
