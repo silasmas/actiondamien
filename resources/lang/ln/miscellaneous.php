@@ -471,7 +471,7 @@ return [
         ],
         // Projects
         'projects' => [
-            'title' => 'Ba projets na biso oyo esalam',
+            'title' => 'Ba projets na biso oyo esalama',
             'subtitle' => 'Bozala na sango ya ba projets na biso nionso pe ba participations na biso ndenge na ndenge na ba événements misusu.',
             'search' => 'Luka projet moko',
             'choose_year' => 'Pona mbula',
