@@ -10,7 +10,7 @@ class Newletter extends Component
     public $email = "";
 
     protected $rules = [
-        'email' => ['required', 'string', 'email', 'max:255', 'unique:newsletters']
+        'email' => ['required', 'string', 'email', 'max:255', 'unique:newsletters'],
     ];
     public function addnewsLetter()
     {
@@ -19,7 +19,7 @@ class Newletter extends Component
             'email' => $this->email,
         ]);
         if ($news) {
-            session()->flash('message', 'Enrégistrement réussit');
+            session()->flash('message', 'Enrégistrement réussi');
             session()->flash('type', 'success');
             $this->email = "";
         } else {
