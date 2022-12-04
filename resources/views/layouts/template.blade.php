@@ -275,8 +275,8 @@
                     <div class="row">
                         <div class="col-12">
                             <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ=="
-                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" 
-                             allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>          
+                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0"
+                             allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
                                       </div>
                 </div>
             </div>
