@@ -75,16 +75,6 @@ $(function () {
         }
     }
 
-    /* FORMAT THOUSAND ASPECT */
-    function thousandFormatter(el) {
-        var element = document.querySelector(el);
-        var elementText = element.textContent;
-
-        console.log(element);
-
-        element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-    }
-
     $('.counter').each(function () {
         $(this).prop('Counter', 0).animate({Counter: $(this).text()}, {
             duration: 4000,
@@ -95,17 +85,15 @@ $(function () {
         });    
     });    
 
-    // Format aspect of number thounds
-    thousandFormatter('#statistics .counter');
     // Auto-resize textarea
     autosize($('textarea'));
 });
 
 /**
- * Some jQuery plugins
+ * Custom jQuery plugins
  */
 (function ($) {
-    $.fn.numberFormatter2 = function (_char) {
+    $.fn.thousandFormatter = function (_char) {
         this.each(function () {
             var element = $(this).get(0);
             var elementText = element.textContent;
