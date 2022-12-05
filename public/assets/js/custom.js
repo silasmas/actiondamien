@@ -78,9 +78,9 @@ $(function () {
     /* FORMAT THOUSAND ASPECT */
     function thousandFormatter(el) {
         var element = document.querySelector(el);
-        var elementText = element.textContent;
+        var elementText = element.innerHTML;
 
-        console.log(element);
+        console.log(elementText);
 
         element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
     }
