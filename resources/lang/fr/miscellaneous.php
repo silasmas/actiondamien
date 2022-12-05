@@ -484,7 +484,13 @@ return [
         ],
         // News
         'hospitals' => [
-            'search' => 'Rechercher une zone de santé',
+            'search' => 'Rechercher une zone de santé, une aire de santé ou un centre de dépistage',
+            'legend' => [
+                'title' => 'Légende',
+                'data1' => 'Zone de santé',
+                'data2' => 'Aire de santé',
+                'data3' => 'Centre de dépistage et de traitement'
+            ],
             'link' => 'Lire la suite ... »',
             'see_more' => 'Voir plus ...',
             'vide' => 'Aunce actualité trouvée',

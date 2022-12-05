@@ -484,7 +484,13 @@ return [
         ],
         // News
         'hospitals' => [
-            'search' => 'Luka zone ya santé',
+            'search' => 'Luka zone ya santé, aire ya santé to centre ya dépistage',
+            'legend' => [
+                'title' => 'Legende',
+                'data1' => 'Zone ya santé',
+                'data2' => 'Aire ya santé',
+                'data3' => 'Centre ya dépistage pe ya traitement'
+            ],
             'link' => 'Tanga lisusu ... »',
             'see_more' => 'Mona lisusu ...',
             'vide' => 'Sango moko te ezali sikoyo',

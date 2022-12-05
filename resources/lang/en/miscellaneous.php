@@ -484,16 +484,22 @@ return [
         ],
         // News
         'hospitals' => [
-            'search' => 'Search a health zone',
+            'search' => 'Search a health zone, a health area or a testing center',
+            'legend' => [
+                'title' => 'Legend',
+                'data1' => 'Health zone',
+                'data2' => 'Health area',
+                'data3' => 'Testing and treatment center'
+            ],
             'link' => 'Read more ... »',
             'see_more' => 'See more ...',
             'vide' => 'No news found',
-            'readArticle' => 'Read the article',
+            'readArticle' => 'Read the article'
         ],
         // actualités
         'actualite' => [
             'titre' => 'Read our latest articles and tips.',
-            'libelle' => 'News',
+            'libelle' => 'News'
         ],
 
     ],
