@@ -52,6 +52,7 @@
                     </div>
                 @endif
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+
                     <div class="input-group">
                         <input type="text" class="form-control"
                             aria-label="{{ __('miscellaneous.inner_page.news.search') }}"
@@ -59,14 +60,14 @@
                             style="border-start-start-radius: 0.7rem; border-end-start-radius: 0.7rem;"
                             autocomplete="off" wire:model.debounce.500ms="actualite">
                         <span class="input-group-text d-sm-inline-block d-none p-0 border-0 bg-light overflow-hidden">
-                            <select class="form-select rounded-0"
+                            <select class="form-select rounded-0" wire:model="annee"
                                 aria-label="{{ __('miscellaneous.inner_page.news.choose_year') }}"
                                 style="background-color: transparent; padding-top: 1.15rem; padding-bottom: 1.1rem;">
-                                <option class="small" selected disabled>
+                                <option class="small" selected disabled value="">
                                     {{ __('miscellaneous.inner_page.news.choose_year') }}</option>
-                                <option>{{ __('miscellaneous.inner_page.news.all_year') }}</option>
-                                @for ($year = 2022; $year >= 1964; $year--)
-                                    <option>{{ $year }}</option>
+                                <option  value="">{{ __('miscellaneous.inner_page.news.all_year') }}</option>
+                                @for ($year = date("Y"); $year >= 1964; $year--)
+                                    <option value="{{ $year }}">{{ $year }}</option>
                                 @endfor
                             </select>
                         </span>
@@ -93,7 +94,7 @@
         </div>
     </div>
     <!-- News list Start -->
-    @forelse ($tabl as $n)
+    @forelse ($tab as $n)
         <div class="container-xxl py-5 border-top border-default">
             <div class="container py-3">
                 <div class="row">

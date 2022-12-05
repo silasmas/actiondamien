@@ -5,7 +5,7 @@
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/ANNEXE_3_PHOTO_DU_CEDA_1.jpg') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
-                <h6 class="display-6 mb-4 text-white animated slideInDown">{{ __('miscellaneous.hospitals.link2') }}</h6>
+                <h6 class="display-6 mb-4 text-white animated slideInDown">{{ __('miscellaneous.hospitals.link3') }}</h6>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
