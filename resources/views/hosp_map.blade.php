@@ -37,13 +37,13 @@
         <div class="container-xxl py-4">
             <div class="container">
                 <div class="text-center mx-auto mb-3 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h2 class="h2 m-0">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h2>
+                    <h1 class="h1 m-0">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h1>
                 </div>
 
                 <div class="row text-center align-items-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
                         <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-danger me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data1') }}</span>
-                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-success me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data2') }}</span>
+                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-warning me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data2') }}</span>
                         <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-blue me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data3') }}</span>
                     </div>
                 </div>
@@ -58,12 +58,12 @@
                     <div class="col-lg-6 col-sm-12 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="card border border-default overflow-hidden shadow-0">
                             <div class="card-header bg-light">
-                                <h3 class="h3 m-0 fw-normal">Bandalungwa</h3>
+                                <h3 class="h3 m-0 fw-normal text-danger">Bandalungwa</h3>
                             </div>
                             <ul class="list-group list-group-flush rounded-0">
                                 <li class="list-group-item px-4 py-3">
-                                    <h5 class="h5 mb-1 fw-bold text-green">LIBIKISI</h5>
-                                    <h6 class="h6 mb-3">Bisengo</h6>
+                                    <h5 class="h5 mb-1 fw-bold text-warning">LIBIKISI</h5>
+                                    <h6 class="h6 mb-3 text-blue">Bisengo</h6>
                                     <p class="mb-1 fw-light">
                                         <i class="fa fa-map-marker-alt me-2"></i>Av. Kasa-Vubu N°87/BIS, Q/Bisengo, C/Bandalungwa
                                     </p>
