@@ -812,7 +812,7 @@
 
                         <div id="tab-carte" class="tab-pane {{ isset($pub) ? 'active' : '' }}">
                             <div class="panel-body">
-
+                                
                             </div>
                         </div>
                         <div id="tab-projet" class="tab-pane {{ isset($pub) ? 'active' : '' }}">

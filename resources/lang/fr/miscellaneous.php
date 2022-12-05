@@ -252,7 +252,7 @@ return [
         'link1' => 'Liste des hopitaux',
         'link' => 'Page de Cartographie',
         'link2' => 'Cartographie des (CSDT/CPLT Kin)',
-        'link3' => 'Cartographie des Centres de santé de dépistage et traitemant Lèpre/tuberculose (CSDT/CPLT Kin)',
+        'link3' => 'Cartographie des Centres de santé de dépistage et traitemant / coordination provinciale Lèpre et tuberculose (CSDT/CPLT Kin)',
     ],
     'support' => [
         'title' => 'Action Damien',

@@ -15,6 +15,10 @@ return new class extends Migration
     {
         Schema::create('airs', function (Blueprint $table) {
             $table->id();
+            $table->string('nom')->nullable();
+            $table->text('description')->nullable();
+            $table->foreignId('zone_id')->constrained()->onUpdate('cascade')
+            ->onDelete('cascade');
             $table->timestamps();
         });
     }

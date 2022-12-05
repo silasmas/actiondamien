@@ -252,7 +252,7 @@ return [
         'link1' => 'Liste ya ba lopitalo',
         'link' => 'Lokasa ya Cartographie',
         'link2' => 'Cartographie ya ba CSDT/CPLT',
-        'link3' => 'Cartographie ya ba Centres ya Santé ya Dépistage mpe ya Traitement ya Maba/Tuberculose (CSDT/CPLT Kin)',
+        'link3' => 'Cartographie ya ba Centres ya Santé ya Dépistage mpe ya Traitement / coordination provinciale Bokono ya maba mpe bokono ya ntolo (CSDT/CPLT Kin)',
 
     ],
     'support' => [

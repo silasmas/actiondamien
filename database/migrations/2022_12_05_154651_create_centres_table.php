@@ -15,6 +15,11 @@ return new class extends Migration
     {
         Schema::create('centres', function (Blueprint $table) {
             $table->id();
+            $table->string('nom')->nullable();
+            $table->string('phone')->nullable();
+            $table->text('adresse')->nullable();
+            $table->foreignId('air_id')->constrained()->onUpdate('cascade')
+            ->onDelete('cascade');
             $table->timestamps();
         });
     }
