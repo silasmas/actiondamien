@@ -81,7 +81,7 @@ $(function () {
 
             console.log(elementText);
 
-            element.innerHTML = elementText.replace(/\B(?=(\d{3})+(?!\d))/g, _char);
+            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, _char);
 
         });
 
