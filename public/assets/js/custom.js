@@ -77,11 +77,11 @@ $(function () {
     $.fn.thousandFormatter = function (_char) {
         this.each(function () {
             var element = $(this).get(0);
-            var elementText = element.textContent;
+            var elementText = parseInt(element.textContent);
 
             console.log(elementText);
 
-            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, _char);
+            element.innerHTML = elementText.replace(/\B(?=(\d{3})+(?!\d))/g, _char);
 
         });
 
