@@ -612,7 +612,7 @@
                                                                                         class="form-control" name='h1_ln'   required>
                                                                                 </div>
                                                                                 <div class="col-lg-4 form-group ">
-                                                                                    <label>Texte du numéro (français)</label>                                                                                   
+                                                                                    <label>Texte du numéro (français)</label>
                                                                                     <input type="text" placeholder="Texte du numéro"
                                                                                         class="form-control" name='txtNumber_fr'
                                                                                         value="" required>
@@ -712,7 +712,7 @@
                                                     action="{{isset($exp)?route('Updatslide'):route('add.news') }}" enctype="multipart/form-data" data-parsley-validate>
                                                         @csrf
                                                         <div class="row">
-                                                            <div class=" col-sm-6 col-lg-12 form-group">
+                                                            <div class=" col-sm-6 col-lg-6 form-group">
                                                                 <label>Rubrique</label>
                                                                 <select class=" form-control" name="pageId" required>
                                                                     <option value="" disabled selected></option>
@@ -722,6 +722,12 @@
 
                                                                     @endforelse
                                                                 </select>
+                                                            </div>
+                                                            <div class=" col-sm-6 col-lg-6 form-group">
+                                                                <label>Année</label>
+                                                                <input type="text"  class="form-control"
+                                                                    value="{{ isset($categorie) ? $categorie->id : '' }}"
+                                                                    name="annee"  required/>
                                                             </div>
                                                         </div>
                                                         <div class="row">
@@ -806,7 +812,7 @@
 
                         <div id="tab-carte" class="tab-pane {{ isset($pub) ? 'active' : '' }}">
                             <div class="panel-body">
-                               
+
                             </div>
                         </div>
                         <div id="tab-projet" class="tab-pane {{ isset($pub) ? 'active' : '' }}">

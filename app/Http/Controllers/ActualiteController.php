@@ -2,10 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UpdateactualiteRequest;
 use App\Models\actualite;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\Validator;
-use App\Http\Requests\UpdateactualiteRequest;
 
 class ActualiteController extends Controller
 {
@@ -47,6 +46,7 @@ class ActualiteController extends Controller
                 'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
                 'description' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
                 'video' => $request->video,
+                'annee' => $request->annee,
                 'rubrique_id' => $request->pageId,
                 'image' => $filenameImg,
             ]);
