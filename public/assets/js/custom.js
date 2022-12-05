@@ -79,7 +79,9 @@ $(function () {
             var element = $(this).get(0);
             var elementText = element.textContent;
 
-            element.innerHTML = elementText.replace(/\B(?=(\d{3})+(?!\d))/g, _char);
+            console.log(elementText);
+
+            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, _char);
 
         });
 
