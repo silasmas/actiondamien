@@ -80,7 +80,7 @@ $(function () {
         var element = document.querySelector(el);
         var elementText = element.textContent;
 
-        console.log(elementText);
+        console.log(element);
 
         element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
     }
