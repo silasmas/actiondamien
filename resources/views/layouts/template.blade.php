@@ -608,25 +608,25 @@
         @switch($available_locale)
             @case('ln')
     <script>
-        $('.formatted_number2').numberFormatter2(' ');
+        $('.counter').thousandFormatter(' ');
     </script>
             @break
 
             @case('fr')
     <script>
-        $('.formatted_number2').numberFormatter2(' ');
+        $('.counter').thousandFormatter(' ');
     </script>
             @break
 
             @case('en')
     <script>
-        $('.formatted_number2').numberFormatter2(',');
+        $('.counter').thousandFormatter(',');
     </script>
             @break
 
             @default
     <script>
-            $('.formatted_number2').numberFormatter2(' ');
+            $('.counter').thousandFormatter(' ');
     </script>
         @endswitch
     @endif
