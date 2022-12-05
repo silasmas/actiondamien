@@ -275,8 +275,8 @@
                     <div class="row">
                         <div class="col-12">
                             <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ=="
-                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" 
-                             allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>          
+                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0"
+                             allowFullScreen allow="autoplay; clipboard-read; clipboard-write"></iframe>
                                       </div>
                 </div>
             </div>
@@ -344,8 +344,8 @@
             <div class="col-lg-8 px-5 text-end"
                 style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                 <!-- Social networks -->
-                <small><a class="me-3" style="color:#58b8a7 !important" href="#"><i
-                            class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.net</a></small>
+                <small><a class="me-3" style="color:#58b8a7 !important" target="blank" href="mailto:secretaire@actiondamien-rdc.org"><i
+                            class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.org</a></small>
                 <a class="text-dark ms-2" target="_blank"
                     href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important"><i
                         class="fab fa-facebook-f"></i></a>
