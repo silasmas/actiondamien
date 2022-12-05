@@ -33,6 +33,22 @@
         </div>
         <!-- Search info End -->
 
+        <!-- Legend Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <h1 class="display-6 mb-5">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h1>
+                </div>
+
+                <div class="row align-items-center">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Legend End -->
+
         <!-- Hospitals list Start -->
         <div class="container-xxl pb-5">
             <div class="container">
