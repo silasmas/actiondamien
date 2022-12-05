@@ -96,7 +96,7 @@ $(function () {
     });    
 
     // Format aspect of number thounds
-    thousandFormatter('.counter');
+    thousandFormatter('#statistics .counter');
     // Auto-resize textarea
     autosize($('textarea'));
 });
