@@ -37,10 +37,10 @@
         <div class="container-xxl py-3 bg-light">
             <div class="container">
                 <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                    <h1 class="display-6 mb-5">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h1>
+                    <h3 class="h3-6 mb-5">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h3>
                 </div>
 
-                <div class="row align-items-center">
+                <div class="row text-center align-items-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
 
                     </div>
