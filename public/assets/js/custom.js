@@ -80,12 +80,7 @@ $(function () {
         var element = document.querySelector(el);
         var elementText = element.textContent;
 
-        if (navigator.language == 'fr') {
-            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
-
-        } else {
-            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
-        }
+        element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
     }
 
     $('.counter').each(function () {
