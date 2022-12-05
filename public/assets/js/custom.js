@@ -78,9 +78,9 @@ $(function () {
     /* FORMAT THOUSAND ASPECT */
     function thousandFormatter(el) {
         var element = document.querySelector(el);
-        var elementText = element.innerHTML;
+        var elementText = element.textContent;
 
-        console.log(elementText);
+        console.log(element);
 
         element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
     }
@@ -100,3 +100,20 @@ $(function () {
     // Auto-resize textarea
     autosize($('textarea'));
 });
+
+/**
+ * Some jQuery plugins
+ */
+(function ($) {
+    $.fn.numberFormatter2 = function (_char) {
+        this.each(function () {
+            var element = $(this).get(0);
+            var elementText = element.textContent;
+
+            element.innerHTML = elementText.replace(/\B(?=(\d{3})+(?!\d))/g, _char);
+
+        });
+
+        return this;
+    };
+})(jQuery)
