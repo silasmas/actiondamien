@@ -72,8 +72,8 @@
                                     </p>
                                 </li>
                                 <li class="list-group-item px-4 py-3">
-                                    <h5 class="h5 mb-1 fw-bold text-green">RIVIERA CLINIC</h5>
-                                    <h6 class="h6 mb-3">Kasa-Vubu</h6>
+                                    <h5 class="h5 mb-1 fw-bold text-warning">RIVIERA CLINIC</h5>
+                                    <h6 class="h6 mb-3 text-blue">Kasa-Vubu</h6>
                                     <p class="mb-1 fw-light">
                                         <i class="fa fa-map-marker-alt me-2"></i>Av. Nsenge N°5116, Q/Bakayau, C/Bandalungwa
                                     </p>
