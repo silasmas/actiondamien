@@ -78,12 +78,13 @@ $(function () {
     /* FORMAT THOUSAND ASPECT */
     function thousandFormatter(el) {
         var element = document.querySelector(el);
+        var elementText = element.textContent;
 
         if (navigator.language == 'fr') {
-            return element.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
+            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ' ');
 
         } else {
-            return element.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+            element.innerHTML = elementText.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
         }
     }
 
