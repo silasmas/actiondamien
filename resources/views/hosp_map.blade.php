@@ -34,17 +34,17 @@
         <!-- Search info End -->
 
         <!-- Legend Start -->
-        <div class="container-xxl pt-4">
+        <div class="container-xxl py-4">
             <div class="container">
-                <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <div class="text-center mx-auto mb-3 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
                     <h3 class="h3 m-0">{{ __('miscellaneous.inner_page.hospitals.legend.title') }}</h3>
                 </div>
 
                 <div class="row text-center align-items-center">
                     <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
-                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-danger me-2 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data1') }}</span>
-                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-success me-2 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data2') }}</span>
-                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-blue me-2 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data3') }}</span>
+                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-danger me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data1') }}</span>
+                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-success me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data2') }}</span>
+                        <span class="d-inline-block me-4 mb-4"><i class="fa fa-circle fs-4 text-blue me-1 align-middle"></i>{{ __('miscellaneous.inner_page.hospitals.legend.data3') }}</span>
                     </div>
                 </div>
             </div>
