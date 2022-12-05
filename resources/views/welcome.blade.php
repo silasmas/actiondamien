@@ -238,7 +238,7 @@
 
                             @default
                         @endswitch
-                        <span class="counter text-green">{{ $s->nbr }}</span>
+                        <span class="counter text-green">200000</span>
                         <p class="fw-bold text-green">{{ $s->titre2 }}</p>
                         <small>{!! $s->description !!}</small>
                     </div>
