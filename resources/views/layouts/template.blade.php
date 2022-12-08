@@ -603,7 +603,10 @@
     <script src="{{ asset('assets/js/main.js') }}"></script>
     <script src="{{ asset('assets/js/custom.js') }}"></script>
         <!--Format numbers whith more than 4 digits -->
-@foreach ($available_locales as $locale_name => $available_locale)
+    <script>
+        $('.counter').thousandFormatter(' ');
+    </script>
+{{-- @foreach ($available_locales as $locale_name => $available_locale)
     @if ($available_locale === $current_locale)
         @switch($available_locale)
             @case('ln')
@@ -630,7 +633,7 @@
     </script>
         @endswitch
     @endif
-@endforeach
+@endforeach --}}
 
     @livewireScripts
 </body>
