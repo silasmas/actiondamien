@@ -114,7 +114,7 @@ position : fixed; top:0px;left:0px;z-index:9999; width:100%;height: 100%; opacit
                 @empty
                     <div class="col-12 wow fadeInUp">
                         <div class="alert alert-danger fade show">
-                            @lang('miscellaneous.inner_page.hospitals.vide')
+                            @lang('miscellaneous.inner_page.hospitals.empty')
                         </div>
                     </div>
                 @endforelse

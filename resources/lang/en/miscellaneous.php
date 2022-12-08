@@ -494,7 +494,7 @@ return [
             ],
             'link' => 'Read more ... »',
             'see_more' => 'See more ...',
-            'vide' => 'No news found',
+            'empty' => 'No areas found',
             'readArticle' => 'Read the article',
         ],
         // actualités
@@ -502,6 +502,5 @@ return [
             'titre' => 'Read our latest articles and tips.',
             'libelle' => 'News',
         ],
-
     ],
 ];

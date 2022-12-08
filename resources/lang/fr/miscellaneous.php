@@ -493,7 +493,7 @@ return [
             ],
             'link' => 'Lire la suite ... »',
             'see_more' => 'Voir plus ...',
-            'vide' => 'Aunce actualité trouvée',
+            'empty' => 'Aucune zone trouvée',
             'readArticle' => 'Lire l\'article',
         ],
         // actualités
@@ -501,6 +501,5 @@ return [
             'titre' => 'Lisez nos derniers articles et conseils.',
             'libelle' => 'Actualité',
         ],
-
     ],
 ];

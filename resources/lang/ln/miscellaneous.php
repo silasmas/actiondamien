@@ -494,7 +494,7 @@ return [
             ],
             'link' => 'Tanga lisusu ... »',
             'see_more' => 'Mona lisusu ...',
-            'vide' => 'Sango moko te ezali sikoyo',
+            'empty' => 'Esika moko te ezali sikoyo',
             'readArticle' => 'Tángá lisolo yango',
         ],
         // actualités
@@ -502,6 +502,5 @@ return [
             'titre' => 'Tanga masolo mpe batoli na biso ya sika.',
             'libelle' => 'Ba sango',
         ],
-
     ],
 ];
