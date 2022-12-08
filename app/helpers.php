@@ -8,13 +8,12 @@ if (!function_exists("formatNumber")) {
         $lang = in_array($lang, $acceptLang) ? $lang : 'en';
 
         if ($lang == 'en') {
-            return number_format($number, 0, ',', ' ');
+            return number_format($number, 0, '.', ',');
 
         } else {
-            return number_format($number, 0, '.', ' ');
+            return number_format($number, 0, ',', ' ');
         }
     }
-
 }
 
 ?>
