@@ -22,8 +22,8 @@ if (!function_exists("formatNumber")) {
             } else {
                 return number_format($number, 0, '.', ',');
             }
+            return number_format($number, 0, '.', ' ');
         }
     }
-}
 
-?>
+}
