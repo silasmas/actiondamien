@@ -1,12 +1,15 @@
 <?php
 
 use App\Http\Controllers\ActualiteController;
+use App\Http\Controllers\AirController;
 use App\Http\Controllers\ProjetController;
 use App\Models\actualite;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AccueilController;
+use App\Http\Controllers\CentreController;
 use App\Http\Controllers\Web\HomeController;
+use App\Http\Controllers\ZoneController;
 use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +45,9 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/add.support', [AboutController::class, 'addsupport'])->name('add.support');
     
     Route::post('/add.news', [ActualiteController::class, 'store'])->name('add.news');
+    Route::post('/addcentre', [CentreController::class, 'store'])->name('addcentre');
+    Route::post('/addAir', [AirController::class, 'store'])->name('addAir');
+    Route::post('/addzone', [ZoneController::class, 'store'])->name('addzone');
     Route::post('/projets', [ProjetController::class, 'store'])->name('projets');
 });
 

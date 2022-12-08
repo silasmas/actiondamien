@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\zone;
-use App\Http\Requests\StorezoneRequest;
-use App\Http\Requests\UpdatezoneRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class ZoneController extends Controller
 {
@@ -34,9 +34,27 @@ class ZoneController extends Controller
      * @param  \App\Http\Requests\StorezoneRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorezoneRequest $request)
+    public function store(Request $request)
     {
-        //
+        
+        $por = Validator::make($request->all(), [
+            'zoneName' => ['required', 'string', 'unique:zones,nom'],
+        ]);
+       // dd($por->passes());
+        if ($por->passes()) {
+            zone::create([
+                'nom' => $request->zoneName,
+            ]);
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'Enrégistrement réussit',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => $por->errors()->first(),
+            ]);
+        }
     }
 
     /**
@@ -68,7 +86,7 @@ class ZoneController extends Controller
      * @param  \App\Models\zone  $zone
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatezoneRequest $request, zone $zone)
+    public function update(Request $request, zone $zone)
     {
         //
     }

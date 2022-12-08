@@ -91,11 +91,17 @@
                                     href="">Expertises</a></li>
                         </ul>
                     </li>
-
+                    <li class="{{Route::current()->getName() == 'dashboard' ? 'active' : '' }}"> <a href=""><i
+                                                    class="fa fa-envelope-open"></i>
+                                                <span class="nav-label">Page des</span>
+                                                <span class="pull-right label label-primary">Publications</span>
+                                            </a>
+                                        </li>
                     <li class="{{ $titre == 'news_letter' ? 'active' : '' }}"> <a href=""><i
                                 class="fa fa-envelope-open"></i>
                             <span class="nav-label">News letter</span></a>
                     </li>
+
 
                     <li class="{{ strpos($titre, 'P_') === 0 ? 'active' : '' }}">
                         <a href="#"><i class="fa fa-desktop"></i> <span class="nav-label">Pages</span>

@@ -812,7 +812,158 @@
 
                         <div id="tab-carte" class="tab-pane {{ isset($pub) ? 'active' : '' }}">
                             <div class="panel-body">
-                                
+                                <div class="col-lg-offset-1 col-lg-10 col-sm-12">
+                                    <div class="ibox" id="tab-zone">
+                                        <div class="ibox-title">
+                                            <h5>
+                                                Ce formulaire vous permet de d'ajouter ou de modifier les informations dans la page d'accueil, chaque partie représente une rubrique du site
+                                            </h5>
+                                        </div>
+                                        <div class="ibox-content" >
+                                            <div class="sk-spinner sk-spinner-wandering-cubes">
+                                                <div class="sk-cube1"></div>
+                                                <div class="sk-cube2"></div>
+                                            </div>
+                                            <div class='row'>
+                                                <div class="tabs-container">
+                                                    <ul class="nav nav-tabs">
+                                                        <li class="active"><a data-toggle="tab" href="#tabb0">Zone</a></li>
+                                                        <li class=""><a data-toggle="tab" href="#tabb1">Air</a></li>
+                                                        <li class=""><a data-toggle="tab" href="#tabb2">Centre</a></li>
+
+                                                    </ul>
+                                                    <div class="tab-content">
+                                                        <div id="tabb0" class="tab-pane active">
+                                                            <div class="panel-body">
+                                                                <div class='row'>
+                                                                        <div class=" col-lg-12 col-sm-12">
+                                                                            <form method="POST" class="form-group" data-parsley-validate id="formZone" onSubmit="event.preventDefault();add(this,'tab-zone','addzone')">
+                                                                                @csrf
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-12 form-group ">
+                                                                                        <label>Nom de la zone</label>
+                                                                                        <input type="text" hidden
+                                                                                            value="{{ isset($categorie) ? $categorie->id : '' }}"
+                                                                                            name="idslide"  />
+
+                                                                                        <input type="text" placeholder="Le nom de zone"
+                                                                                            class="form-control" name='zoneName'
+                                                                                            value="" required>
+
+                                                                                    </div>
+                                                                                    <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
+                                                                                        <div class="col-sm-offset-4 col-sm-5">
+                                                                                            <button class="ladda-button btn btn-sm btn-primary"
+                                                                                                type="submit">
+                                                                                                <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="tabb1" class="tab-pane">
+                                                            <div class="panel-body">
+                                                                <div class='row'>
+                                                                        <div class=" col-lg-12 col-sm-12">
+                                                                            <form method="POST" class="form-group" data-parsley-validate id="formZone" onSubmit="event.preventDefault();add(this,'tab-zone','addAir')">
+                                                                                @csrf
+                                                                                <div class="row">
+                                                                                    <div class="col-lg-6 form-group ">
+                                                                                        <label>Nom de la zone</label>
+                                                                                        <select class=" form-control" name="zoneId" required>
+                                                                                            <option value="" disabled selected>Selectionez une zone</option>
+                                                                                            @forelse ($zone as $r)
+                                                                                                <option value="{{ $r->id }}">{{ $r->nom }}</option>
+                                                                                            @empty
+
+                                                                                            @endforelse
+                                                                                        </select>
+                                                                                    </div>
+                                                                                    <div class="col-lg-6 form-group ">
+                                                                                        <label>Nom du air</label>
+                                                                                        <input type="text" placeholder="Le nom du air"
+                                                                                            class="form-control" name='airName'
+                                                                                            value="" required>
+                                                                                    </div>
+                                                                                    <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
+                                                                                        <div class="col-sm-offset-4 col-sm-5">
+                                                                                            <button class="ladda-button btn btn-sm btn-primary"
+                                                                                                type="submit">
+                                                                                                <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </form>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div id="tabb2" class="tab-pane ">
+                                                            <div class="panel-body">
+                                                                <div class=" col-lg-12 col-sm-12">
+                                                                    <form method="POST" class="form-group" data-parsley-validate id="formbon"
+                                                                    onSubmit="event.preventDefault();add(this,'tab-zone','addcentre')">
+                                                                        @csrf
+                                                                        <div class="row">
+                                                                            <div class=" col-sm-6 col-lg-12 form-group">
+                                                                                <label>Air de santé</label>
+                                                                                <select class=" form-control" name="airId" required>
+                                                                                    <option value="" disabled selected>Selectionez une Air de santé</option>
+                                                                                    @forelse ($air as $r)
+                                                                                        <option value="{{ $r->id }}">{{ $r->nom }}</option>
+                                                                                    @empty
+
+                                                                                    @endforelse
+                                                                                </select>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <input type="text" hidden value="{{ isset($categorie) ? $categorie->id : '' }}"
+                                                                                name="idslide"  />
+                                                                            <div id="">
+                                                                                <div class="col-lg-6 form-group ">
+                                                                                    <label>Nom du centre</label>
+                                                                                    <input type="text" placeholder="Nom du centre"
+                                                                                        class="form-control" name='centreName'
+                                                                                        value="" required>
+                                                                                </div>
+                                                                                <div class="col-lg-6 form-group">
+                                                                                    <label>Téléphone</label>
+                                                                                    <input type="text" placeholder="téléphone"
+                                                                                        class="form-control" name='phone'
+                                                                                        value="" required>
+                                                                                </div>
+                                                                                <div class="col-lg-12 form-group ">
+                                                                                    <label>Adresse du centre</label>
+                                                                                    <textarea name="adresse" class="summernote" rows="10" cols="110"
+                                                                                    required>
+                                                                                </textarea>
+                                                                                </div>
+                                                                            </div>
+
+
+                                                                            <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
+                                                                                <div class="col-sm-offset-4 col-sm-5">
+                                                                                    <button class="ladda-button btn btn-sm btn-primary"
+                                                                                        type="submit">
+                                                                                        <i class="fa fa-spinner fa-send"></i>  Enregistrer</button>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </form>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div id="tab-projet" class="tab-pane {{ isset($pub) ? 'active' : '' }}">

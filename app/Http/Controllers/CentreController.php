@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\centre;
-use App\Http\Requests\StorecentreRequest;
-use App\Http\Requests\UpdatecentreRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class CentreController extends Controller
 {
@@ -34,11 +34,33 @@ class CentreController extends Controller
      * @param  \App\Http\Requests\StorecentreRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StorecentreRequest $request)
+    public function store(Request $request)
     {
-        //
+        $por = Validator::make($request->all(), [
+            'centreName' => ['required', 'string'],
+            'phone' => ['required', 'string'],
+            'adresse' => ['required', 'string'],
+            'airId' => ['required'],
+        ]);
+       // dd($por->passes());
+        if ($por->passes()) {
+            centre::create([
+                'nom' => $request->centreName,
+                'phone' => $request->phone,
+                'adresse' => $request->adresse,
+                'air_id' => $request->airId,
+            ]);
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'Enrégistrement réussit',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => $por->errors()->first(),
+            ]);
+        }
     }
-
     /**
      * Display the specified resource.
      *
@@ -68,7 +90,7 @@ class CentreController extends Controller
      * @param  \App\Models\centre  $centre
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdatecentreRequest $request, centre $centre)
+    public function update(Request $request, centre $centre)
     {
         //
     }

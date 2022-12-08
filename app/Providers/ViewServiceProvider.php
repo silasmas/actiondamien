@@ -37,6 +37,7 @@ class ViewServiceProvider extends ServiceProvider
             $stat = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Statistique" && $value->nbr != "";
             });
+
             $stat2 = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Statistique" && $value->nbrpays != "";
             });
@@ -46,7 +47,7 @@ class ViewServiceProvider extends ServiceProvider
             $support = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Nous soutenir";
             });
-           
+
             //    dd($stat2);
             $view->with('bonasavoir', $asavoir);
             $view->with('stat', $stat);
@@ -71,7 +72,7 @@ class ViewServiceProvider extends ServiceProvider
             $projets = $rubriques->filter(function ($value, $key) {
                 return $value->page == "projects";
             });
-            
+
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);

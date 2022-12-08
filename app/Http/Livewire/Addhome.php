@@ -2,7 +2,9 @@
 
 namespace App\Http\Livewire;
 
+use App\Models\air;
 use App\Models\slide;
+use App\Models\zone;
 use Livewire\Component;
 use Livewire\WithFileUploads;
 
@@ -13,6 +15,7 @@ class Addhome extends Component
     public $h1_fr = "";
     public $h1_en = "";
     public $h1_ln = "";
+    public $zoneName = "";
     public $textbtn_fr = "";
     public $textbtn_en = "";
     public $textbtn_ln = "";
@@ -54,13 +57,12 @@ class Addhome extends Component
     // public function mount()
     // {
     // }
-    // public function updated($champ)
-    // {
-    //     $this->validateOnly($champ, ['image' => 'required',]);
-    // }
+
     public function render()
     {
-        return view('livewire.addhome')->layout('admin.home');
+        $zone = zone::get();
+        $air = air::get();
+        return view('livewire.addhome',compact("zone","air"))->layout('admin.home');
     }
 
     private function notify($type, $msg, $titre)

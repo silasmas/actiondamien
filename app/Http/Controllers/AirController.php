@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use App\Models\air;
-use App\Http\Requests\StoreairRequest;
-use App\Http\Requests\UpdateairRequest;
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class AirController extends Controller
 {
@@ -34,9 +34,28 @@ class AirController extends Controller
      * @param  \App\Http\Requests\StoreairRequest  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(StoreairRequest $request)
+    public function store(Request $request)
     {
-        //
+        $por = Validator::make($request->all(), [
+            'airName' => ['required', 'string', 'unique:airs,nom'],
+            'zoneId' => ['required'],
+        ]);
+       // dd($por->passes());
+        if ($por->passes()) {
+            air::create([
+                'nom' => $request->airName,
+                'zone_id' => $request->zoneId,
+            ]);
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'Enrégistrement réussit',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => $por->errors()->first(),
+            ]);
+        }
     }
 
     /**
@@ -68,7 +87,7 @@ class AirController extends Controller
      * @param  \App\Models\air  $air
      * @return \Illuminate\Http\Response
      */
-    public function update(UpdateairRequest $request, air $air)
+    public function update(Request $request, air $air)
     {
         //
     }

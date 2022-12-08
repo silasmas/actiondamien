@@ -60,6 +60,7 @@ class AboutController extends Controller
             ]);
         }
     }
+    
     public function addstat(Request $request)
     {
 

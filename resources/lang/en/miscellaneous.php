@@ -252,7 +252,7 @@ return [
         'link1' => 'List of hospitals',
         'link' => 'Cartography Page',
         'link2' => 'CSDT/CPLT mapping',
-        'link3' => 'Mapping of screening and treatment health centers / provincial coordination Leprosy and tuberculosis(CSDT/CPLT Kin)',
+        'link3' => 'Mapping of screening and treatment health centers (CSDT) and provincial coordination Leprosy and tuberculosis(CPLT)',
 
     ],
     'support' => [

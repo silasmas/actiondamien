@@ -12,7 +12,7 @@ class air extends Model
     use HasFactory;
     protected $guarded=[];
     protected $dates=['created_at','updated_at'];
-
+    protected $with = ['centre'];
     public function zone(){
         return $this->belongsTo(zone::class);
     }

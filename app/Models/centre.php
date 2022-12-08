@@ -11,7 +11,7 @@ class centre extends Model
     use HasFactory;
     protected $guarded=[];
     protected $dates=['created_at','updated_at'];
-
+    protected $with = ['air'];
     public function air(){
         return $this->belongsTo(zone::class);
     }
