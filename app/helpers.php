@@ -1,13 +1,27 @@
 <?php
 
+use Illuminate\Support\Facades\Session;
+
 if (!function_exists("formatNumber")) {
     function formatNumber($number)
     {
-        if (app()->getLocale() !== 'en') {
-            return number_format($number, 0, ',', ' ');
+        if (Session::has('locale')) {
+            $sessionLocale = Session::get('locale');
+
+            if ($sessionLocale !== 'en') {
+                return number_format($number, 0, ',', ' ');
+
+            } else {
+                return number_format($number, 0, '.', ',');
+            }
 
         } else {
-            return number_format($number, 0, '.', ',');
+            if (app()->getLocale() !== 'en') {
+                return number_format($number, 0, ',', ' ');
+
+            } else {
+                return number_format($number, 0, '.', ',');
+            }
         }
     }
 }
