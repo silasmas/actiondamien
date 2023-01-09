@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\air;
+use App\Models\centre;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 
@@ -58,17 +59,25 @@ class AirController extends Controller
         }
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Models\air  $air
-     * @return \Illuminate\Http\Response
-     */
-    public function show(air $air)
+    public function editAir(Request $request)
     {
-        //
+        $rap = air::find($request->id);
+        $rep = $rap->update([
+            'nom' =>$request->airName,
+            'zone_id' =>$request->zoneId,
+        ]);
+        if ($rep) {
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'La modification est faite avec succès',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Erreur de modification',
+            ]);
+        }
     }
-
     /**
      * Show the form for editing the specified resource.
      *
@@ -98,8 +107,31 @@ class AirController extends Controller
      * @param  \App\Models\air  $air
      * @return \Illuminate\Http\Response
      */
-    public function destroy(air $air)
+    public function destroy($id)
     {
-        //
+        $verify = centre::where("air_id",$id)->first();
+
+        if ($verify) {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Impossible de supprimer cet air de santé, car il a au moins un centre de santé attaché à elle',
+            ]);
+        } else {
+            $slide = air::find($id);
+            if ($slide) {
+                $slide->delete();
+                if ($slide) {
+                    return response()->json([
+                        'reponse' => true,
+                        'msg' => 'Suppression Réussie.',
+                    ]);
+                }
+            } else {
+                return response()->json([
+                    'reponse' => false,
+                    'msg' => 'Aucun enregistrement trouver',
+                ]);
+            }
+        }
     }
 }

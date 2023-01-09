@@ -16,7 +16,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link rel="icon" href="{{asset('assets/img/favicon/android-icon-192x192.png') }}" type="image/rdp-icon">
+    <link rel="icon" href="{{ asset('assets/img/favicon/android-icon-192x192.png') }}" type="image/rdp-icon">
 
     <!-- Styles -->
 
@@ -38,8 +38,8 @@
                     <li class="nav-header">
                         <div class="dropdown profile-element">
                             <span>
-                                <img alt="image" class="img-circle" src="{{asset('assets/admin/img/default.png')}}"
-                                    width="100" />
+                                <img alt="image" class="img-circle"
+                                    src="{{ asset('assets/admin/img/default.png') }}" width="100" />
                             </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear"> <span class="block m-t-xs"> <strong
@@ -67,65 +67,34 @@
                             PLA
                         </div>
                     </li>
-                    <li class="{{ strpos($titre, 'G_') === 0 ? 'active' : '' }}">
+                    <li class="{{ Route::current()->getName() == 'dashboard'||'G_news'|| 'G_temoignage'||'G_carthographie' ? 'active' : '' }}">
                         <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Pages </span>
                             <span class="pull-right label label-primary">Gestion</span></a>
                         <ul class="nav nav-second-level collapse">
-                            <li class="{{ $titre == 'dashboard' ? 'active' : '' }}">
+                            <li class="{{ Route::current()->getName() == 'dashboard' ? 'active' : '' }}">
                                 <a href="{{ route('dashboard') }}">
                                     <span class="nav-label">Accueil</span></a>
                             </li>
-                            <li class="{{ $titre == 'G_Publication' ? 'active' : '' }}"> <a
-                                    href="">
-                                    <span class="nav-label">Publications</span></a>
+                            <li class="{{ Route::current()->getName() == 'G_news' ? 'active' : '' }}"> <a
+                                    href="{{ route('G_news') }}"><span class="nav-label">Actualités</span></a>
                             </li>
-                            <li class="{{ $titre == 'Slide' ? 'active' : '' }}"><a href="">Slides</a>
+                            <li class="{{ Route::current()->getName() == 'G_temoignage' ? 'active' : '' }}">
+                                <a href="{{ route('G_temoignage') }}">Témoignages</a>
                             </li>
-                            <li class="{{ $titre == 'G_accueil' ? 'active' : '' }}"><a
-                                    href="">Accueil</a></li>
-                            <li class="{{ $titre == 'G_about' ? 'active' : '' }}"><a href="">About</a>
+                            <li class="{{ Route::current()->getName() == 'G_carthographie' ? 'active' : '' }}">
+                                <a href="{{ route('G_carthographie') }}">Carthographie</a>
                             </li>
-                            <li class="{{ $titre == 'G_Bureau' ? 'active' : '' }}"><a
-                                    href="">Bureaux</a></li>
-                            <li class="{{ $titre == 'G_expertise' ? 'active' : '' }}"><a
-                                    href="">Expertises</a></li>
                         </ul>
                     </li>
-                    <li class="{{Route::current()->getName() == 'dashboard' ? 'active' : '' }}"> <a href=""><i
-                                                    class="fa fa-envelope-open"></i>
-                                                <span class="nav-label">Page des</span>
-                                                <span class="pull-right label label-primary">Publications</span>
-                                            </a>
-                                        </li>
-                    <li class="{{ $titre == 'news_letter' ? 'active' : '' }}"> <a href=""><i
-                                class="fa fa-envelope-open"></i>
+                    <li class="{{ Route::current()->getName() == 'addinfo' ? 'active' : '' }}">
+                        <a href="{{ route('addinfo') }}"><i class="fa fa-edit"></i>
+                            <span class="nav-label">Page des</span>
+                            <span class="pull-right label label-primary">Publications</span>
+                        </a>
+                    </li>
+                    <li class="{{ Route::current()->getName() == 'newsletter' ? 'active' : '' }}">
+                        <a href="{{ route('newsletter') }}"><i class="fa fa-envelope-open"></i>
                             <span class="nav-label">News letter</span></a>
-                    </li>
-
-
-                    <li class="{{ strpos($titre, 'P_') === 0 ? 'active' : '' }}">
-                        <a href="#"><i class="fa fa-desktop"></i> <span class="nav-label">Pages</span>
-                            <span class="pull-right label label-primary">Publication</span></a>
-                        <ul class="nav nav-second-level collapse">
-                            <li class="{{ $titre == 'P_addPublication' ? 'active' : '' }}">
-                                <a href="">
-                                    <span class="nav-label">Publications</span></a>
-                            </li>
-                            <li class="{{ $titre == 'P_addAvocat' ? 'active' : '' }}">
-                                <a href="">
-                                    <span class="nav-label">Equipe</span></a>
-                            </li>
-                            <li class="{{ $titre == 'P_AddSlide' ? 'active' : '' }}"><a
-                                    href="">Slides</a></li>
-                            <li class="{{ $titre == 'P_AddHome' ? 'active' : '' }}"><a
-                                    href="">Accueil</a></li>
-                            <li class='{{ $titre == 'P_addAbout' ? 'active' : '' }}'><a
-                                    href="">About</a></li>
-                            <li class='{{ $titre == 'P_AddExpertise' ? 'active' : '' }}'><a
-                                    href="">Expertises</a></li>
-                            <li class='{{ $titre == 'P_addBureau' ? 'active' : '' }}'><a
-                                    href="">Bureaux</a></li>
-                        </ul>
                     </li>
                     <li class="{{ $titre == 'user' ? 'active' : '' }}">
                         <a href=""><i class="fa fa-users"></i>
@@ -204,8 +173,8 @@
 
     @livewireScripts
     @yield('autres-script')
-<script>
-     window.addEventListener('swal:modal', event => {
+    <script>
+        window.addEventListener('swal:modal', event => {
             swal({
                 title: event.detail.titre,
                 text: event.detail.text,
@@ -244,8 +213,81 @@
 
             });
         });
+        function add(form, idLoad, url) {
+        var f = form;
+        var loade = idLoad;
+        var u = url;
+        $.ajax({
+            url: u,
+            method: "post",
+            data: $(f).serialize(),
+            success: function (data) {
+                if (!data.reponse) {
+                    swal({
+                        title: data.msg,
+                        icon: 'error'
+                    })
+                } else {
+                    swal({
+                        title: data.msg,
+                        icon: 'success'
+                    })
+                    actualiser();
+                }
 
-</script>
+            },
+        });
+
+    }
+        function deleter(id, url) {
+
+            swal({
+                title: "Attention suppression",
+                text: "Etes -vous prêt de supprimer cette information?",
+                icon: 'warning',
+                dangerMode: true,
+                buttons: {
+                    cancel: 'Non',
+                    delete: 'OUI'
+                }
+            }).then(function(willDelete) {
+                if (willDelete) {
+
+                    $.ajax({
+                        url: url + "/" + id,
+                        method: "GET",
+                        data: {
+                            'idv': id
+                        },
+                        success: function(data) {
+                            //  load('#tab-session');
+                            if (!data.reponse) {
+                                swal({
+                                    title: data.msg,
+                                    icon: 'error'
+                                })
+
+                            } else {
+                                swal({
+                                    title: data.msg,
+                                    icon: 'success'
+                                })
+                                actualiser();
+                            }
+                        },
+                    });
+                } else {
+                    swal({
+                        title: "Suppression annuler",
+                        icon: 'error'
+                    })
+                }
+            });
+        }
+        function actualiser() {
+        location.reload();
+    }
+    </script>
 </body>
 
 </html>

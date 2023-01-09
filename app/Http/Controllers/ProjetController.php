@@ -2,10 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\UpdateprojetRequest;
+use App\Models\actualite;
+use App\Models\newsletter;
 use App\Models\projet;
 use Illuminate\Http\Request;
-use App\Http\Requests\UpdateprojetRequest;
-
 
 class ProjetController extends Controller
 {
@@ -16,7 +17,12 @@ class ProjetController extends Controller
      */
     public function index()
     {
-        //
+        return view("admin.home");
+    }
+    public function newsletter()
+    {
+        $newsletter = newsletter::get();
+        return view("admin.newsletter", compact("newsletter"));
     }
 
     /**
@@ -37,7 +43,7 @@ class ProjetController extends Controller
      */
     public function store(Request $request)
     {
-       
+
         $file = $request->file('cover');
 
         $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
@@ -55,7 +61,7 @@ class ProjetController extends Controller
         } else {
             return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "danger"]);
         }
-    
+
     }
 
     /**
@@ -75,10 +81,59 @@ class ProjetController extends Controller
      * @param  \App\Models\projet  $projet
      * @return \Illuminate\Http\Response
      */
-    public function edit(projet $projet)
+    public function editeNews(Request $request)
     {
-        //
+        $rap = actualite::findOrFail($request->id);
+        // dd($rap);
+        $rep = $rap->update([
+            'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+            'description' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
+            'video' => $request->video,
+            'annee' => $request->annee,
+            'rubrique_id' => $request->pageId,
+        ]);
+        if ($rep) {
+            return back()->with(['message' => 'La modification est faite avec succès', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Erreur de modification', "type" => "danger"]);
+        }
     }
+    public function editeImageNews(Request $request)
+    {
+        $filenameImg = "";
+        $rap = actualite::findOrFail($request->id);
+
+        $photo = public_path() . '/storage/' . $rap->image;
+        if ($rap->image) {
+
+            file_exists($photo) ? unlink($photo) : '';
+        }
+
+        $file = $request->file('photo');
+
+        $file == '' ? '' : ($filenameImg = 'news/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/news', $filenameImg);
+        $rep = $rap->update([
+            'image' => $filenameImg,
+        ]);
+        if ($rep) {
+            return back()->with(['message' => 'La modification est faite avec succès', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Erreur de modification', "type" => "danger"]);
+        }
+    }
+    // public function edit($id)
+    // {
+    //     $rap =register::findOrFail($request->id);
+    //     $rep= $rap->update([
+    //          'etat' => $request->etat,
+    //      ]);
+    //      if($rep){
+    //         return back()->with('message', 'La modification est faite avec succès');
+    //      }else{
+    //          return back()->with('erreur', 'Erreur du modification');
+    //      }
+    // }
 
     /**
      * Update the specified resource in storage.

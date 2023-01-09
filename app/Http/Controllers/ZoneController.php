@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\air;
 use App\Models\zone;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
@@ -36,7 +37,7 @@ class ZoneController extends Controller
      */
     public function store(Request $request)
     {
-        
+
         $por = Validator::make($request->all(), [
             'zoneName' => ['required', 'string', 'unique:zones,nom'],
         ]);
@@ -63,10 +64,25 @@ class ZoneController extends Controller
      * @param  \App\Models\zone  $zone
      * @return \Illuminate\Http\Response
      */
-    public function show(zone $zone)
+    public function editZone(Request $request)
     {
-        //
+        $rap = zone::find($request->id);
+        $rep = $rap->update([
+            'nom' =>$request->lien,
+        ]);
+        if ($rep) {
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'La modification est faite avec succès',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Erreur de modification',
+            ]);
+        }
     }
+    
 
     /**
      * Show the form for editing the specified resource.
@@ -97,8 +113,31 @@ class ZoneController extends Controller
      * @param  \App\Models\zone  $zone
      * @return \Illuminate\Http\Response
      */
-    public function destroy(zone $zone)
+    public function destroy($id)
     {
-        //
+        $verify = air::where("zone_id",$id)->first();
+
+        if ($verify) {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Impossible de supprimer cette zone, car il a au moins un air de santé attaché à elle',
+            ]);
+        } else {
+            $slide = zone::find($id);
+            if ($slide) {
+                $slide->delete();
+                if ($slide) {
+                    return response()->json([
+                        'reponse' => true,
+                        'msg' => 'Suppression Réussie.',
+                    ]);
+                }
+            } else {
+                return response()->json([
+                    'reponse' => false,
+                    'msg' => 'Aucun enregistrement trouver',
+                ]);
+            }
+        }
     }
 }

@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use App\Models\actualite;
+use App\Models\slide;
+
 // use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -29,7 +31,9 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('welcome');
+        $slidesp = slide::get();
+        
+        return view('welcome',compact('slidesp'));
     }
 
     /**
@@ -101,7 +105,8 @@ class HomeController extends Controller
      */
     public function testimonials()
     {
-        return view('testimonials');
+        $videost = slide::get();
+        return view('testimonials',compact('videost'));
     }
 
     /**

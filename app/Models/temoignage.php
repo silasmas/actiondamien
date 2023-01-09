@@ -14,9 +14,7 @@ class temoignage extends Model
     protected $dates=['created_at','updated_at'];
 
     use HasTranslations;
-
-    public $translatable = [];
-
+    public $translatable = ['titre','description'];
     public function rubrique(){
         return $this->belongsTo(rubrique::class);
     }

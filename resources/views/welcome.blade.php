@@ -5,7 +5,37 @@
     <div class="container-fluid p-0 mt-lg-5 mt-4 mb-5">
         <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                @forelse ($slidesp as $s)
+                <div class="carousel-item {{ $loop->first?"active":"" }}">
+                    <img class="w-100" src="{{ asset('storage/'.$s->image) }}" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row justify-content-sm-start justify-content-center text-sm-start">
+                                <div class="col-lg-7 pt-4 ps-sm-5">
+                                    <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown"
+                                        style="font-weight: 1100;">{{  $s->h1}}
+                                        {{-- <span style="font-style: italic; color: #58b8a7;">
+                                            {{  $s->extrait}}</span> --}}
+                                    </h1>
+                                    <p class="fs-6 text-white mb-5 animated slideInDown">
+                                        {!!  $s->extrait !!}</p>
+                                    <a class="btn btn-danger text-white py-2 px-3 animated slideInDown"
+                                        href="{{ route($s->page) }}">
+                                        {{ $s->textbtn }}
+
+                                        <div class="d-inline-flex btn-sm-square text-danger bg-white rounded-circle ms-2">
+                                            <i class="fa fa-arrow-right"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @empty
+                    
+                @endforelse
+                {{-- <div class="carousel-item active">
                     <img class="w-100" src="{{ asset('assets/img/photo/3.jpg') }}" alt="Image">
                     <div class="carousel-caption">
                         <div class="container">
@@ -74,7 +104,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> --}}
             </div>
 
             <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">

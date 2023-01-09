@@ -20,14 +20,18 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row">
+                    @forelse ($videos as $v)
                     <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <video class="w-100 rounded" controls>
-                            <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_1.mp4') }}" type=video/mp4>
-                            <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_1.ogg') }}" type=video/ogg>
-                        </video>
+                        {{-- <embed class="w-100 rounded"  src="" autostart="false" height="30" width="144" /> --}}
+                            <iframe  width="425" height="344" src="{{$v->lien}}" frameborder="0" 
+                                allowfullscreen></iframe>
                     </div>
+                    @empty
+                        
+                    @endforelse
+                    
 
-                    <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                    {{-- <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                         <video class="w-100 rounded" controls>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_2.mp4') }}" type=video/mp4>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_2.ogg') }}" type=video/ogg>
@@ -39,7 +43,7 @@
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_3.mp4') }}" type=video/mp4>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_3.ogg') }}" type=video/ogg>
                         </video>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
