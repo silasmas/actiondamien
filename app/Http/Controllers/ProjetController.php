@@ -48,14 +48,14 @@ class ProjetController extends Controller
 
         $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
         $file == '' ? '' : $file->move('storage/projet', $filenameImg);
-        // dd($filenameImg);
+        //  dd(['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln]);
         if ($request->cover) {
-            projet::create([
+           $r= projet::create([
                 'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
-                'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
                 'text' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
                 'rubrique_id' => $request->pageId,
-                'photo' => $filenameImg,
+                // 'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
+                 'photo' => $filenameImg,
             ]);
             return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
         } else {

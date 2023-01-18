@@ -43,6 +43,7 @@ class TemoignageController extends Controller
         if ($por->passes()) {
             temoignage::create([
                 'lien' => $request->lien,
+                'description' => ["fr"=>$request->description_fr,"en"=>$request->description_en,"ln"=>$request->description_ln],
                 'rubrique_id' => $request->pageId,
             ]);
             return response()->json([
@@ -83,6 +84,7 @@ class TemoignageController extends Controller
         $rap = temoignage::find($request->id);
         $rep = $rap->update([
             'lien' =>$request->lien,
+            'description' => ["fr"=>$request->description_fr,"en"=>$request->description_en,"ln"=>$request->description_ln],
         ]);
         if ($rep) {
             return response()->json([

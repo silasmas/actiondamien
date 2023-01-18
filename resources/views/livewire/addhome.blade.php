@@ -1123,7 +1123,24 @@
                                                                                         <label>Lien de la vidéo</label>
                                                                                         <input type="text" placeholder="Le nom de la viéo"
                                                                                             class="form-control" name='lien' required>
-
+                                                                                    </div>
+                                                                                    <div class="col-lg-12 form-group ">
+                                                                                        <label>Description (Français)</label>
+                                                                                        <textarea name="description_fr" class="summernote" rows="10" cols="110"
+                                                                                        required>
+                                                                                    </textarea>
+                                                                                    </div>
+                                                                                    <div class="col-lg-12 form-group ">
+                                                                                        <label>Description (Anglais)</label>
+                                                                                        <textarea name="description_en" class="summernote" rows="10" cols="110"
+                                                                                        required>
+                                                                                    </textarea>
+                                                                                    </div>
+                                                                                    <div class="col-lg-12 form-group ">
+                                                                                        <label>Description (Lingala)</label>
+                                                                                        <textarea name="description_ln" class="summernote" rows="10" cols="110"
+                                                                                        required>
+                                                                                    </textarea>
                                                                                     </div>
                                                                                     <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                                                                         <div class="col-sm-offset-4 col-sm-5">
@@ -1254,7 +1271,7 @@
                                             <div class='row'>
                                                 <div class=" col-lg-12 col-sm-12">
                                                     <form method="POST" class="form-group"
-                                                    action="{{isset($exp)?route('Updatslide'):route('projets') }}" enctype="multipart/form-data" data-parsley-validate>
+                                                    action="{{route('projets') }}" enctype="multipart/form-data" data-parsley-validate>
                                                         @csrf
                                                         <div class="row">
                                                             <div class=" col-sm-6 col-lg-12 form-group">
@@ -1302,7 +1319,7 @@
                                                             </div>
                                                             <div class="col-lg-4 form-group ">
                                                                 <label>Libelle (Anglais)</label>
-                                                                <input type="text" placeholder=" Libelle"
+                                                                <input type="text" placeho  lder=" Libelle"
                                                                     class="form-control" name='intituler_en'  required>
                                                             </div>
                                                             <div class="col-lg-4 form-group ">

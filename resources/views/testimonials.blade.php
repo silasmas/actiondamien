@@ -22,9 +22,12 @@
                 <div class="row">
                     @forelse ($videos as $v)
                     <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        {{-- <embed class="w-100 rounded"  src="" autostart="false" height="30" width="144" /> --}}
-                            <iframe  width="425" height="344" src="{{$v->lien}}" frameborder="0" 
-                                allowfullscreen></iframe>
+                                <iframe class="embed-responsive-item w-100"
+                                src="{{$v->lien}}" style="border-radius: 1.2rem;"
+                                allowfullscreen width="425" height="344"></iframe>
+                                <p>
+                                    {!! $v->description!!}
+                                </p>
                     </div>
                     @empty
                         

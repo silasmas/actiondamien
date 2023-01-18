@@ -86,7 +86,27 @@
                                             <input type="text" placeholder="Le nom de la viéo"
                                                 class="form-control"
                                                 value="{{ $se->lien }}" name='lien' required>
-
+                                        </div>
+                                        <div class="col-lg-12 form-group ">
+                                            <label>Description (Français)</label>
+                                            <textarea name="description_fr" class="summernote" rows="10" cols="110"
+                                            required>
+                                            {{ $se->getTranslation('description', 'fr') }}
+                                        </textarea>
+                                        </div>
+                                        <div class="col-lg-12 form-group ">
+                                            <label>Description (Anglais)</label>
+                                            <textarea name="description_en" class="summernote" rows="10" cols="110"
+                                            required>
+                                            {{ $se->getTranslation('description', 'en') }}
+                                        </textarea>
+                                        </div>
+                                        <div class="col-lg-12 form-group ">
+                                            <label>Description (Lingala)</label>
+                                            <textarea name="description_ln" class="summernote" rows="10" cols="110"
+                                            required>
+                                            {{ $se->getTranslation('description', 'ln') }}
+                                        </textarea>
                                         </div>
                                         <div class="col-lg-offset-3 col-lg-6 col-sm-12 form-group">
                                             <div class="col-sm-offset-4 col-sm-5">
