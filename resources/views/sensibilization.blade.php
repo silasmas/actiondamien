@@ -132,8 +132,8 @@
                     </div>
 
                     <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <h4 class="h4 mt-1 text-blue fw-bold text-truncate">
-                            <a href="{{ route('sensibilization_details', ['id' => 1]) }}" class="text-blue">
+                        <h4 class="h4 mt-1 text-green fw-bold text-truncate">
+                            <a href="{{ route('sensibilization_details', ['id' => 1]) }}" class="text-green">
                                 {{ __('miscellaneous.inner_page.sensibilization.title') }}
                             </a>
                         </h4>
@@ -143,7 +143,7 @@
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph3') }}
                         </p>
                         <p class="mb-0">
-                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('sensibilization_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px #6ba0af solid;">
+                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('sensibilization_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px #4cb4a5 solid;">
                                 {{ __('miscellaneous.inner_page.news.link') }}
                             </a>
                         </p>

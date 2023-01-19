@@ -1,35 +1,90 @@
 @extends('layouts.template')
 
 @section('guest-content')
-    <!-- Page Header Start -->
-    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
-        style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/2.webp') }}) center center no-repeat; background-size: cover;">
-        <div class="container text-center">
-            <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.inner_page.projects.title') }}
-            </h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb justify-content-center mb-0">
-                    <li class="breadcrumb-item"><a class="text-white"
-                            href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
-                    <li class="breadcrumb-item text-yellow active" aria-current="page">
-                        {{ __('miscellaneous.main_menu.projects') }}</li>
-                </ol>
-            </nav>
+    @if (Route::current()->getName() == 'projects_details')
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
+            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/2.webp') }}) center center no-repeat; background-size: cover;">
+            <div class="container text-center">
+                <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.inner_page.projects.title') }}
+                </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a class="text-white"
+                                href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">
+                            {{ __('miscellaneous.main_menu.projects') }}</li>
+                    </ol>
+                </nav>
+            </div>
         </div>
-    </div>
-    <!-- Page Header End -->
+        <!-- Page Header End -->
+        
+    @else
+        <!-- Page Header Start -->
+        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
+            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/2.webp') }}) center center no-repeat; background-size: cover;">
+            <div class="container text-center">
+                <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.inner_page.projects.title') }}
+                </h1>
+                <nav aria-label="breadcrumb animated slideInDown">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item"><a class="text-white"
+                                href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">
+                            {{ __('miscellaneous.main_menu.projects') }}</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
 
-    <!-- Subtitle Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row mx-0">
-                <div class="col-12 py-5 bg-blue wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
-                    <p class="lead m-0 text-center text-white">{{ __('miscellaneous.inner_page.projects.subtitle') }}</p>
+        <!-- Subtitle Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row mx-0">
+                    <div class="col-12 py-5 bg-blue wow fadeInUp" style="border-radius: 1.2rem;" data-wow-delay="0.1s">
+                        <p class="lead m-0 text-center text-white">{{ __('miscellaneous.inner_page.projects.subtitle') }}</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Subtitle End -->
+        <!-- Subtitle End -->
+
+        <!-- Projects list Start -->
+        <div class="container-xxl py-5 border-top border-default">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image overflow-hidden h-100" style="max-height: 14rem; border-radius: 1.2rem;">
+                            <img src="{{ asset('assets/img/photo/Projet_Papoose_1.jpg') }}" alt="" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
+                        <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">
+                            Papoose
+                        </div>
+                        <h4 class="h4 text-blue fw-bold text-truncate">
+                            <a href="{{ route('projects_details', ['id' => 1]) }}" class="text-blue">
+                                LE PROJET PAPOOSE EN APPUI POUR L'ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
+                            </a>
+                        </h4>
+                        <p class="mb-0 paragraph3">
+                            La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
+                        </p>
+                        <p class="mb-0">
+                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">
+                                {{ __('miscellaneous.inner_page.news.link') }}
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Projects list End -->
+    @endif
 
     <!-- Search info Start -->
     {{-- <div class="container-xxl pb-5">
@@ -57,21 +112,21 @@
         </div> --}}
     <!-- Search info End -->
 
-    <!-- Projects list Start -->
+    {{-- <!-- Projects list Start -->
     <div class="container-xxl pb-5">
         <div class="container">
             <div class="row">
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">Papoose</div>
                     <h3 class="h3 mb-4 text-blue fw-bold">
-                        LE PROJET PAPOOSE EN APPUI POUR L’ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
+                        LE PROJET PAPOOSE EN APPUI POUR L'ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
                     </h3>
                     <p class="mb-0">
                         <pre style="text-align: justify;">
                                 <img src="{{ asset('assets/img/photo/Projet_Papoose_1.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
-La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d’un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
+La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
 
-Malheureusement, la population majoritaire y vivant en dessous du seuil de la pauvreté, constitue à l'un des facteurs principaux, déterminant les difficultés d’adhérence au traitement de certaines maladies. Ces derniers bénéficient, dès lors, du financement du projet Papoose afin d'améliorer l'adhérence au traitement des malades et contribuer à un bon succès thérapeutique.
+Malheureusement, la population majoritaire y vivant en dessous du seuil de la pauvreté, constitue à l'un des facteurs principaux, déterminant les difficultés d'adhérence au traitement de certaines maladies. Ces derniers bénéficient, dès lors, du financement du projet Papoose afin d'améliorer l'adhérence au traitement des malades et contribuer à un bon succès thérapeutique.
 
                                 <img src="{{ asset('assets/img/photo/Projet_Papoose_3.png') }}" alt="" class="project-image ms-sm-4 mb-3 float-sm-end" style="border-radius: 1.2rem;">
 La Coordination Provinciale Lèpre et Tuberculose de Kinshasa (CPLT KINSHASA), avait procédé en 2021 a une sélection des malades conformément à un critère d'éligibilité qui ont été bénéficiaires de l'appui alimentaire à travers la distribution de vivres aux malades atteints de lèpre et de tuberculose. La distribution s'était déroulée pendant une durée de trois mois en raison de quatre jours par mois.
@@ -91,12 +146,12 @@ Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militair
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">Vente d'eau</div>
                     <h3 class="h3 mb-4 text-blue fw-bold">
-                        PROJET DE VENTE D’EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L’EQUATEUR
+                        PROJET DE VENTE D'EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L'EQUATEUR
                     </h3>
                     <p class="mb-0">
                         <pre style="text-align: justify;">
                                 <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_1.jpg') }}" alt="" class="project-image me-sm-4 mb-3 float-sm-start" style="border-radius: 1.2rem;">
-Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l’Equateur.
+Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l'Equateur.
 
                                 <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_3.jpg') }}" alt="" class="project-image ms-sm-4 mb-3 float-sm-end" style="border-radius: 1.2rem;">
 En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
@@ -106,7 +161,7 @@ En effet, les revenus de cette activité permettent la prise en charge et le sou
             </div>
         </div>
     </div>
-    <!-- Projects list End -->
+    <!-- Projects list End --> --}}
 
     <!-- Donate Start -->
     <div class="container-fluid py-5" style="background-color: #d5e6eb;">
