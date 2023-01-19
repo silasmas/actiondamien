@@ -71,11 +71,11 @@
                                 LE PROJET PAPOOSE EN APPUI POUR L'ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
                             </a>
                         </h4>
-                        <p class="mb-0 paragraph3">
+                        <p class="mb-0 paragraph2">
                             La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
                         </p>
                         <p class="mb-0">
-                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">
+                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px #6ba0af solid;">
                                 {{ __('miscellaneous.inner_page.news.link') }}
                             </a>
                         </p>
