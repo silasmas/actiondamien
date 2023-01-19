@@ -482,6 +482,10 @@ return [
             'type1' => 'Milulu',
             'type2' => 'Kozwa mosolo',
             'type3' => 'Kokende kotala',
+            'see_more' => 'Mona nioso',
+            'details' => [
+                'other' => 'Ba projets misusu'
+            ]
         ],
         // News
         'hospitals' => [

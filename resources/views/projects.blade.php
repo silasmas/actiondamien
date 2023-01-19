@@ -19,14 +19,14 @@
         </div>
         <!-- Page Header End -->
 
-
-        <!-- Content Start -->
+        <!-- News Details Start -->
         <div class="container-xxl py-5">
-            <div class="container" style="text-align: justify;">
-                <div class="row">
-                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <p class="lead mb-sm-5 mb-4 fw-bold" style="color: #000;">
-                            <pre style="text-align: justify;">
+            <div class="container">
+                <div class="row g-lg-5">
+                    <div class="col-lg-8 mb-4 border-bottom border-default wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="h1 mb-4 fw-bold">La visite du CEDA par Mr. Jo INDEKEU, diffusé à la RTNC</h1>
+                        <p class="lead mb-sm-5 mb-4 fw-bold">
+                            <pre class="fs-5">
 La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
 
 Malheureusement, la population majoritaire y vivant en dessous du seuil de la pauvreté, constitue à l'un des facteurs principaux, déterminant les difficultés d'adhérence au traitement de certaines maladies. Ces derniers bénéficient, dès lors, du financement du projet Papoose afin d'améliorer l'adhérence au traitement des malades et contribuer à un bon succès thérapeutique.
@@ -37,10 +37,47 @@ Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militair
                             </pre>
                         </p>
                     </div>
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <h4 class="h4 mb-4 fw-bold">{{ __('miscellaneous.inner_page.projects.details.other') }}</h4>
+
+                        <div class="row mb-lg-4 mb-5">
+                            <div class="col-lg-5 col-sm-4 col-12 mb-lg-0 mb-2">
+                                <div class="bg-image">
+                                    <img src="{{ asset('assets/img/photo/Projet_Vente_d_Eau_1.jpg') }}" alt=""
+                                        class="img-fluid">
+                                    <div class="mask"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-sm-8 col-12 paragraph-ellipsis">
+                                <a href="{{ route('news_details', ['id' => 1]) }}">
+                                    <p class="m-0 small" style="color: #999;">Vente d'eau</p>
+                                    <p class="m-0 fw-bold text-danger text-truncate">PROJET DE VENTE D'EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L'EQUATEUR</p>
+                                    <p class="m-0 paragraph2" style="color: #000;">
+                                        Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l'Equateur.
+                                        En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
+                                    </p>
+                                    <p class="mb-0 d-lg-none d-sm-inline-block">
+                                        <a class="btn fw-bold pt-1 pb-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => 1]) }}"
+                                            style="color: black; border-bottom: 3px #6ba0af solid;">
+                                            {{ __('miscellaneous.inner_page.news.link') }}
+                                        </a>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row mt-5">
+                            <div class="col-12">
+                                <a class="btn btn-danger d-block" href="{{ route('projects') }}">
+                                    {{ __('miscellaneous.inner_page.projects.see_more') }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!-- Content End -->
+        <!-- News Details End -->
     @else
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"

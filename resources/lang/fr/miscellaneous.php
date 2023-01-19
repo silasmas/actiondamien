@@ -481,6 +481,10 @@ return [
             'type1' => 'Evénement',
             'type2' => 'Collecte de fonds',
             'type3' => 'Visite',
+            'see_more' => 'Voir plus',
+            'details' => [
+                'other' => 'Autres projets'
+            ]
         ],
         // News
         'hospitals' => [
