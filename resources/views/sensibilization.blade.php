@@ -126,7 +126,7 @@
             <div class="container py-3">
                 <div class="row">
                     <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
+                        <div class="bg-image overflow-hidden h-100" style="max-height: 14rem; border-radius: 1.2rem;">
                             <img src="{{ asset('assets/img/photo/index14.jpg') }}" alt="" class="img-fluid">
                             <div class="mask"></div>
                         </div>
