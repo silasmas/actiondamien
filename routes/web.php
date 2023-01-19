@@ -67,6 +67,7 @@ Route::get('/news', [HomeController::class, 'news'])->name('news');
 Route::get('/news/{id}', [HomeController::class, 'newsDetails'])->whereNumber('id')->name('news_details');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/sensibilization', [HomeController::class, 'sensibilization'])->name('sensibilization');
+Route::get('/sensibilization/{id}', [HomeController::class, 'sensibilization'])->whereNumber('id')->name('sensibilization.details');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
 Route::get('/donate', [HomeController::class, 'donate'])->name('donate');
 Route::get('/hosp_map', [HomeController::class, 'hospMap'])->name('hosp_map');

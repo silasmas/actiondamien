@@ -1,7 +1,6 @@
 @extends('layouts.template')
 
 @section('guest-content')
-
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/1.jpg') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
@@ -16,6 +15,7 @@
         </div>
         <!-- Page Header End -->
 
+    @if (Route::current()->getName() == 'sensibilization_details')
         <!-- Title Start -->
         <div class="container-xxl py-5">
             <div class="container">
@@ -104,5 +104,7 @@
             </div>
         </div>
         <!-- Content End -->
+    @else
+    @endif
 
 @endsection
