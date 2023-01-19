@@ -12,7 +12,7 @@
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
                         <li class="breadcrumb-item"><a class="text-white" href="{{ route('projects') }}">{{ __('miscellaneous.main_menu.projects') }}</a></li>
-                        <li class="breadcrumb-item text-yellow active" aria-current="page"></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">Papoose</li>
                     </ol>
                 </nav>
             </div>
