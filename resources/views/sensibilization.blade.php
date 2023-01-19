@@ -140,6 +140,7 @@
                         <p class="mb-0 paragraph3">
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph1') }}
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph2') }}
+                            {{ __('miscellaneous.inner_page.sensibilization.paragraph3') }}
                         </p>
                         <p class="mb-0">
                             <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('sensibilization_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">
