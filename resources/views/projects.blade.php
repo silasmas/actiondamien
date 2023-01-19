@@ -18,7 +18,29 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
+
+
+        <!-- Content Start -->
+        <div class="container-xxl py-5">
+            <div class="container" style="text-align: justify;">
+                <div class="row">
+                    <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
+                        <p class="lead mb-sm-5 mb-4 fw-bold" style="color: #000;">
+                            <pre style="text-align: justify;">
+La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
+
+Malheureusement, la population majoritaire y vivant en dessous du seuil de la pauvreté, constitue à l'un des facteurs principaux, déterminant les difficultés d'adhérence au traitement de certaines maladies. Ces derniers bénéficient, dès lors, du financement du projet Papoose afin d'améliorer l'adhérence au traitement des malades et contribuer à un bon succès thérapeutique.
+
+La Coordination Provinciale Lèpre et Tuberculose de Kinshasa (CPLT KINSHASA), avait procédé en 2021 a une sélection des malades conformément à un critère d'éligibilité qui ont été bénéficiaires de l'appui alimentaire à travers la distribution de vivres aux malades atteints de lèpre et de tuberculose. La distribution s'était déroulée pendant une durée de trois mois en raison de quatre jours par mois.
+
+Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militaire des commandos Mangengenge de Maluku bénéficient de l'appui de ce projet. Durant la période de COVID-19, les bénéficiaires ont été particulièrement pris en charge à cause de la persistance de la pandémie de la COVID-19.
+                            </pre>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content End -->
     @else
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
