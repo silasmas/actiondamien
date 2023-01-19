@@ -24,7 +24,7 @@
             <div class="container">
                 <div class="row g-lg-5">
                     <div class="col-lg-8 mb-4 border-bottom border-default wow fadeInUp" data-wow-delay="0.1s">
-                        <h1 class="h1 mb-4 fw-bold">La visite du CEDA par Mr. Jo INDEKEU, diffusé à la RTNC</h1>
+                        <h1 class="h1 mb-4 fw-bold">LE PROJET PAPOOSE EN APPUI POUR L'ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA</h1>
                         <p class="lead mb-sm-5 mb-4 fw-bold">
                             <pre class="fs-5">
 La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis 2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux personnes les plus démunies affectées par la lèpre et la tuberculose
