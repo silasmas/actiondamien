@@ -51,7 +51,7 @@ Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militair
                             <div class="col-lg-7 col-sm-8 col-12 paragraph-ellipsis">
                                 <a href="{{ route('news_details', ['id' => 1]) }}">
                                     <p class="m-0 small" style="color: #999;">Vente d'eau</p>
-                                    <p class="m-0 fw-bold text-danger text-truncate">PROJET DE VENTE D'EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L'EQUATEUR</p>
+                                    <p class="m-0 fw-bold text-blue text-truncate">PROJET DE VENTE D'EAU ET DE BLOCS DE GLACE FINANCE PAR ACTION DAMIEN DANS LA PROVINCE DE L'EQUATEUR</p>
                                     <p class="m-0 paragraph2" style="color: #000;">
                                         Depuis 2018, Action Damien a créé et financé un projet de vente d'eau en sachet ainsi que des blocs de glace, dans le village de Lyonda qui se trouve dans la province de l'Equateur.
                                         En effet, les revenus de cette activité permettent la prise en charge et le soutien de tous les anciens malades affectés par la lèpre, parfois, pensionnés et qui sont hébergés au pavillon de Lyonda.
@@ -68,7 +68,7 @@ Depuis 2020, la prison de Makala, la prison de Ndolo, ainsi que le camp militair
 
                         <div class="row mt-5">
                             <div class="col-12">
-                                <a class="btn btn-danger d-block" href="{{ route('projects') }}">
+                                <a class="btn btn-blue d-block" href="{{ route('projects') }}">
                                     {{ __('miscellaneous.inner_page.projects.see_more') }}
                                 </a>
                             </div>
