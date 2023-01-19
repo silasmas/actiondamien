@@ -113,8 +113,7 @@
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
                         <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
-                        <li class="breadcrumb-item"><a class="text-white" href="{{ route('sensibilization') }}">{{ __('miscellaneous.main_menu.testimonials.sensibilization') }}</a></li>
-                        <li class="breadcrumb-item text-yellow active" aria-current="page">{{ __('miscellaneous.inner_page.sensibilization.title') }}</li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">{{ __('miscellaneous.main_menu.testimonials.sensibilization') }}</li>
                     </ol>
                 </nav>
             </div>
