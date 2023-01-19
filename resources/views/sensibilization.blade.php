@@ -137,7 +137,7 @@
                                 {{ __('miscellaneous.inner_page.sensibilization.title') }}
                             </a>
                         </h5>
-                        <p class="mb-0 paragraph">
+                        <p class="mb-0 paragraph3">
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph1') }}
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph2') }}
                         </p>
