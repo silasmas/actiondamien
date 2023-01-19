@@ -2,9 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\rubrique;
 use App\Http\Requests\StorerubriqueRequest;
 use App\Http\Requests\UpdaterubriqueRequest;
+use App\Models\rubrique;
+use App\Models\slide;
 
 class RubriqueController extends Controller
 {
@@ -15,7 +16,23 @@ class RubriqueController extends Controller
      */
     public function index()
     {
-        //
+
+        return view("admin.gHome");
+    }
+    public function news()
+    {
+
+        return view("admin.gNews");
+    }
+    public function temoignages()
+    {
+
+        return view("admin.gTemoignage");
+    }
+    public function carthographie()
+    {
+
+        return view("admin.gCarte");
     }
 
     /**
@@ -79,8 +96,26 @@ class RubriqueController extends Controller
      * @param  \App\Models\rubrique  $rubrique
      * @return \Illuminate\Http\Response
      */
-    public function destroy(rubrique $rubrique)
+    public function destroy($id)
     {
-        //
+        $col = $_GET['idv'];
+        $slide = slide::find($col);
+        if ($slide) {
+            $photo = public_path() . '/storage/' . $slide->image;
+            file_exists($photo) ? unlink($photo) : '';
+            $slide->delete();
+            if ($slide) {
+                return response()->json([
+                    'reponse' => true,
+                    'msg' => 'Suppression Réussie.',
+                ]);
+            }
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Aucun enregistrement trouver',
+            ]);
+        }
+
     }
 }

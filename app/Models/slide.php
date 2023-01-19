@@ -15,8 +15,7 @@ class slide extends Model
 
     use HasTranslations;
 
-    public $translatable = ['h1','h2','textbtn',
-    'extrait','page'];
+    public $translatable = ['h1','h2','textbtn','extrait'];
 
     public function rubrique(){
         return $this->belongsTo(rubrique::class);

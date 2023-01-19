@@ -20,14 +20,21 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="row">
+                    @forelse ($videos as $v)
                     <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <video class="w-100 rounded" controls>
-                            <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_1.mp4') }}" type=video/mp4>
-                            <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_1.ogg') }}" type=video/ogg>
-                        </video>
+                                <iframe class="embed-responsive-item w-100"
+                                src="{{$v->lien}}" style="border-radius: 1.2rem;"
+                                allowfullscreen width="425" height="344"></iframe>
+                                <p>
+                                    {!! $v->description!!}
+                                </p>
                     </div>
+                    @empty
+                        
+                    @endforelse
+                    
 
-                    <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                    {{-- <div class="col-lg-6 mb-4 wow fadeInUp" data-wow-delay="0.3s">
                         <video class="w-100 rounded" controls>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_2.mp4') }}" type=video/mp4>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_2.ogg') }}" type=video/ogg>
@@ -39,7 +46,7 @@
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_3.mp4') }}" type=video/mp4>
                             <source src="{{ asset('assets/img/video/ANNEXE_13_TEMOIGNAGE_EN_VIDEO_3.ogg') }}" type=video/ogg>
                         </video>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>

@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\slide;
 use App\Http\Requests\StoreslideRequest;
 use App\Http\Requests\UpdateslideRequest;
+use App\Models\accueil;
+use App\Models\slide;
+use Illuminate\Http\Request;
 
 class SlideController extends Controller
 {
@@ -28,6 +30,42 @@ class SlideController extends Controller
         //
     }
 
+    public function editeSlide(Request $request)
+    {
+        $rap = slide::findOrFail($request->id);
+        $rep = $rap->update([
+            'h1' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+            'textbtn' => ['fr' => $request->textbtn_fr, 'en' => $request->textbtn_en, 'ln' => $request->textbtn_ln],
+            'extrait' => ['fr' => $request->extrait_fr, 'en' => $request->extrait_en, 'ln' => $request->extrait_ln],
+            'page' => $request->page,
+        ]);
+        if ($rep) {
+            return back()->with(['message' => 'La modification est faite avec succès', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Erreur de modification', "type" => "danger"]);
+        }
+    }
+    public function editeImageSlide(Request $request)
+    {
+        $filenameImg = "";
+        $rap = slide::findOrFail($request->id);
+
+        $photo = public_path() . '/storage/' . $rap->image;
+        file_exists($photo) ? unlink($photo) : '';
+
+        $file = $request->file('photo');
+
+        $file == '' ? '' : ($filenameImg = 'slide/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/slide', $filenameImg);
+        $rep = $rap->update([
+            'image' => $filenameImg,
+        ]);
+        if ($rep) {
+            return back()->with(['message' => 'La modification est faite avec succès', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Erreur de modification', "type" => "danger"]);
+        }
+    }
     /**
      * Store a newly created resource in storage.
      *

@@ -101,8 +101,24 @@ class CentreController extends Controller
      * @param  \App\Models\centre  $centre
      * @return \Illuminate\Http\Response
      */
-    public function destroy(centre $centre)
+    public function destroy($id)
     {
-        //
+        
+            $slide = centre::find($id);
+            if ($slide) {
+                $slide->delete();
+                if ($slide) {
+                    return response()->json([
+                        'reponse' => true,
+                        'msg' => 'Suppression Réussie.',
+                    ]);
+                }
+            } else {
+                return response()->json([
+                    'reponse' => false,
+                    'msg' => 'Aucun enregistrement trouver',
+                ]);
+            }
+        
     }
 }

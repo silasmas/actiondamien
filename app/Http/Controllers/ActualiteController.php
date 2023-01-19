@@ -62,10 +62,6 @@ class ActualiteController extends Controller
      * @param  \App\Models\actualite  $actualite
      * @return \Illuminate\Http\Response
      */
-    public function show(actualite $actualite)
-    {
-        //
-    }
 
     /**
      * Show the form for editing the specified resource.
@@ -96,8 +92,28 @@ class ActualiteController extends Controller
      * @param  \App\Models\actualite  $actualite
      * @return \Illuminate\Http\Response
      */
-    public function destroy(actualite $actualite)
+    public function destroy($id)
     {
-        //
+        $col = $_GET['idv'];
+        $slide = actualite::find($id);
+        $photo = public_path() . '/storage/' . $slide->image;
+        if($slide->image){
+
+            file_exists($photo) ? unlink($photo) : '';
+        }
+        if ($slide) {
+            $slide->delete();
+            if ($slide) {
+                return response()->json([
+                    'reponse' => true,
+                    'msg' => 'Suppression Réussie.',
+                ]);
+            }
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Aucun enregistrement trouver',
+            ]);
+        }
     }
 }
