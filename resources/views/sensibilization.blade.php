@@ -105,6 +105,34 @@
         </div>
         <!-- Content End -->
     @else
+        <div class="container-xxl py-5 border-top border-default">
+            <div class="container py-3">
+                <div class="row">
+                    <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="bg-image overflow-hidden h-100" style="max-height: 16rem; border-radius: 1.2rem;">
+                            <img src="{{ asset('assets/img/photo/index14.jpg') }}" alt="" class="img-fluid">
+                            <div class="mask"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
+                        <h5 class="h5 text-danger fw-bold text-truncate">
+                            <a href="{{ route('sensibilization_details', ['id' => 1]) }}" class="text-danger">
+                                {{ __('miscellaneous.inner_page.sensibilization.title') }}
+                            </a>
+                        </h5>
+                        <p class="mb-0 paragraph">
+                            {{ __('miscellaneous.inner_page.sensibilization.paragraph1') }}
+                        </p>
+                        <p class="mb-0">
+                            <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('sensibilization_details', ['id' => 1]) }}" style="color: black; border-bottom: 3px rgb(214, 63, 63) solid;">
+                                {{ __('miscellaneous.inner_page.news.link') }}
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     @endif
 
 @endsection
