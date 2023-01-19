@@ -4,16 +4,15 @@
     @if (Route::current()->getName() == 'projects_details')
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
-            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/2.webp') }}) center center no-repeat; background-size: cover;">
+            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/Projet_Papoose_1.jpg') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
                 <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.inner_page.projects.title') }}
                 </h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a class="text-white"
-                                href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
-                        <li class="breadcrumb-item text-yellow active" aria-current="page">
-                            {{ __('miscellaneous.main_menu.projects') }}</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
+                        <li class="breadcrumb-item"><a class="text-white" href="{{ route('projects') }}">{{ __('miscellaneous.main_menu.projects') }}</a></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page"></li>
                     </ol>
                 </nav>
             </div>
@@ -29,10 +28,8 @@
                 </h1>
                 <nav aria-label="breadcrumb animated slideInDown">
                     <ol class="breadcrumb justify-content-center mb-0">
-                        <li class="breadcrumb-item"><a class="text-white"
-                                href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
-                        <li class="breadcrumb-item text-yellow active" aria-current="page">
-                            {{ __('miscellaneous.main_menu.projects') }}</li>
+                        <li class="breadcrumb-item"><a class="text-white" href="./">{{ __('miscellaneous.main_menu.home') }}</a></li>
+                        <li class="breadcrumb-item text-yellow active" aria-current="page">{{ __('miscellaneous.main_menu.projects') }}</li>
                     </ol>
                 </nav>
             </div>
