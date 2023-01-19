@@ -132,11 +132,11 @@
                     </div>
 
                     <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                        <h5 class="h5 text-blue fw-bold text-truncate">
+                        <h4 class="h4 mt-1 text-blue fw-bold text-truncate">
                             <a href="{{ route('sensibilization_details', ['id' => 1]) }}" class="text-blue">
                                 {{ __('miscellaneous.inner_page.sensibilization.title') }}
                             </a>
-                        </h5>
+                        </h4>
                         <p class="mb-0 paragraph3">
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph1') }}
                             {{ __('miscellaneous.inner_page.sensibilization.paragraph2') }}
