@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Web;
 
 use App\Http\Controllers\Controller;
 use App\Models\actualite;
+use App\Models\projet;
 use App\Models\slide;
 
 // use Illuminate\Http\Request;
@@ -32,7 +33,7 @@ class HomeController extends Controller
     public function index()
     {
         $slidesp = slide::get();
-        
+
         return view('welcome',compact('slidesp'));
     }
 
@@ -124,6 +125,11 @@ class HomeController extends Controller
      *
      * @return \Illuminate\View\View
      */
+    public function project($id)
+    {
+        $detail=projet::find($id);
+        return view('projects',compact('detail'));
+    }
     public function projects()
     {
         return view('projects');

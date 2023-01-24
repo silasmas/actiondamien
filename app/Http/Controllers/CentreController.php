@@ -103,7 +103,7 @@ class CentreController extends Controller
      */
     public function destroy($id)
     {
-        
+
             $slide = centre::find($id);
             if ($slide) {
                 $slide->delete();
@@ -119,6 +119,6 @@ class CentreController extends Controller
                     'msg' => 'Aucun enregistrement trouver',
                 ]);
             }
-        
+
     }
 }

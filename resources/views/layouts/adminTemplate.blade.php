@@ -84,6 +84,9 @@
                             <li class="{{ Route::current()->getName() == 'G_carthographie' ? 'active' : '' }}">
                                 <a href="{{ route('G_carthographie') }}">Carthographie</a>
                             </li>
+                            <li class="{{ Route::current()->getName() == 'G_projet' ? 'active' : '' }}">
+                                <a href="{{ route('G_projet') }}">Projet</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="{{ Route::current()->getName() == 'addinfo' ? 'active' : '' }}">

@@ -19,6 +19,10 @@ class ProjetController extends Controller
     {
         return view("admin.home");
     }
+    public function gprojet()
+    {
+        return view("admin.gprojet");
+    }
     public function newsletter()
     {
         $newsletter = newsletter::get();
@@ -45,21 +49,72 @@ class ProjetController extends Controller
     {
 
         $file = $request->file('cover');
+       // dd($file);
 
         $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
         $file == '' ? '' : $file->move('storage/projet', $filenameImg);
-        //  dd(['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln]);
         if ($request->cover) {
+            // dd(['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln]);
            $r= projet::create([
                 'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
                 'text' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
                 'rubrique_id' => $request->pageId,
-                // 'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
+                'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
                  'photo' => $filenameImg,
             ]);
+            // // dd($r);
             return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
         } else {
             return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "danger"]);
+        }
+
+    }
+    public function editprojet(Request $request)
+    {
+
+        $rap = projet::find($request->id);
+        $rep = $rap->update([
+            'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
+            'text' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
+            'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
+
+        ]);
+        if ($rep) {
+            return response()->json([
+                'reponse' => true,
+                'msg' => 'La modification est faite avec succès',
+            ]);
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Erreur de modification',
+            ]);
+        }
+
+    }
+    public function editeImageProjet(Request $request)
+    {
+
+        $filenameImg = "";
+        $rap = projet::findOrFail($request->id);
+
+        $photo = public_path() . '/storage/' . $rap->photo;
+        if ($rap->photo) {
+
+            file_exists($photo) ? unlink($photo) : '';
+        }
+
+        $file = $request->file('cover');
+
+        $file == '' ? '' : ($filenameImg = 'support/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/support', $filenameImg);
+        $rep = $rap->update([
+            'photo' => $filenameImg,
+        ]);
+        if ($rep) {
+            return back()->with(['message' => 'La modification est faite avec succès', "type" => "success"]);
+        } else {
+            return back()->with(['message' => 'Erreur de modification', "type" => "danger"]);
         }
 
     }
@@ -153,8 +208,26 @@ class ProjetController extends Controller
      * @param  \App\Models\projet  $projet
      * @return \Illuminate\Http\Response
      */
-    public function destroy(projet $projet)
+    public function destroy($id)
     {
-        //
+        $slide = projet::find($id);
+        if ($slide) {
+            $photo = public_path() . '/storage/' . $slide->photo;
+            if($slide->photo){
+                file_exists($photo) ? unlink($photo) : '';
+            }
+            $slide->delete();
+            if ($slide) {
+                return response()->json([
+                    'reponse' => true,
+                    'msg' => 'Suppression Réussie.',
+                ]);
+            }
+        } else {
+            return response()->json([
+                'reponse' => false,
+                'msg' => 'Aucun enregistrement trouver',
+            ]);
+        }
     }
 }

@@ -2,13 +2,14 @@
 
 namespace App\Providers;
 
-use App\Models\accueil;
-use App\Models\actualite;
 use App\Models\air;
-use App\Models\centre;
-use App\Models\rubrique;
-use App\Models\temoignage;
 use App\Models\zone;
+use App\Models\centre;
+use App\Models\projet;
+use App\Models\accueil;
+use App\Models\rubrique;
+use App\Models\actualite;
+use App\Models\temoignage;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -97,6 +98,7 @@ class ViewServiceProvider extends ServiceProvider
             $rubriques = rubrique::all();
             $actus = actualite::all();
             $tem = temoignage::all();
+            $projet = projet::all();
             $zone = zone::all();
             $air = air::with('zone')->get();
             $centre = centre::with('air')->get();
@@ -133,6 +135,7 @@ class ViewServiceProvider extends ServiceProvider
             $view->with('news', $news);
             $view->with('actus', $actus);
             $view->with('projets', $projets);
+            $view->with('projet', $projet);
             $view->with('video', $video);
             $view->with('videos', $videos);
             $view->with('sensible', $sensible);
