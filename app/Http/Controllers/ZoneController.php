@@ -120,7 +120,7 @@ class ZoneController extends Controller
         if ($verify) {
             return response()->json([
                 'reponse' => false,
-                'msg' => 'Impossible de supprimer cette zone, car il a au moins une air de santé attaché à elle',
+                'msg' => 'Impossible de supprimer cette zone, car il a au moins une aire de santé attaché à elle',
             ]);
         } else {
             $slide = zone::find($id);
