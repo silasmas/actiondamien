@@ -112,8 +112,7 @@ class AirController extends Controller
         $verify = centre::where("air_id",$id)->first();
 
         if ($verify) {
-            return response()->json([
-                
+            return response()->json([                
                 'reponse' => false,
                 'msg' => 'Impossible de supprimer cette aire de santé, car il a au moins un centre de santé attaché à elle',
             ]);

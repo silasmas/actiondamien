@@ -21,7 +21,7 @@ class ProjetController extends Controller
     }
     public function gprojet()
     {
-        return view("admin.gprojet");
+        return view("admin.gProjet");
     }
     public function newsletter()
     {
