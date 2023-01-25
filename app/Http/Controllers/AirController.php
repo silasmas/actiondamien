@@ -113,6 +113,7 @@ class AirController extends Controller
 
         if ($verify) {
             return response()->json([
+                
                 'reponse' => false,
                 'msg' => 'Impossible de supprimer cette aire de santé, car il a au moins un centre de santé attaché à elle',
             ]);

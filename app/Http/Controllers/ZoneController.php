@@ -119,7 +119,9 @@ class ZoneController extends Controller
 
         if ($verify) {
             return response()->json([
+                
                 'reponse' => false,
+                
                 'msg' => 'Impossible de supprimer cette zone, car il a au moins une aire de santé attaché à elle',
             ]);
         } else {
