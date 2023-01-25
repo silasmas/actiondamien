@@ -97,8 +97,8 @@ position : fixed; top:0px;left:0px;z-index:9999; width:100%;height: 100%; opacit
                                         {{-- <hr> --}}
                                             <h6 class="h6 mb-3 " style="color: #4FB9A9;">{{ $c->nom }}</h6>
                                             <p class="mb-1 fw-light">
-
-                                                {!!"<i class='fa fa-map-marker-alt me-2'></i>".$c->adresse  !!}
+                                                <i class="fa fa-map-marker-alt me-2"></i>
+                                                {!! strip_tags($c->adresse)!!}
                                             </p>
                                             <p class="m-0 fw-light">
                                                 <i class="fa fa-phone me-2"></i>{{ $c->phone }}
