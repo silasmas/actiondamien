@@ -483,8 +483,8 @@ return [
             'type3' => 'Visite',
             'see_more' => 'Voir plus',
             'details' => [
-                'other' => 'Autres projets'
-            ]
+                'other' => 'Autres projets',
+            ],
         ],
         // News
         'hospitals' => [
@@ -493,7 +493,7 @@ return [
                 'title' => 'Légende',
                 'data1' => 'Zone de santé',
                 'data2' => 'Aire de santé',
-                'data3' => 'Centre de dépistage et de traitement'
+                'data3' => 'Centre de santé de diagnostic et traitement',
             ],
             'link' => 'Lire la suite ... »',
             'see_more' => 'Voir plus ...',

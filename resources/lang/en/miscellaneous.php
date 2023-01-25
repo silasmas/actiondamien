@@ -494,7 +494,7 @@ return [
                 'title' => 'Legend',
                 'data1' => 'Health zone',
                 'data2' => 'Health area',
-                'data3' => 'Testing and treatment center',
+                'data3' => 'Diagnosis and Treatment Health Center',
             ],
             'link' => 'Read more ... »',
             'see_more' => 'See more ...',

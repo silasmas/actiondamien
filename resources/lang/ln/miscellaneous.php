@@ -494,7 +494,7 @@ return [
                 'title' => 'Legende',
                 'data1' => 'Zone ya santé',
                 'data2' => 'Aire ya santé',
-                'data3' => 'Centre ya dépistage pe ya traitement',
+                'data3' => 'Centre ya santé ya diagnostiki mpe ya traitement',
             ],
             'link' => 'Tanga lisusu ... »',
             'see_more' => 'Mona lisusu ...',
