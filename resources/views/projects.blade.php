@@ -39,7 +39,7 @@
                 <div class="row mb-lg-4 mb-5">
                     <div class="col-lg-5 col-sm-4 col-12 mb-lg-0 mb-2">
                         <div class="bg-image">
-                            <img src="{{ asset('storage/'.$detail->photo) }}" alt=""
+                            <img src="{{ asset('storage/'.$p->photo) }}" alt=""
                                 class="img-fluid">
                             <div class="mask"></div>
                         </div>
@@ -111,37 +111,40 @@
 <!-- Subtitle End -->
 
 <!-- Projects list Start -->
+@forelse ($projet as $pr)
 <div class="container-xxl py-5 border-top border-default">
     <div class="container py-3">
         <div class="row">
             <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                 <div class="bg-image overflow-hidden h-100" style="max-height: 14rem; border-radius: 1.2rem;">
-                    <img src="{{ asset('assets/img/photo/Projet_Papoose_1.jpg') }}" alt="" class="img-fluid">
+                    <img src="{{ asset('storage/'.$pr->photo) }}" alt="" class="img-fluid">
                     <div class="mask"></div>
                 </div>
             </div>
 
-            <div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
-                <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">
-                    Papoose
-                </div>
-                <h4 class="h4 text-blue fw-bold text-truncate">
-                    <a href="{{ route('projects_details', ['id' => 1]) }}" class="text-blue">
-                        LE PROJET PAPOOSE EN APPUI POUR L'ELIMINATION DES MALADIES DE LEPRE ET TUBERCULOSE A KINSHASA
-                    </a>
-                </h4>
-                <p class="mb-0 paragraph2">
-                    La ville province de Kinshasa, capitale de la République Démocratique du Congo, bénéficie depuis
-                    2018, auprès de la fondation Papoose, d'un financement d'appui au projet d'assistance sociale, aux
-                    personnes les plus démunies affectées par la lèpre et la tuberculose
-                </p>
-                <p class="mb-0">
-                    <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => 1]) }}"
-                        style="color: black; border-bottom: 3px #6ba0af solid;">
-                        {{ __('miscellaneous.inner_page.news.link') }}
-                    </a>
-                </p>
-            </div>
+    
+<div class="col-lg-7 col-sm-6 wow fadeInUp paragraph-ellipsis" data-wow-delay="0.3s">
+    <div class="d-inline-block rounded-pill bg-light text-blue py-1 px-3 mb-3">
+        {{ $pr->intituler }}
+    </div>
+    <h4 class="h4 text-blue fw-bold text-truncate">
+        <a href="{{ route('projects_details', ['id' =>$pr->id]) }}" class="text-blue">
+            {{ $pr->titre  }}
+        </a>
+    </h4>
+    <p class="mb-0 paragraph2 text-truncate">
+     {{ strip_tags($pr->text) }}
+    </p>
+    <p class="mb-0">
+        <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0" href="{{ route('projects_details', ['id' => $pr->id]) }}"
+            style="color: black; border-bottom: 3px #6ba0af solid;">
+            {{ __('miscellaneous.inner_page.news.link') }}
+        </a>
+    </p>
+</div>
+@empty
+    
+@endforelse
         </div>
     </div>
 </div>

@@ -22,31 +22,8 @@
                             </div>
                             <div class="ibox-content" id="tab-rubrique">
                                 <div class='row'>
-                                    <div class="tabs-container">
-                                        <ul class="nav nav-tabs">
-                                            <li class="active"><a data-toggle="tab"
-                                                    href="#tab0">Projets</a></li>
-                                        </ul>
-                                        <div class="tab-content">
-                                            <div id="tab0" class="tab-pane active">
-                                                <div class="panel-body">
-                                                    <div class="row">
-                                                        <div class="col-lg-12">
-                                                            <div class="ibox product-detail">
-                                                                <div class="ibox-content">
-                                                                    <div class="row">
-                                                                        @include("livewire.parties.tab12")
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    @include("livewire.parties.tab12")
+                                   
                                 </div>
                             </div>
                         </div>

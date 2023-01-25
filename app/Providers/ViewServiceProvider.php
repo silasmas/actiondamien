@@ -130,7 +130,7 @@ class ViewServiceProvider extends ServiceProvider
             $sensibilisation = $rubriques->filter(function ($value, $key) {
                 return $value->page == "sensibilization";
             });
-            // dd($sensible);
+            //  dd($projets);
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);
