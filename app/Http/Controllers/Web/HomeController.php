@@ -117,7 +117,7 @@ class HomeController extends Controller
      */
     public function sensibilization()
     {
-        
+
         return view('sensibilization');
     }
 

@@ -252,7 +252,7 @@ return [
         'link1' => 'Liste ya ba lopitalo',
         'link' => 'Lokasa ya Cartographie',
         'link2' => 'Cartographie ya ba CSDT/CPLT',
-        'link3' => 'Cartographie ya ba Centres ya Santé ya Dépistage mpe ya Traitement (CSDT) mpe coordination provinciale Bokono ya maba mpe bokono ya ntolo (CPLT)',
+        'link3' => 'Cartographie ya ba Centres ya Santé ya diagnostiki mpe ya Traitement (CSDT)/ coordination provinciale ya Bokono ya maba mpe bokono ya ntolo Kinshasa (CPLT kin)',
 
     ],
     'support' => [

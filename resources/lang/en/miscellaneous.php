@@ -252,7 +252,7 @@ return [
         'link1' => 'List of hospitals',
         'link' => 'Cartography Page',
         'link2' => 'CSDT/CPLT mapping',
-        'link3' => 'Mapping of screening and treatment health centers (CSDT) and provincial coordination Leprosy and tuberculosis(CPLT)',
+        'link3' => 'Mapping of Health Centers for Diagnosis and Treatment (CSDT) / Provincial Leprosy and Tuberculosis Coordination of Kinshasa (CPLT kin)',
 
     ],
     'support' => [
