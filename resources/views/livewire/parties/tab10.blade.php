@@ -29,19 +29,20 @@
                                                 <td
                                                     class="client-avatar">
                                                     <a data-toggle="tab"
-                                                        href="#portofolio-{{ $tem->id }}"
+                                                        href="#portofolioa-{{ $tem->id }}"
                                                         class="client-link">
                                                         <img alt="image"
                                                             src="{{ asset('assets/img/default.png') }}">
-
+                                                        </a> 
                                                 </td>
                                                 <td><a data-toggle="tab"
-                                                    href="#portofolio-{{ $tem->id }}"
+                                                    href="#portofolioa-{{ $tem->id }}"
                                                     class="client-link">
                                                     {{ $tem->nom }}
-                                                    </a> </td>
+                                                    </a>
+                                                 </td>
                                                 <td>{{ $tem->zone->nom }}
-                                                    </a> </td>
+                                                    </td>
                                                 <td
                                                     class="client-status">
                                                     <a href="{{ $tem->id }}"
@@ -71,7 +72,7 @@
             <div class="ibox-content">
                 <div class="tab-content">
                     @forelse($airs as $se)
-                    <div id="portofolio-{{ $se->id }}"
+                    <div id="portofolioa-{{$se->id }}"
                         class="tab-pane {{ $loop->first ? 'active' : '' }}">
 
                         <div class="client-detail">
