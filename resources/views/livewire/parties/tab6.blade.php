@@ -5,7 +5,7 @@
 
                 <h2> Liste des actualités</h2>
                 <p>
-                    clicker sur le l'image pour voir en detail
+                    clicker sur le l'image ou le titre pour voir en detail
                 </p>
 
                 <div class="clients-list">
@@ -34,10 +34,15 @@
                                                         class="client-link">
                                                         <img alt="image"
                                                             src="{{ asset('storage/' . $tem->image) }}">
-
+                                                        </a>
                                                 </td>
-                                                <td>{{ $tem->titre }}
-                                                    </a> </td>
+                                                <td>
+                                                    <a data-toggle="tab"
+                                                    href="#portofolio-{{ $tem->id }}"
+                                                    class="client-link">
+                                                    {{ $tem->titre }}
+                                                    </a>
+                                                </td>
 
                                                 <td
                                                     class="contact-type">

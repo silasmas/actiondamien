@@ -28,10 +28,14 @@
                                                     <a data-toggle="tab" href="#portofolio-{{ $tem->id }}"
                                                         class="client-link">
                                                         <img alt="image" src="{{ asset('storage/' . $tem->photo) }}">
-
+                                                    </a>
                                                 </td>
-                                                <td>{{ $tem->titre }}
-                                                    </a> </td>
+                                                <td>
+                                                    <a data-toggle="tab" href="#portofolio-{{ $tem->id }}"
+                                                        class="client-link">
+                                                    {{ $tem->titre }}
+                                                    </a>
+                                                </td>
 
                                                 <td class="contact-type">
                                                     <i class="fa fa-clock-o">

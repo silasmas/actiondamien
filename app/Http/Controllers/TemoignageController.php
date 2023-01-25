@@ -24,9 +24,10 @@ class TemoignageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function sensibilization_details($id)
     {
-        //
+        $detail_sen = temoignage::find($id);
+        return view('sensibilization', compact('detail_sen'));
     }
 
     /**
@@ -43,7 +44,7 @@ class TemoignageController extends Controller
         if ($por->passes()) {
             temoignage::create([
                 'lien' => $request->lien,
-                'description' => ["fr"=>$request->description_fr,"en"=>$request->description_en,"ln"=>$request->description_ln],
+                'description' => ["fr" => $request->description_fr, "en" => $request->description_en, "ln" => $request->description_ln],
                 'rubrique_id' => $request->pageId,
             ]);
             return response()->json([
@@ -83,8 +84,8 @@ class TemoignageController extends Controller
     {
         $rap = temoignage::find($request->id);
         $rep = $rap->update([
-            'lien' =>$request->lien,
-            'description' => ["fr"=>$request->description_fr,"en"=>$request->description_en,"ln"=>$request->description_ln],
+            'lien' => $request->lien,
+            'description' => ["fr" => $request->description_fr, "en" => $request->description_en, "ln" => $request->description_ln],
         ]);
         if ($rep) {
             return response()->json([
@@ -166,7 +167,7 @@ class TemoignageController extends Controller
         $slide = temoignage::find($col);
         if ($slide) {
             $photo = public_path() . '/storage/' . $slide->image;
-            if($slide->image){
+            if ($slide->image) {
 
                 file_exists($photo) ? unlink($photo) : '';
             }

@@ -1,9 +1,5 @@
 <?php
 
-
-
-
-use App\Models\actualite;
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\AccueilController;
 use App\Http\Controllers\ActualiteController;
@@ -16,7 +12,6 @@ use App\Http\Controllers\SoutenirController;
 use App\Http\Controllers\TemoignageController;
 use App\Http\Controllers\Web\HomeController;
 use App\Http\Controllers\ZoneController;
-use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -60,7 +55,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/addbon', [AboutController::class, 'addbon'])->name('addbon');
     Route::post('/add.hopital', [AboutController::class, 'addhtopial'])->name('add.hopital');
     Route::post('/add.support', [AboutController::class, 'addsupport'])->name('add.support');
-
 
     // Route::post('/add.news', [ActualiteController::class, 'store'])->name('add.news');
     // Route::post('/addcentre', [CentreController::class, 'store'])->name('addcentre');
@@ -116,7 +110,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('delProjet/{id}', [ProjetController::class, 'destroy'])->name('delProjet');
 });
 
-
 // Language
 Route::get('/language/{locale}', [HomeController::class, 'changeLanguage'])->name('change_language');
 // Route::group([
@@ -133,7 +126,7 @@ Route::get('/news', [HomeController::class, 'news'])->name('news');
 Route::get('/news/{id}', [HomeController::class, 'newsDetails'])->whereNumber('id')->name('news_details');
 Route::get('/testimonials', [HomeController::class, 'testimonials'])->name('testimonials');
 Route::get('/sensibilization', [HomeController::class, 'sensibilization'])->name('sensibilization');
-Route::get('/sensibilization/{id}', [HomeController::class, 'sensibilization'])->whereNumber('id')->name('sensibilization_details');
+Route::get('/sensibilization_details/{id}', [TemoignageController::class, 'sensibilization_details'])->whereNumber('id')->name('sensibilization_details');
 Route::get('/projects', [HomeController::class, 'projects'])->name('projects');
 Route::get('/projects_details/{id}', [HomeController::class, 'project'])->whereNumber('id')->name('projects_details');
 Route::get('/donate', [HomeController::class, 'donate'])->name('donate');

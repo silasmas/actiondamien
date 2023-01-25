@@ -5,7 +5,7 @@
 
                 <h2> Liste de témoignages en vidéos</h2>
                 <p>
-                    clicker sur le l'image pour voir en detail et modifier
+                    clicker sur le le lien pour voir en detail
                 </p>
 
                 <div class="clients-list">
@@ -25,10 +25,15 @@
                                                         class="client-link">
                                                         <img alt="image"
                                                             src="{{ asset('assets/img/default.png') }}">
-
+                                                    </a>
                                                 </td>
-                                                <td>{{ $tem->lien }}
-                                                    </a> </td>
+                                                <td>
+                                                    <a data-toggle="tab"
+                                                        href="#portofolio-{{ $tem->id }}"
+                                                        class="client-link">
+                                                    {{ $tem->lien }}
+                                                    </a>
+                                                </td>
 
                                                 <td
                                                     class="contact-type">

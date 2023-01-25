@@ -2,14 +2,14 @@
 
 namespace App\Providers;
 
+use App\Models\accueil;
+use App\Models\actualite;
 use App\Models\air;
-use App\Models\zone;
 use App\Models\centre;
 use App\Models\projet;
-use App\Models\accueil;
 use App\Models\rubrique;
-use App\Models\actualite;
 use App\Models\temoignage;
+use App\Models\zone;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 
@@ -130,6 +130,7 @@ class ViewServiceProvider extends ServiceProvider
             $sensibilisation = $rubriques->filter(function ($value, $key) {
                 return $value->page == "sensibilization";
             });
+            // dd($sensible);
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);
