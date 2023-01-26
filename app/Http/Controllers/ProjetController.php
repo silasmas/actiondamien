@@ -51,8 +51,11 @@ class ProjetController extends Controller
         $file = $request->file('cover');
        // dd($file);
 
-        $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
-        $file == '' ? '' : $file->move('storage/projet', $filenameImg);
+       
+        if ($rap->cover) {
+            $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
+            $file == '' ? '' : $file->move('storage/projet', $filenameImg);
+        }
         if ($request->cover) {
             // dd(['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln]);
            $r= projet::create([
