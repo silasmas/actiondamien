@@ -99,10 +99,10 @@
                         <a href="{{ route('newsletter') }}"><i class="fa fa-envelope-open"></i>
                             <span class="nav-label">News letter</span></a>
                     </li>
-                    <li class="{{ $titre == 'user' ? 'active' : '' }}">
+                    {{-- <li class="{{ $titre == 'user' ? 'active' : '' }}">
                         <a href=""><i class="fa fa-users"></i>
                             <span class="nav-label">Gestion user</span></a>
-                    </li>
+                    </li> --}}
                 </ul>
 
             </div>

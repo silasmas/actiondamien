@@ -48,26 +48,25 @@ class ProjetController extends Controller
     public function store(Request $request)
     {
 
-
         if ($request->file('cover')) {
             $file = $request->file('cover');
             $file == '' ? '' : ($filenameImg = 'projet/' . time() . '.' . $file->getClientOriginalName());
             $file == '' ? '' : $file->move('storage/projet', $filenameImg);
             if ($request->cover) {
                 // dd(['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln]);
-               $r= projet::create([
+                $r = projet::create([
                     'titre' => ['fr' => $request->h1_fr, 'en' => $request->h1_en, 'ln' => $request->h1_ln],
                     'text' => ['fr' => $request->description_fr, 'en' => $request->description_en, 'ln' => $request->description_ln],
                     'rubrique_id' => $request->pageId,
                     'intituler' => ['fr' => $request->intituler_fr, 'en' => $request->intituler_en, 'ln' => $request->intituler_ln],
-                     'photo' => $filenameImg,
+                    'photo' => $filenameImg,
                 ]);
                 // // dd($r);
                 return back()->with(['message' => 'Enregistrement réussi', "type" => "success"]);
             } else {
                 return back()->with(['message' => 'Merci de vérifier le formulaire!', "type" => "danger"]);
             }
-        }else{
+        } else {
             return back()->with(['message' => 'Erreur du formulaire', "type" => "danger"]);
         }
 
@@ -216,7 +215,7 @@ class ProjetController extends Controller
         $slide = projet::find($id);
         if ($slide) {
             $photo = public_path() . '/storage/' . $slide->photo;
-            if($slide->photo){
+            if ($slide->photo) {
                 file_exists($photo) ? unlink($photo) : '';
             }
             $slide->delete();
