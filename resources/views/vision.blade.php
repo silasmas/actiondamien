@@ -3,7 +3,8 @@
 @section('guest-content')
 
         <!-- Page Header Start -->
-        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/index14.jpg') }}) center center no-repeat; background-size: cover;">
+        {{-- <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/index14.jpg') }}) center center no-repeat; background-size: cover;"> --}}
+        <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s" style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), url({{ asset('assets/img/photo/banniere.jpg') }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
                 <h1 class="display-4 mb-4 text-white animated slideInDown">{{ __('miscellaneous.main_menu.who_are_we.our_vision') }}</h1>
                 <nav aria-label="breadcrumb animated slideInDown">
@@ -193,7 +194,7 @@
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="position-relative h-100" style="min-height: 400px;">
                             <div class="position-relative h-100 overflow-hidden" style="border-radius: 1.2rem;">
-                                <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/14.webp') }}" alt="" style="object-fit: cover;">
+                                <img class="position-absolute h-100 pe-5" src="{{ asset('assets/img/photo/patients.jpg') }}" alt="" style="object-fit: cover;">
                             </div>
                         </div>
                     </div>
@@ -412,21 +413,21 @@
                                                         <img src="{{ asset('assets/img/photo/services/AfriMoney.png') }}" alt="Afrimoney" height="30"> Afrimoney
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="AirtelMoney" value="option2" />
                                                     <label class="form-check-label text-white" for="AirtelMoney">
                                                         <img src="{{ asset('assets/img/photo/services/AirtelMoney.png') }}" alt="Airtel money" height="30"> Airtel money
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Fyatu" value="option2" />
                                                     <label class="form-check-label text-white" for="Fyatu">
                                                         <img src="{{ asset('assets/img/photo/services/Fyatu.png') }}" alt="Fyatu" height="30"> Fyatu
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="MasterCard" value="option2" />
                                                     <label class="form-check-label text-white" for="MasterCard">
@@ -442,21 +443,21 @@
                                                         <img src="{{ asset('assets/img/photo/services/MPesa.png') }}" alt="MPesa" height="30"> M-Pesa
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="OrangeMoney" value="option2" />
                                                     <label class="form-check-label text-white" for="OrangeMoney">
                                                         <img src="{{ asset('assets/img/photo/services/OrangeMoney.png') }}" alt="Orange money" height="30"> Orange money
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="PayPal" value="option2" />
                                                     <label class="form-check-label text-white" for="PayPal">
                                                         <img src="{{ asset('assets/img/photo/services/PayPal.png') }}" alt="PayPal" height="30"> PayPal
                                                     </label>
                                                 </div>
-            
+
                                                 <div class="form-check form-check-inline mx-4 mb-3">
                                                     <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Visa" value="option2" />
                                                     <label class="form-check-label text-white" for="Visa">

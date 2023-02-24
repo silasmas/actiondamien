@@ -823,7 +823,7 @@
                                             <div class='row'>
                                                 <div class=" col-lg-12 col-sm-12">
                                                     <form method="POST" class="form-group"
-                                                    action="{{isset($exp)?route('Updatslide'):route('add.news') }}" enctype="multipart/form-data" data-parsley-validate>
+                                                    action="{{route('add.news') }}" enctype="multipart/form-data" data-parsley-validate>
                                                         @csrf
                                                         <div class="row">
                                                             <div class=" col-sm-6 col-lg-6 form-group">
@@ -1104,7 +1104,7 @@
                                                             <div class="panel-body">
                                                                 <div class='row'>
                                                                         <div class=" col-lg-12 col-sm-12">
-                                                                            <form method="POST" class="form-group" data-parsley-validate id="formZone" 
+                                                                            <form method="POST" class="form-group" data-parsley-validate id="formZone"
                                                                             onSubmit="event.preventDefault();add(this,'tab-zone','addVideo')">
                                                                                 @csrf
                                                                                 <div class="row">
@@ -1115,7 +1115,7 @@
                                                                                             @forelse ($video as $r)
                                                                                                 <option value="{{ $r->id }}">{{ $r->rubrique }}</option>
                                                                                             @empty
-                        
+
                                                                                             @endforelse
                                                                                         </select>
                                                                                     </div>
@@ -1158,7 +1158,7 @@
                                                         <div id="tabb11" class="tab-pane">
                                                             <div class="panel-body">
                                                                 <div class=" col-lg-12 col-sm-12">
-                                                                    <form method="POST" action="{{ route('addSensibilisation') }}" 
+                                                                    <form method="POST" action="{{ route('addSensibilisation') }}"
                                                                     class="form-group" data-parsley-validate id="formbon" enctype="multipart/form-data" >
                                                                         @csrf
                                                                         <div class="row">

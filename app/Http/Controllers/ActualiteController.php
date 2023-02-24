@@ -97,7 +97,7 @@ class ActualiteController extends Controller
         $col = $_GET['idv'];
         $slide = actualite::find($id);
         $photo = public_path() . '/storage/' . $slide->image;
-        if($slide->image){
+        if ($slide->image) {
 
             file_exists($photo) ? unlink($photo) : '';
         }

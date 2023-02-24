@@ -52,7 +52,7 @@
                     </div>
                 @endif
                 <div class="col-12 wow fadeInUp" data-wow-delay="0.1s">
-
+ 
                     <div class="input-group">
                         <input type="text" class="form-control"
                             aria-label="{{ __('miscellaneous.inner_page.news.search') }}"

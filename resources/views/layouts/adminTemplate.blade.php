@@ -38,26 +38,24 @@
                     <li class="nav-header">
                         <div class="dropdown profile-element">
                             <span>
-                                <img alt="image" class="img-circle"
-                                    src="{{ asset('assets/admin/img/default.png') }}" width="100" />
+                                <img alt="image" class="img-circle" src="{{ asset('assets/admin/img/default.png') }}"
+                                    width="100" />
                             </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
-                                <span class="clear"> <span class="block m-t-xs"> <strong
-                                            class="font-bold">{{ Auth::user()->prenom . '-' . Auth::user()->name }}</strong>
+                                <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">{{
+                                            Auth::user()->prenom . '-' . Auth::user()->name }}</strong>
                                     </span> <span class="text-muted text-xs block">{{ Auth::user()->fonction }} <b
                                             class="caret"></b></span> </span> </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                 <li><a href="">Profile</a></li>
                                 <li class="divider"></li>
                                 <li>
-                                    <a class="dropdown-item" href="{{ route('logout') }}"
-                                        onclick="event.preventDefault();
+                                    <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         Déconnexion
                                     </a>
 
-                                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                        class="d-none">
+                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
                                 </li>
@@ -67,7 +65,8 @@
                             PLA
                         </div>
                     </li>
-                    <li class="{{ Route::current()->getName() == 'dashboard'||'G_news'|| 'G_temoignage'||'G_carthographie' ? 'active' : '' }}">
+                    <li
+                        class="{{ Route::current()->getName() == 'dashboard'||'G_news'|| 'G_temoignage'||'G_carthographie' ? 'active' : '' }}">
                         <a href="#"><i class="fa fa-home"></i> <span class="nav-label">Pages </span>
                             <span class="pull-right label label-primary">Gestion</span></a>
                         <ul class="nav nav-second-level collapse">
@@ -116,8 +115,9 @@
                                 class="fa fa-bars"></i> </a>
                         <form role="search" class="navbar-form-custom" action="search_results.html">
                             {{-- <div class="form-group">
-                                        <input type="text" placeholder="Search for something..." class="form-control" name="top-search" id="top-search">
-                                    </div> --}}
+                                <input type="text" placeholder="Search for something..." class="form-control"
+                                    name="top-search" id="top-search">
+                            </div> --}}
                         </form>
                     </div>
                     <ul class="nav navbar-top-links navbar-right">
@@ -126,8 +126,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item" href="{{ route('logout') }}"
-                                onclick="event.preventDefault();
+                            <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                 <i class="fa fa-sign-out"></i> Déconnexion
                             </a>
