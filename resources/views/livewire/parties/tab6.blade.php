@@ -233,7 +233,7 @@
                                             <label>Publication
                                                 (Français)</label>
                                             <textarea
-                                                name="description_ln"
+                                                name="description_fr"
                                                 class="summernote"
                                                 rows="10" cols="110"
                                                 required>
@@ -245,7 +245,7 @@
                                             <label>Publication
                                                 (Anglais)</label>
                                             <textarea
-                                                name="description_ln"
+                                                name="description_en"
                                                 class="summernote"
                                                 rows="10" cols="110"
                                                 required>
