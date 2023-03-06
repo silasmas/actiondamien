@@ -350,9 +350,18 @@
                     href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important"><i
                         class="fab fa-facebook-f"></i></a>
                 {{-- <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a> --}}
-                 <a class="text-dark ms-3 me-5" target="_blank"
+                 <a class="text-dark ms-2 me-2" target="_blank"
                     href="https://www.instagram.com/actiondamien_rdc/"style="color:#58b8a7 !important"><i
                         class="fab fa-instagram"></i></a>
+                 <a class="text-dark ms-2 me-2" target="_blank"
+                    href="https://bit.ly/3IzDWYw"style="color:#58b8a7 !important"><i
+                        class="fab fa-twitter" aria-hidden="true"></i></a>
+                 <a class="text-dark ms-2 me-2" target="_blank"
+                    href=" https://bit.ly/3Y1fm8s"style="color:#58b8a7 !important"><i
+                        class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a class="text-dark ms-2 me-2" target="_blank"
+                    href="https://bit.ly/3Y1fm8s" style="color:#58b8a7 !important"><i
+                        class="fab fa-youtube" aria-hidden="true"></i></a>
 
                       {{--  @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         <a class="ms-2 text-green"
@@ -532,12 +541,18 @@
                     <p class="small" style="text-align: justify;">{{ __('miscellaneous.actiondamien_description') }}
                     </p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square me-3" target="_blank"
+                        <a class="btn btn-square me-2" target="_blank"
                             href="https://web.facebook.com/actiondamienrdcofficiel"><i
                                 class="fab fa-facebook-f"></i></a>
                         {{-- <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a> --}}
-                        <a class="btn btn-square me-0" target="_blank"
+                        <a class="btn btn-square me-2" target="_blank"
                             href="https://www.instagram.com/actiondamien_rdc/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-square me-2" target="_blank"
+                            href="https://bit.ly/3IzDWYw"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square me-2" target="_blank"
+                            href=" https://bit.ly/3Y1fm8s"><i class="fab fa-linkedin"></i></a>
+                        <a class="btn btn-square me-2" target="_blank"
+                            href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">

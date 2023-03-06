@@ -247,7 +247,9 @@ return [
         'ceda_name' => 'CEDA',
         'ceda_description' => 'Le CEDA est le premier hôpital de la RD Congo, spécialisé dans la prise en charge hospitalière de la TB-PR. Inauguré en novembre 2014, ce dernier est constitué de 19 agents dont 1 médecin chef de projet appuyé par un médecin consultant, spécialiste en pneumologie des cliniques universitaires de Kinshasa. Cette équipe œuvre au quotidien pour la prise en charge des patients TB-PR avec des formes compliquées de la maladie. Les malades y sont accueillis chaleureusement et l\'établissement dispose de 26 lits. En 2021, 123 patients ont été pris en charge au CEDA, dont 98 TB-MDR et TB-XDR.',
         'link1' => 'Liste des hopitaux',
-        'link2' => 'Cartographie des CSDT/CPLT'
+        'link2' => 'Cartographie des CDT/CPLT'
+        'link3' => 'centre de Diagnostic et traitement de la lèpre et tuberculose /Coordination provinciale de Kinshasa (CPLT kin)',
+
     ],
     'support' => [
         'title' => 'Action Damien',

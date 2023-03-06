@@ -251,8 +251,9 @@ return [
         'ceda_description' => 'The CEDA is the first hospital in the DR Congo, specializing in the hospital care of TB-PR. Inaugurated in November 2014, the latter is made up of 19 agents including 1 project manager doctor supported by a consultant doctor, specialist in pneumology from the university clinics of Kinshasa. This team works on a daily basis to care for DR-TB patients with complicated forms of the disease. Patients are warmly welcomed there and the establishment has 26 beds. In 2021, 123 patients were treated at CEDA, including 98 MDR-TB and XDR-TB.',
         'link1' => 'List of hospitals',
         'link' => 'Cartography Page',
-        'link2' => 'CSDT/CPLT mapping',
-        'link3' => 'Mapping of Health Centers for Diagnosis and Treatment (CSDT) / Provincial Leprosy and Tuberculosis Coordination of Kinshasa (CPLT kin)',
+        'link2' => 'CDT/CPLT mapping',
+        'link3' => 'Leprosy and Tuberculosis Diagnosis and Treatment Center /Kinshasa Provincial Coordination (CPLT kin)',
+        // 'link3' => 'Mapping of Health Centers for Diagnosis and Treatment (CSDT) / Provincial Leprosy and Tuberculosis Coordination of Kinshasa (CPLT kin)',
 
     ],
     'support' => [
@@ -484,8 +485,8 @@ return [
             'type3' => 'Visit',
             'see_more' => 'See more',
             'details' => [
-                'other' => 'Other projects'
-            ]
+                'other' => 'Other projects',
+            ],
         ],
         // News
         'hospitals' => [
