@@ -237,7 +237,7 @@
                                                 class="summernote"
                                                 rows="10" cols="110"
                                                 required>
-                                                    {{ $se->getTranslation('description', 'en') }}
+                                                    {{ $se->getTranslation('description', 'fr') }}
                                                 </textarea>
                                         </div>
                                         <div
@@ -261,7 +261,7 @@
                                                 class="summernote"
                                                 rows="10" cols="110"
                                                 required>
-                                                    {{ $se->getTranslation('description', 'en') }}
+                                                    {{ $se->getTranslation('description', 'ln') }}
                                                 </textarea>
                                         </div>
                                     </div>
