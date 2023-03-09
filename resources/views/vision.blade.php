@@ -409,9 +409,9 @@
             <div class="row">
                 <div class="col-lg-6 mb-4 order-lg-2 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-image overflow-hidden h-100" style="max-height: 12rem; border-radius: 1.2rem;">
-                        <img src="{{ asset('assets/img/photo/1.webp') }}"
+                        <img src="{{ asset('assets/img/photo/logistique.jpeg') }}"
                             alt="{{ __('miscellaneous.inner_page.our_vision.activities.list6') }}" class="img-fluid"
-                            style="margin-top: -7rem;">
+                            style="margin-top: -5rem;">
                         <div class="mask"></div>
                     </div>
                 </div>

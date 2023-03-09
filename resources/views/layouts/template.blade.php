@@ -360,7 +360,7 @@
                     href=" https://bit.ly/3Y1fm8s"style="color:#58b8a7 !important"><i
                         class="fab fa-linkedin" aria-hidden="true"></i></a>
                         <a class="text-dark ms-2 me-2" target="_blank"
-                    href="https://bit.ly/3Y1fm8s" style="color:#58b8a7 !important"><i
+                    href="https://www.youtube.com/@actiondamienrdcongooffic-jp4lr" style="color:#58b8a7 !important"><i
                         class="fab fa-youtube" aria-hidden="true"></i></a>
 
                       {{--  @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
@@ -552,7 +552,7 @@
                         <a class="btn btn-square me-2" target="_blank"
                             href=" https://bit.ly/3Y1fm8s"><i class="fab fa-linkedin"></i></a>
                         <a class="btn btn-square me-2" target="_blank"
-                            href=""><i class="fab fa-youtube"></i></a>
+                            href='https://www.youtube.com/@actiondamienrdcongooffic-jp4lr'><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">

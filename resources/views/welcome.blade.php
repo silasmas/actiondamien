@@ -249,7 +249,7 @@
                     </div>
                     <div class="col-sm-6 col-12 pt-sm-0 pt-4">
                         <div class="bg-image">
-                            <img src="{{ asset('assets/img/photo/map-markers2-2022.png') }}" alt="markers"
+                            <img src="{{ asset('assets/img/photo/map.png') }}" alt="markers"
                                 class="img-fluid">
                             <div class="mask"></div>
                         </div>
