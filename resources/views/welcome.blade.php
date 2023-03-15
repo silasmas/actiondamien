@@ -38,17 +38,14 @@
                                     @else
                                     <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown"
                                         style="font-weight: 1100;">{{ $s->h1}}
-                                        {{-- <span style="font-style: italic; color: #58b8a7;">
-                                            {{ $s->extrait}}</span> --}}
+
                                     </h1>
                                     <p class="fs-6 text-white mb-5 animated slideInDown">
                                         {!! $s->extrait !!}</p>
-                                    <a class="btn btn-light py-2 px-3 animated slideInDown"
+                                    <a class="btn btn-light py-2 px-3 animated slideInDown" style="z-index: 999;"
                                         href="{{ route($s->page) }}">
                                         {{ $s->textbtn }}
-
-                                        <div
-                                            class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
+                                        <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
                                             <i class="fa fa-arrow-right"></i>
                                         </div>
                                     </a>
