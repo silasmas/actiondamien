@@ -252,7 +252,7 @@ return [
         'link1' => 'Liste des hopitaux',
         'link' => 'Page de Cartographie',
         'link2' => 'Cartographie des (CDT/CPLT Kin)',
-        'link3' => 'centre de Diagnostic et traitement de la lèpre et tuberculose /Coordination provinciale de Kinshasa (CPLT kin)',
+        'link3' => 'Centre de Diagnostic et traitement de la lèpre et tuberculose /Coordination provinciale de Kinshasa (CPLT kin)',
     ],
     'support' => [
         'title' => 'Action Damien',
