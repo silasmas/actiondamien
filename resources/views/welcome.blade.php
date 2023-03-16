@@ -15,7 +15,7 @@
                             @else
                             <div class="row justify-content-sm-start justify-content-center text-sm-start">
                                 @endif
-                                <div class="col-lg-7 pt-4 ps-sm-5">
+                                <div class="col-lg-7 pt-4 pe-sm-5 ">
                                     @if ($loop->first)
                                     <h1 class="display-4 fw-normal text-white mb-4 animated slideInDown"
                                         style="font-weight: 1100;">
@@ -26,8 +26,8 @@
                                     </h1>
                                     <p class="fs-6 text-white mb-5 animated slideInDown">
                                         {!! $s->extrait !!}</p>
-                                    <a class="btn btn-danger text-white py-2 px-3 animated slideInDown"
-                                        href="{{ route($s->page) }}">
+                                    <a class="btn btn-danger text-white py-2 px-3 animated slideInDown me-5"
+                                        href="{{ route($s->page) }}" style="margin-left: 70px">
                                         {{ $s->textbtn }}
 
                                         <div
@@ -42,7 +42,7 @@
                                     </h1>
                                     <p class="fs-6 text-white mb-5 animated slideInDown">
                                         {!! $s->extrait !!}</p>
-                                    <a class="btn btn-light py-2 px-3 animated slideInDown" style="z-index: 999;"
+                                    <a class="btn btn-light py-2 px-3 animated slideInDown me-5"
                                         href="{{ route($s->page) }}">
                                         {{ $s->textbtn }}
                                         <div class="d-inline-flex btn-sm-square bg-danger text-white rounded-circle ms-2">
