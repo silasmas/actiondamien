@@ -4,7 +4,7 @@
 
         <!-- Page Header Start -->
         <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s"
-            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)), 
+            style="background: linear-gradient(rgba(25, 29, 35, .5), rgba(25, 29, 35, .5)),
             url({{ asset('storage/'.$detail->image) }}) center center no-repeat; background-size: cover;">
             <div class="container text-center">
                 <h1 class="display-4 mb-4 text-white animated slideInDown">
@@ -33,8 +33,8 @@
                            <iframe class="embed-responsive-item w-100"
                                src="https://www.youtube.com/embed/8_8kEiiHLtw?rel=0" style="border-radius: 1.2rem;"
                                allowfullscreen></iframe>
-                       </div>                           
-                       @endif 
+                       </div>
+                       @endif
                         {{-- <h1 class="h1 mb-4 fw-bold">{{ $detail->image }}</h1> --}}
                         <div class="bg-image overflow-hidden mb-4" style="border-radius: 1.2rem;">
                             <img src="{{ asset('storage/'.$detail->image) }}" alt="" class="img-fluid">
@@ -58,7 +58,10 @@
                             </div>
                             <div class="col-lg-7 col-sm-8 col-12 paragraph-ellipsis">
                                 <a href="{{ route('news_details', ['id' => $a->id]) }}">
-                                    <p class="m-0 small" style="color: #999;">{{ \Carbon\Carbon::parse($a->created_at)->isoFormat('LL')  }}</p>
+                                    <p class="m-0 small" style="color: #999;">
+                                        {{-- {{ \Carbon\Carbon::parse($a->created_at)->isoFormat('LL')  }} --}}
+                                        {{ $n->annee }}
+                                    </p>
                                     <p class="m-0 fw-bold text-danger text-truncate">{{ $a->titre }}</p>
                                     <p class="m-0 paragraph2" style="color: #000;">
                                     {!! strip_tags($a->description )!!}
@@ -74,7 +77,7 @@
                             </div>
                         </div>
                         @empty
-                            
+
                         @endforelse
 
 
@@ -90,5 +93,5 @@
             </div>
         </div>
         <!-- News Details End -->
-   
+
 @endsection
