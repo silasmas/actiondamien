@@ -131,8 +131,8 @@ class TemoignageController extends Controller
 
         $file = $request->file('photo');
 
-        $file == '' ? '' : ($filenameImg = 'support/' . time() . '.' . $file->getClientOriginalName());
-        $file == '' ? '' : $file->move('storage/support', $filenameImg);
+        $file == '' ? '' : ($filenameImg = 'sensibilisation/' . time() . '.' . $file->getClientOriginalName());
+        $file == '' ? '' : $file->move('storage/sensibilisation', $filenameImg);
         $rep = $rap->update([
             'photo' => $filenameImg,
         ]);
