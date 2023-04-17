@@ -83,8 +83,8 @@
                         {{$sen->titre}}
                     </a>
                 </h4>
-                <p class="mb-0 paragraph3">
-                    {{$sen->titre}}
+                <p class="mb-0 paragraph3 text-truncate">
+                    {{-- {{$sen->titre}} --}}
                     {!! $sen->description !!}
                     {{-- {{ __('miscellaneous.inner_page.sensibilization.paragraph3') }} --}}
                 </p>
