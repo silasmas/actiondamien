@@ -33,14 +33,14 @@
                                                 <td
                                                     class="client-avatar">
                                                     <a data-toggle="tab"
-                                                        href="#portofolio-{{$tem->id}}"
+                                                        href="#portofolio-{{$tem->id}}stat"
                                                         class="client-link">
                                                         <img alt="image"
                                                             src="{{ asset('assets/img/default.png') }}">
 
                                                 </td>
                                                 <td><a data-toggle="tab"
-                                                    href="#portofolio-{{ $tem->id }}"
+                                                    href="#portofolio-{{ $tem->id }}stat"
                                                     class="client-link">
                                                     {{ $tem->titre2 }}
                                                     </a> </td>
@@ -132,7 +132,7 @@
                 <div class="tab-content">
 
                     @forelse($stat as $se)
-                    <div id="portofolio-{{$se->id}}"
+                    <div id="portofolio-{{$se->id}}stat"
                         class="tab-pane ">
                         <div class="client-detail">
                             <div class="full-height-scroll">
