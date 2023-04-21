@@ -130,6 +130,7 @@
         <div class="ibox ">
             <div class="ibox-content">
                 <div class="tab-content">
+
                     @forelse($stat as $se)
                     <div id="portofolio-{{ $se->id }}"
                         class="tab-pane ">

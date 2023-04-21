@@ -84,7 +84,7 @@ class ViewServiceProvider extends ServiceProvider
                 return $value->rubrique->rubrique == "Nous soutenir";
             });
 
-            // dd($support);
+            // dd($stat2);
             // $view->with('slides', $slides);
             $view->with('bonasavoir', $asavoir);
             $view->with('stat', $stat);
