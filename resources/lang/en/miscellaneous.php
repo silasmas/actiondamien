@@ -9,6 +9,7 @@ return [
     |
      */
     // ===== OTHER
+    'msgindisponible' => 'This service is not available at the moment, if necessary please write us at the address below contact@actiondamienrdcongo.org',
     'actiondamien_slogan' => 'Let\'s act now, it\'s contagious!',
     'actiondamien_description' => 'Action Damien is a medical development NGO which has participated since 1964 in the global fight against leprosy, tuberculosis and other diseases typically linked to poverty, such as Buruli ulcer and Yaws.',
     'actiondamien_address' => 'Pierre Mulele street, 162 Kinshasa-Gombe',

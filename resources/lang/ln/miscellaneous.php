@@ -9,6 +9,7 @@ return [
     |
      */
     // ===== OTHER
+    'msgindisponible' => 'Service oyo ezo sala te sikoyo, pona ko tinda makabo komela biso na email oyo contact@actiondamienrdcongo.org',
     'actiondamien_slogan' => 'Misala ezali contagieux !',
     'actiondamien_description' => 'Action Damien ezali ONG ya développement médical oyo esanganaki wuta 1964 na bitumba ya mokili mobimba na maba, bokono ya ntolo mpe bokono misusu oyo ezalaka mingi mingi na boyokani na bobola, lokola Ulcère ya Buruli na Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',
@@ -484,8 +485,8 @@ return [
             'type3' => 'Kokende kotala',
             'see_more' => 'Mona nioso',
             'details' => [
-                'other' => 'Ba projets misusu'
-            ]
+                'other' => 'Ba projets misusu',
+            ],
         ],
         // News
         'hospitals' => [

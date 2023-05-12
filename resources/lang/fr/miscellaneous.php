@@ -9,6 +9,7 @@ return [
     |
      */
     // ===== OTHER
+    'msgindisponible' => 'Ce service n\'est pas disponible pour le moment, au besoin veillez nous écrire à l\'adresse ci après contact@actiondamienrdcongo.org',
     'actiondamien_slogan' => 'Agir, c\'est contagieux !',
     'actiondamien_description' => 'Action Damien est une ONG médicale de développement qui participe depuis 1964 à la lutte mondiale contre la lèpre, la tuberculose et d\'autres maladies typiquement liées à la pauvreté, comme l\'ulcère de Buruli et le Pian.',
     'actiondamien_address' => 'Avenue Pierre Mulele, 162 Kinshasa-Gombe',

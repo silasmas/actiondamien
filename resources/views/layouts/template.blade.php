@@ -114,7 +114,8 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-12">
-                                <div class="h-100 p-lg-3 p-sm-2 p-1 rounded">
+                                <h3>@lang('miscellaneous.msgindisponible')</h3>
+                                {{-- <div class="h-100 p-lg-3 p-sm-2 p-1 rounded">
                                     <form>
                                         <div
                                             class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">
@@ -245,7 +246,7 @@
                                             </div>
                                         </div>
                                     </form>
-                                </div>
+                                </div> --}}
                             </div>
                         </div>
                     </div>
