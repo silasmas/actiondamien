@@ -345,8 +345,8 @@
             <div class="col-lg-8 px-5 text-end"
                 style="background-color: #fdd68f; padding-top: 0.7rem; padding-bottom: 0.8rem;">
                 <!-- Social networks -->
-                <small><a class="me-3" style="color:#58b8a7 !important" target="blank" href="mailto:secretaire@actiondamien-rdc.org"><i
-                            class="fa fa-envelope me-2 align-middle"></i>secretaire@actiondamien-rdc.org</a></small>
+                <small><a class="me-3" style="color:#58b8a7 !important" target="blank" href="mailto:contact@actiondamienrdcongo.org"><i
+                            class="fa fa-envelope me-2 align-middle"></i>contact@actiondamienrdcongo.org</a></small>
                 <a class="text-dark ms-2" target="_blank"
                     href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important"><i
                         class="fab fa-facebook-f"></i></a>
@@ -564,7 +564,7 @@
                             style="opacity: 0;"></i>{{ __('miscellaneous.footer.address2') }}
                     </p>
                     <p class="small"><i class="fa fa-phone-alt me-3"></i>+243 816 520 396</p>
-                    <p class="small"><i class="fa fa-envelope me-3"></i>secretaire@actiondamien-rdc.net</p>
+                    <p class="small"><i class="fa fa-envelope me-3"></i>contact@actiondamienrdcongo.org</p>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h5 class="text-light mb-4">{{ __('miscellaneous.footer.quick_links.title') }}</h5>
