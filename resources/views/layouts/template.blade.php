@@ -254,12 +254,12 @@
                 <div class="modal-footer pt-2 pb-4 px-4 border-0 d-flex justify-content-between">
                     <button type="button" class="btn btn-light py-2 border border-default shadow-0"
                         data-bs-dismiss="modal">{{ __('miscellaneous.cancel') }}</button>
-                    <button type="button" class="btn btn-danger shadow-0" data-bs-dismiss="modal">
+                    {{-- <button type="button" class="btn btn-danger shadow-0" data-bs-dismiss="modal">
                         {{ __('miscellaneous.donate.form.run') }}
                         <div class="d-inline-flex btn-sm-square bg-white text-danger rounded-circle ms-2">
                             <i class="fa fa-arrow-right"></i>
                         </div>
-                    </button>
+                    </button> --}}
                 </div>
             </div>
         </div>
