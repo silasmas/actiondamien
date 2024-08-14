@@ -35,13 +35,14 @@
         rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@6.6.6/css/flag-icons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('assets/css/styleLoader.css') }}">
     <!-- Libraries Stylesheet -->
     <link href="{{ asset('assets/lib/animate/animate.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/lib/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
@@ -290,7 +291,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body pt-0">
-                    <div class="row">
+                    <div class="row " >
                         <div class="col-12">
                             <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgrdDNmNGlqOXpobQ=="
                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen
@@ -384,7 +385,7 @@
                 <small><a class="me-3" style="color:#58b8a7 !important" target="blank" href="mailto:contact@actiondamienrdcongo.org"><i
                             class="fa fa-envelope me-2 align-middle"></i>contact@actiondamienrdcongo.org</a></small>
                 <a class="text-dark ms-2" target="_blank"
-                    href="https://web.facebook.com/actiondamienrdcofficiel"style="color:#58b8a7 !important"><i
+                    href="https://www.facebook.com/profile.php?id=61550305372095"style="color:#58b8a7 !important"><i
                         class="fab fa-facebook-f"></i></a>
                 {{-- <a class="text-dark ms-3" target="_blank" href="#"style="color:#58b8a7 !important" ><i class="fab fa-twitter"></i></a> --}}
                  <a class="text-dark ms-2 me-2" target="_blank"
@@ -392,7 +393,7 @@
                         class="fab fa-instagram"></i></a>
                  <a class="text-dark ms-2 me-2" target="_blank"
                     href="https://bit.ly/3IzDWYw"style="color:#58b8a7 !important"><i
-                        class="fab fa-twitter" aria-hidden="true"></i></a>
+                        class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
                  <a class="text-dark ms-2 me-2" target="_blank"
                     href=" https://bit.ly/3Y1fm8s"style="color:#58b8a7 !important"><i
                         class="fab fa-linkedin" aria-hidden="true"></i></a>
@@ -579,13 +580,13 @@
                     </p>
                     <div class="d-flex pt-2">
                         <a class="btn btn-square me-2" target="_blank"
-                            href="https://web.facebook.com/actiondamienrdcofficiel"><i
+                            href="https://www.facebook.com/profile.php?id=61550305372095"><i
                                 class="fab fa-facebook-f"></i></a>
                         {{-- <a class="btn btn-square me-3" target="_blank" href="#"><i class="fab fa-twitter"></i></a> --}}
                         <a class="btn btn-square me-2" target="_blank"
                             href="https://www.instagram.com/actiondamien_rdc/"><i class="fab fa-instagram"></i></a>
                         <a class="btn btn-square me-2" target="_blank"
-                            href="https://bit.ly/3IzDWYw"><i class="fab fa-twitter"></i></a>
+                            href="https://bit.ly/3IzDWYw"><i class="fa-brands fa-x-twitter"></i></a>
                         <a class="btn btn-square me-2" target="_blank"
                             href=" https://bit.ly/3Y1fm8s"><i class="fab fa-linkedin"></i></a>
                         <a class="btn btn-square me-2" target="_blank"
