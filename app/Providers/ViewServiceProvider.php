@@ -34,7 +34,9 @@ class ViewServiceProvider extends ServiceProvider
     {
         View::composer('welcome', function ($view) {
             $home = accueil::get();
-            $newsHome = actualite::orderBy('annee', 'desc')->get();
+            $newsHome = actualite::orderBy('annee', 'desc')
+                ->orderBy('created_at', 'desc')
+                ->get();
             //  dd($home);
             $asavoir = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Bon à savoir";
@@ -64,7 +66,9 @@ class ViewServiceProvider extends ServiceProvider
         });
         View::composer('livewire.*', function ($view) {
             $home = accueil::get();
-            $newsHome = actualite::orderBy('annee', 'desc')->get();
+            $newsHome = actualite::orderBy('annee', 'desc')
+                ->orderBy('created_at', 'desc')
+                ->get();
             // $slides = slide::get();
             //  dd($home);
             $asavoir = $home->filter(function ($value, $key) {
@@ -96,7 +100,9 @@ class ViewServiceProvider extends ServiceProvider
         });
         View::composer('*', function ($view) {
             $rubriques = rubrique::all();
-            $actus = actualite::orderBy('annee', 'desc')->get();
+            $actus = actualite::orderBy('annee', 'desc')
+                ->orderBy('created_at', 'desc')
+                ->get();
             $tem = temoignage::orderBy('created_at', 'desc')->get();
             $projet = projet::all();
             $zone = zone::all();
