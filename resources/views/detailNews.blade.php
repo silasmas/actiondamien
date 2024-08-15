@@ -59,9 +59,9 @@
                             <div class="col-lg-7 col-sm-8 col-12 paragraph-ellipsis">
                                 <a href="{{ route('news_details', ['id' => $a->id]) }}">
                                     <p class="m-0 small" style="color: #999;">
-                                        {{ $a->annee }}
+                                        {{-- {{ $a->annee }} --}}
                                         {{-- {{ \Carbon\Carbon::parse($a->annee)->isoFormat('LL')  }} --}}
-                                        {{-- {{ $a->getAnneeAttribute($a->annee) }} --}}
+                                        {{ $a->getAnneeAttribute(valide($a->annee)?$se->annee:'') }}
                                     </p>
                                     <p class="m-0 fw-bold text-danger text-truncate">{{ $a->titre }}</p>
                                     <p class="m-0 paragraph2" style="color: #000;">

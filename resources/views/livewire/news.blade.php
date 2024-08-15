@@ -110,9 +110,9 @@
                             {{ __('miscellaneous.inner_page.news.type1') }}</div>
                         <p class="small text-muted">
                             <i class="fa fa-calendar-alt me-2"></i><span class="d-inline-block me-2">
-                                {{ $n->annee }}
+
                                 {{-- {{ \Carbon\Carbon::parse($n->annee)->isoFormat('LL') }} --}}
-                                {{-- {{ $n->getAnneeAttribute($n->annee) }} --}}
+                                {{ $n->getAnneeAttribute(valide($n->annee)?$se->annee:'') }}
                             </span>
                             {{-- <i class="fa fa-eye me-2"></i><span class="d-inline-block me-2">354 vues</span> --}}
                         </p>
