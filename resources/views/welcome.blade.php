@@ -146,42 +146,7 @@
         </div>
     </div>
     <!-- Carousel End -->
- <!-- News Start -->
- <div class="container-xxl pb-5">
-    <div class="container">
-        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">
-                @lang('miscellaneous.inner_page.actualite.libelle')
-            </div>
-            <h1 class="display-6 mb-5">@lang('miscellaneous.inner_page.actualite.titre')</h1>
-        </div>
 
-        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-            @forelse ($newsHome as $new)
-            <div class="testimonial-item text-center">
-                <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
-                    <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto"
-                        src="{{ asset('storage/' . $new->image) }}">
-                    <div class="mask"></div>
-                </div>
-
-                <div class="testimonial-text rounded px-4 py-3">
-                    <h4 class="h4 fw-bold text-truncate">{{ $new->titre }}</h4>
-                    {{-- <p class="small text-truncate">
-                        {!! strip_tags($new->description) !!}
-                    </p> --}}
-                    <p class="mt-4 mb-0">
-                        <a href="{{ route('news_details', ['id' => $new->id]) }}">@lang('miscellaneous.inner_page.hospitals.readArticle')<i
-                                class="fa fa-arrow-right ms-2"></i></a>
-                    </p>
-                </div>
-            </div>
-            @empty
-            @endforelse
-        </div>
-    </div>
-</div>
-<!-- News End -->
     <!-- Videos Start -->
     <div class="container pt-3 pb-5">
         <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
@@ -574,6 +539,41 @@
         </div>
         <!-- Report End -->
 
+ <!-- News Start -->
+ <div class="container-xxl pb-5">
+    <div class="container">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="d-inline-block rounded-pill bg-secondary text-danger py-1 px-3 mb-3">
+                @lang('miscellaneous.inner_page.actualite.libelle')
+            </div>
+            <h1 class="display-6 mb-5">@lang('miscellaneous.inner_page.actualite.titre')</h1>
+        </div>
 
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            @forelse ($newsHome as $new)
+            <div class="testimonial-item text-center">
+                <div class="bg-image d-inline-flex align-center" style="width: 240px; height: 250px;">
+                    <img class="img-fluid rounded-circle bg-light p-2 mb-3 mx-auto"
+                        src="{{ asset('storage/' . $new->image) }}">
+                    <div class="mask"></div>
+                </div>
+
+                <div class="testimonial-text rounded px-4 py-3">
+                    <h4 class="h4 fw-bold text-truncate">{{ $new->titre }}</h4>
+                    {{-- <p class="small text-truncate">
+                        {!! strip_tags($new->description) !!}
+                    </p> --}}
+                    <p class="mt-4 mb-0">
+                        <a href="{{ route('news_details', ['id' => $new->id]) }}">@lang('miscellaneous.inner_page.hospitals.readArticle')<i
+                                class="fa fa-arrow-right ms-2"></i></a>
+                    </p>
+                </div>
+            </div>
+            @empty
+            @endforelse
+        </div>
+    </div>
+</div>
+<!-- News End -->
 
         @endsection

@@ -85,7 +85,7 @@
                 </h4>
                 <p class="mb-0 paragraph3 text-truncate">
                     {{-- {{$sen->titre}} --}}
-                    {!! $sen->description !!}
+                    {!! Str::limit($sen->description, 200, '...') !!}
                     {{-- {{ __('miscellaneous.inner_page.sensibilization.paragraph3') }} --}}
                 </p>
                 <p class="mb-0">

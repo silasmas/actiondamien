@@ -34,7 +34,7 @@ class ViewServiceProvider extends ServiceProvider
     {
         View::composer('welcome', function ($view) {
             $home = accueil::get();
-            $newsHome = actualite::get();
+            $newsHome = actualite::orderBy('created_at', 'desc')->get();
             //  dd($home);
             $asavoir = $home->filter(function ($value, $key) {
                 return $value->rubrique->rubrique == "Bon à savoir";
@@ -64,7 +64,7 @@ class ViewServiceProvider extends ServiceProvider
         });
         View::composer('livewire.*', function ($view) {
             $home = accueil::get();
-            $newsHome = actualite::get();
+            $newsHome = actualite::orderBy('created_at', 'desc')->get();
             // $slides = slide::get();
             //  dd($home);
             $asavoir = $home->filter(function ($value, $key) {
