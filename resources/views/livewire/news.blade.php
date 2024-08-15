@@ -112,7 +112,7 @@
                             <i class="fa fa-calendar-alt me-2"></i><span class="d-inline-block me-2">
 
                                 {{-- {{ \Carbon\Carbon::parse($n->annee)->isoFormat('LL') }} --}}
-                                {{ $n->getAnneeAttribute(valide($n->annee)?$se->annee:'') }}
+                                {{ $n->getAnneeAttribute(valide($n->annee)?$n->annee:'') }}
                             </span>
                             {{-- <i class="fa fa-eye me-2"></i><span class="d-inline-block me-2">354 vues</span> --}}
                         </p>
