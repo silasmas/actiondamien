@@ -133,7 +133,7 @@
                                         <div class=" col-sm-12 col-lg-12 form-group">
                                             @php
                                             // Supposons que $se->annee est '2023' ou '2023-01-01'
-                                            $dateValue = \Carbon\Carbon::parse($se->annee)->format('Y-m-d');
+                                            $dateValue = \Carbon\Carbon::parse(valide($se->annee)?$se->annee:'')->format('Y-m-d');
                                             @endphp
                                             <label>Année</label>
                                             <input type="date" class="form-control" value="{{ $dateValue }}"
