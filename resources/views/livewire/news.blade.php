@@ -111,7 +111,7 @@
                         <p class="small text-muted">
                             <i class="fa fa-calendar-alt me-2"></i><span class="d-inline-block me-2">
                                 {{-- {{ \Carbon\Carbon::parse($n->created_at)->isoFormat('LL') }} --}}
-                                {{ $n->annee }}
+                                {{ $n->getAnneeAttribute($n->annee) }}
                             </span>
                             {{-- <i class="fa fa-eye me-2"></i><span class="d-inline-block me-2">354 vues</span> --}}
                         </p>
