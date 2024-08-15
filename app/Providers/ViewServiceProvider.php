@@ -96,7 +96,7 @@ class ViewServiceProvider extends ServiceProvider
         });
         View::composer('*', function ($view) {
             $rubriques = rubrique::all();
-            $actus = actualite::orderBy('annee', 'desc')->all();
+            $actus = actualite::orderBy('annee', 'desc')->get();
             $tem = temoignage::all();
             $projet = projet::all();
             $zone = zone::all();
