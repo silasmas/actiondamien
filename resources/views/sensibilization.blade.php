@@ -85,9 +85,9 @@
                 </h4>
                 <p class="mb-0 paragraph3 text-truncate">
                     {{-- {{$sen->titre}} --}}
-                    {!! Str::limit($sen->description, 200, '...') !!}
+                    {{-- {!! Str::limit($sen->description, 200, '...') !!} --}}
                     {{-- {{ __('miscellaneous.inner_page.sensibilization.paragraph3') }} --}}
-                </p>
+                </p><br>
                 <p class="mb-0">
                     <a class="btn fw-bold py-2 ps-0 pe-3 rounded-0"
                         href="{{ route('sensibilization_details', ['id' => $sen->id]) }}"
