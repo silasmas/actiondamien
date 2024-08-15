@@ -50,7 +50,7 @@
                                                         class="fa fa-clock-o">
                                                     </i>
                                                 </td>
-                                                <td>{{$tem->created_at  }}
+                                                <td>{{$tem->created_at}}
                                                 </td>
                                                 <td
                                                     class="client-status">
@@ -172,7 +172,7 @@
                                         <div
                                             class=" col-sm-12 col-lg-12 form-group">
                                             <label>Année</label>
-                                            <input type="text"
+                                            <input type="date"
                                                 class="form-control"
                                                 value="{{ $se->annee }}"
                                                 name="annee"
