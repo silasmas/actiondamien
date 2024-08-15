@@ -97,7 +97,7 @@ class ViewServiceProvider extends ServiceProvider
         View::composer('*', function ($view) {
             $rubriques = rubrique::all();
             $actus = actualite::orderBy('annee', 'desc')->get();
-            $tem = temoignage::all();
+            $tem = temoignage::orderBy('created_at', 'desc')->get();
             $projet = projet::all();
             $zone = zone::all();
             $air = air::with('zone')->get();
@@ -130,7 +130,7 @@ class ViewServiceProvider extends ServiceProvider
             $sensibilisation = $rubriques->filter(function ($value, $key) {
                 return $value->page == "sensibilization";
             });
-            //  dd($projets);
+            // dd($sensibilisation->orderBy('created_at', 'desc'));
             $view->with('rubriques', $rubrique);
             $view->with('vision', $vision);;
             $view->with('news', $news);
