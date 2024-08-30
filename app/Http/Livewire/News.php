@@ -46,7 +46,7 @@ class News extends Component
         $this->resetPage(); // Réinitialiser la pagination lors de la mise à jour
 
         if ($this->annee) {
-            $this->tab = Actualite::where('titre', 'LIKE', "%{$this->annee}%")
+            $this->tab = Actualite::where('annee', 'LIKE', "%{$this->annee}%")
                 ->orderBy('annee', 'DESC')
                 ->get();
         } elseif ($this->actualite) {
