@@ -13,8 +13,7 @@ class News extends Component
     public $annee = "";
     public $existe = false;
     public $tab = [];
-    public $t = "";
-    // $tabl = "";
+    // public $t = "";
 
     private function s($val)
     {
@@ -161,23 +160,26 @@ class News extends Component
     public function render()
     {
         // Récupération des paramètres de la requête
-        $annee = request()->annee;
-        $actualite = request()->actualite;
+        // $annee = request()->annee;
+        // $actualite = request()->actualite;
 
-        // Construction de la requête de base
-        $query = actualite::query()->orderBy("annee", "DESC");
+        // // Construction de la requête de base
+        // $query = actualite::query()->orderBy("annee", "DESC");
 
-        // Ajout des conditions selon les paramètres de la requête
-        if (!empty($annee)) {
-            $query->where("titre", "LIKE", "%{$annee}%");
-        } elseif (!empty($actualite)) {
-            $query->where("titre", "LIKE", "%{$actualite}%");
-        }
+        // // Ajout des conditions selon les paramètres de la requête
+        // if (!empty($annee)) {
+        //     $query->where("titre", "LIKE", "%{$annee}%");
+        // } elseif (!empty($actualite)) {
+        //     $query->where("titre", "LIKE", "%{$actualite}%");
+        // }
 
-        // Exécution de la requête et récupération des résultats
-        $this->tab = $query->get();
+        // // Exécution de la requête et récupération des résultats
+        // $this->tab = $query->get();
 
-        return view('livewire.news');
+        // return view('livewire.news');
+        return view('livewire.news', [
+            'actualites' => $this->tab, // Passer les actualités à la vue
+        ]);
     }
 
 }
