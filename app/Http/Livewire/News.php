@@ -28,20 +28,20 @@ class News extends Component
     public function updating($nom, $value)
     {
 
-            if (request()->annee!="") {
-                $this->tab = actualite::where("annee", "LIKE", "{$this->annee}")
-                    ->orderBy("created_at", "DESC")->get();
-                $this->tab->withPath('news?annee=' . request()->annee);
-                } elseif (request()->actualite!="") {
-                    // dd('ok');
-                $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
-                    ->orWhere("description", "LIKE", "%{$this->actualite}%")
-                    ->orderBy("created_at", "DESC")->get();
-                $this->tab->withPath('news?actualite=' . request()->actualite);
-                }
-                // else{
-                //     $this->tab = actualite::get();
-                // }
+        if (request()->annee != "") {
+            $this->tab = actualite::where("annee", "LIKE", "{$this->annee}")
+                ->orderBy("created_at", "DESC")->get();
+            $this->tab->withPath('news?annee=' . request()->annee);
+        } elseif (request()->actualite != "") {
+            // dd('ok');
+            $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
+                ->orWhere("description", "LIKE", "%{$this->actualite}%")
+                ->orderBy("created_at", "DESC")->get();
+            $this->tab->withPath('news?actualite=' . request()->actualite);
+        }
+        // else{
+        //     $this->tab = actualite::get();
+        // }
     }
     public function actualiser()
     {
@@ -56,7 +56,7 @@ class News extends Component
         $tab = "";
         if (Str::length($this->annee) > 0) {
             $this->tab = actualite::where("annee", "LIKE", "{$this->annee}")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             if (count($this->tab) > 0) {
                 $this->existe = false;
                 session()->flash('message', count($this->tab) . ' information ' . $this->s(count($this->tab)) . ' trouvée' . $this->s(count($this->tab)));
@@ -77,7 +77,7 @@ class News extends Component
         if (Str::length($this->actualite) > 0) {
             $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
                 ->orWhere("description", "LIKE", "%{$this->actualite}%")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             //    dd( $newss));
             if (count($this->tab) > 0) {
                 $this->existe = false;
@@ -113,21 +113,19 @@ class News extends Component
 
         //     $this->tab = actualite::get();
         // }
-        if (request()->annee!="") {
+        if (request()->annee != "") {
             $this->tab = actualite::where("annee", "LIKE", "{$this->annee}")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             // $this->tab->withPath('news?annee=' . request()->annee);
-            } elseif (request()->actualite!="") {
-                // dd('ok');
+        } elseif (request()->actualite != "") {
+            // dd('ok');
             $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
                 ->orWhere("description", "LIKE", "%{$this->actualite}%")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             // $this->tab->withPath('news?actualite=' . request()->actualite);
-            }
-            else{
-                $this->tab = actualite::get();
-            }
-
+        } else {
+            $this->tab = actualite::get();
+        }
 
         return view('livewire.news');
     }
