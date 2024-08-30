@@ -13,7 +13,7 @@ class News extends Component
     public $annee = "";
     public $existe = false;
     public $tab = [];
-    // public $t = "";
+    public $t = "";
 
     private function s($val)
     {
