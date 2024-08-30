@@ -444,6 +444,7 @@ return [
             'subtitle' => 'Restez informé sur toutes nos actions entreprises et nos différentes descentes sur terrain.',
             'search' => 'Rechercher une information',
             'choose_year' => 'Choisir l\'année',
+            'empty' => 'Aucune information trouvée!!',
             'all_year' => 'Toute',
             'type1' => 'Actualité',
             'type2' => 'Conseils',

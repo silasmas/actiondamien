@@ -446,6 +446,7 @@ return [
             'subtitle' => 'Stay informed on all our actions undertaken and our various descents on the ground.',
             'search' => 'Search an information',
             'choose_year' => 'Choose the year',
+            'empty' => 'Information not found.',
             'all_year' => 'All',
             'type1' => 'News',
             'type2' => 'Tips',

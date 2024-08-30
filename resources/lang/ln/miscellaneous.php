@@ -445,6 +445,7 @@ return [
             'subtitle' => 'Bozala informés na ba actions na biso nionso oyo tosali pe ba descentes na biso ndenge na ndenge na terrain.',
             'search' => 'Luka sango moko',
             'choose_year' => 'Pona mbula',
+            'empty' => 'Sango moko te emonani!!',
             'all_year' => 'Nyonso',
             'type1' => 'Masolo',
             'type2' => 'Batoli',

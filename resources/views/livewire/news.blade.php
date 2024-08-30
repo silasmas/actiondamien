@@ -142,7 +142,7 @@
                 <div class="row align-items-center">
                     <div class="col-lg-5 col-sm-6 mb-lg-0 mb-4 wow fadeInUp" data-wow-delay="0.1s">
                         <h3 class="text-danger text-center">
-                            @lang('miscellaneous.inner_page.hospitals.vide')
+                            @lang('miscellaneous.inner_page.news.empty')
                         </h3>
                     </div>
                 </div>
