@@ -30,13 +30,13 @@ class News extends Component
 
         if (request()->annee != "") {
             $this->tab = actualite::where("annee", "LIKE", "{$this->annee}")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             $this->tab->withPath('news?annee=' . request()->annee);
         } elseif (request()->actualite != "") {
             // dd('ok');
             $this->tab = actualite::where("titre", "LIKE", "%{$this->actualite}%")
                 ->orWhere("description", "LIKE", "%{$this->actualite}%")
-                ->orderBy("created_at", "DESC")->get();
+                ->orderBy("annee", "DESC")->get();
             $this->tab->withPath('news?actualite=' . request()->actualite);
         }
         // else{
