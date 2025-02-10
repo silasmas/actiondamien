@@ -329,6 +329,24 @@
                 <div class="modal-body pt-0">
                     <div class="row">
                         <div class="col-12">
+                            <iframe src="https://www.flipsnack.com/585F9FCC5A8/ad_rapport-annuel-2023-version-finale-valid/full-view.html"
+                            width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="ViewrapportModal2023" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog  modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header pb-0 border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <div class="row">
+                        <div class="col-12">
                             <iframe src="https://player.flipsnack.com?hash=NTg1RjlGQ0M1QTgremowZ20za3Z4bg=="
                             width="100%" height="480" seamless="seamless" scrolling="no" frameBorder="0" allowFullScreen allow="autoplay; clipboard-read; clipboard-write">
                             </iframe>

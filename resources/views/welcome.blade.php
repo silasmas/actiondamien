@@ -525,6 +525,12 @@
                                 }}
                                 2022
                             </a>
+                            <a class="btn btn-danger py-2 mb-2 px-3" target="blank" data-bs-toggle="modal"
+                                data-bs-target="#ViewrapportModal2023">
+                                <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read')
+                                }}
+                                2023
+                            </a>
                             {{-- <a class="btn btn-danger py-2 mb-2 px-3" target="blank" data-bs-toggle="modal"
                                 data-bs-target="#ViewrQRtModal">
                                 <i class="fa fa-qrcode me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.readQR')
