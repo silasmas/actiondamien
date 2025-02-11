@@ -520,7 +520,7 @@
                                 2021
                             </a>
                             <a class="btn btn-danger py-2 mb-2 px-3" target="blank" data-bs-toggle="modal"
-                                data-bs-target="#ViewrapportModal202">
+                                data-bs-target="#ViewrapportModal2022">
                                 <i class="fa fa-file-pdf me-2 align-bottom fs-3"></i>{{ __('miscellaneous.report.read')
                                 }}
                                 2022
