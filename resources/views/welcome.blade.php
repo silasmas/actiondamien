@@ -237,7 +237,7 @@
                                 <h1 class="h1 text-white text-uppercase wow fadeInUp" data-wow-delay="0.9s">
                                     {{ __('miscellaneous.national_cover.year') }}</h1>
                                 <div class="bg-image pe-sm-5 me-sm-5">
-                                    <img src="{{ asset('assets/img/photo/map-legend-2022.png') }}" alt="legend"
+                                    <img src="{{ asset('assets/img/photo/legende.png') }}" alt="legend"
                                         class="img-fluid">
                                     <div class="mask"></div>
                                 </div>
@@ -246,7 +246,7 @@
                     </div>
                     <div class="col-sm-6 col-12 pt-sm-0 pt-4">
                         <div class="bg-image">
-                            <img src="{{ asset('assets/img/photo/mp.png') }}" alt="markers" class="img-fluid">
+                            <img src="{{ asset('assets/img/photo/carte.png') }}" alt="markers" class="img-fluid">
                             <div class="mask"></div>
                         </div>
                     </div>
