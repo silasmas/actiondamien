@@ -839,7 +839,7 @@
                                                             </div>
                                                             <div class=" col-sm-6 col-lg-6 form-group">
                                                                 <label>Année</label>
-                                                                <input type="text"  class="form-control"
+                                                                <input type="date"  class="form-control"
                                                                     value="{{ isset($categorie) ? $categorie->id : '' }}"
                                                                     name="annee"  required/>
                                                             </div>
