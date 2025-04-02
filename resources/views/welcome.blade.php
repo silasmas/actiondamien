@@ -237,7 +237,7 @@
                                 <h1 class="h1 text-white text-uppercase wow fadeInUp" data-wow-delay="0.9s">
                                     {{ __('miscellaneous.national_cover.year') }}</h1>
                                 <div class="bg-image pe-sm-5 me-sm-5">
-                                    <img src="{{ asset('assets/img/photo/legend.png') }}" alt="legend"
+                                    <img src="{{ asset('assets/img/photo/legend.jpg') }}" alt="legend"
                                         class="img-fluid">
                                     <div class="mask"></div>
                                 </div>
