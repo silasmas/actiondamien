@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <div class="ibox">
             <div class="ibox-content">
 
@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-8">
         <div class="ibox ">
             <div class="ibox-content">
                 <div class="tab-content">
